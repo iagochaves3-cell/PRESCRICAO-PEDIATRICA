@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PedDose | Prescrição pediátrica</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+    :root { --ink:#18252b; --muted:#64747a; --line:#dce6e5; --paper:#fff; --canvas:#f3f7f5; --teal:#146b67; --teal-dark:#0d4e4a; --mint:#dcefe9; --coral:#dd6b54; --yellow:#f8e9af; --shadow:0 18px 45px rgba(28,63,65,.08); }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--canvas); font-family:Manrope, sans-serif; }
+    .shell { max-width:1360px; margin:auto; padding:30px 34px 54px; }
+    header { display:flex; justify-content:space-between; align-items:center; margin-bottom:42px; }
+    .brand { display:flex; align-items:center; gap:12px; font-weight:800; letter-spacing:-.04em; font-size:21px; }
+    .mark { background:var(--teal); color:white; display:grid; place-items:center; width:34px; height:34px; border-radius:10px; font-size:18px; }
+    nav { display:flex; gap:26px; align-items:center; font-size:13px; color:var(--muted); }
+    nav a { color:inherit; text-decoration:none; } nav a:first-child { color:var(--teal-dark); font-weight:800; }
+    .hero { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(360px,.8fr); gap:46px; align-items:end; margin-bottom:38px; }
+    .eyebrow { text-transform:uppercase; color:var(--coral); letter-spacing:.16em; font:500 11px 'DM Mono', monospace; margin-bottom:18px; }
+    h1 { font-size:clamp(36px,5vw,72px); line-height:1.02; letter-spacing:-.075em; margin:0 0 22px; max-width:730px; }
+    .hero p { color:var(--muted); font-size:16px; line-height:1.7; max-width:580px; margin:0; }
+    .hero-note { border-left:3px solid var(--teal); padding:4px 0 4px 20px; color:var(--muted); font-size:13px; line-height:1.6; }
+    .workspace { display:grid; grid-template-columns:minmax(0,1.02fr) minmax(380px,.98fr); gap:18px; align-items:start; }
+    .panel { background:var(--paper); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow); }
+    .form-panel { padding:28px; }
+    .panel-title { display:flex; justify-content:space-between; align-items:start; margin-bottom:25px; }
+    h2 { font-size:19px; letter-spacing:-.04em; margin:0; } .step { color:var(--coral); font:500 11px 'DM Mono'; }
+    .fields { display:grid; grid-template-columns:1fr 1fr; gap:17px; }
+    label { display:block; font-size:12px; font-weight:800; margin-bottom:8px; }
+    input, select { width:100%; height:48px; border:1px solid var(--line); border-radius:9px; background:#fbfdfc; padding:0 13px; color:var(--ink); font:500 14px Manrope; outline:none; transition:.2s; }
+    input:focus, select:focus { border-color:var(--teal); box-shadow:0 0 0 3px rgba(20,107,103,.1); }
+    .full { grid-column:1/-1; } .unit { position:relative; } .unit span { position:absolute; right:14px; top:15px; color:var(--muted); font:11px 'DM Mono'; }
+    .unit input { padding-right:50px; }
+    .condition { margin-top:24px; padding-top:23px; border-top:1px solid var(--line); }
+    .diagnoses { display:flex; flex-wrap:wrap; gap:9px; }
+    .diagnoses button { cursor:pointer; border:1px solid var(--line); background:white; color:var(--muted); border-radius:999px; padding:9px 13px; font:600 12px Manrope; transition:.2s; }
+    .diagnoses button:hover, .diagnoses button.active { background:var(--mint); color:var(--teal-dark); border-color:#a7d5ca; }
+    .disclaimer { margin-top:24px; padding:13px 15px; background:#fff9df; color:#776329; border-radius:9px; font-size:11px; line-height:1.5; }
+    .actions { display:flex; gap:10px; margin-top:23px; }
+    button.primary, button.secondary { border:0; border-radius:9px; height:48px; padding:0 20px; font:800 13px Manrope; cursor:pointer; }
+    button.primary { flex:1; background:var(--teal); color:#fff; } button.primary:hover { background:var(--teal-dark); }
+    button.secondary { background:#edf4f2; color:var(--teal-dark); }
+    .prescription { overflow:hidden; min-height:600px; }
+    .pres-head { padding:28px 30px 22px; background:var(--teal-dark); color:white; position:relative; }
+    .pres-head:after { content:'Rx'; position:absolute; right:28px; top:14px; color:rgba(255,255,255,.1); font:800 75px Manrope; }
+    .pres-head small { color:#9ed3c5; text-transform:uppercase; font:500 10px 'DM Mono'; letter-spacing:.14em; } .pres-head h2 { margin-top:10px; font-size:25px; }
+    .patient { padding:18px 30px; background:#e8f2ef; display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px; }
+    .patient span { display:block; color:var(--muted); font:10px 'DM Mono'; text-transform:uppercase; margin-bottom:5px; } .patient strong { font-size:13px; }
+    .rx-body { padding:26px 30px 30px; } .rx-body h3 { font-size:13px; margin:0 0 18px; text-transform:uppercase; letter-spacing:.1em; color:var(--teal); }
+    .med { border-top:1px solid var(--line); padding:17px 0; display:grid; grid-template-columns:1fr auto; gap:10px; } .med strong { font-size:14px; } .med p { color:var(--muted); font-size:12px; margin:6px 0 0; line-height:1.5; }.med .dose { font:500 12px 'DM Mono'; color:var(--teal-dark); text-align:right; }
+    .empty { color:var(--muted); font-size:13px; line-height:1.6; border:1px dashed #b8cfca; border-radius:10px; padding:25px; text-align:center; }
+    .rx-foot { border-top:1px solid var(--line); margin-top:14px; padding-top:17px; color:var(--muted); font-size:11px; display:flex; justify-content:space-between; }
+    .fade { animation:rise .45s ease both; } @keyframes rise { from{opacity:0;transform:translateY(7px)} to{opacity:1;transform:none} }
+    @media(max-width:850px) { .shell{padding:23px 18px 40px} header{margin-bottom:35px} nav a:not(:last-child){display:none} .hero,.workspace{grid-template-columns:1fr;gap:25px}.hero-note{max-width:500px}.prescription{min-height:0} }
+    @media(max-width:500px) { h1{font-size:43px}.fields{grid-template-columns:1fr}.full{grid-column:auto}.patient{grid-template-columns:1fr 1fr}.patient div:last-child{grid-column:1/-1}.form-panel,.rx-body,.pres-head{padding-left:20px;padding-right:20px}.actions{flex-direction:column} }
+    @media print { body{background:white}.shell{padding:0}.hero,header,.form-panel{display:none}.workspace{display:block}.prescription{box-shadow:none;border:0}.pres-head{background:white;color:#18252b;border:1px solid #ddd}.pres-head small{color:#146b67}.pres-head:after{color:#eee}.patient{border:1px solid #ddd;background:white}.rx-body{padding:28px}.panel{box-shadow:none} }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div class="brand"><span class="mark">+</span> ped<span style="color:var(--teal)">dose</span></div>
+      <nav><a href="#gerador">Gerador</a><a href="#como-funciona">Como funciona</a><a href="#seguranca">Segurança clínica</a></nav>
+    </header>
+    <section class="hero" id="como-funciona">
+      <div><div class="eyebrow">Prescrição pediátrica · v1.0</div><h1>Clareza para decidir.<br><em style="font-style:normal;color:var(--teal)">Cuidado para prescrever.</em></h1><p>Um modelo de prescrição que organiza dados essenciais e cálculos de dose para a rotina pediátrica.</p></div>
+      <div class="hero-note">Preencha os dados do paciente para gerar uma sugestão estruturada. Toda prescrição deve ser revisada e assinada por profissional habilitado.</div>
+    </section>
+    <section class="workspace" id="gerador">
+      <div class="panel form-panel">
+        <div class="panel-title"><div><span class="step">01 / DADOS CLÍNICOS</span><h2 style="margin-top:8px">Quem estamos cuidando?</h2></div></div>
+        <div class="fields">
+          <div><label for="name">Nome do paciente</label><input id="name" placeholder="Ex.: Maria da Silva"></div>
+          <div><label for="age">Idade</label><div class="unit"><input id="age" type="number" min="0" max="18" placeholder="Ex.: 3"><span>anos</span></div></div>
+          <div class="full"><label for="weight">Peso atual</label><div class="unit"><input id="weight" type="number" min="0.1" step="0.1" placeholder="Ex.: 14,5"><span>kg</span></div></div>
+        </div>
+        <div class="condition"><label>Selecione o diagnóstico principal</label><div class="diagnoses"><button type="button" data-diagnosis="Febre">Febre</button><button type="button" data-diagnosis="Dor leve a moderada">Dor leve a moderada</button><button type="button" data-diagnosis="Náusea e vômito">Náusea e vômito</button><button type="button" data-diagnosis="Alergia">Alergia</button><button type="button" data-diagnosis="Diarreia aguda">Diarreia aguda</button></div></div>
+        <div class="disclaimer" id="seguranca">⚕ Dados calculados com referências pediátricas usuais. Confirme contraindicações, alergias, apresentação disponível e dose máxima antes de prescrever.</div>
+        <div class="actions"><button class="primary" id="generate">Gerar prescrição</button><button class="secondary" id="clear" type="button">Limpar</button></div>
+      </div>
+      <article class="panel prescription" id="prescription">
+        <div class="pres-head"><small>Modelo de prescrição</small><h2>Prescrição pediátrica</h2></div>
+        <div class="patient" id="patient"><div><span>Paciente</span><strong id="out-name">Aguardando dados</strong></div><div><span>Idade</span><strong id="out-age">—</strong></div><div><span>Peso</span><strong id="out-weight">—</strong></div></div>
+        <div class="rx-body"><h3>Orientações sugeridas</h3><div id="medications" class="empty">Informe o peso e selecione um diagnóstico para visualizar a sugestão calculada.</div><div class="rx-foot"><span>Data: <strong id="date"></strong></span><span>Revisão profissional obrigatória</span></div></div>
+      </article>
+    </section>
+  </main>
+  <script>
+    const doseGuides = {
+      'Febre': [{name:'Paracetamol  gotas 200 mg/mL', detail:'Uso oral. Administrar a cada 6 horas se febre ou dor.', dose:(w)=>`${Math.min(w * 1, 35).toFixed(1)} mL por dose`}],
+      'Dor leve a moderada': [{name:'Dipirona  gotas 500 mg/mL', detail:'Uso oral. Administrar a cada 6 horas se dor.', dose:(w)=>`${Math.min(w * 0.4, 2).toFixed(1)} mL por dose`}],
+      'Náusea e vômito': [{name:'Ondansetrona solução 0,8 mg/mL', detail:'Uso oral. Dose única conforme avaliação clínica.', dose:(w)=>`${Math.min(w * 0.15, 8).toFixed(1)} mL por dose`}],
+      'Alergia': [{name:'Loratadina solução 1 mg/mL', detail:'Uso oral. Administrar 1 vez ao dia.', dose:(w)=>`${w < 30 ? '5' : '10'} mL ao dia`}],
+      'Diarreia aguda': [{name:'Solução de reidratação oral', detail:'Oferecer em pequenos volumes e com frequência. Manter aleitamento.', dose:'Conforme aceitação'}]
+    };
+    let selected = '';
+    const $ = (id) => document.getElementById(id);
+    $('date').textContent = new Intl.DateTimeFormat('pt-BR').format(new Date());
+    document.querySelectorAll('[data-diagnosis]').forEach(button => button.addEventListener('click', () => { document.querySelectorAll('[data-diagnosis]').forEach(b => b.classList.remove('active')); button.classList.add('active'); selected = button.dataset.diagnosis; }));
+    $('generate').addEventListener('click', () => {
+      const weight = Number($('weight').value); const age = $('age').value; const name = $('name').value.trim() || 'Paciente não identificado';
+      $('out-name').textContent = name; $('out-age').textContent = age ? `${age} ${age == 1 ? 'ano' : 'anos'}` : '—'; $('out-weight').textContent = weight ? `${weight.toLocaleString('pt-BR')} kg` : '—';
+      const box = $('medications');
+      if (!weight || !selected || weight <= 0) { box.className='empty'; box.textContent='Informe um peso válido e selecione um diagnóstico para visualizar a sugestão calculada.'; return; }
+      box.className='fade'; box.innerHTML = doseGuides[selected].map(med => `<div class="med"><div><strong>${med.name}</strong><p>${med.detail}</p></div><div class="dose">${med.dose(weight)}</div></div>`).join('');
+    });
+    $('clear').addEventListener('click', () => { ['name','age','weight'].forEach(id => $(id).value=''); document.querySelectorAll('[data-diagnosis]').forEach(b => b.classList.remove('active')); selected=''; $('out-name').textContent='Aguardando dados'; $('out-age').textContent='—'; $('out-weight').textContent='—'; $('medications').className='empty'; $('medications').textContent='Informe o peso e selecione um diagnóstico para visualizar a sugestão calculada.'; });
+  </script>
+</body>
+</html>
