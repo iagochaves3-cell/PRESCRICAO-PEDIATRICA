@@ -76,6 +76,22 @@
     .med-dose-grid .full { grid-column:1/-1; }
     .med-evidence-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; padding-top:10px; border-top:1px solid #39423f; }
     .med-evidence-grid .full { grid-column:1/-1; }
+    .clinical-evidence { margin-top:23px; padding:18px; border:1px solid #424c4b; background:#141a1c; }
+    .clinical-evidence[hidden] { display:none; }
+    .evidence-intro { margin:0 0 12px; color:#c3c9c3; font-size:11px; line-height:1.6; }
+    .evidence-warning { margin:12px 0; padding:11px 12px; border-left:2px solid var(--amber); background:#201d17; color:#ead8b9; font-size:10px; line-height:1.6; }
+    .evidence-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
+    .evidence-card { min-width:0; padding:11px; border:1px solid #424c4b; background:#111719; }
+    .evidence-card-head { display:flex; align-items:flex-start; gap:8px; }
+    .evidence-card-head input { width:14px; min-height:14px; height:14px; margin:2px 0 0; accent-color:#8ccca2; }
+    .evidence-card-head strong { color:#e9eee9; font:600 13px 'Playfair Display',serif; line-height:1.3; }
+    .evidence-category { display:inline-block; margin:0 0 7px; color:var(--lime); font:600 8px 'DM Mono',monospace; letter-spacing:.06em; text-transform:uppercase; }
+    .evidence-card p { margin:8px 0 0; color:#bbc4bf; font-size:10px; line-height:1.55; }
+    .evidence-card .evidence-source { color:#a6c7b1; }
+    .evidence-findings { margin:0; padding-left:18px; color:#d0d5d0; font-size:10px; line-height:1.65; }
+    .evidence-findings li+li { margin-top:5px; }
+    .evidence-source-list { display:flex; flex-wrap:wrap; gap:8px 14px; margin-top:12px; padding-top:10px; border-top:1px solid #39423f; }
+    .evidence-source-list a { color:#b9d7c3; font-size:10px; }
     .text-button,.remove-button,.icon-button { border:0; background:transparent; color:var(--lime); font:600 11px 'DM Sans',sans-serif; cursor:pointer; }
     .remove-button { float:right; color:var(--muted); }
     .text-button { padding:8px 0; }
@@ -137,6 +153,7 @@
     @keyframes rise { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
     @media(max-width:900px) { .shell { padding:21px; } .hero { grid-template-columns:1fr; gap:16px; } .hero-note { margin:0; } .workspace { grid-template-columns:1fr; } .prescription { position:static; } }
     @media(max-width:700px) { .med-list { grid-template-columns:1fr; } }
+    @media(max-width:600px) { .evidence-list { grid-template-columns:1fr; } .clinical-evidence { padding:14px; } }
     @media(max-width:600px) { .shell { padding:16px 13px 30px; } header { gap:9px; } nav { gap:12px; } nav a { font-size:10px; } .status { font-size:0; } .status::before { width:8px; height:8px; } .hero { padding:35px 0 25px; } h1 { font-size:38px; } .form-panel { padding:18px 15px; } .fields,.med-dose-grid { grid-template-columns:1fr; gap:12px; } .full,.med-dose-grid .full { grid-column:auto; } .actions { flex-direction:column; } .actions button { width:100%; } .pres-head,.rx-body { padding-right:18px; padding-left:18px; } .patient { padding-right:18px; padding-left:18px; } .footer { flex-direction:column; gap:5px; } }
     @media print { body { background:#fff; color:#111; } body * { visibility:hidden!important; } #prescription,#prescription * { visibility:visible!important; } #prescription { position:absolute; top:0; left:0; width:100%; border:0; background:white; box-shadow:none; } .print-action { display:none!important; } .pres-head,.patient,.rx-body { color:#111; background:white; border-color:#bbb; } .pres-head::after { color:#eee; } .pres-head small,.rx-block h3 { color:#526138; } .pres-head h2,.patient strong,.signature strong { color:#111; } .patient span,.rx-copy,.rx-med p,.rx-foot,.signature span { color:#333; } .rx-med { border-color:#ddd; break-inside:avoid; } .signature-line { border-color:#666; } @page { size:A4; margin:16mm; } }
     @media(prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto!important; animation-duration:.01ms!important; transition-duration:.01ms!important; } }
@@ -162,6 +179,16 @@
           <div class="field"><label for="weight">Peso aferido</label><div class="unit"><input id="weight" type="number" min="0.1" max="250" step="0.01" inputmode="decimal" placeholder="Ex.: 14,5" required><span>kg</span></div></div>
           <div class="field full"><label for="diagnosis">Diagnóstico / hipótese clínica</label><input id="diagnosis" list="diagnosis-options" maxlength="200" placeholder="Busque no índice ou registre conforme avaliação" required><datalist id="diagnosis-options"></datalist></div>
         </div>
+
+        <section class="clinical-evidence" id="clinical-evidence" hidden aria-labelledby="evidence-title">
+          <div class="group-head"><div><h3 id="evidence-title">Referências clínicas para este diagnóstico</h3><p id="evidence-jurisdiction"></p></div><span class="med-badge">DOCUMENTAL</span></div>
+          <p class="evidence-warning" id="evidence-warning"></p>
+          <p class="evidence-intro">Os itens abaixo reproduzem informação da fonte indicada. Os seletores estão desativados: não foram aprovados para cálculo, escolha terapêutica ou emissão de receita no Brasil.</p>
+          <ul class="evidence-findings" id="evidence-findings"></ul>
+          <div class="med-subheading" style="margin:14px 0 9px">Esquemas publicados pela fonte</div>
+          <div class="evidence-list" id="evidence-regimens"></div>
+          <div class="evidence-source-list" id="evidence-sources"></div>
+        </section>
 
         <section class="group" aria-labelledby="medications-title">
           <div class="group-head"><div><h3 id="medications-title">02 / Prescrição medicamentosa</h3><p>Preencha somente o esquema definido e conferido pelo prescritor.</p></div><button class="text-button" id="add-medication" type="button">+ Adicionar</button></div>
@@ -350,12 +377,93 @@
       addMedication();
 
       let diagnoses = [];
+      let clinicalEvidence = [];
+      let sources = [];
+
+      function normalizeDiagnosis(text) {
+        return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR').trim();
+      }
+
+      function renderClinicalEvidence() {
+        const panel = byId('clinical-evidence');
+        const selectedDiagnosis = normalizeDiagnosis(value('diagnosis'));
+        const record = clinicalEvidence.find((entry) => entry.aliases.some((alias) => normalizeDiagnosis(alias) === selectedDiagnosis));
+        panel.hidden = !record;
+        if (!record) return;
+
+        setText('evidence-jurisdiction', `Escopo: ${record.jurisdiction} · pesquisa de ${new Intl.DateTimeFormat('pt-BR').format(new Date(`${record.review_date || '2026-09-27'}T12:00:00`))}`);
+        setText('evidence-warning', record.warning);
+
+        const findings = byId('evidence-findings');
+        findings.replaceChildren();
+        record.findings.forEach((finding) => {
+          const item = document.createElement('li');
+          item.textContent = finding;
+          findings.append(item);
+        });
+
+        const sourceById = new Map(record.source_ids.map((id) => [id, sources.find((source) => source.id === id)]).filter(([, source]) => source));
+        const regimens = byId('evidence-regimens');
+        regimens.replaceChildren();
+        record.regimens.forEach((regimen) => {
+          const card = document.createElement('article');
+          card.className = 'evidence-card';
+          const category = document.createElement('span');
+          category.className = 'evidence-category';
+          category.textContent = regimen.category;
+          const heading = document.createElement('div');
+          heading.className = 'evidence-card-head';
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.disabled = true;
+          checkbox.setAttribute('aria-label', 'Referencia documental nao selecionavel');
+          const name = document.createElement('strong');
+          name.textContent = regimen.medication;
+          heading.append(checkbox, name);
+          card.append(category, heading);
+          const details = [
+            ['Populacao', regimen.population], ['Esquema publicado', regimen.dose],
+            ['Duracao publicada', regimen.duration], ['Limite publicado', regimen.maximum],
+            ['Apresentacao brasileira', record.brazilian_presentations_verified ? regimen.presentation : 'Nao verificada nesta pesquisa']
+          ].filter(([, text]) => text);
+          details.forEach(([label, text]) => {
+            const detail = document.createElement('p');
+            detail.textContent = `${label}: ${text}`;
+            card.append(detail);
+          });
+          const source = sourceById.get(regimen.source_id);
+          if (source) {
+            const citation = document.createElement('p');
+            citation.className = 'evidence-source';
+            citation.textContent = `${source.organization} · ${source.updated || source.title}`;
+            card.append(citation);
+          }
+          regimens.append(card);
+        });
+
+        const sourceList = byId('evidence-sources');
+        sourceList.replaceChildren();
+        sourceById.forEach((source) => {
+          const link = document.createElement('a');
+          link.href = source.url;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          link.textContent = `${source.organization}: ${source.title}`;
+          sourceList.append(link);
+        });
+      }
+
       async function loadDiagnosisOptions() {
         try {
-          const response = await fetch('./public-data/diagnoses.json');
-          if (!response.ok) throw new Error('Índice de diagnósticos indisponível');
-          const diagnosesData = await response.json();
+          const [diagnosesResponse, evidenceResponse] = await Promise.all([
+            fetch('./public-data/diagnoses.json'),
+            fetch('./public-data/clinical-evidence.json')
+          ]);
+          if (!diagnosesResponse.ok || !evidenceResponse.ok) throw new Error('Dados de referencia indisponiveis');
+          const [diagnosesData, evidenceData] = await Promise.all([diagnosesResponse.json(), evidenceResponse.json()]);
           diagnoses = diagnosesData.diagnoses;
+          sources = evidenceData.sources;
+          clinicalEvidence = evidenceData.diagnoses.map((record) => ({ ...record, review_date:evidenceData.review_date }));
           const diagnosisOptions = byId('diagnosis-options');
           diagnoses.forEach((entry) => {
             const option = document.createElement('option');
@@ -363,11 +471,13 @@
             option.label = `Diagnóstico ${String(entry.number).padStart(3, '0')} · ${entry.module}`;
             diagnosisOptions.append(option);
           });
+          renderClinicalEvidence();
         } catch (error) {
-          status.textContent = 'O índice de diagnósticos não carregou; você ainda pode informar o diagnóstico manualmente.';
+          status.textContent = 'As referências clínicas não carregaram; nenhum esquema foi incluído. Informe o diagnóstico manualmente.';
         }
       }
 
+      byId('diagnosis').addEventListener('input', renderClinicalEvidence);
       loadDiagnosisOptions();
     })();
   </script>

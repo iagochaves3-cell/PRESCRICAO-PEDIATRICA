@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-09-27",
+  "diagnoses": [
+    {
+      "id": "group-a-streptococcal-pharyngitis",
+      "aliases": [
+        "faringoamigdalite bacteriana estreptococica",
+        "faringoamigdalite bacteriana estreptocócica",
+        "faringite estreptococica",
+        "faringite estreptocócica",
+        "faringoamigdalite por estreptococo do grupo a"
+      ],
+      "status": "DOCUMENTARY_ONLY",
+      "jurisdiction": "Estados Unidos da America",
+      "operational": false,
+      "brazilian_presentations_verified": false,
+      "warning": "REFERENCIA INTERNACIONAL. Nao usar como prescricao automatica ou substituir protocolo/bula brasileira. Validacao clinica e farmaceutica local pendente.",
+      "findings": [
+        "Virus e bacterias podem causar dor de garganta; sem sinais virais claros, apenas o exame clinico nao diferencia estreptococo do grupo A com confiabilidade.",
+        "A orientacao CDC indica teste rapido de antigeno ou cultura para confirmar. Em criancas sintomaticas com 3 anos ou mais, teste rapido negativo deve ser seguido por cultura.",
+        "CDC indica antibiotico para teste rapido ou cultura positivos e nao recomenda antibiotico para faringite viral.",
+        "A atualizacao IDSA de 2025 encontrada nesta revisao trata de avaliacao de risco e selecao de quem testar; nao atualiza posologias nesta parte.",
+        "A SBP orienta familias que a avaliacao medica distingue causas virais e bacterianas e que, quando indicado para estreptococo do grupo A, o tratamento antibiotico dura 10 dias. A pagina SBP nao fornece dose por peso nem apresentacao comercial."
+      ],
+      "regimens": [
+        {
+          "category": "Antibioticos de escolha listados pelo CDC (nao rotulados aqui como linhas sequenciais)",
+          "medication": "Penicilina V oral",
+          "population": "Criancas",
+          "dose": "250 mg por dose, duas ou tres vezes ao dia",
+          "duration": "10 dias",
+          "maximum": null,
+          "presentation": null,
+          "source_id": "cdc-2025"
+        },
+        {
+          "category": "Antibioticos de escolha listados pelo CDC (nao rotulados aqui como linhas sequenciais)",
+          "medication": "Amoxicilina oral",
+          "population": "Criancas",
+          "dose": "50 mg/kg por dose, uma vez ao dia",
+          "duration": "10 dias",
+          "maximum": "1.000 mg por dia",
+          "presentation": null,
+          "source_id": "cdc-2025"
+        },
+        {
+          "category": "Antibioticos de escolha listados pelo CDC (nao rotulados aqui como linhas sequenciais)",
+          "medication": "Amoxicilina oral (esquema alternativo do CDC)",
+          "population": "Criancas",
+          "dose": "25 mg/kg por dose, duas vezes ao dia",
+          "duration": "10 dias",
+          "maximum": "500 mg por dose",
+          "presentation": null,
+          "source_id": "cdc-2025"
+        },
+        {
+          "category": "Antibioticos de escolha listados pelo CDC (nao rotulados aqui como linhas sequenciais)",
+          "medication": "Penicilina G benzatina intramuscular",
+          "population": "Criancas",
+          "dose": "Dose unica: 600.000 unidades se peso <27 kg; 1.200.000 unidades se peso >=27 kg",
+          "duration": "Dose unica",
+          "maximum": null,
+          "presentation": null,
+          "source_id": "cdc-2025"
+        },
+        {
+          "category": "Alternativas listadas pelo CDC para alergia a penicilina; verificar tipo de hipersensibilidade",
+          "medication": "Cefalexina oral",
+          "population": "Criancas; evitar em hipersensibilidade imediata a penicilina",
+          "dose": "20 mg/kg por dose, duas vezes ao dia",
+          "duration": "10 dias",
+          "maximum": "500 mg por dose",
+          "presentation": null,
+          "source_id": "cdc-2025"
+        },
+        {
+          "category": "Alternativas listadas pelo CDC para alergia a penicilina; verificar tipo de hipersensibilidade",
+          "medication": "Cefadroxila oral",
+          "population": "Criancas; evitar em hipersensibilidade imediata a penicilina",
+          "dose": "30 mg/kg por dose, uma vez ao dia",
+          "duration": "10 dias",
+          "maximum": "1 g por dia",
+          "presentation": null,
+          "source_id": "cdc-2025"
+        },
+        {
+          "category": "Alternativas listadas pelo CDC para alergia a penicilina; verificar tipo de hipersensibilidade",
+          "medication": "Clindamicina oral",
+          "population": "Criancas",
+          "dose": "7 mg/kg por dose, tres vezes ao dia",
+          "duration": "10 dias",
+          "maximum": "300 mg por dose",
+          "presentation": null,
+          "source_id": "cdc-2025"
+        },
+        {
+          "category": "Alternativas listadas pelo CDC para alergia a penicilina; verificar tipo de hipersensibilidade",
+          "medication": "Azitromicina oral",
+          "population": "Criancas",
+          "dose": "Dia 1: 12 mg/kg por dose; dias 2 a 5: 6 mg/kg por dose uma vez ao dia",
+          "duration": "5 dias",
+          "maximum": "Dia 1: 500 mg; dias 2 a 5: 250 mg por dia",
+          "presentation": null,
+          "source_id": "cdc-2025"
+        },
+        {
+          "category": "Alternativas listadas pelo CDC para alergia a penicilina; verificar tipo de hipersensibilidade",
+          "medication": "Claritromicina oral",
+          "population": "Criancas",
+          "dose": "7,5 mg/kg por dose, duas vezes ao dia",
+          "duration": "10 dias",
+          "maximum": "250 mg por dose",
+          "presentation": null,
+          "source_id": "cdc-2025"
+        }
+      ],
+      "source_ids": ["cdc-2025", "idsa-2025-part-1", "sbp-family-2023", "idsa-2012-metadata-only"],
+      "limitations": [
+        "Estas recomendacoes sao de uma fonte dos Estados Unidos, nao uma bula ou protocolo brasileiro.",
+        "Nenhuma apresentacao comercial ou concentracao brasileira foi confirmada nesta revisao; nao converter mg em mL ou gotas.",
+        "A consulta de bulas da Anvisa retornou HTTP 403 nesta sessao.",
+        "O texto integral da diretriz IDSA 2012 retornou HTTP 403; somente metadados e links oficiais foram confirmados.",
+        "A divergencia entre a ficha local e os esquemas CDC nao foi resolvida por revisao humana independente.",
+        "Nao foram validados para este diagnostico um protocolo brasileiro de alta, evolucao esperada ou sinais de retorno a serem autoexibidos aos pais."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cdc-2025",
+      "organization": "Centers for Disease Control and Prevention",
+      "title": "Clinical Guidance for Group A Streptococcal Pharyngitis",
+      "updated": "2025-11-18",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+      "accessed": "2026-09-27",
+      "use": "Teste, confirmacao, tratamento e esquemas de referencia dos EUA"
+    },
+    {
+      "id": "idsa-2025-part-1",
+      "organization": "Infectious Diseases Society of America",
+      "title": "2025 Clinical Practice Guideline Update: Risk Assessment Using Clinical Scoring Systems",
+      "updated": "2025-10-14",
+      "doi": "10.1093/cid/ciaf668",
+      "url": "https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis2/",
+      "pubmed": "41343363",
+      "accessed": "2026-09-27",
+      "use": "Somente avaliacao de risco e selecao para teste; nao e atualizacao posologica"
+    },
+    {
+      "id": "sbp-family-2023",
+      "organization": "Sociedade Brasileira de Pediatria",
+      "title": "Dor de garganta",
+      "updated": "2023-12",
+      "url": "https://www.sbp.com.br/pediatria-para-familias/cuidados-com-a-saude/dor-de-garganta/",
+      "accessed": "2026-09-27",
+      "use": "Orientacao geral para familias; nao contem dose nem apresentacao"
+    },
+    {
+      "id": "idsa-2012-metadata-only",
+      "organization": "Infectious Diseases Society of America",
+      "title": "Clinical Practice Guideline for the Diagnosis and Management of Group A Streptococcal Pharyngitis",
+      "updated": "2012",
+      "doi": "10.1093/cid/cis629",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22965026/",
+      "accessed": "2026-09-27",
+      "use": "Metadados/identificacao bibliografica apenas; texto integral indisponivel nesta sessao"
+    }
+  ]
+}
