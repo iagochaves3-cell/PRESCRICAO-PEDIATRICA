@@ -1,0 +1,422 @@
+{
+  "schema_version": "1.0",
+  "method": "Inventário de arquivos e hashes; igualdade de arquivo não é evidência clínica independente.",
+  "attachment_count": 62,
+  "unique_content_count": 39,
+  "duplicate_file_count": 23,
+  "groups": [
+    {
+      "sha256": "5c79bc0c2b5345cc15a03c27f9d7b5dec70476a0ca340cd1bac5c92696003456",
+      "bytes": 2801553,
+      "files": [
+        "!!!! Catalogo_Posologico_Pediatrico_Revisado.pdf"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "f79afb8d62b34cfec3835d84bd0a58f166bbb0add6d7742e789d8ae72904edfb",
+      "bytes": 15510988,
+      "files": [
+        "1 Tratado-de-Pediatria.PDF"
+      ],
+      "categories": [
+        "Diagnóstico e semiologia"
+      ]
+    },
+    {
+      "sha256": "5d0e88bf42d65a803b32265ccca82f1cffbe085631d7e26daa500f7fdf6fcbd5",
+      "bytes": 9161499,
+      "files": [
+        "2 Tratado de Pediatria.PDF"
+      ],
+      "categories": [
+        "Material complementar"
+      ]
+    },
+    {
+      "sha256": "5a34a812b74f8dc0709d8cf2c1171b883294fa16d644967e0e1aeda06b68467a",
+      "bytes": 10489161,
+      "files": [
+        "3 Tratado-de-Pediatria.PDF"
+      ],
+      "categories": [
+        "Diagnóstico e semiologia"
+      ]
+    },
+    {
+      "sha256": "9e0d9846b633569c90c0f9c4a0c5da6f5dd0e0865e7206a9dbe558ec8ff88d3f",
+      "bytes": 6183504,
+      "files": [
+        "4 Tratado-de-Pediatria.PDF"
+      ],
+      "categories": [
+        "Diagnóstico e semiologia"
+      ]
+    },
+    {
+      "sha256": "fc1e213679b7166373bca8f9f51d8df4d94ec5699b3397fc2f5ce34850181c98",
+      "bytes": 4490,
+      "files": [
+        "ACTIVE_pediatric-pharmacotherapy-governance-v62 (1).md",
+        "ACTIVE_pediatric-pharmacotherapy-governance-v62 (2).md",
+        "ACTIVE_pediatric-pharmacotherapy-governance-v62 (3).md",
+        "ACTIVE_pediatric-pharmacotherapy-governance-v62.md"
+      ],
+      "categories": [
+        "Governança e auditoria"
+      ]
+    },
+    {
+      "sha256": "39e76340bcc73d5a132e664f2860510ea8543c03be54a56e28e2e7364efa009e",
+      "bytes": 56316,
+      "files": [
+        "ANTITERMICOS_PEDIATRICOS_DOSES_CORRIGIDAS.pdf"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "e4029ef1669ba5f91573675994ec4e72642f77b50544b9deb8b7bf373da203ef",
+      "bytes": 6552,
+      "files": [
+        "Atualização diária — Catálogo Posológico Pediátrico — 26_09_2026 (1).md",
+        "Atualização diária — Catálogo Posológico Pediátrico — 26_09_2026.md"
+      ],
+      "categories": [
+        "Governança e auditoria"
+      ]
+    },
+    {
+      "sha256": "1a10eb4f5c80dcdaf011e4d7720115c262d169d6338bfc6833441a9b7b9961c8",
+      "bytes": 2493,
+      "files": [
+        "Auditoria_Tripla_Governanca_Pediatrica_v61_FINAL.md"
+      ],
+      "categories": [
+        "Governança e auditoria"
+      ]
+    },
+    {
+      "sha256": "225f048dc84d9d235ed0729723e7cfc187f9212f475aa9c325745e24a343d17d",
+      "bytes": 2297,
+      "files": [
+        "Auditoria_Tripla_Governanca_Pediatrica_v61.md"
+      ],
+      "categories": [
+        "Governança e auditoria"
+      ]
+    },
+    {
+      "sha256": "9458b8a0eed143695f02be0ccb9f2609c90ae5900ab684846c0ce1c9ab8902da",
+      "bytes": 1054345,
+      "files": [
+        "Biblioteca_Medicamentosa_Pediatrica_MASTER_498 (1).json",
+        "Biblioteca_Medicamentosa_Pediatrica_MASTER_498 (2).json",
+        "Biblioteca_Medicamentosa_Pediatrica_MASTER_498.json"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "7ef5861bb51432c2df2e9b2e09f0f9c1d831d71c0d19d54a1c46b50d4ff8b674",
+      "bytes": 891996,
+      "files": [
+        "Biblioteca_Medicamentosa_Pediatrica_MASTER_498 (1).md",
+        "Biblioteca_Medicamentosa_Pediatrica_MASTER_498 (2).md",
+        "Biblioteca_Medicamentosa_Pediatrica_MASTER_498 (3).md",
+        "Biblioteca_Medicamentosa_Pediatrica_MASTER_498 (4).md",
+        "Biblioteca_Medicamentosa_Pediatrica_MASTER_498.md"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "337af0ef5fe9b018fe4ea1d8eae2c9358c7d14e5c7dd0b46e6991714b8de2c42",
+      "bytes": 5787,
+      "files": [
+        "Calculadora de Soroterapia Pediátrica.xlsx"
+      ],
+      "categories": [
+        "Fluidos e soroterapia"
+      ]
+    },
+    {
+      "sha256": "d68e148fc3435154255f900a81b1c8547e22fe13f1be855efdde62625b098147",
+      "bytes": 184727,
+      "files": [
+        "Catalogo_Farmacologico_Pediatrico_Consolidado_Final (1).pdf",
+        "Catalogo_Farmacologico_Pediatrico_Consolidado_Final.pdf",
+        "Catalogo_Farmacologico_Pediatrico_Consolidado_Final(2).pdf"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "fb0ee29a8ce3ac7a13923397a7ef5a60e36f3caf6dfdbf5809ca8609e29c9dbd",
+      "bytes": 3713609,
+      "files": [
+        "Catalogo_Posologico_Pediatrico_Corrigido.pdf"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "c5c9f8703c0603bbd5a09bf9723c99296c698e6fb791d05589268672cae82e63",
+      "bytes": 4311325,
+      "files": [
+        "catalogo-base (1).pdf",
+        "catalogo-base (2).pdf",
+        "catalogo-base (3).pdf",
+        "catalogo-base.pdf",
+        "catalogo-base(1) (1).pdf",
+        "catalogo-base(1) (2).pdf",
+        "catalogo-base(1).pdf"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "194729b34afad53bcdee1355999ad333a81831d84682d3d6697b1e45ce695883",
+      "bytes": 150317,
+      "files": [
+        "Compêndio Master de Semiologia Pediátrica - Sinais Patognomônicos e Discriminativos.pdf"
+      ],
+      "categories": [
+        "Diagnóstico e semiologia"
+      ]
+    },
+    {
+      "sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "bytes": 168193,
+      "files": [
+        "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx"
+      ],
+      "categories": [
+        "Diagnóstico e semiologia"
+      ]
+    },
+    {
+      "sha256": "ce3eafca942c5eb45ef3569aaeab65ea0d7d61c819f13a62376c1cb89b3eca56",
+      "bytes": 338652,
+      "files": [
+        "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.pdf"
+      ],
+      "categories": [
+        "Diagnóstico e semiologia"
+      ]
+    },
+    {
+      "sha256": "ec2876eb76d571213abfb3ae670baa89b3ff285c009e84b398b1183ebdb346a4",
+      "bytes": 66822,
+      "files": [
+        "diagnosticos_pediatria_1500.pdf"
+      ],
+      "categories": [
+        "Diagnóstico e semiologia"
+      ]
+    },
+    {
+      "sha256": "243bd420e3e700baf14242f8101824b17493bd00a529b2d30f755d073bedaeac",
+      "bytes": 213636,
+      "files": [
+        "Enciclopédia Master de Semiologia Pediátrica - Sinais Patognomônicos e Discriminativos.pdf"
+      ],
+      "categories": [
+        "Diagnóstico e semiologia"
+      ]
+    },
+    {
+      "sha256": "6894fe7b9b15cb3c4cdcfafa8146bbc751f7fd057360c1f6989bfb83978d7177",
+      "bytes": 251864,
+      "files": [
+        "Guia Completo de Farmacoterapia Pediátrica (1).docx",
+        "Guia Completo de Farmacoterapia Pediátrica.docx"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "243292dfcb6e552ecad013e1238d8ca93998a33fa72e6a63c4c3ffaa1b04238d",
+      "bytes": 12900,
+      "files": [
+        "Guia de Farmacoterapia Pediátrica - Vol. 1.docx"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "d381edd5ec69d799763fc20224e1c1caa2669c405f3352291ff2037c5e2e19bd",
+      "bytes": 250401,
+      "files": [
+        "Guia_Farmacoterapia_Pediatrica.pdf"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "3f0458e280e85064afca5559c6d810b3bc35dc0a2da1c0d97e88c99fc51c2fcf",
+      "bytes": 2607,
+      "files": [
+        "manifesto_integracao_biblioteca_medicamentosa_2026-09-26 (1).md",
+        "manifesto_integracao_biblioteca_medicamentosa_2026-09-26 (2).md",
+        "manifesto_integracao_biblioteca_medicamentosa_2026-09-26 (3).md",
+        "manifesto_integracao_biblioteca_medicamentosa_2026-09-26.md"
+      ],
+      "categories": [
+        "Governança e auditoria"
+      ]
+    },
+    {
+      "sha256": "4d03fab6cde8602f904e09811dc462758dafd43dbe7d38a069e51fc84f846e42",
+      "bytes": 934872,
+      "files": [
+        "NEXO_Farmacoterapia_Pediatrica_Consolidada_Auditavel (1).pdf",
+        "NEXO_Farmacoterapia_Pediatrica_Consolidada_Auditavel.pdf"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "8a7d76f5cf261784d1486d5d46d038c37f08a7ce251afc7d894c3abb65e31bd7",
+      "bytes": 7172,
+      "files": [
+        "PedPresc_Agil_Instrucoes.docx"
+      ],
+      "categories": [
+        "Receituários e modelos"
+      ]
+    },
+    {
+      "sha256": "ce8a27476222ff6f7d1e98fd554ac5ea62c07954b477ccf7a2cb65c7c54393e5",
+      "bytes": 6907,
+      "files": [
+        "PedPresc_Agil_Pro_Expandido.docx"
+      ],
+      "categories": [
+        "Receituários e modelos"
+      ]
+    },
+    {
+      "sha256": "e9ed22ee197e648c87c013f2936e81b74084cf2128203442ab8bfb760835ccfe",
+      "bytes": 6749,
+      "files": [
+        "PedPresc_Agil_Site_Receituarios.docx"
+      ],
+      "categories": [
+        "Receituários e modelos"
+      ]
+    },
+    {
+      "sha256": "445fc7b253e38b2665cf91701e1f5b6257bc19f0bbceaf59b9e232132fdb870e",
+      "bytes": 6915,
+      "files": [
+        "PedPresc_Master_1269_Diagnosticos (1).docx"
+      ],
+      "categories": [
+        "Diagnóstico e semiologia"
+      ]
+    },
+    {
+      "sha256": "1fb7c1dfed054b878bd66fa2d0eb793d77e0d6054c2c3e35f730959a8e7225ec",
+      "bytes": 6915,
+      "files": [
+        "PedPresc_Master_1269_Diagnosticos.docx"
+      ],
+      "categories": [
+        "Diagnóstico e semiologia"
+      ]
+    },
+    {
+      "sha256": "98480520e0b3c40b9b9320db8ed00aaaa9174eca164e6855fab9baf4df45db5d",
+      "bytes": 65476,
+      "files": [
+        "PedWB_Integracao_Progressiva.md"
+      ],
+      "categories": [
+        "Governança e auditoria"
+      ]
+    },
+    {
+      "sha256": "f43aab13ba2aacd7d4822a5516bf49a9f149cc20383346b69bd0c2d6d152eccc",
+      "bytes": 6963,
+      "files": [
+        "Prescricao_Pediatrica_Segura_Manual_Integral.docx"
+      ],
+      "categories": [
+        "Receituários e modelos"
+      ]
+    },
+    {
+      "sha256": "5259d6e413242c63afe88027122eed783612ff9a9e48b9a9c51313f6bf66fb94",
+      "bytes": 51470,
+      "files": [
+        "prompt MESTRE.pdf"
+      ],
+      "categories": [
+        "Receituários e modelos"
+      ]
+    },
+    {
+      "sha256": "c8a6ae47bd2187268deb079ad832ad7f89cab3fc33dca51fd543239f59983dbf",
+      "bytes": 2722,
+      "files": [
+        "README.md"
+      ],
+      "categories": [
+        "Material complementar"
+      ]
+    },
+    {
+      "sha256": "e5d6c8e0f26777abf207221093259da749ee930466acf70e49e00a6a2cc9be8a",
+      "bytes": 2228005,
+      "files": [
+        "Relatorio_Auditoria_Sites_Pediatria.zip"
+      ],
+      "categories": [
+        "Governança e auditoria"
+      ]
+    },
+    {
+      "sha256": "47d480ce235f81b0c39ebe077263728ee71c22626e2f45f8665433a06c6732b8",
+      "bytes": 9150,
+      "files": [
+        "SOROTERAPIA DE MANUTENÇÃO (Corrigido).docx"
+      ],
+      "categories": [
+        "Fluidos e soroterapia"
+      ]
+    },
+    {
+      "sha256": "070597335f8e8239dd97c6b542134137b026dc8cf7acd32eb97b762daf7f75ba",
+      "bytes": 204863,
+      "files": [
+        "Transcrição Organizada de Doses Pediátricas (1).docx"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    },
+    {
+      "sha256": "47c7cfe09dd2c079d6aeb700b8506d064fe6c5d04eccd2c6f694afa901f5bafd",
+      "bytes": 204862,
+      "files": [
+        "Transcrição Organizada de Doses Pediátricas.docx"
+      ],
+      "categories": [
+        "Farmacoterapia e catálogos"
+      ]
+    }
+  ]
+}

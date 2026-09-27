@@ -1,0 +1,11 @@
+title: PedDose | Plano de cuidado pediátrico
+lang: pt-BR
+exclude:
+  - '*.pdf'
+  - '*.PDF'
+  - '*.docx'
+  - '*.xlsx'
+  - '*.zip'
+  - '*.md'
+  - 'Biblioteca_Medicamentosa_Pediatrica_MASTER_498*.json'
+  - 'scripts/'

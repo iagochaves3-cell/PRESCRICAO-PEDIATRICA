@@ -1,0 +1,1146 @@
+{
+  "schema_version": "1.0",
+  "source_title": "Compêndio — Arsenal Diagnóstico Pediátrico e Emergência",
+  "source_file": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+  "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+  "record_count": 142,
+  "policy": "Índice documental de títulos; não define diagnóstico, tratamento, dose ou encaminhamento.",
+  "diagnoses": [
+    {
+      "number": 1,
+      "name": "Rinofaringite Viral Aguda (Resfriado Comum)",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 2,
+      "name": "Rinossinusite Bacteriana Aguda",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 3,
+      "name": "Faringoamigdalite Bacteriana Estreptocócica",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 4,
+      "name": "Crupe Viral Agudo / Laringite Estridulosa (Leve a Moderada)",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 5,
+      "name": "Crupe Viral Grave / Laringite com Estridor em Repouso",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 6,
+      "name": "Epiglotite Aguda",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 7,
+      "name": "Traqueíte Bacteriana Aguda",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 8,
+      "name": "Bronquiolite Viral Aguda (BVA) - Manejo de Suporte",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 9,
+      "name": "Bronquite Aguda e Hiperreatividade Brônquica Pós-Viral",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 10,
+      "name": "Crise de Asma / Broncoespasmo Agudo (Leve a Moderada)",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 11,
+      "name": "Crise de Asma Grave / Ameaçadora à Vida (Manejo de Emergência)",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 12,
+      "name": "Pneumonia Adquirida na Comunidade (PAC) Típica",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 13,
+      "name": "Pneumonia Atípica Pediátrica",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 14,
+      "name": "Derrame Pleural Parapneumônico e Empiema Pleural",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 15,
+      "name": "Coqueluche / Síndrome Coqueluchoide (Bordetella pertussis)",
+      "module": "MÓDULO 01: VIAS AÉREAS E PNEUMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 16,
+      "name": "Gastroenterite Aguda Viral - Plano A de Reidratação",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 17,
+      "name": "Gastroenterite com Desidratação Leve a Moderada - Plano B",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 18,
+      "name": "Gastroenterite Invasiva / Disenteria Bacteriana Aguda",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 19,
+      "name": "Desidratação Grave com Choque Hipovolêmico - Plano C",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 20,
+      "name": "Doença do Refluxo Gastroesofágico (DRGE) Pediátrica",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 21,
+      "name": "Refluxo Gastroesofágico Fisiológico ('Golfador Feliz')",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 22,
+      "name": "Constipação Intestinal Funcional Crônica e Impactação Fecal",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 23,
+      "name": "Fissura Anal Aguda Pediátrica",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 24,
+      "name": "Alergia à Proteína do Leite de Vaca (APLV) - Forma Gastrointestinal",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 25,
+      "name": "Esofagite Eosinofílica (EoE) Pediátrica",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 26,
+      "name": "Apendicite Aguda Pediátrica (Suspeita e Conduta Inicial)",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 27,
+      "name": "Intussuscepção / Invaginação Intestinal Aguda",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 28,
+      "name": "Giardíase Intestinal (Giardia lamblia)",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 29,
+      "name": "Helmintíases Intestinais Comuns (Ascaridíase, Enterobíase, Tricuríase, Ancilostomíase)",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 30,
+      "name": "Estrongiloidíase Pediátrica (Strongyloides stercoralis)",
+      "module": "MÓDULO 02: GASTROENTEROLOGIA E NUTRIÇÃO PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 31,
+      "name": "Exantema Súbito / Roséola Infantil (Herpesvírus Humano 6 e 7)",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 32,
+      "name": "Eritema Infeccioso / Quinta Doença (Parvovírus B19)",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 33,
+      "name": "Doença Mão-Pé-Boca (Coxsackievirus A16 / Enterovírus A71)",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 34,
+      "name": "Varicela Não Complicada (Catapora)",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 35,
+      "name": "Varicela com Infecção Bacteriana Secundária (Impetiginização e Celulite)",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 36,
+      "name": "Herpes Zoster Pediátrico",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 37,
+      "name": "Escarlatina",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 38,
+      "name": "Mononucleose Infecciosa (Vírus Epstein-Barr)",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 39,
+      "name": "Dengue Pediátrica - Grupo A e B (Manejo Ambulatorial)",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 40,
+      "name": "Dengue Pediátrica - Grupo C e D (Sinais de Alarme e Choque por Dengue)",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 41,
+      "name": "Chikungunya Aguda Pediátrica",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 42,
+      "name": "Infecção pelo Vírus Zika Pediátrica",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 43,
+      "name": "Febre Maculosa Brasileira (Rickettsia rickettsii)",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 44,
+      "name": "Leptospirose Pediátrica Aguda",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 45,
+      "name": "Sepse Pediátrica e Choque Séptico (Protocolo de 1ª Hora)",
+      "module": "MÓDULO 03: DOENÇAS INFECCIOSAS, EXANTEMÁTICAS E SEPSE",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 46,
+      "name": "Crise Convulsiva Febril Simples",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 47,
+      "name": "Crise Convulsiva Febril Complexa",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 48,
+      "name": "Estado de Mal Epiléptico Pediátrico (Status Epilepticus)",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 49,
+      "name": "Cefaleia Primária Tensional na Infância",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 50,
+      "name": "Enxaqueca Pediátrica (Crise Aguda e Profilaxia)",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 51,
+      "name": "Meningite Bacteriana Aguda Pediátrica",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 52,
+      "name": "Meningoencefalite Viral (Herpes Simplex e Enterovírus)",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 53,
+      "name": "Hipertensão Intracraniana Aguda no PA / UTI Pediátrica",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 54,
+      "name": "Traumatismo Cranioencefálico (TCE) Leve - Protocolo PECARN",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 55,
+      "name": "Traumatismo Cranioencefálico (TCE) Moderado a Grave",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 56,
+      "name": "Síndrome de Guillain-Barré Pediátrica",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 57,
+      "name": "Paralisia Facial Periférica Aguda (Paralisia de Bell)",
+      "module": "MÓDULO 04: NEUROLOGIA E EMERGÊNCIAS NEUROCRÍTICAS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 58,
+      "name": "Dermatite Atópica Leve (Cuidados de Barreira e Hidratação)",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 59,
+      "name": "Dermatite Atópica Moderada a Grave",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 60,
+      "name": "Dermatite de Contato (Irritativa e Alérgica)",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 61,
+      "name": "Dermatite Seborreica do Lactente / Crosta Láctea",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 62,
+      "name": "Dermatite das Fraldas Irritativa Simples",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 63,
+      "name": "Dermatite das Fraldas com Candidíase Secundária",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 64,
+      "name": "Urticária Aguda e Angioedema Não Anafilático",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 65,
+      "name": "Anafilaxia Pediátrica e Choque Anafilático",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 66,
+      "name": "Impetigo Crostoso e Bolhoso (S. aureus e S. pyogenes)",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 67,
+      "name": "Celulite e Erisipela Pediátrica",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 68,
+      "name": "Foliculite, Furunculose e Abscessos Cutâneos",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 69,
+      "name": "Escabiose Pediátrica (Sarna Humana - Sarcoptes scabiei)",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 70,
+      "name": "Pediculose do Couro Cabeludo (Piolho - Pediculus humanus capitis)",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 71,
+      "name": "Molusco Contagioso Pediátrico (Poxvírus)",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 72,
+      "name": "Queimaduras Térmicas Ambulatoriais (1º Grau e 2º Grau Superficial < 10% SCQ)",
+      "module": "MÓDULO 05: DERMATOLOGIA PEDIÁTRICA E ALERGOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 73,
+      "name": "Infecção do Trato Urinário Baixa / Cistite Aguda",
+      "module": "MÓDULO 06: NEFROLOGIA E UROLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 74,
+      "name": "Pielonefrite Aguda Pediátrica",
+      "module": "MÓDULO 06: NEFROLOGIA E UROLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 75,
+      "name": "Glomerulonefrite Difusa Aguda Pós-Estreptocócica (GNDA / Síndrome Nefrítica)",
+      "module": "MÓDULO 06: NEFROLOGIA E UROLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 76,
+      "name": "Síndrome Nefrótica Idiopática (Lesão Renal Mínima)",
+      "module": "MÓDULO 06: NEFROLOGIA E UROLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 77,
+      "name": "Injúria Renal Aguda (IRA) Pré-Renal e Distúrbios Eletrolíticos",
+      "module": "MÓDULO 06: NEFROLOGIA E UROLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 78,
+      "name": "Balanopostite Aguda Pediátrica",
+      "module": "MÓDULO 06: NEFROLOGIA E UROLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 79,
+      "name": "Fimose Fisiológica vs. Fimose Verdadeira e Parafimose Aguda",
+      "module": "MÓDULO 06: NEFROLOGIA E UROLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 80,
+      "name": "Vulvovaginite Inespecífica da Infância",
+      "module": "MÓDULO 06: NEFROLOGIA E UROLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 81,
+      "name": "Enurese Noturna Monossintomática Primária",
+      "module": "MÓDULO 06: NEFROLOGIA E UROLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 82,
+      "name": "Orquiepididimite Aguda vs. Torção Testicular Aguda",
+      "module": "MÓDULO 06: NEFROLOGIA E UROLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 83,
+      "name": "Parada Cardiorrespiratória Pediátrica - Ritmos Chocáveis (FV / TV sem Pulso)",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 84,
+      "name": "Parada Cardiorrespiratória Pediátrica - Ritmos Não Chocáveis (Assistolia e AESP)",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 85,
+      "name": "Taquicardia Supraventricular (TSV) Pediátrica",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 86,
+      "name": "Bradiarritmias Sintomáticas e Bloqueio Atrioventricular (BAV)",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 87,
+      "name": "Choque Cardiogênico Pediátrico e Disfunção Miocárdica Aguda",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 88,
+      "name": "Choque Obstrutivo (Tamponamento Cardíaco e Pneumotórax Hipertensivo)",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 89,
+      "name": "Doença de Kawasaki Aguda (Vasculite Sistêmica)",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 90,
+      "name": "Miocardite Aguda Pediátrica",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 91,
+      "name": "Febre Reumática Aguda (Critérios de Jones / Febre Reumática Pós-Estreptocócica)",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 92,
+      "name": "Crise de Hipóxia / Cianose na Tetralogia de Fallot ('Spell')",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 93,
+      "name": "Coarctação de Aorta Descompensada no Neonato / Cardiopatia Canal-Dependente",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 94,
+      "name": "Crise Hipertensiva Pediátrica (Emergência vs. Urgência Hipertensiva)",
+      "module": "MÓDULO 07: CARDIOLOGIA E EMERGÊNCIAS CARDIOVASCULARES",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 95,
+      "name": "Otite Média Aguda (OMA) Não Supurada",
+      "module": "MÓDULO 08: OTORRINOLARINGOLOGIA E OFTALMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 96,
+      "name": "Otite Média Aguda Supurada / Perfurada",
+      "module": "MÓDULO 08: OTORRINOLARINGOLOGIA E OFTALMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 97,
+      "name": "Mastoidite Aguda Pediátrica",
+      "module": "MÓDULO 08: OTORRINOLARINGOLOGIA E OFTALMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 98,
+      "name": "Otite Externa Difusa Aguda ('Ouvido de Nadador')",
+      "module": "MÓDULO 08: OTORRINOLARINGOLOGIA E OFTALMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 99,
+      "name": "Celulite Pré-Septal (Periorbitária)",
+      "module": "MÓDULO 08: OTORRINOLARINGOLOGIA E OFTALMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 100,
+      "name": "Celulite Pós-Septal (Orbitária Verdadeira)",
+      "module": "MÓDULO 08: OTORRINOLARINGOLOGIA E OFTALMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 101,
+      "name": "Conjuntivite Bacteriana Aguda Pediátrica",
+      "module": "MÓDULO 08: OTORRINOLARINGOLOGIA E OFTALMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 102,
+      "name": "Conjuntivite Viral e Alérgica Pediátrica",
+      "module": "MÓDULO 08: OTORRINOLARINGOLOGIA E OFTALMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 103,
+      "name": "Obstrução Congênita do Duto Nasolacrimal / Dacriocistite Aguda",
+      "module": "MÓDULO 08: OTORRINOLARINGOLOGIA E OFTALMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 104,
+      "name": "Epistaxe Anterior Aguda na Infância",
+      "module": "MÓDULO 08: OTORRINOLARINGOLOGIA E OFTALMOLOGIA PEDIÁTRICA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 105,
+      "name": "Cetoacidose Diabética (CAD) Leve a Moderada",
+      "module": "MÓDULO 09: DISTÚRBIOS HIDROELETROLÍTICOS E ENDOCRINOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 106,
+      "name": "Cetoacidose Diabética (CAD) Grave",
+      "module": "MÓDULO 09: DISTÚRBIOS HIDROELETROLÍTICOS E ENDOCRINOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 107,
+      "name": "Hipoglicemia Pediátrica Sintomática",
+      "module": "MÓDULO 09: DISTÚRBIOS HIDROELETROLÍTICOS E ENDOCRINOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 108,
+      "name": "Hiponatremia Aguda Sintomática (Correção com NaCl 3%)",
+      "module": "MÓDULO 09: DISTÚRBIOS HIDROELETROLÍTICOS E ENDOCRINOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 109,
+      "name": "Hipernatremia Grave Pediátrica",
+      "module": "MÓDULO 09: DISTÚRBIOS HIDROELETROLÍTICOS E ENDOCRINOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 110,
+      "name": "Hipocalemia Aguda e Reposição de Potássio (KCl)",
+      "module": "MÓDULO 09: DISTÚRBIOS HIDROELETROLÍTICOS E ENDOCRINOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 111,
+      "name": "Hipercalemia com Alterações Eletrocardiográficas",
+      "module": "MÓDULO 09: DISTÚRBIOS HIDROELETROLÍTICOS E ENDOCRINOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 112,
+      "name": "Hipocalcemia Aguda Sintomática (Tetania e Convulsão)",
+      "module": "MÓDULO 09: DISTÚRBIOS HIDROELETROLÍTICOS E ENDOCRINOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 113,
+      "name": "Insuficiência Adrenal Aguda / Crise Addisoniana",
+      "module": "MÓDULO 09: DISTÚRBIOS HIDROELETROLÍTICOS E ENDOCRINOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 114,
+      "name": "Hipotireoidismo Congênito no Lactente",
+      "module": "MÓDULO 09: DISTÚRBIOS HIDROELETROLÍTICOS E ENDOCRINOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 115,
+      "name": "Artrite Séptica Pediátrica",
+      "module": "MÓDULO 10: ORTOPEDIA, REUMATOLOGIA E TRAUMATOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 116,
+      "name": "Osteomielite Hematogênica Aguda",
+      "module": "MÓDULO 10: ORTOPEDIA, REUMATOLOGIA E TRAUMATOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 117,
+      "name": "Sinovite Transitória do Quadril",
+      "module": "MÓDULO 10: ORTOPEDIA, REUMATOLOGIA E TRAUMATOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 118,
+      "name": "Epifisiólise Proximal da Cabeça Femoral (SCFE)",
+      "module": "MÓDULO 10: ORTOPEDIA, REUMATOLOGIA E TRAUMATOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 119,
+      "name": "Pronação Dolorosa da Cabeça do Rádio (Subluxação do Rádio)",
+      "module": "MÓDULO 10: ORTOPEDIA, REUMATOLOGIA E TRAUMATOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 120,
+      "name": "Fraturas Pediátricas Incompletas (Galho Verde e Deformidade Plástica)",
+      "module": "MÓDULO 10: ORTOPEDIA, REUMATOLOGIA E TRAUMATOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 121,
+      "name": "Entorse Aguda de Tornozelo e Joelho na Infância",
+      "module": "MÓDULO 10: ORTOPEDIA, REUMATOLOGIA E TRAUMATOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 122,
+      "name": "Artrite Idiopática Juvenil (AIJ) - Forma Sistêmica e Oligoarticular",
+      "module": "MÓDULO 10: ORTOPEDIA, REUMATOLOGIA E TRAUMATOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 123,
+      "name": "Púrpura de Henoch-Schönlein (Vasculite por IgA)",
+      "module": "MÓDULO 10: ORTOPEDIA, REUMATOLOGIA E TRAUMATOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 124,
+      "name": "Miosite Aguda Pós-Viral (Gastrocnêmios)",
+      "module": "MÓDULO 10: ORTOPEDIA, REUMATOLOGIA E TRAUMATOLOGIA",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 125,
+      "name": "Intoxicação Aguda por Paracetamol (Acetaminofeno)",
+      "module": "MÓDULO 11: TOXICOLOGIA E ACIDENTES POR ANIMAIS PEÇONHENTOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 126,
+      "name": "Intoxicação Aguda por Salicilatos (Ácido Acetilsalicílico - AAS)",
+      "module": "MÓDULO 11: TOXICOLOGIA E ACIDENTES POR ANIMAIS PEÇONHENTOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 127,
+      "name": "Intoxicação por Anti-inflamatórios Não Esteroidais (AINEs)",
+      "module": "MÓDULO 11: TOXICOLOGIA E ACIDENTES POR ANIMAIS PEÇONHENTOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 128,
+      "name": "Intoxicação por Opioides e Uso de Naloxona",
+      "module": "MÓDULO 11: TOXICOLOGIA E ACIDENTES POR ANIMAIS PEÇONHENTOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 129,
+      "name": "Intoxicação por Benzodiazepínicos e Uso Cauteloso de Flumazenil",
+      "module": "MÓDULO 11: TOXICOLOGIA E ACIDENTES POR ANIMAIS PEÇONHENTOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 130,
+      "name": "Ingestão de Bateria Tipo Botão e Múltiplos Ímãs (Corpos Estranhos de Alto Risco)",
+      "module": "MÓDULO 11: TOXICOLOGIA E ACIDENTES POR ANIMAIS PEÇONHENTOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 131,
+      "name": "Ingestão de Substâncias Cáusticas (Ácidos e Álcalis Fortes)",
+      "module": "MÓDULO 11: TOXICOLOGIA E ACIDENTES POR ANIMAIS PEÇONHENTOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 132,
+      "name": "Acidente Escorpiônico Pediátrico (Tityus serrulatus)",
+      "module": "MÓDULO 11: TOXICOLOGIA E ACIDENTES POR ANIMAIS PEÇONHENTOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 133,
+      "name": "Acidente Ofídico Botrópico (Jararaca - Bothrops spp.)",
+      "module": "MÓDULO 11: TOXICOLOGIA E ACIDENTES POR ANIMAIS PEÇONHENTOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 134,
+      "name": "Acidente Ofídico Crotálico (Cascavel - Crotalus durissus)",
+      "module": "MÓDULO 11: TOXICOLOGIA E ACIDENTES POR ANIMAIS PEÇONHENTOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 135,
+      "name": "Icterícia Neonatal Hiperbilirrubinemia Indireta / Fototerapia",
+      "module": "MÓDULO 12: NEONATOLOGIA E CUIDADOS IMEDIATOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 136,
+      "name": "Icterícia por Incompatibilidade Rh / ABO e Exsanguinotransfusão",
+      "module": "MÓDULO 12: NEONATOLOGIA E CUIDADOS IMEDIATOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 137,
+      "name": "Sepse Neonatal Precoce (< 72 Horas de Vida)",
+      "module": "MÓDULO 12: NEONATOLOGIA E CUIDADOS IMEDIATOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 138,
+      "name": "Sepse Neonatal Tardia (> 72 Horas de Vida)",
+      "module": "MÓDULO 12: NEONATOLOGIA E CUIDADOS IMEDIATOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 139,
+      "name": "Síndrome do Desconforto Respiratório Neonatal (SDR / Doença da Membrana Hialina)",
+      "module": "MÓDULO 12: NEONATOLOGIA E CUIDADOS IMEDIATOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 140,
+      "name": "Taquipneia Transitória do Recém-Nascido (TTRN / Pulmão Úmido)",
+      "module": "MÓDULO 12: NEONATOLOGIA E CUIDADOS IMEDIATOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 141,
+      "name": "Apneia da Prematuridade e Citrato de Cafeína",
+      "module": "MÓDULO 12: NEONATOLOGIA E CUIDADOS IMEDIATOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    },
+    {
+      "number": 142,
+      "name": "Hipotermia Neonatal e Reaquecimento Controlado",
+      "module": "MÓDULO 12: NEONATOLOGIA E CUIDADOS IMEDIATOS",
+      "source": "Compendio_Arsenal_Diagnostico_Pediatria_Emergencia.docx",
+      "source_sha256": "5909db01a5cccd0607e31934bdfc6e982082bc57f406808906bb958244e11047",
+      "resolution": "DOCUMENTARY_ONLY"
+    }
+  ]
+}
