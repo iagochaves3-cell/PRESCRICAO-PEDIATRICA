@@ -53,13 +53,13 @@
     .med-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
     .med-card { min-width:0; margin:0; padding:0; overflow:hidden; border:1px solid #424c4b; background:#141a1c; transition:border-color .18s,background .18s; }
     .med-card.selected { border-color:#5e9a79; background:#151d1c; }
-    .med-option-head { display:grid; grid-template-columns:20px minmax(0,1fr) auto; align-items:center; gap:7px; padding:12px 12px 8px; }
+    .med-option-head { display:grid; grid-template-columns:20px minmax(0,1fr) auto; align-items:start; gap:7px; padding:12px 12px 8px; }
     .med-choice { display:grid; place-items:center; width:20px; height:24px; margin:0; cursor:pointer; }
     .med-choice input { width:14px; min-height:14px; height:14px; margin:0; accent-color:#8ccca2; }
     .med-heading { display:flex; flex-wrap:wrap; align-items:center; gap:6px; min-width:0; }
     .med-badge { display:inline-flex; min-height:18px; align-items:center; padding:2px 6px; border:1px solid #586564; color:#c5d0cd; font:600 8px 'DM Mono',monospace; letter-spacing:.04em; text-transform:uppercase; }
     .med-badge.off-label { border-color:#8a6942; color:#edc48b; }
-    .med-name { grid-column:2/3; grid-row:2; min-height:34px; padding:4px 0; border:0; background:transparent; font:600 15px 'Playfair Display',serif; }
+    .med-name { flex:1 1 110px; width:auto; min-width:80px; min-height:28px; padding:2px 0; border:0; background:transparent; font:600 15px 'Playfair Display',serif; }
     .med-name:focus { outline:0; box-shadow:inset 0 -1px var(--lime); }
     .remove-button { grid-column:3; grid-row:1/3; align-self:start; padding:4px; }
     .med-card-body { display:grid; gap:11px; padding:3px 12px 12px; }
@@ -68,11 +68,14 @@
     .med-card textarea[data-field] { min-height:53px; padding:8px 9px; font-size:11px; }
     .med-card select:disabled { opacity:.78; color:#b2b8b3; }
     .med-description { color:#bdc6c2; font-size:10px; line-height:1.5; }
+    .med-description textarea { min-height:54px; }
     .med-subheading { margin:1px 0 -4px; color:var(--ink); font:600 12px 'Playfair Display',serif; }
     .posology-status { padding:10px; border:1px solid #725d3c; background:#201d17; color:#ded5c5; font-size:10px; line-height:1.55; }
     .posology-status strong { display:block; margin-bottom:3px; color:var(--amber); font:600 9px 'DM Mono',monospace; letter-spacing:.07em; }
     .med-dose-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
     .med-dose-grid .full { grid-column:1/-1; }
+    .med-evidence-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; padding-top:10px; border-top:1px solid #39423f; }
+    .med-evidence-grid .full { grid-column:1/-1; }
     .text-button,.remove-button,.icon-button { border:0; background:transparent; color:var(--lime); font:600 11px 'DM Sans',sans-serif; cursor:pointer; }
     .remove-button { float:right; color:var(--muted); }
     .text-button { padding:8px 0; }
@@ -198,13 +201,12 @@
     <article class="med-card">
       <div class="med-option-head">
         <label class="med-choice"><input type="checkbox" data-selected aria-label="Selecionar medicamento"></label>
-        <div class="med-heading"><span class="med-badge" data-category-badge>GRUPO TERAPÊUTICO</span><span class="med-badge off-label" data-off-label hidden>OFF-LABEL</span></div>
+        <div class="med-heading"><span class="med-badge" data-category-badge>GRUPO TERAPÊUTICO</span><input class="med-name" data-field="name" maxlength="180" placeholder="Nome do medicamento" aria-label="Nome do medicamento"><span class="med-badge off-label" data-off-label hidden>OFF-LABEL</span></div>
         <button class="remove-button" type="button" aria-label="Remover medicamento">Remover</button>
-        <input class="med-name" data-field="name" maxlength="180" placeholder="Nome do medicamento" aria-label="Nome do medicamento">
       </div>
       <div class="med-card-body">
         <label>Grupo terapêutico<select data-field="category" required><option value="">Escolha um grupo</option><option value="Tratamento etiológico">Tratamento etiológico</option><option value="Tratamento de suporte">Tratamento de suporte</option><option value="Tratamento suplementar">Tratamento suplementar</option><option value="Tratamento sintomático off-label">Tratamento sintomático off-label</option><option value="Antitérmico / analgésico">Antitérmico / analgésico</option></select></label>
-        <label class="med-description">Quando considerar / justificativa<textarea data-field="indication" maxlength="500" placeholder="Indicação e justificativa conferidas pelo prescritor"></textarea></label>
+        <label class="med-description">Quando considerar<textarea data-field="indication" maxlength="500" placeholder="Indicação e justificativa conferidas pelo prescritor"></textarea></label>
         <div class="med-subheading">Escolha a apresentação</div>
         <select data-option="presentation" aria-label="Escolha uma apresentação validada" disabled><option value="">Sem apresentações clínicas validadas para seleção</option></select>
         <label class="med-description">Apresentação conferida na embalagem<input data-field="presentation" maxlength="180" placeholder="Forma, concentração e volume"></label>
@@ -217,6 +219,10 @@
           <label>Volume / gotas conferidos<input data-field="amount" maxlength="100" placeholder="mL ou gotas, se aplicável"></label>
           <label>Quantidade a dispensar<input data-field="quantity" maxlength="100" placeholder="Quantidade e unidade"></label>
           <label class="full">Instruções adicionais <span>(opcional)</span><input data-field="instructions" maxlength="240" placeholder="Orientações de administração conferidas"></label>
+        </div>
+        <div class="med-evidence-grid">
+          <label>Não usar / contraindicações<textarea data-field="contraindications" maxlength="500" placeholder="Restrições conferidas pelo prescritor"></textarea></label>
+          <label>Limite da evidência<textarea data-field="evidence" maxlength="500" placeholder="Observações sobre evidência e uso"></textarea></label>
         </div>
       </div>
     </article>
@@ -279,7 +285,7 @@
           const name = document.createElement('strong');
           name.textContent = entry.name;
           item.append(name);
-          const details = [['Grupo terapêutico', entry.category], ['Indicação', entry.indication], ['Apresentação', entry.presentation], ['Dose', entry.dose], ['Via', entry.route], ['Intervalo', entry.interval], ['Duração', entry.duration], ['Quantidade', entry.amount], ['Dispensar', entry.quantity]].filter(([, text]) => text);
+          const details = [['Grupo terapêutico', entry.category], ['Quando considerar', entry.indication], ['Apresentação', entry.presentation], ['Dose', entry.dose], ['Via', entry.route], ['Intervalo', entry.interval], ['Duração', entry.duration], ['Quantidade', entry.amount], ['Dispensar', entry.quantity], ['Não usar / contraindicações', entry.contraindications], ['Limite da evidência', entry.evidence]].filter(([, text]) => text);
           if (details.length) {
             const detailLine = document.createElement('p');
             detailLine.textContent = details.map(([label, text]) => `${label}: ${text}`).join(' · ');
