@@ -1,10 +1,12 @@
 # PedDose | Plano de cuidado pediátrico
 
-Aplicação estática em português para organizar um rascunho de prescrição domiciliar e orientações à família. O formulário reúne dados da criança, peso, diagnóstico, alergias confirmadas, esquema medicamentoso digitado pelo profissional, cuidados em casa, sinais de alarme, retorno e identificação do prescritor.
+Aplicação estática em português para organizar um rascunho de prescrição domiciliar e orientações à família. O formulário reúne dados da criança, peso, diagnóstico, alergias confirmadas, medicamento e apresentação digitados pelo profissional, cuidados em casa, evolução esperada, sinais de alarme, critérios de retorno e identificação do prescritor.
 
 ## Segurança clínica
 
 - A aplicação não diagnostica, calcula doses nem recomenda medicamentos. Cada esquema deve ser definido e conferido por profissional habilitado.
+- O índice permite buscar os 142 títulos diagnósticos documentados; seus campos de evolução, sinais de alarme e retorno são preenchidos pelo profissional para cada atendimento, não gerados a partir apenas do título.
+- Os seletores separados de apresentação e posologia permanecem bloqueados até haver opções vinculadas à indicação, população, apresentação compatível, fonte e auditoria clínica exigida pela governança v62. O acervo publicado ainda não contém opções operacionais aprovadas.
 - O documento gerado é um rascunho para revisão e assinatura; não substitui avaliação clínica nem receituário sujeito a exigências legais.
 - A biblioteca mostra nomes, fichas, páginas e sinalizações documentais do catálogo mestre. Não disponibiliza o texto integral das monografias como conduta nem habilita seleção ou prescrição automática.
 - O catálogo mestre registra 498 monografias, 1.263 linhas de esquemas, 992 linhas apoiadas, 262 restrições e 9 lacunas de validação, conforme os metadados da fonte. O próprio acervo informa que não houve validação clínica humana independente.

@@ -141,7 +141,7 @@
           <div class="field"><label for="guardian">Responsável legal</label><input id="guardian" maxlength="120" placeholder="Nome do responsável" required></div>
           <div class="field"><label for="age">Idade</label><input id="age" maxlength="50" placeholder="Ex.: 2 anos e 3 meses" required></div>
           <div class="field"><label for="weight">Peso aferido</label><div class="unit"><input id="weight" type="number" min="0.1" max="250" step="0.01" inputmode="decimal" placeholder="Ex.: 14,5" required><span>kg</span></div></div>
-          <div class="field full"><label for="diagnosis">Diagnóstico / hipótese clínica</label><input id="diagnosis" maxlength="200" placeholder="Conforme avaliação clínica" required></div>
+          <div class="field full"><label for="diagnosis">Diagnóstico / hipótese clínica</label><input id="diagnosis" list="diagnosis-options" maxlength="200" placeholder="Busque no índice ou registre conforme avaliação" required><datalist id="diagnosis-options"></datalist></div>
           <div class="field full"><label for="allergies">Alergias e reações medicamentosas</label><select id="allergies" required><option value="" disabled selected>Confirme com o responsável</option><option value="none">Sem alergias conhecidas, confirmado</option><option value="known">Alergia ou reação conhecida</option><option value="unknown">Informação não confirmada</option></select></div>
           <div class="field full" id="allergy-detail-field" hidden><label for="allergy-detail">Substância e reação</label><input id="allergy-detail" maxlength="240" placeholder="Descreva a reação referida"></div>
         </div>
@@ -155,7 +155,9 @@
           <div class="group-head"><div><h3 id="home-title">03 / Plano para casa</h3><p>Combine cuidados, sinais de alarme e acompanhamento com a família.</p></div></div>
           <div class="fields">
             <div class="field full"><label for="care">Cuidados e orientações em casa</label><textarea id="care" maxlength="1500" placeholder="Orientações individualizadas definidas na consulta" required></textarea></div>
-            <div class="field full"><label for="warning-signs">Sinais de alarme e conduta</label><textarea id="warning-signs" maxlength="1000" placeholder="Quando e onde procurar atendimento" required></textarea></div>
+            <div class="field full"><label for="expected-evolution">Evolução clínica esperada</label><textarea id="expected-evolution" maxlength="1000" placeholder="Previsão individualizada, definida pelo prescritor" required></textarea></div>
+            <div class="field full"><label for="warning-signs">Sinais de alarme e conduta</label><textarea id="warning-signs" maxlength="1000" placeholder="Sinais individualizados para este diagnóstico" required></textarea></div>
+            <div class="field full"><label for="return-if">Retornar ao ponto de atendimento se</label><textarea id="return-if" maxlength="1000" placeholder="Critérios e prazo de retorno específicos deste caso" required></textarea></div>
             <div class="field"><label for="follow-up">Retorno / acompanhamento</label><input id="follow-up" maxlength="180" placeholder="Prazo ou serviço de referência" required></div>
             <div class="field"><label for="clinician">Profissional prescritor</label><input id="clinician" maxlength="120" placeholder="Nome completo" required></div>
             <div class="field"><label for="license">CRM / UF</label><input id="license" maxlength="40" placeholder="Registro profissional" required></div>
@@ -179,7 +181,9 @@
         <div class="rx-body">
           <section class="rx-block"><h3>Medicamentos prescritos</h3><div id="out-medications" class="rx-placeholder">Aguardando esquema definido pelo profissional.</div></section>
           <section class="rx-block"><h3>Cuidados em casa</h3><p id="out-care" class="rx-copy">—</p></section>
+          <section class="rx-block"><h3>Evolução clínica esperada</h3><p id="out-expected-evolution" class="rx-copy">—</p></section>
           <section class="rx-block"><h3>Sinais de alarme</h3><p id="out-warning-signs" class="rx-copy">—</p></section>
+          <section class="rx-block"><h3>Retornar ao ponto de atendimento se</h3><p id="out-return-if" class="rx-copy">—</p></section>
           <section class="rx-block"><h3>Retorno / acompanhamento</h3><p id="out-follow-up" class="rx-copy">—</p></section>
           <div class="rx-foot"><span>Consulta: <strong id="out-date">—</strong></span><span>Rascunho para revisão e assinatura</span></div>
           <div class="signature"><div class="signature-line"></div><strong id="out-clinician">Assinatura do profissional</strong><span id="out-license">CRM / UF</span></div>
@@ -201,7 +205,11 @@
   <template id="medication-template">
     <fieldset class="med-card"><legend>Medicamento</legend><button class="remove-button" type="button" aria-label="Remover medicamento">Remover</button>
       <div class="med-grid">
-        <div class="field full"><label>Medicamento, apresentação e concentração</label><input data-field="name" maxlength="180" placeholder="Conforme apresentação conferida"></div>
+        <div class="field full"><label>Medicamento</label><input data-field="name" maxlength="180" placeholder="Nome conferido pelo prescritor"></div>
+        <div class="field"><label>Apresentação aprovada</label><select data-option="presentation" aria-label="Selecionar apresentação validada" disabled><option value="">Sem apresentações liberadas para seleção</option></select></div>
+        <div class="field"><label>Posologia aprovada</label><select data-option="regimen" aria-label="Selecionar posologia validada" disabled><option value="">Sem posologias liberadas para seleção</option></select></div>
+        <p class="privacy full">Seletores automáticos aguardam apresentação e posologia vinculadas ao diagnóstico e aprovadas na auditoria clínica.</p>
+        <div class="field full"><label>Apresentação e concentração conferidas</label><input data-field="presentation" maxlength="180" placeholder="Conforme embalagem disponível"></div>
         <div class="field"><label>Dose por administração</label><input data-field="dose" maxlength="100" placeholder="Dose prescrita"></div>
         <div class="field"><label>Via de administração</label><input data-field="route" maxlength="60" placeholder="Via prescrita"></div>
         <div class="field"><label>Intervalo / frequência</label><input data-field="interval" maxlength="100" placeholder="Frequência prescrita"></div>
@@ -263,7 +271,7 @@
           const name = document.createElement('strong');
           name.textContent = entry.name;
           item.append(name);
-          const details = [['Dose', entry.dose], ['Via', entry.route], ['Intervalo', entry.interval], ['Duração', entry.duration], ['Dispensar', entry.quantity], ['Uso', entry.use]].filter(([, text]) => text);
+          const details = [['Apresentação', entry.presentation], ['Dose', entry.dose], ['Via', entry.route], ['Intervalo', entry.interval], ['Duração', entry.duration], ['Dispensar', entry.quantity], ['Uso', entry.use]].filter(([, text]) => text);
           if (details.length) {
             const detailLine = document.createElement('p');
             detailLine.textContent = details.map(([label, text]) => `${label}: ${text}`).join(' · ');
@@ -311,7 +319,9 @@
         setText('out-diagnosis', value('diagnosis'));
         setText('out-allergies', allergyText);
         setText('out-care', value('care'));
+        setText('out-expected-evolution', value('expected-evolution'));
         setText('out-warning-signs', value('warning-signs'));
+        setText('out-return-if', value('return-if'));
         setText('out-follow-up', value('follow-up'));
         setText('out-clinician', value('clinician'));
         setText('out-license', value('license'));
@@ -347,7 +357,7 @@
           medicationList.replaceChildren();
           byId('allergy-detail-field').hidden = true;
           byId('draft-state').textContent = 'Aguardando preenchimento';
-          ['out-name','out-guardian','out-age','out-weight','out-diagnosis','out-allergies','out-care','out-warning-signs','out-follow-up','out-clinician','out-license','out-date'].forEach((id) => setText(id, '—'));
+          ['out-name','out-guardian','out-age','out-weight','out-diagnosis','out-allergies','out-care','out-expected-evolution','out-warning-signs','out-return-if','out-follow-up','out-clinician','out-license','out-date'].forEach((id) => setText(id, '—'));
           byId('out-medications').className = 'rx-placeholder';
           byId('out-medications').textContent = 'Aguardando esquema definido pelo profissional.';
           byId('print').disabled = true;
@@ -445,6 +455,13 @@
           catalog = catalogData.medications;
           diagnoses = diagnosesData.diagnoses;
           sources = sourceData.groups;
+          const diagnosisOptions = byId('diagnosis-options');
+          diagnoses.forEach((entry) => {
+            const option = document.createElement('option');
+            option.value = entry.name;
+            option.label = `Diagnóstico ${String(entry.number).padStart(3, '0')} · ${entry.module}`;
+            diagnosisOptions.append(option);
+          });
           byId('catalog-count').textContent = `${catalog.length} medicamentos · ${diagnoses.length} diagnósticos · ${sourceData.attachment_count} anexos · ${sourceData.unique_content_count} conteúdos únicos`;
           const categories = [...new Set(sources.flatMap((group) => group.categories))].sort((first, second) => first.localeCompare(second, 'pt-BR'));
           categories.forEach((category) => {
