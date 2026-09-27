@@ -125,7 +125,7 @@
   <main class="shell" id="inicio">
     <header>
       <a class="brand" href="#inicio" aria-label="PedDose, início"><span class="mark" aria-hidden="true">+</span><span>ped<span>dose</span></span></a>
-      <nav aria-label="Navegação principal"><a href="#gerador">Receita</a><a href="#biblioteca">Biblioteca</a><a href="#seguranca">Segurança</a></nav>
+      <nav aria-label="Navegação principal"><a href="#gerador">Receita</a><a href="#seguranca">Segurança</a></nav>
       <span class="status">Apoio clínico</span>
     </header>
     <section class="hero">
@@ -137,13 +137,9 @@
       <form class="panel form-panel" id="prescription-form">
         <div class="panel-title"><div><p class="step">01 / Avaliação</p><h2>Dados da consulta</h2></div></div>
         <div class="fields">
-          <div class="field"><label for="name">Nome da criança</label><input id="name" maxlength="120" autocomplete="name" placeholder="Nome completo" required></div>
-          <div class="field"><label for="guardian">Responsável legal</label><input id="guardian" maxlength="120" placeholder="Nome do responsável" required></div>
           <div class="field"><label for="age">Idade</label><input id="age" maxlength="50" placeholder="Ex.: 2 anos e 3 meses" required></div>
           <div class="field"><label for="weight">Peso aferido</label><div class="unit"><input id="weight" type="number" min="0.1" max="250" step="0.01" inputmode="decimal" placeholder="Ex.: 14,5" required><span>kg</span></div></div>
           <div class="field full"><label for="diagnosis">Diagnóstico / hipótese clínica</label><input id="diagnosis" list="diagnosis-options" maxlength="200" placeholder="Busque no índice ou registre conforme avaliação" required><datalist id="diagnosis-options"></datalist></div>
-          <div class="field full"><label for="allergies">Alergias e reações medicamentosas</label><select id="allergies" required><option value="" disabled selected>Confirme com o responsável</option><option value="none">Sem alergias conhecidas, confirmado</option><option value="known">Alergia ou reação conhecida</option><option value="unknown">Informação não confirmada</option></select></div>
-          <div class="field full" id="allergy-detail-field" hidden><label for="allergy-detail">Substância e reação</label><input id="allergy-detail" maxlength="240" placeholder="Descreva a reação referida"></div>
         </div>
 
         <section class="group" aria-labelledby="medications-title">
@@ -158,46 +154,24 @@
             <div class="field full"><label for="expected-evolution">Evolução clínica esperada</label><textarea id="expected-evolution" maxlength="1000" placeholder="Previsão individualizada, definida pelo prescritor" required></textarea></div>
             <div class="field full"><label for="warning-signs">Sinais de alarme e conduta</label><textarea id="warning-signs" maxlength="1000" placeholder="Sinais individualizados para este diagnóstico" required></textarea></div>
             <div class="field full"><label for="return-if">Retornar ao ponto de atendimento se</label><textarea id="return-if" maxlength="1000" placeholder="Critérios e prazo de retorno específicos deste caso" required></textarea></div>
-            <div class="field"><label for="follow-up">Retorno / acompanhamento</label><input id="follow-up" maxlength="180" placeholder="Prazo ou serviço de referência" required></div>
-            <div class="field"><label for="clinician">Profissional prescritor</label><input id="clinician" maxlength="120" placeholder="Nome completo" required></div>
-            <div class="field"><label for="license">CRM / UF</label><input id="license" maxlength="40" placeholder="Registro profissional" required></div>
-            <div class="field"><label for="issue-date">Data da consulta</label><input id="issue-date" type="date" required></div>
           </div>
         </section>
-        <div class="safety" id="seguranca"><strong>Revisão profissional obrigatória.</strong> Confirme criança, peso, alergias, indicação, apresentação, dose, via, intervalo, duração e quantidade. O documento é um rascunho e não substitui avaliação, assinatura nem receituário legalmente exigido.</div>
+        <div class="safety" id="seguranca"><strong>Revisão profissional obrigatória.</strong> Antes de orientar a família, confira indicação, alergias, contraindicações, apresentação, dose, via, intervalo, duração e quantidade. Este rascunho não substitui avaliação clínica nem receituário legalmente exigido.</div>
         <p class="privacy">Os dados do paciente permanecem nesta página aberta. Não são transmitidos nem armazenados pelo site.</p>
         <div class="actions"><button class="primary" type="submit">Preparar rascunho para revisão</button><button class="secondary" id="clear" type="reset">Limpar</button></div>
         <p class="sr-only" id="form-status" role="status" aria-live="polite"></p>
       </form>
 
-      <article class="panel prescription" id="prescription" aria-labelledby="preview-title">
-        <div class="pres-head"><small>PedDose · documento de consulta</small><h2 id="preview-title">Plano de cuidado pediátrico</h2><span class="draft-state" id="draft-state">Aguardando preenchimento</span></div>
-        <div class="patient">
-          <div><span>Criança</span><strong id="out-name">—</strong></div><div><span>Responsável</span><strong id="out-guardian">—</strong></div>
-          <div><span>Idade</span><strong id="out-age">—</strong></div><div><span>Peso aferido</span><strong id="out-weight">—</strong></div>
-          <div class="wide"><span>Diagnóstico / hipótese</span><strong id="out-diagnosis">—</strong></div>
-          <div class="wide"><span>Alergias / reações</span><strong id="out-allergies">—</strong></div>
-        </div>
+      <article class="panel prescription" id="prescription" aria-label="Rascunho da receita">
         <div class="rx-body">
           <section class="rx-block"><h3>Medicamentos prescritos</h3><div id="out-medications" class="rx-placeholder">Aguardando esquema definido pelo profissional.</div></section>
           <section class="rx-block"><h3>Cuidados em casa</h3><p id="out-care" class="rx-copy">—</p></section>
           <section class="rx-block"><h3>Evolução clínica esperada</h3><p id="out-expected-evolution" class="rx-copy">—</p></section>
           <section class="rx-block"><h3>Sinais de alarme</h3><p id="out-warning-signs" class="rx-copy">—</p></section>
           <section class="rx-block"><h3>Retornar ao ponto de atendimento se</h3><p id="out-return-if" class="rx-copy">—</p></section>
-          <section class="rx-block"><h3>Retorno / acompanhamento</h3><p id="out-follow-up" class="rx-copy">—</p></section>
-          <div class="rx-foot"><span>Consulta: <strong id="out-date">—</strong></span><span>Rascunho para revisão e assinatura</span></div>
-          <div class="signature"><div class="signature-line"></div><strong id="out-clinician">Assinatura do profissional</strong><span id="out-license">CRM / UF</span></div>
           <button class="secondary print-action" id="print" type="button" disabled>Imprimir rascunho</button>
         </div>
       </article>
-    </section>
-
-    <section class="library" id="biblioteca" aria-labelledby="library-title">
-      <div class="library-heading"><div><p class="step">04 / Consulta de fontes</p><h2 id="library-title">Biblioteca documental</h2><p>Índice do catálogo posológico e inventário rastreável dos anexos. Os registros são referências para conferência; não constituem recomendações terapêuticas nem esquemas selecionáveis.</p></div><span class="library-count" id="catalog-count">Carregando índice…</span></div>
-      <div class="library-search"><input id="catalog-search" type="search" placeholder="Buscar medicamento pelo nome" aria-label="Buscar na biblioteca documental" disabled><select id="catalog-type" aria-label="Tipo de registro"><option value="medications">Medicamentos · 498</option><option value="diagnoses">Diagnósticos · 142</option></select></div>
-      <div class="results" id="catalog-results" aria-live="polite"><div class="empty">Carregando referências documentais…</div></div>
-      <details class="sources"><summary id="sources-summary">Fontes e versões do acervo</summary><div class="library-search"><select id="source-filter" aria-label="Filtrar fontes por categoria" disabled><option value="">Todas as fontes</option></select></div><div class="source-list" id="source-list"><div class="empty">Carregando inventário de proveniência…</div></div></details>
-      <p class="privacy">Proveniência baseada em nomes de arquivos e SHA-256. Arquivos de hash igual foram agrupados como cópias, não como validações independentes. Documentos e textos integrais não são exibidos nesta biblioteca.</p>
     </section>
     <footer class="footer"><span>PedDose · apoio à documentação clínica pediátrica</span><span>Não substitui avaliação, decisão clínica ou prescrição profissional.</span></footer>
   </main>
@@ -205,11 +179,9 @@
   <template id="medication-template">
     <fieldset class="med-card"><legend>Medicamento</legend><button class="remove-button" type="button" aria-label="Remover medicamento">Remover</button>
       <div class="med-grid">
+        <div class="field full"><label>Grupo terapêutico</label><select data-field="category"><option value="">Selecione o grupo</option><option>Tratamento etiológico</option><option>Tratamento de suporte</option><option>Tratamento suplementar</option><option>Tratamento sintomático off-label (requer justificativa)</option><option>Antitérmico / analgésico</option></select></div>
         <div class="field full"><label>Medicamento</label><input data-field="name" maxlength="180" placeholder="Nome conferido pelo prescritor"></div>
-        <div class="field"><label>Apresentação aprovada</label><select data-option="presentation" aria-label="Selecionar apresentação validada" disabled><option value="">Sem apresentações liberadas para seleção</option></select></div>
-        <div class="field"><label>Posologia aprovada</label><select data-option="regimen" aria-label="Selecionar posologia validada" disabled><option value="">Sem posologias liberadas para seleção</option></select></div>
-        <p class="privacy full">Seletores automáticos aguardam apresentação e posologia vinculadas ao diagnóstico e aprovadas na auditoria clínica.</p>
-        <div class="field full"><label>Apresentação e concentração conferidas</label><input data-field="presentation" maxlength="180" placeholder="Conforme embalagem disponível"></div>
+        <div class="field full"><label>Apresentação e concentração</label><input data-field="presentation" maxlength="180" placeholder="Preencher após conferir a embalagem"></div>
         <div class="field"><label>Dose por administração</label><input data-field="dose" maxlength="100" placeholder="Dose prescrita"></div>
         <div class="field"><label>Via de administração</label><input data-field="route" maxlength="60" placeholder="Via prescrita"></div>
         <div class="field"><label>Intervalo / frequência</label><input data-field="interval" maxlength="100" placeholder="Frequência prescrita"></div>
@@ -271,7 +243,7 @@
           const name = document.createElement('strong');
           name.textContent = entry.name;
           item.append(name);
-          const details = [['Apresentação', entry.presentation], ['Dose', entry.dose], ['Via', entry.route], ['Intervalo', entry.interval], ['Duração', entry.duration], ['Dispensar', entry.quantity], ['Uso', entry.use]].filter(([, text]) => text);
+          const details = [['Grupo', entry.category], ['Apresentação', entry.presentation], ['Dose', entry.dose], ['Via', entry.route], ['Intervalo', entry.interval], ['Duração', entry.duration], ['Dispensar', entry.quantity], ['Uso', entry.use]].filter(([, text]) => text);
           if (details.length) {
             const detailLine = document.createElement('p');
             detailLine.textContent = details.map(([label, text]) => `${label}: ${text}`).join(' · ');
@@ -291,18 +263,6 @@
         refreshMedicationValidation();
         if (!form.reportValidity()) return;
 
-        const allergyMode = value('allergies');
-        const allergyDetail = value('allergy-detail');
-        if (allergyMode === 'unknown') {
-          status.textContent = 'Confirme as alergias e reações com o responsável antes de preparar a receita.';
-          byId('allergies').focus();
-          return;
-        }
-        if (allergyMode === 'known' && !allergyDetail) {
-          byId('allergy-detail').required = true;
-          byId('allergy-detail').reportValidity();
-          return;
-        }
         const weight = Number(value('weight'));
         if (!Number.isFinite(weight) || weight <= 0 || weight > 250) {
           byId('weight').setCustomValidity('Informe um peso aferido válido em kg.');
@@ -311,23 +271,11 @@
           return;
         }
 
-        const allergyText = allergyMode === 'none' ? 'Sem alergias conhecidas, confirmado' : `Alergia ou reação conhecida: ${allergyDetail}`;
-        setText('out-name', value('name'));
-        setText('out-guardian', value('guardian'));
-        setText('out-age', value('age'));
-        setText('out-weight', `${weight.toLocaleString('pt-BR')} kg`);
-        setText('out-diagnosis', value('diagnosis'));
-        setText('out-allergies', allergyText);
         setText('out-care', value('care'));
         setText('out-expected-evolution', value('expected-evolution'));
         setText('out-warning-signs', value('warning-signs'));
         setText('out-return-if', value('return-if'));
-        setText('out-follow-up', value('follow-up'));
-        setText('out-clinician', value('clinician'));
-        setText('out-license', value('license'));
-        setText('out-date', new Intl.DateTimeFormat('pt-BR').format(new Date(`${value('issue-date')}T12:00:00`)));
         renderMedications();
-        byId('draft-state').textContent = 'Rascunho · revisar e assinar';
         byId('print').disabled = false;
         status.textContent = 'Prévia atualizada. Confira o documento antes de imprimir ou emitir.';
         byId('prescription').scrollIntoView({ behavior:'smooth', block:'start' });
@@ -339,122 +287,33 @@
         const remove = event.target.closest('.remove-button');
         if (remove) remove.closest('.med-card').remove();
       });
-      byId('allergies').addEventListener('change', () => {
-        const showDetail = value('allergies') === 'known';
-        byId('allergy-detail-field').hidden = !showDetail;
-        byId('allergy-detail').required = showDetail;
-        if (!showDetail) byId('allergy-detail').value = '';
-      });
       form.addEventListener('input', () => {
         if (byId('print').disabled) return;
         byId('print').disabled = true;
-        byId('draft-state').textContent = 'Dados alterados · gerar novamente';
         status.textContent = 'Os dados foram alterados. Prepare novamente e revise a prévia antes de imprimir.';
       });
       form.addEventListener('submit', renderPreview);
       form.addEventListener('reset', () => {
         window.setTimeout(() => {
           medicationList.replaceChildren();
-          byId('allergy-detail-field').hidden = true;
-          byId('draft-state').textContent = 'Aguardando preenchimento';
-          ['out-name','out-guardian','out-age','out-weight','out-diagnosis','out-allergies','out-care','out-expected-evolution','out-warning-signs','out-return-if','out-follow-up','out-clinician','out-license','out-date'].forEach((id) => setText(id, '—'));
+          ['out-care','out-expected-evolution','out-warning-signs','out-return-if'].forEach((id) => setText(id, '—'));
           byId('out-medications').className = 'rx-placeholder';
           byId('out-medications').textContent = 'Aguardando esquema definido pelo profissional.';
           byId('print').disabled = true;
-          const currentDate = new Date();
-          byId('issue-date').value = `${currentDate.getFullYear()}-${String(currentDate.getMonth() + 1).padStart(2, '0')}-${String(currentDate.getDate()).padStart(2, '0')}`;
           status.textContent = 'Formulário limpo.';
           addMedication();
         });
       });
-      const today = new Date();
-      byId('issue-date').value = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
       byId('print').addEventListener('click', () => window.print());
       addMedication();
 
-      const catalogSearch = byId('catalog-search');
-      const catalogType = byId('catalog-type');
-      const sourceFilter = byId('source-filter');
-      const catalogResults = byId('catalog-results');
-      let catalog = [];
       let diagnoses = [];
-      let sources = [];
-
-      function renderCatalog() {
-        const query = catalogSearch.value.trim().toLocaleLowerCase('pt-BR');
-        const records = catalogType.value === 'diagnoses' ? diagnoses : catalog;
-        const matches = records.filter((entry) => !query || entry.name.toLocaleLowerCase('pt-BR').includes(query)).slice(0, 20);
-        catalogResults.replaceChildren();
-        if (!matches.length) {
-          const empty = document.createElement('div');
-          empty.className = 'empty';
-          empty.textContent = 'Nenhum registro encontrado. Tente outro nome.';
-          catalogResults.append(empty);
-          return;
-        }
-        matches.forEach((entry) => {
-          const result = document.createElement('article');
-          result.className = 'result';
-          const content = document.createElement('div');
-          const name = document.createElement('strong');
-          name.textContent = entry.name;
-          content.append(name);
-          const note = document.createElement('p');
-          const isDiagnosis = catalogType.value === 'diagnoses';
-          if (isDiagnosis) {
-            note.textContent = `${entry.module}. Título indexado; sem protocolo, tratamento ou encaminhamento automático.`;
-          } else {
-            const flags = entry.document_flags.length ? `Sinalizações documentais: ${entry.document_flags.join(', ')}.` : 'Conferir o esquema e as restrições na fonte original.';
-            note.textContent = `${flags} Apenas referência; sem posologia automática.`;
-          }
-          content.append(note);
-          const page = document.createElement('small');
-          page.textContent = isDiagnosis ? `Diagnóstico ${String(entry.number).padStart(3, '0')}` : `Ficha ${entry.fiche} · pág. ${entry.source_page}`;
-          result.append(content, page);
-          catalogResults.append(result);
-        });
-        if (records.filter((entry) => !query || entry.name.toLocaleLowerCase('pt-BR').includes(query)).length > matches.length) {
-          const limit = document.createElement('p');
-          limit.className = 'privacy';
-          limit.textContent = 'Exibindo os primeiros 20 resultados. Refine a busca.';
-          catalogResults.append(limit);
-        }
-      }
-
-      function renderSources() {
-        const selectedCategory = sourceFilter.value;
-        const visible = sources.filter((group) => !selectedCategory || group.categories.includes(selectedCategory));
-        const sourceList = byId('source-list');
-        sourceList.replaceChildren();
-        if (!visible.length) {
-          const empty = document.createElement('div');
-          empty.className = 'empty';
-          empty.textContent = 'Nenhum grupo de fontes nesta categoria.';
-          sourceList.append(empty);
-          return;
-        }
-        visible.forEach((group) => {
-          const item = document.createElement('article');
-          item.className = 'source-group';
-          const heading = document.createElement('strong');
-          heading.textContent = `${group.categories.join(' · ')} · ${group.files.length} arquivo${group.files.length === 1 ? '' : 's'}${group.files.length > 1 ? ' (cópias exatas)' : ''}`;
-          const files = document.createElement('p');
-          files.textContent = group.files.join(' · ');
-          const digest = document.createElement('p');
-          digest.textContent = `SHA-256: ${group.sha256}`;
-          item.append(heading, files, digest);
-          sourceList.append(item);
-        });
-      }
-
-      async function loadReferenceData() {
+      async function loadDiagnosisOptions() {
         try {
-          const [catalogResponse, diagnosesResponse, sourcesResponse] = await Promise.all([fetch('./public-data/catalog.json'), fetch('./public-data/diagnoses.json'), fetch('./public-data/sources.json')]);
-          if (!catalogResponse.ok || !diagnosesResponse.ok || !sourcesResponse.ok) throw new Error('Índices indisponíveis');
-          const [catalogData, diagnosesData, sourceData] = await Promise.all([catalogResponse.json(), diagnosesResponse.json(), sourcesResponse.json()]);
-          catalog = catalogData.medications;
+          const response = await fetch('./public-data/diagnoses.json');
+          if (!response.ok) throw new Error('Índice de diagnósticos indisponível');
+          const diagnosesData = await response.json();
           diagnoses = diagnosesData.diagnoses;
-          sources = sourceData.groups;
           const diagnosisOptions = byId('diagnosis-options');
           diagnoses.forEach((entry) => {
             const option = document.createElement('option');
@@ -462,39 +321,12 @@
             option.label = `Diagnóstico ${String(entry.number).padStart(3, '0')} · ${entry.module}`;
             diagnosisOptions.append(option);
           });
-          byId('catalog-count').textContent = `${catalog.length} medicamentos · ${diagnoses.length} diagnósticos · ${sourceData.attachment_count} anexos · ${sourceData.unique_content_count} conteúdos únicos`;
-          const categories = [...new Set(sources.flatMap((group) => group.categories))].sort((first, second) => first.localeCompare(second, 'pt-BR'));
-          categories.forEach((category) => {
-            const option = document.createElement('option');
-            option.value = category;
-            option.textContent = category;
-            sourceFilter.append(option);
-          });
-          catalogSearch.disabled = false;
-          sourceFilter.disabled = false;
-          catalogType.disabled = false;
-          byId('sources-summary').textContent = `Fontes e versões · ${sourceData.unique_content_count} grupos de conteúdo`;
-          renderCatalog();
-          renderSources();
         } catch (error) {
-          byId('catalog-count').textContent = 'Índice indisponível';
-          catalogResults.replaceChildren();
-          const message = document.createElement('div');
-          message.className = 'empty';
-          message.textContent = 'A biblioteca documental não pôde ser carregada. O gerador de rascunho continua disponível.';
-          catalogResults.append(message);
-          byId('source-list').replaceChildren(message.cloneNode(true));
+          status.textContent = 'O índice de diagnósticos não carregou; você ainda pode informar o diagnóstico manualmente.';
         }
       }
 
-      catalogSearch.addEventListener('input', renderCatalog);
-      catalogType.addEventListener('change', () => {
-        catalogSearch.placeholder = catalogType.value === 'diagnoses' ? 'Buscar diagnóstico pelo nome' : 'Buscar medicamento pelo nome';
-        catalogSearch.value = '';
-        renderCatalog();
-      });
-      sourceFilter.addEventListener('change', renderSources);
-      loadReferenceData();
+      loadDiagnosisOptions();
     })();
   </script>
 </body>
