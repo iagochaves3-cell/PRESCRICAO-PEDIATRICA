@@ -183,7 +183,7 @@
         <section class="clinical-evidence" id="clinical-evidence" hidden aria-labelledby="evidence-title">
           <div class="group-head"><div><h3 id="evidence-title">Referências clínicas para este diagnóstico</h3><p id="evidence-jurisdiction"></p></div><span class="med-badge">DOCUMENTAL</span></div>
           <p class="evidence-warning" id="evidence-warning"></p>
-          <p class="evidence-intro">Os itens abaixo reproduzem informação da fonte indicada e entram automaticamente na fila de resolução científica. Enquanto indicação, população, posologia operacional, apresentação aplicável e auditoria tripla não estiverem completas, os seletores permanecem desativados por segurança — sem exigir que o prescritor preencha a lacuna manualmente.</p>
+          <p class="evidence-intro">Esquemas com reconciliação clínica, apresentação aplicável e auditoria de dose concluídas ficam selecionáveis e alimentam o receituário com cálculo pelo peso. Itens ainda apenas documentais permanecem desativados por segurança.</p>
           <ul class="evidence-findings" id="evidence-findings"></ul>
           <div class="med-subheading" style="margin:14px 0 9px">Esquemas publicados pela fonte</div>
           <div class="evidence-list" id="evidence-regimens"></div>
@@ -306,13 +306,74 @@
         statusBox.innerHTML = `<strong>${state}${fiche}</strong>${message}`;
       }
 
-      function addMedication() {
+      function addMedication({ focus = true } = {}) {
         medicationList.append(template.content.cloneNode(true));
         const card = medicationList.lastElementChild;
         card.querySelector('[data-selected]').addEventListener('change', refreshMedicationValidation);
         card.querySelector('[data-field="category"]').addEventListener('change', refreshMedicationValidation);
         card.querySelector('[data-field="name"]').addEventListener('input', () => updateMedicationResearchState(card));
-        card.querySelector('[data-field="name"]').focus();
+        if (focus) card.querySelector('[data-field="name"]').focus();
+        return card;
+      }
+
+      function formatNumber(value, decimals = 2) {
+        return Number(value.toFixed(decimals)).toLocaleString('pt-BR', { maximumFractionDigits: decimals });
+      }
+
+      function populateMedicationFromEvidence(regimen, presentation, evidenceKey) {
+        const weight = Number(value('weight'));
+        if (!Number.isFinite(weight) || weight <= 0 || weight > 250) {
+          byId('weight').setCustomValidity('Informe um peso aferido válido em kg antes de selecionar o esquema.');
+          byId('weight').reportValidity();
+          byId('weight').setCustomValidity('');
+          return false;
+        }
+
+        medicationCards().filter((card) => card.dataset.evidenceKey === evidenceKey).forEach((card) => card.remove());
+        const card = addMedication({ focus:false });
+        card.dataset.evidenceKey = evidenceKey;
+        const set = (field, text) => { card.querySelector(`[data-field="${field}"]`).value = text || ''; };
+        card.querySelector('[data-selected]').checked = true;
+        set('category', 'Tratamento etiológico');
+        set('name', regimen.medication);
+        set('indication', 'Faringoamigdalite estreptocócica confirmada; esquema reconciliado com fontes rastreáveis.');
+
+        if (regimen.medication === 'Amoxicilina oral') {
+          const mgPerDose = Math.min(weight * 25, 500);
+          const concentration = Number(presentation?.concentration_mg_ml);
+          const mlPerDose = mgPerDose / concentration;
+          const totalMl = mlPerDose * 2 * 10;
+          set('presentation', presentation?.label || regimen.presentation);
+          set('dose', `${formatNumber(mgPerDose)} mg por dose (${formatNumber(mlPerDose)} mL por dose)`);
+          set('route', 'VO');
+          set('interval', '12/12 h');
+          set('duration', '10 dias');
+          set('amount', `${formatNumber(mlPerDose)} mL por dose`);
+          set('quantity', `Volume calculado para 10 dias: ${formatNumber(totalMl, 1)} mL; dispensar frasco(s) suficiente(s)`);
+          set('instructions', 'Agitar a suspensão antes de cada dose; medir com seringa dosadora.');
+          set('contraindications', 'Não usar em história de hipersensibilidade relevante a amoxicilina/penicilinas; revisar alergia imediata a betalactâmicos.');
+          set('evidence', '25 mg/kg/dose 12/12 h por 10 dias; máximo 500 mg/dose. Volume calculado pela concentração selecionada.');
+        } else if (regimen.medication === 'Benzilpenicilina benzatina intramuscular') {
+          const units = weight < 27 ? 600000 : 1200000;
+          const label = units === 600000 ? 'Frasco-ampola 600.000 UI' : 'Frasco-ampola 1.200.000 UI';
+          set('presentation', label);
+          set('dose', `${units.toLocaleString('pt-BR')} UI, dose única`);
+          set('route', 'IM');
+          set('interval', 'Dose única');
+          set('duration', 'Dose única');
+          set('amount', '1 frasco-ampola correspondente à dose; volume em mL depende da reconstituição/concentração final do produto utilizado');
+          set('quantity', '1 frasco-ampola');
+          set('instructions', 'Administração intramuscular por profissional habilitado. Não administrar por via intravenosa.');
+          set('contraindications', 'Contraindicada em hipersensibilidade a penicilinas; avaliar risco de reação imediata.');
+          set('evidence', '600.000 UI se <27 kg; 1.200.000 UI se ≥27 kg. Não converter UI em mL sem conferir o produto reconstituído.');
+        } else {
+          card.remove();
+          return false;
+        }
+
+        refreshMedicationValidation();
+        updateMedicationResearchState(card);
+        return true;
       }
 
       function renderMedications() {
@@ -437,16 +498,53 @@
           heading.className = 'evidence-card-head';
           const checkbox = document.createElement('input');
           checkbox.type = 'checkbox';
-          checkbox.disabled = true;
-          checkbox.setAttribute('aria-label', 'Referencia documental nao selecionavel');
+          checkbox.disabled = !regimen.operational;
+          checkbox.setAttribute('aria-label', regimen.operational ? 'Selecionar esquema validado' : 'Referencia documental nao selecionavel');
           const name = document.createElement('strong');
           name.textContent = regimen.medication;
           heading.append(checkbox, name);
           card.append(category, heading);
+
+          let presentationSelect = null;
+          if (regimen.operational && Array.isArray(regimen.presentations) && regimen.presentations.length) {
+            presentationSelect = document.createElement('select');
+            presentationSelect.setAttribute('aria-label', 'Escolha a apresentação');
+            regimen.presentations.forEach((presentation, index) => {
+              const option = document.createElement('option');
+              option.value = String(index);
+              option.textContent = presentation.label;
+              presentationSelect.append(option);
+            });
+            if (regimen.medication === 'Benzilpenicilina benzatina intramuscular') {
+              const weight = Number(value('weight'));
+              if (Number.isFinite(weight) && weight >= 27) presentationSelect.value = '1';
+            }
+            card.append(presentationSelect);
+          }
+
+          if (regimen.operational) {
+            const evidenceKey = `${record.id}::${regimen.medication}::${regimen.dose}`;
+            checkbox.addEventListener('change', () => {
+              if (!checkbox.checked) {
+                medicationCards().filter((medCard) => medCard.dataset.evidenceKey === evidenceKey).forEach((medCard) => medCard.remove());
+                refreshMedicationValidation();
+                return;
+              }
+              const presentation = presentationSelect ? regimen.presentations[Number(presentationSelect.value)] : null;
+              if (!populateMedicationFromEvidence(regimen, presentation, evidenceKey)) checkbox.checked = false;
+            });
+            if (presentationSelect) {
+              presentationSelect.addEventListener('change', () => {
+                if (!checkbox.checked) return;
+                const presentation = regimen.presentations[Number(presentationSelect.value)];
+                populateMedicationFromEvidence(regimen, presentation, evidenceKey);
+              });
+            }
+          }
           const details = [
             ['Populacao', regimen.population], ['Esquema publicado', regimen.dose],
             ['Duracao publicada', regimen.duration], ['Limite publicado', regimen.maximum],
-            ['Apresentacao brasileira', record.brazilian_presentations_verified ? regimen.presentation : 'Nao verificada nesta pesquisa']
+            ['Apresentacao brasileira', regimen.operational ? regimen.presentation : (record.brazilian_presentations_verified && regimen.presentation ? regimen.presentation : 'Não liberada para seleção automática')]
           ].filter(([, text]) => text);
           details.forEach(([label, text]) => {
             const detail = document.createElement('p');
