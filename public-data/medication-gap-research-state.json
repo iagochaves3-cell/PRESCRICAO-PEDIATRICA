@@ -1,7 +1,7 @@
 {
-  "cursor": 0,
-  "last_run": null,
-  "batch_size": 0,
+  "cursor": 100,
+  "last_run": "2026-09-28T15:48:47.158Z",
+  "batch_size": 100,
   "pending_total": 498,
   "completed_cycles": 0,
   "initialized_at": "2026-09-28T15:45:00Z"
