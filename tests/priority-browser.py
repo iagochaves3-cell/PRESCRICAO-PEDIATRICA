@@ -120,7 +120,9 @@ with sync_playwright() as pw:
     checks.append('existing_strep_selector_uses_checked_engine_and_unselects')
     apply('amox-gas', 'amox-250')
     benzathine = page.locator('#evidence-regimens article').filter(has_text='Benzilpenicilina benzatina intramuscular').first
-    benzathine.locator('input[type="checkbox"]').check()
+    # This is a rejected selection: click, then assert unchecked, rather than check().
+    benzathine.locator('input[type="checkbox"]').click()
+    expect(benzathine.locator('input[type="checkbox"]')).not_to_be_checked()
     selected_names = page.locator('#medication-list .med-card').evaluate_all('(cards)=>cards.filter(c=>c.querySelector("[data-selected]").checked).map(c=>c.querySelector("[data-field=name]").value)')
     assert len(selected_names) == 1 and selected_names[0] == 'Amoxicilina'
     checks.append('duplicate_etiologic_antibiotics_prevented')
