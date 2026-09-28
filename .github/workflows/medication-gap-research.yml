@@ -31,7 +31,7 @@ jobs:
           node-version: "20"
       - name: Discover evidence candidates for unresolved medication gaps
         env:
-          RESEARCH_BATCH: "100"
+          RESEARCH_BATCH: "498"
         run: node scripts/research-medication-gaps.mjs
       - name: Commit refreshed research queue and candidate evidence
         run: |
