@@ -225,11 +225,13 @@
     <footer class="footer"><span>PedDose · apoio à documentação clínica pediátrica</span><span>Não substitui avaliação, decisão clínica ou prescrição profissional.</span></footer>
   </main>
 
+  <datalist id="medication-options"></datalist>
+
   <template id="medication-template">
     <article class="med-card">
       <div class="med-option-head">
         <label class="med-choice"><input type="checkbox" data-selected aria-label="Selecionar medicamento"></label>
-        <div class="med-heading"><span class="med-badge" data-category-badge>GRUPO TERAPÊUTICO</span><input class="med-name" data-field="name" maxlength="180" placeholder="Nome do medicamento" aria-label="Nome do medicamento"><span class="med-badge off-label" data-off-label hidden>OFF-LABEL</span></div>
+        <div class="med-heading"><span class="med-badge" data-category-badge>GRUPO TERAPÊUTICO</span><input class="med-name" data-field="name" list="medication-options" maxlength="180" placeholder="Nome do medicamento" aria-label="Nome do medicamento"><span class="med-badge off-label" data-off-label hidden>OFF-LABEL</span></div>
         <button class="remove-button" type="button" aria-label="Remover medicamento">Remover</button>
       </div>
       <div class="med-card-body">
@@ -238,7 +240,7 @@
         <div class="med-subheading">Escolha a apresentação</div>
         <select data-option="presentation" aria-label="Escolha uma apresentação validada" disabled><option value="">Sem apresentações clínicas validadas para seleção</option></select>
         <label class="med-description">Apresentação conferida na embalagem<input data-field="presentation" maxlength="180" placeholder="Forma, concentração e volume"></label>
-        <div class="posology-status"><strong>POSOLOGIA PARA A APRESENTAÇÃO SELECIONADA</strong>Sem esquemas aprovados para seleção automática. Registre abaixo a posologia definida e conferida pelo prescritor.</div>
+        <div class="posology-status"><strong>RESOLUÇÃO FARMACOLÓGICA AUTOMÁTICA</strong>Selecione ou digite o medicamento. Lacunas são encaminhadas à pesquisa científica automática; não é necessário preencher manualmente a base para iniciar a resolução.</div>
         <div class="med-dose-grid">
           <label>Dose por administração<input data-field="dose" maxlength="100" placeholder="Dose prescrita"></label>
           <label>Via de administração<input data-field="route" maxlength="60" placeholder="Via prescrita"></label>
@@ -287,11 +289,29 @@
         });
       }
 
+      function updateMedicationResearchState(card) {
+        const nameField = card.querySelector('[data-field="name"]');
+        const statusBox = card.querySelector('.posology-status');
+        const selectedName = normalizeDiagnosis(nameField.value || '');
+        const medication = catalogMedications.find((entry) => normalizeDiagnosis(entry.name || '') === selectedName);
+        if (!medication) {
+          statusBox.innerHTML = '<strong>RESOLUÇÃO FARMACOLÓGICA AUTOMÁTICA</strong>Selecione um medicamento do catálogo. Lacunas são encaminhadas à pesquisa científica automática; não é necessário preencher manualmente a base para iniciar a resolução.';
+          return;
+        }
+        const state = medication.resolution || 'AUTO_RESEARCH_PENDING';
+        const fiche = medication.fiche ? ` · ficha ${medication.fiche}` : '';
+        const message = state === 'READY'
+          ? 'Esquema operacional validado disponível no catálogo.'
+          : 'Pesquisa científica automática ativa. O item só será promovido para uso operacional após esquema completo, fonte em nível de regime e auditoria tripla.';
+        statusBox.innerHTML = `<strong>${state}${fiche}</strong>${message}`;
+      }
+
       function addMedication() {
         medicationList.append(template.content.cloneNode(true));
         const card = medicationList.lastElementChild;
         card.querySelector('[data-selected]').addEventListener('change', refreshMedicationValidation);
         card.querySelector('[data-field="category"]').addEventListener('change', refreshMedicationValidation);
+        card.querySelector('[data-field="name"]').addEventListener('input', () => updateMedicationResearchState(card));
         card.querySelector('[data-field="name"]').focus();
       }
 
@@ -380,6 +400,7 @@
       let diagnoses = [];
       let clinicalEvidence = [];
       let sources = [];
+      let catalogMedications = [];
 
       function normalizeDiagnosis(text) {
         return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR').trim();
@@ -456,13 +477,23 @@
 
       async function loadDiagnosisOptions() {
         try {
-          const [diagnosesResponse, evidenceResponse] = await Promise.all([
+          const [diagnosesResponse, evidenceResponse, catalogResponse] = await Promise.all([
             fetch('./public-data/diagnoses.json'),
-            fetch('./public-data/clinical-evidence.json')
+            fetch('./public-data/clinical-evidence.json'),
+            fetch('./public-data/catalog.json')
           ]);
-          if (!diagnosesResponse.ok || !evidenceResponse.ok) throw new Error('Dados de referencia indisponiveis');
-          const [diagnosesData, evidenceData] = await Promise.all([diagnosesResponse.json(), evidenceResponse.json()]);
+          if (!diagnosesResponse.ok || !evidenceResponse.ok || !catalogResponse.ok) throw new Error('Dados de referencia indisponiveis');
+          const [diagnosesData, evidenceData, catalogData] = await Promise.all([diagnosesResponse.json(), evidenceResponse.json(), catalogResponse.json()]);
           diagnoses = diagnosesData.diagnoses;
+          catalogMedications = catalogData.medications || [];
+          const medicationOptions = byId('medication-options');
+          medicationOptions.replaceChildren();
+          catalogMedications.forEach((entry) => {
+            const option = document.createElement('option');
+            option.value = entry.name;
+            option.label = entry.fiche ? `Ficha ${entry.fiche} · ${entry.resolution || 'AUTO_RESEARCH_PENDING'}` : (entry.resolution || 'AUTO_RESEARCH_PENDING');
+            medicationOptions.append(option);
+          });
           sources = evidenceData.sources;
           clinicalEvidence = evidenceData.diagnoses.map((record) => ({ ...record, review_date:evidenceData.review_date }));
           const diagnosisOptions = byId('diagnosis-options');
