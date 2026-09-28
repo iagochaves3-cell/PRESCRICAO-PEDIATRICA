@@ -183,7 +183,7 @@
         <section class="clinical-evidence" id="clinical-evidence" hidden aria-labelledby="evidence-title">
           <div class="group-head"><div><h3 id="evidence-title">Referências clínicas para este diagnóstico</h3><p id="evidence-jurisdiction"></p></div><span class="med-badge">DOCUMENTAL</span></div>
           <p class="evidence-warning" id="evidence-warning"></p>
-          <p class="evidence-intro">Os itens abaixo reproduzem informação da fonte indicada. Os seletores estão desativados: não foram aprovados para cálculo, escolha terapêutica ou emissão de receita no Brasil.</p>
+          <p class="evidence-intro">Os itens abaixo reproduzem informação da fonte indicada e entram automaticamente na fila de resolução científica. Enquanto indicação, população, posologia operacional, apresentação aplicável e auditoria tripla não estiverem completas, os seletores permanecem desativados por segurança — sem exigir que o prescritor preencha a lacuna manualmente.</p>
           <ul class="evidence-findings" id="evidence-findings"></ul>
           <div class="med-subheading" style="margin:14px 0 9px">Esquemas publicados pela fonte</div>
           <div class="evidence-list" id="evidence-regimens"></div>
@@ -191,8 +191,9 @@
         </section>
 
         <section class="group" aria-labelledby="medications-title">
-          <div class="group-head"><div><h3 id="medications-title">02 / Prescrição medicamentosa</h3><p>Preencha somente o esquema definido e conferido pelo prescritor.</p></div><button class="text-button" id="add-medication" type="button">+ Adicionar</button></div>
+          <div class="group-head"><div><h3 id="medications-title">02 / Prescrição medicamentosa</h3><p>Esquemas validados podem ser utilizados; qualquer lacuna farmacológica segue para pesquisa científica automática e não deve ser transferida ao prescritor como tarefa padrão.</p></div><button class="text-button" id="add-medication" type="button">+ Adicionar</button></div>
           <div class="med-list" id="medication-list" aria-live="polite"></div>
+          <div class="safety" id="auto-research-policy"><strong>Resolução automática de lacunas farmacológicas.</strong> Indicação, dose, apresentação, concentração, via, intervalo, duração, máximos, forma de uso, ajustes e status off-label ausentes são encaminhados à pesquisa estruturada em fontes regulatórias e científicas. O esquema só é liberado após fonte rastreável e auditoria tripla.</div>
         </section>
 
         <section class="group" aria-labelledby="home-title">
@@ -473,7 +474,7 @@
           });
           renderClinicalEvidence();
         } catch (error) {
-          status.textContent = 'As referências clínicas não carregaram; nenhum esquema foi incluído. Informe o diagnóstico manualmente.';
+          status.textContent = 'As referências clínicas não carregaram. Nenhum esquema incompleto será liberado; as lacunas permanecem na fila de pesquisa científica automática.';
         }
       }
 
