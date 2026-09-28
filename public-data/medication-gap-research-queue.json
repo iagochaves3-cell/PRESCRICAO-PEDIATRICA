@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T17:48:04.172Z",
+  "generated_at": "2026-09-28T18:14:46.146Z",
   "source_hierarchy": [
     "ANVISA",
     "Ministério da Saúde",
@@ -344,6 +344,19 @@
       ],
       "resolution": "AUTO_RESEARCH_PENDING",
       "auto_research": true
+    },
+    {
+      "fiche": 35,
+      "name": "Amoxicilina",
+      "source_page": 47,
+      "document_flags": [],
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "amox-gas"
+      ],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 36,
@@ -1567,6 +1580,21 @@
       "document_flags": [],
       "resolution": "AUTO_RESEARCH_PENDING",
       "auto_research": true
+    },
+    {
+      "fiche": 166,
+      "name": "Dipirona Sódica (Metamizol)",
+      "source_page": 178,
+      "document_flags": [
+        "contem_restricao_contexto_especifico"
+      ],
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "dipyrone"
+      ],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 167,
@@ -2976,6 +3004,30 @@
       "auto_research": true
     },
     {
+      "fiche": 318,
+      "name": "Nistatina",
+      "source_page": 330,
+      "document_flags": [],
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true,
+      "ready_regimen_ids": [],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "TARGET_AUDITED_PENDING_PRESENTATION"
+    },
+    {
+      "fiche": 319,
+      "name": "Nistatina + Óxido de Zinco",
+      "source_page": 331,
+      "document_flags": [],
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "nystatin-zinc-diaper"
+      ],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
+    },
+    {
       "fiche": 320,
       "name": "Nitazoxanida",
       "source_page": 332,
@@ -3540,6 +3592,22 @@
       "document_flags": [],
       "resolution": "AUTO_RESEARCH_PENDING",
       "auto_research": true
+    },
+    {
+      "fiche": 381,
+      "name": "Salbutamol",
+      "source_page": 393,
+      "document_flags": [
+        "contem_restricao_contexto_especifico",
+        "contem_off_label"
+      ],
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "salbutamol-rescue"
+      ],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 382,
