@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-28T17:05:45.206Z",
+  "updated_at": "2026-09-28T17:36:44.414Z",
   "results": [
     {
       "fiche": 1,
@@ -1458,7 +1458,7 @@
     {
       "fiche": 35,
       "name": "Amoxicilina",
-      "resolution": "AUTO_RESEARCH_PENDING",
+      "resolution": "READY",
       "searched_at": "2026-09-28T17:05:22.460Z",
       "candidate_sources": [
         {
@@ -1510,8 +1510,21 @@
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Amoxicilina%22%20OR%20openfda.brand_name%3A%22Amoxicilina%22"
         }
       ],
-      "operational_status": "NOT_PROMOTED",
-      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable."
+      "operational_status": "PROMOTED_READY",
+      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable.",
+      "manual_audit": {
+        "audited_at": "2026-09-28",
+        "structural_regimen_check": "PASS",
+        "pharmaceutical_mathematical_check": "PASS",
+        "clinical_regulatory_check": "PASS",
+        "source_ids": [
+          "ms-cab28",
+          "cdc-2025",
+          "ache-amox-250",
+          "ache-amox-400"
+        ],
+        "note": "Promoção baseada em auditoria independente de fontes brasileiras/primárias; candidatos automáticos isolados não foram usados como única validação."
+      }
     },
     {
       "fiche": 36,
@@ -7154,7 +7167,7 @@
     {
       "fiche": 166,
       "name": "Dipirona Sódica (Metamizol)",
-      "resolution": "AUTO_RESEARCH_PENDING",
+      "resolution": "READY",
       "searched_at": "2026-09-28T16:14:35.090Z",
       "candidate_sources": [
         {
@@ -7162,8 +7175,20 @@
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Dipirona%20S%C3%B3dica%20(Metamizol)%22%20OR%20openfda.brand_name%3A%22Dipirona%20S%C3%B3dica%20(Metamizol)%22"
         }
       ],
-      "operational_status": "NOT_PROMOTED",
-      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable."
+      "operational_status": "PROMOTED_READY",
+      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable.",
+      "manual_audit": {
+        "audited_at": "2026-09-28",
+        "structural_regimen_check": "PASS",
+        "pharmaceutical_mathematical_check": "PASS",
+        "clinical_regulatory_check": "PASS",
+        "source_ids": [
+          "ms-dipirona-dengue-2024",
+          "ms-dipirona-dor-2011",
+          "ms-dipirona-esus-2025"
+        ],
+        "note": "Promoção baseada em auditoria independente de fontes brasileiras/primárias; candidatos automáticos isolados não foram usados como única validação."
+      }
     },
     {
       "fiche": 167,
@@ -13905,7 +13930,7 @@
     {
       "fiche": 318,
       "name": "Nistatina",
-      "resolution": "AUTO_RESEARCH_PENDING",
+      "resolution": "READY",
       "searched_at": "2026-09-28T16:32:06.563Z",
       "candidate_sources": [
         {
@@ -13957,13 +13982,23 @@
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Nistatina%22%20OR%20openfda.brand_name%3A%22Nistatina%22"
         }
       ],
-      "operational_status": "NOT_PROMOTED",
-      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable."
+      "operational_status": "PROMOTED_READY",
+      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable.",
+      "manual_audit": {
+        "audited_at": "2026-09-28",
+        "structural_regimen_check": "PASS",
+        "pharmaceutical_mathematical_check": "PASS",
+        "clinical_regulatory_check": "PASS",
+        "source_ids": [
+          "farmacopeia-nistatina-100k"
+        ],
+        "note": "Promoção baseada em auditoria independente de fontes brasileiras/primárias; candidatos automáticos isolados não foram usados como única validação."
+      }
     },
     {
       "fiche": 319,
       "name": "Nistatina + Óxido de Zinco",
-      "resolution": "AUTO_RESEARCH_PENDING",
+      "resolution": "READY",
       "searched_at": "2026-09-28T16:32:07.092Z",
       "candidate_sources": [
         {
@@ -13971,8 +14006,19 @@
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Nistatina%20%2B%20%C3%93xido%20de%20Zinco%22%20OR%20openfda.brand_name%3A%22Nistatina%20%2B%20%C3%93xido%20de%20Zinco%22"
         }
       ],
-      "operational_status": "NOT_PROMOTED",
-      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable."
+      "operational_status": "PROMOTED_READY",
+      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable.",
+      "manual_audit": {
+        "audited_at": "2026-09-28",
+        "structural_regimen_check": "PASS",
+        "pharmaceutical_mathematical_check": "PASS",
+        "clinical_regulatory_check": "PASS",
+        "source_ids": [
+          "anvisa-nistatina-zinco-cimed",
+          "neoquimica-nistatina-zinco"
+        ],
+        "note": "Promoção baseada em auditoria independente de fontes brasileiras/primárias; candidatos automáticos isolados não foram usados como única validação."
+      }
     },
     {
       "fiche": 320,
@@ -16485,7 +16531,7 @@
     {
       "fiche": 381,
       "name": "Salbutamol",
-      "resolution": "AUTO_RESEARCH_PENDING",
+      "resolution": "READY",
       "searched_at": "2026-09-28T16:32:40.219Z",
       "candidate_sources": [
         {
@@ -16537,8 +16583,19 @@
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Salbutamol%22%20OR%20openfda.brand_name%3A%22Salbutamol%22"
         }
       ],
-      "operational_status": "NOT_PROMOTED",
-      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable."
+      "operational_status": "PROMOTED_READY",
+      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable.",
+      "manual_audit": {
+        "audited_at": "2026-09-28",
+        "structural_regimen_check": "PASS",
+        "pharmaceutical_mathematical_check": "PASS",
+        "clinical_regulatory_check": "PASS",
+        "source_ids": [
+          "ms-asthma-line-2026",
+          "gsk-aerolin-100"
+        ],
+        "note": "Promoção baseada em auditoria independente de fontes brasileiras/primárias; candidatos automáticos isolados não foram usados como única validação."
+      }
     },
     {
       "fiche": 382,

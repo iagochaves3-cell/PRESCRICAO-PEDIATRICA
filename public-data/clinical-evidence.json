@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "review_date": "2026-09-27",
+  "review_date": "2026-09-28",
   "diagnoses": [
     {
       "id": "group-a-streptococcal-pharyngitis",
@@ -181,6 +181,117 @@
         "O cálculo automático de volume de amoxicilina usa a concentração selecionada e aplica teto de 500 mg por dose.",
         "A benzilpenicilina benzatina deve ser administrada por via intramuscular por profissional habilitado; não converter UI em mL sem a concentração final efetivamente reconstituída do produto em uso."
       ]
+    },
+    {
+      "id": "acute-asthma-bronchospasm-mild-moderate",
+      "aliases": [
+        "Crise de Asma / Broncoespasmo Agudo (Leve a Moderada)",
+        "crise de asma leve a moderada",
+        "broncoespasmo agudo leve a moderado"
+      ],
+      "status": "OPERATIONAL_CORE",
+      "jurisdiction": "Brasil",
+      "operational": true,
+      "brazilian_presentations_verified": true,
+      "warning": "SALBUTAMOL OPERACIONAL PARA EXACERBAÇÃO AGUDA: usar aerossol dosimetrado 100 mcg/jato com espaçador/aerocâmara; reavaliar resposta após a fase inicial. Esquema de alta/manutenção não é inferido deste card.",
+      "findings": [
+        "Ministério da Saúde: em crianças menores, salbutamol 100 mcg/jato com espaçador é preferido; na sibilância moderada em menores de 5 anos, 2 jatos a cada 20 minutos na primeira hora.",
+        "Para crianças acima de 6 anos em exacerbação moderada/grave, a Linha de Cuidado admite doses repetidas de aerossol com aerocâmara e exige reavaliação objetiva.",
+        "A bula brasileira do Aerolin confirma apresentação de 100 mcg de salbutamol por dose e uso pediátrico."
+      ],
+      "regimens": [
+        {
+          "category": "Broncodilatador de curta duração — exacerbação aguda",
+          "medication": "Salbutamol aerossol 100 mcg/jato",
+          "population": "Crianças com crise de asma/broncoespasmo leve a moderada; dose operacional varia por faixa etária",
+          "dose": "<6 anos: 2 jatos por dose, repetir a cada 20 min na 1ª hora. ≥6 anos: 4 jatos por dose, repetir a cada 10 min na fase inicial, com reavaliação em 1 h.",
+          "duration": "Fase inicial da exacerbação; reavaliar em 1 hora",
+          "maximum": "Não converter em esquema domiciliar prolongado sem reavaliação clínica",
+          "presentation": "Aerossol dosimetrado 100 mcg/jato, frasco 200 doses",
+          "presentations": [
+            {
+              "label": "Aerossol dosimetrado 100 mcg/jato — 200 doses",
+              "mcg_per_puff": 100,
+              "source_id": "gsk-aerolin-100"
+            }
+          ],
+          "source_id": "ms-asthma-line-2026",
+          "operational": true,
+          "operational_rule": "salbutamol_age_band"
+        }
+      ],
+      "source_ids": [
+        "ms-asthma-line-2026",
+        "gsk-aerolin-100"
+      ],
+      "limitations": [
+        "Card destinado ao manejo inicial de exacerbação aguda; não substitui classificação de gravidade.",
+        "Crianças com sinais de gravidade, hipoxemia ou resposta inadequada exigem manejo de emergência e eventual escalonamento."
+      ]
+    },
+    {
+      "id": "diaper-candidiasis",
+      "aliases": [
+        "Dermatite das Fraldas com Candidíase Secundária",
+        "candidíase de fraldas",
+        "dermatite de fraldas candidiásica",
+        "dermatite das fraldas candidiásica"
+      ],
+      "status": "OPERATIONAL_CORE",
+      "jurisdiction": "Brasil",
+      "operational": true,
+      "brazilian_presentations_verified": true,
+      "warning": "TRATAMENTO TÓPICO OPERACIONAL: nistatina + óxido de zinco possui apresentação brasileira e modo de uso específico para área de fraldas. Nistatina 100.000 UI/g creme é formulação oficial da Farmacopeia para candidíase mucocutânea.",
+      "findings": [
+        "ANVISA confirma nistatina + óxido de zinco 100.000 UI/g + 200 mg/g, uso dermatológico adulto e pediátrico e indicação principal para assaduras relacionadas a fraldas.",
+        "Bula brasileira: aplicar após o banho e a cada troca de fraldas, após limpeza e secagem cuidadosa; usar camada fina.",
+        "Farmacopeia Brasileira: nistatina 100.000 UI/g creme, uso externo, aplicar nos locais afetados 3 a 4 vezes ao dia após higiene local."
+      ],
+      "regimens": [
+        {
+          "category": "Antifúngico tópico + barreira cutânea",
+          "medication": "Nistatina + óxido de zinco",
+          "population": "Uso pediátrico em área de fraldas",
+          "dose": "Aplicar camada fina sobre a área acometida após o banho e a cada troca de fraldas, com pele limpa e seca",
+          "duration": "Conforme resposta clínica; reavaliar se persistência, extensão ou piora",
+          "maximum": null,
+          "presentation": "Pomada dermatológica 100.000 UI/g + 200 mg/g, bisnaga 60 g",
+          "presentations": [
+            {
+              "label": "Pomada 100.000 UI/g + 200 mg/g — bisnaga 60 g",
+              "source_id": "anvisa-nistatina-zinco-cimed"
+            }
+          ],
+          "source_id": "neoquimica-nistatina-zinco",
+          "operational": true
+        },
+        {
+          "category": "Antifúngico tópico",
+          "medication": "Nistatina creme 100.000 UI/g",
+          "population": "Candidíase mucocutânea; aplicação cutânea",
+          "dose": "Aplicar nos locais afetados 3 a 4 vezes ao dia, após higiene local",
+          "duration": "Conforme resposta clínica; reavaliar se persistência ou piora",
+          "maximum": null,
+          "presentation": "Creme 100.000 UI/g — formulação da Farmacopeia Brasileira",
+          "presentations": [
+            {
+              "label": "Creme 100.000 UI/g — Farmacopeia Brasileira",
+              "source_id": "farmacopeia-nistatina-100k"
+            }
+          ],
+          "source_id": "farmacopeia-nistatina-100k",
+          "operational": true
+        }
+      ],
+      "source_ids": [
+        "anvisa-nistatina-zinco-cimed",
+        "neoquimica-nistatina-zinco",
+        "farmacopeia-nistatina-100k"
+      ],
+      "limitations": [
+        "A formulação isolada de nistatina 100.000 UI/g foi validada como formulação oficial; disponibilidade industrial deve ser distinguida de preparação magistral/oficinal.",
+        "Reavaliar diagnósticos diferenciais ou infecção bacteriana se evolução atípica."
+      ]
     }
   ],
   "sources": [
@@ -258,6 +369,78 @@
       "url": "https://www.jau.sp.gov.br/uploads/licitacoes/arquivos/3578/7710874_3273_pdf.pdf",
       "accessed": "2026-09-28",
       "use": "Apresentações brasileiras 600.000 UI e 1.200.000 UI"
+    },
+    {
+      "id": "ms-asthma-line-2026",
+      "organization": "Ministério da Saúde",
+      "title": "Linha de Cuidado da Asma — manejo da exacerbação",
+      "updated": "2026",
+      "url": "https://linhasdecuidado.saude.gov.br/portal/asma/unidade-de-atencao-primaria/exarcebacao-da-asma/",
+      "accessed": "2026-09-28",
+      "use": "Dose de salbutamol aerossol com aerocâmara e reavaliação na exacerbação"
+    },
+    {
+      "id": "gsk-aerolin-100",
+      "organization": "GSK Brasil",
+      "title": "Aerolin spray — bula brasileira",
+      "updated": "bula disponível no fabricante",
+      "url": "https://br.gsk.com/media/5wtj4ekh/aerolin-spray.pdf",
+      "accessed": "2026-09-28",
+      "use": "Apresentação brasileira 100 mcg de salbutamol por dose; 200 doses"
+    },
+    {
+      "id": "anvisa-nistatina-zinco-cimed",
+      "organization": "ANVISA / Cimed",
+      "title": "Nistatina + óxido de zinco 100.000 UI/g + 200 mg/g — rotulagem aprovada",
+      "updated": "2024",
+      "url": "https://consultas.anvisa.gov.br/api/consulta/medicamento/1/25351617150201151/rotulo/P/27086862?Authorization=Guest",
+      "accessed": "2026-09-28",
+      "use": "Concentração, uso pediátrico, via dermatológica e indicação para assaduras"
+    },
+    {
+      "id": "neoquimica-nistatina-zinco",
+      "organization": "Neo Química / Brainfarma",
+      "title": "Nistatina + óxido de zinco — bula",
+      "updated": "consulta 2026-09-28",
+      "url": "https://www.neoquimica.com.br/genericos/bula/nistatina-oxido-de-zinco",
+      "accessed": "2026-09-28",
+      "use": "Posologia na área de fraldas: após banho e a cada troca; camada fina com pele limpa e seca"
+    },
+    {
+      "id": "farmacopeia-nistatina-100k",
+      "organization": "ANVISA — Farmacopeia Brasileira",
+      "title": "Formulário Nacional — Nistatina 100.000 UI/g, creme",
+      "updated": "2ª edição Rev. 02",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/farmacopeia/formulario-nacional/arquivos/8065json-file-1/@@download/file",
+      "accessed": "2026-09-28",
+      "use": "Formulação 100.000 UI/g, candidíase mucocutânea, aplicação tópica 3–4 vezes/dia"
+    },
+    {
+      "id": "ms-dipirona-dengue-2024",
+      "organization": "Ministério da Saúde",
+      "title": "Dengue: diagnóstico e manejo clínico — 6ª edição",
+      "updated": "2024",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/dengue_diagnostico_manejo_clinico_6ed.pdf",
+      "accessed": "2026-09-28",
+      "use": "Dipirona pediátrica 10 mg/kg/dose até 6/6 h; apresentações 500 mg/mL gotas e 50 mg/mL solução oral"
+    },
+    {
+      "id": "ms-dipirona-dor-2011",
+      "organization": "Ministério da Saúde",
+      "title": "Protocolo clínico — dor: esquema de dipirona",
+      "updated": "2011",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/sas/2011/anexo/anexo_cop0007_12_12_2011.pdf",
+      "accessed": "2026-09-28",
+      "use": "Faixa pediátrica 10–25 mg/kg a cada 6 horas; base para dose operacional intermediária de 15 mg/kg/dose"
+    },
+    {
+      "id": "ms-dipirona-esus-2025",
+      "organization": "Ministério da Saúde",
+      "title": "Guia do Prontuário Eletrônico e-SUS — quadro de dipirona pediátrica",
+      "updated": "2025",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_prontuario_eletronico_esus.pdf",
+      "accessed": "2026-09-28",
+      "use": "Idade/peso mínimo, apresentação 500 mg/mL e limites por faixas pediátricas"
     }
   ]
 }
