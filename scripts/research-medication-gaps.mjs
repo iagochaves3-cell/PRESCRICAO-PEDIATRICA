@@ -5,7 +5,7 @@ const STATE = new URL('../public-data/medication-gap-research-state.json', impor
 const QUEUE = new URL('../public-data/medication-gap-research-queue.json', import.meta.url);
 const CANDIDATES = new URL('../public-data/medication-gap-evidence-candidates.json', import.meta.url);
 
-const batchSize = Math.max(1, Math.min(Number(process.env.RESEARCH_BATCH || 50), 100));
+const batchSize = Math.max(1, Math.min(Number(process.env.RESEARCH_BATCH || 498), 500));
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const clean = (s='') => String(s).replace(/\s+/g,' ').trim();
 
