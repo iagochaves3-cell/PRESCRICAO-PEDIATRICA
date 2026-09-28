@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "source": {
     "title": "Catálogo Posológico Pediátrico",
     "filename": "catalogo-base.pdf",
@@ -13,7 +13,7 @@
     "reported_restrictions": 262,
     "reported_validation_gaps": 9
   },
-  "policy": "Referência documental para conferência profissional. Não selecionar, calcular ou recomendar esquemas automaticamente.",
+  "policy": "Lacunas medicamentosas entram automaticamente em AUTO_RESEARCH_PENDING e são encaminhadas para pesquisa científica estruturada. Nenhum registro vira prescrição operacional sem esquema completo, fonte rastreável em nível do regime e auditoria tripla.",
   "medications": [
     {
       "fiche": 1,
@@ -22,7 +22,8 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 2,
@@ -33,21 +34,24 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 3,
       "name": "Acetilcisteína",
       "source_page": 15,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 4,
       "name": "Aciclovir",
       "source_page": 16,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 5,
@@ -57,7 +61,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 6,
@@ -66,7 +71,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 7,
@@ -75,35 +81,40 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 8,
       "name": "Ácido Fólico (Vitamina B9)",
       "source_page": 20,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 9,
       "name": "Ácido Folínico (Folinato de Cálcio)",
       "source_page": 21,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 10,
       "name": "Ácido Fusídico",
       "source_page": 22,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 11,
       "name": "Ácido Mefenâmico",
       "source_page": 23,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 12,
@@ -113,14 +124,16 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 13,
       "name": "Ácido Tranexâmico",
       "source_page": 25,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 14,
@@ -130,7 +143,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 15,
@@ -139,7 +153,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 16,
@@ -148,7 +163,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 17,
@@ -159,14 +175,16 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 18,
       "name": "Agalsidase Beta",
       "source_page": 30,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 19,
@@ -176,7 +194,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 20,
@@ -186,7 +205,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 21,
@@ -195,21 +215,24 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 22,
       "name": "Alglucosidase Alfa",
       "source_page": 34,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 23,
       "name": "Alopurinol",
       "source_page": 35,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 24,
@@ -219,7 +242,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 25,
@@ -229,7 +253,8 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 26,
@@ -239,7 +264,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 27,
@@ -250,14 +276,16 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 28,
       "name": "Ambroxol",
       "source_page": 40,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 29,
@@ -268,7 +296,8 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 30,
@@ -278,7 +307,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 31,
@@ -287,14 +317,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 32,
       "name": "Amiodarona",
       "source_page": 44,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 33,
@@ -304,7 +336,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 34,
@@ -313,14 +346,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 35,
       "name": "Amoxicilina",
       "source_page": 47,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 36,
@@ -330,21 +365,24 @@
         "contem_alerta_nao_extrapolar",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 37,
       "name": "Amoxicilina + Sulbactam",
       "source_page": 49,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 38,
       "name": "Ampicilina + Sulbactam",
       "source_page": 50,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 39,
@@ -353,21 +391,24 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 40,
       "name": "Anfotericina B",
       "source_page": 52,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 41,
       "name": "Anidulafungina",
       "source_page": 53,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 42,
@@ -376,7 +417,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 43,
@@ -387,7 +429,8 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 44,
@@ -396,7 +439,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 45,
@@ -405,21 +449,24 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 46,
       "name": "Azatioprina",
       "source_page": 58,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 47,
       "name": "Azelastina",
       "source_page": 59,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 48,
@@ -428,7 +475,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 49,
@@ -438,14 +486,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 50,
       "name": "Baclofeno",
       "source_page": 62,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 51,
@@ -454,84 +504,96 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 52,
       "name": "Beclometasona",
       "source_page": 64,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 53,
       "name": "Benzidamina",
       "source_page": 65,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 54,
       "name": "Benzilpenicilina Benzatina",
       "source_page": 66,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 55,
       "name": "Benzilpenicilina Potássica (Cristalina)",
       "source_page": 67,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 56,
       "name": "Benzilpenicilina Procaína +",
       "source_page": 68,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 57,
       "name": "Benznidazol",
       "source_page": 69,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 58,
       "name": "Benzoato de Benzila",
       "source_page": 70,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 59,
       "name": "Beractanto",
       "source_page": 71,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 60,
       "name": "Betametasona",
       "source_page": 72,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 61,
       "name": "Bicarbonato de Sódio",
       "source_page": 73,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 62,
       "name": "Bilastina",
       "source_page": 74,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 63,
@@ -541,14 +603,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 64,
       "name": "Biperideno",
       "source_page": 76,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 65,
@@ -557,14 +621,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 66,
       "name": "Bosentana",
       "source_page": 78,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 67,
@@ -573,7 +639,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 68,
@@ -582,14 +649,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 69,
       "name": "Brometo de Pancurônio",
       "source_page": 81,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 70,
@@ -598,7 +667,8 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 71,
@@ -608,14 +678,16 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 72,
       "name": "Brometo de Vecurônio",
       "source_page": 84,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 73,
@@ -624,14 +696,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 74,
       "name": "Bromoprida",
       "source_page": 86,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 75,
@@ -640,21 +714,24 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 76,
       "name": "Bupivacaína",
       "source_page": 88,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 77,
       "name": "Buprenorfina",
       "source_page": 89,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 78,
@@ -664,14 +741,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 79,
       "name": "Cafeína (Citrato de Cafeína)",
       "source_page": 91,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 80,
@@ -680,7 +759,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 81,
@@ -689,7 +769,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 82,
@@ -698,14 +779,16 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 83,
       "name": "Canabidiol (CBD)",
       "source_page": 95,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 84,
@@ -715,7 +798,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 85,
@@ -724,35 +808,40 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 86,
       "name": "Carbocisteína",
       "source_page": 98,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 87,
       "name": "Carbonato de Cálcio",
       "source_page": 99,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 88,
       "name": "Carmelose Sódica",
       "source_page": 100,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 89,
       "name": "Carvão Vegetal Ativado",
       "source_page": 101,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 90,
@@ -761,28 +850,32 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 91,
       "name": "Caspofungina",
       "source_page": 103,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 92,
       "name": "Cefaclor",
       "source_page": 104,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 93,
       "name": "Cefadroxila",
       "source_page": 105,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 94,
@@ -791,7 +884,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 95,
@@ -800,28 +894,32 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 96,
       "name": "Cefazolina Sódica",
       "source_page": 108,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 97,
       "name": "Cefepima",
       "source_page": 109,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 98,
       "name": "Cefotaxima Sódica",
       "source_page": 110,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 99,
@@ -831,7 +929,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 100,
@@ -840,7 +939,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 101,
@@ -850,21 +950,24 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 102,
       "name": "Ceftazidima + Avibactam",
       "source_page": 114,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 103,
       "name": "Ceftolozana + Tazobactam",
       "source_page": 115,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 104,
@@ -873,14 +976,16 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 105,
       "name": "Cefuroxima (Axetila / Sódica)",
       "source_page": 117,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 106,
@@ -891,7 +996,8 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 107,
@@ -901,14 +1007,16 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 108,
       "name": "Cetirizina",
       "source_page": 120,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 109,
@@ -917,7 +1025,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 110,
@@ -926,14 +1035,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 111,
       "name": "Cetotifeno",
       "source_page": 123,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 112,
@@ -942,7 +1053,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 113,
@@ -952,14 +1064,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 114,
       "name": "Cimetidina",
       "source_page": 126,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 115,
@@ -968,14 +1082,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 116,
       "name": "Ciproeptadina + Cobamamida",
       "source_page": 128,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 117,
@@ -985,14 +1101,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 118,
       "name": "Cisatracúrio",
       "source_page": 130,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 119,
@@ -1002,21 +1120,24 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 120,
       "name": "Claritromicina",
       "source_page": 132,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 121,
       "name": "Clindamicina",
       "source_page": 133,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 122,
@@ -1025,7 +1146,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 123,
@@ -1035,7 +1157,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 124,
@@ -1044,7 +1167,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 125,
@@ -1053,14 +1177,16 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 126,
       "name": "Clonazepam",
       "source_page": 138,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 127,
@@ -1070,7 +1196,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 128,
@@ -1079,7 +1206,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 129,
@@ -1090,7 +1218,8 @@
         "contem_alerta_nao_extrapolar",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 130,
@@ -1099,7 +1228,8 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 131,
@@ -1109,7 +1239,8 @@
         "contem_restricao_contexto_especifico",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 132,
@@ -1118,7 +1249,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 133,
@@ -1128,7 +1260,8 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 134,
@@ -1137,7 +1270,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 135,
@@ -1146,14 +1280,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 136,
       "name": "Colagenase",
       "source_page": 148,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 137,
@@ -1163,7 +1299,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 138,
@@ -1172,7 +1309,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 139,
@@ -1181,7 +1319,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 140,
@@ -1190,7 +1329,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 141,
@@ -1200,7 +1340,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 142,
@@ -1209,7 +1350,8 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 143,
@@ -1218,14 +1360,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 144,
       "name": "Cromoglicato Dissódico",
       "source_page": 156,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 145,
@@ -1235,21 +1379,24 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 146,
       "name": "Daptomicina",
       "source_page": 158,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 147,
       "name": "Deferasirox",
       "source_page": 159,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 148,
@@ -1258,7 +1405,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 149,
@@ -1268,7 +1416,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 150,
@@ -1277,7 +1426,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 151,
@@ -1286,7 +1436,8 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 152,
@@ -1295,14 +1446,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 153,
       "name": "Desonida",
       "source_page": 165,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 154,
@@ -1312,7 +1465,8 @@
         "contem_restricao_contexto_especifico",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 155,
@@ -1321,7 +1475,8 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 156,
@@ -1332,7 +1487,8 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 157,
@@ -1342,7 +1498,8 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 158,
@@ -1351,7 +1508,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 159,
@@ -1360,7 +1518,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 160,
@@ -1370,7 +1529,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 161,
@@ -1380,7 +1540,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 162,
@@ -1389,7 +1550,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 163,
@@ -1399,21 +1561,24 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 164,
       "name": "Dimenidrinato",
       "source_page": 176,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 165,
       "name": "Dimenidrinato + Piridoxina",
       "source_page": 177,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 166,
@@ -1422,7 +1587,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 167,
@@ -1431,7 +1597,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 168,
@@ -1441,14 +1608,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 169,
       "name": "Dopamina",
       "source_page": 181,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 170,
@@ -1459,7 +1628,8 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 171,
@@ -1468,14 +1638,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 172,
       "name": "Dropropizina",
       "source_page": 184,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 173,
@@ -1484,14 +1656,16 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 174,
       "name": "Eculizumabe",
       "source_page": 186,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 175,
@@ -1500,7 +1674,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 176,
@@ -1510,7 +1685,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 177,
@@ -1519,14 +1695,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 178,
       "name": "Enzimas Pancreáticas (Pancrelipase)",
       "source_page": 190,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 179,
@@ -1535,7 +1713,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 180,
@@ -1545,14 +1724,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 181,
       "name": "Ertapenem Sódico",
       "source_page": 193,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 182,
@@ -1561,7 +1742,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 183,
@@ -1571,42 +1753,48 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 184,
       "name": "Esmolol",
       "source_page": 196,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 185,
       "name": "Esomeprazol",
       "source_page": 197,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 186,
       "name": "Espiramicina",
       "source_page": 198,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 187,
       "name": "Espironolactona",
       "source_page": 199,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 188,
       "name": "Etambutol",
       "source_page": 200,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 189,
@@ -1615,28 +1803,32 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 190,
       "name": "Etossuximida",
       "source_page": 202,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 191,
       "name": "Famotidina",
       "source_page": 203,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 192,
       "name": "Fator VIIa Recombinante",
       "source_page": 204,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 193,
@@ -1645,14 +1837,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 194,
       "name": "Fenitoína Sódica",
       "source_page": 206,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 195,
@@ -1661,7 +1855,8 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 196,
@@ -1670,42 +1865,48 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 197,
       "name": "Fentanila",
       "source_page": 209,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 198,
       "name": "Ferro Aminoácido Quelato (Glicinato",
       "source_page": 210,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 199,
       "name": "Ferro Polimaltosado",
       "source_page": 211,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 200,
       "name": "Fexofenadina",
       "source_page": 212,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 201,
       "name": "Filgrastim (G-CSF)",
       "source_page": 213,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 202,
@@ -1714,28 +1915,32 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 203,
       "name": "Flucitosina",
       "source_page": 215,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 204,
       "name": "Fluconazol",
       "source_page": 216,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 205,
       "name": "Fludrocortisona",
       "source_page": 217,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 206,
@@ -1744,7 +1949,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 207,
@@ -1753,14 +1959,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 208,
       "name": "Fluticasona (Furoato / Propionato)",
       "source_page": 220,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 209,
@@ -1769,7 +1977,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 210,
@@ -1779,7 +1988,8 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 211,
@@ -1789,14 +1999,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 212,
       "name": "Furosemida",
       "source_page": 224,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 213,
@@ -1807,14 +2019,16 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 214,
       "name": "Galsulfase",
       "source_page": 226,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 215,
@@ -1823,7 +2037,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 216,
@@ -1832,14 +2047,16 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 217,
       "name": "Glicerina (Glicerol)",
       "source_page": 229,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 218,
@@ -1848,7 +2065,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 219,
@@ -1857,7 +2075,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 220,
@@ -1866,21 +2085,24 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 221,
       "name": "Gramicidina + Triancinolona + Neomicina",
       "source_page": 233,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 222,
       "name": "Granisetrona",
       "source_page": 234,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 223,
@@ -1891,14 +2113,16 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 224,
       "name": "Hedera Helix",
       "source_page": 236,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 225,
@@ -1908,7 +2132,8 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 226,
@@ -1918,28 +2143,32 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 227,
       "name": "Hidroclorotiazida",
       "source_page": 239,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 228,
       "name": "Hidrocortisona",
       "source_page": 240,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 229,
       "name": "Hidroxicloroquina",
       "source_page": 241,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 230,
@@ -1948,7 +2177,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 231,
@@ -1958,7 +2188,8 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 232,
@@ -1967,14 +2198,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 233,
       "name": "Hidroxiquinolina + Trolamina",
       "source_page": 245,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 234,
@@ -1984,21 +2217,24 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 235,
       "name": "Hidroxocobalamina (Vitamina B12)",
       "source_page": 247,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 236,
       "name": "Ibuprofeno",
       "source_page": 248,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 237,
@@ -2007,14 +2243,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 238,
       "name": "Idursulfase",
       "source_page": 250,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 239,
@@ -2023,7 +2261,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 240,
@@ -2032,14 +2271,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 241,
       "name": "Imipenem + Cilastatina",
       "source_page": 253,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 242,
@@ -2048,28 +2289,32 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 243,
       "name": "Imunoglobulina Humana Anti-Hepatite B",
       "source_page": 255,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 244,
       "name": "Imunoglobulina Humana Antirrábica",
       "source_page": 256,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 245,
       "name": "Imunoglobulina Humana Antitetânica",
       "source_page": 257,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 246,
@@ -2078,21 +2323,24 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 247,
       "name": "Indometacina",
       "source_page": 259,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 248,
       "name": "Insulina Asparte",
       "source_page": 260,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 249,
@@ -2101,42 +2349,48 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 250,
       "name": "Insulina Glargina",
       "source_page": 262,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 251,
       "name": "Insulina Glulisina",
       "source_page": 263,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 252,
       "name": "Insulina Lispro",
       "source_page": 264,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 253,
       "name": "Insulina NPH (Humana)",
       "source_page": 265,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 254,
       "name": "Insulina Regular (Humana)",
       "source_page": 266,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 255,
@@ -2145,7 +2399,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 256,
@@ -2154,7 +2409,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 257,
@@ -2163,14 +2419,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 258,
       "name": "Isoniazida",
       "source_page": 270,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 259,
@@ -2180,7 +2438,8 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 260,
@@ -2190,7 +2449,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 261,
@@ -2199,7 +2459,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 262,
@@ -2208,7 +2469,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 263,
@@ -2217,14 +2479,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 264,
       "name": "Lactulose",
       "source_page": 276,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 265,
@@ -2233,7 +2497,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 266,
@@ -2243,14 +2508,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 267,
       "name": "Laronidase",
       "source_page": 279,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 268,
@@ -2259,14 +2526,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 269,
       "name": "Levocetirizina",
       "source_page": 281,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 270,
@@ -2276,14 +2545,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 271,
       "name": "Levodropropizina",
       "source_page": 283,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 272,
@@ -2292,14 +2563,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 273,
       "name": "Levomepromazina",
       "source_page": 285,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 274,
@@ -2308,14 +2581,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 275,
       "name": "Levotiroxina Sódica",
       "source_page": 287,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 276,
@@ -2325,7 +2600,8 @@
         "contem_restricao_contexto_especifico",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 277,
@@ -2334,7 +2610,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 278,
@@ -2344,7 +2621,8 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 279,
@@ -2354,7 +2632,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 280,
@@ -2363,14 +2642,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 281,
       "name": "Loratadina",
       "source_page": 293,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 282,
@@ -2379,7 +2660,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 283,
@@ -2389,28 +2671,32 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 284,
       "name": "Macrogol 3350 / 4000 (PEG)",
       "source_page": 296,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 285,
       "name": "Manitol",
       "source_page": 297,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 286,
       "name": "Mebendazol",
       "source_page": 298,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 287,
@@ -2420,7 +2706,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 288,
@@ -2430,14 +2717,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 289,
       "name": "Meropenem",
       "source_page": 301,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 290,
@@ -2446,7 +2735,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 291,
@@ -2457,7 +2747,8 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 292,
@@ -2466,7 +2757,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 293,
@@ -2475,7 +2767,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 294,
@@ -2485,7 +2778,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 295,
@@ -2494,7 +2788,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 296,
@@ -2503,7 +2798,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 297,
@@ -2513,7 +2809,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 298,
@@ -2524,21 +2821,24 @@
         "contem_alerta_nao_extrapolar",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 299,
       "name": "Micafungina",
       "source_page": 311,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 300,
       "name": "Miconazol",
       "source_page": 312,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 301,
@@ -2548,7 +2848,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 302,
@@ -2557,21 +2858,24 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 303,
       "name": "Milrinona",
       "source_page": 315,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 304,
       "name": "Minociclina",
       "source_page": 316,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 305,
@@ -2580,21 +2884,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 306,
       "name": "Mometasona",
       "source_page": 318,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 307,
       "name": "Montelucaste de Sódio",
       "source_page": 319,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 308,
@@ -2603,7 +2910,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 309,
@@ -2613,21 +2921,24 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 310,
       "name": "Mupirocina",
       "source_page": 322,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 311,
       "name": "Naloxona",
       "source_page": 323,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 312,
@@ -2636,7 +2947,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 313,
@@ -2646,21 +2958,24 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 314,
       "name": "Neomicina + Bacitracina",
       "source_page": 326,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 315,
       "name": "Neostigmina",
       "source_page": 327,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 316,
@@ -2669,7 +2984,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 317,
@@ -2678,21 +2994,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 318,
       "name": "Nistatina",
       "source_page": 330,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 319,
       "name": "Nistatina + Óxido de Zinco",
       "source_page": 331,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 320,
@@ -2701,21 +3020,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 321,
       "name": "Nitrofurantoína",
       "source_page": 333,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 322,
       "name": "Nitroglicerina",
       "source_page": 334,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 323,
@@ -2724,7 +3046,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 324,
@@ -2734,7 +3057,8 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 325,
@@ -2744,7 +3068,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 326,
@@ -2753,7 +3078,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 327,
@@ -2763,7 +3089,8 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 328,
@@ -2772,14 +3099,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 329,
       "name": "Olopatadina",
       "source_page": 341,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 330,
@@ -2788,7 +3117,8 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 331,
@@ -2797,7 +3127,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 332,
@@ -2807,7 +3138,8 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 333,
@@ -2816,28 +3148,32 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 334,
       "name": "Oxacilina Sódica",
       "source_page": 346,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 335,
       "name": "Oxcarbazepina",
       "source_page": 347,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 336,
       "name": "Oxiconazol",
       "source_page": 348,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 337,
@@ -2846,21 +3182,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 338,
       "name": "Oxitocina",
       "source_page": 350,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 339,
       "name": "Palivizumabe",
       "source_page": 351,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 340,
@@ -2870,28 +3209,32 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 341,
       "name": "Paracetamol (Acetaminofeno)",
       "source_page": 353,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 342,
       "name": "Penicilamina",
       "source_page": 354,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 343,
       "name": "Permetrina",
       "source_page": 355,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 344,
@@ -2901,7 +3244,8 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 345,
@@ -2910,21 +3254,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 346,
       "name": "Pilocarpina",
       "source_page": 358,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 347,
       "name": "Pimecrolimo",
       "source_page": 359,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 348,
@@ -2933,14 +3280,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 349,
       "name": "Pirazinamida",
       "source_page": 361,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 350,
@@ -2949,35 +3298,40 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 351,
       "name": "Piridoxina (Vitamina B6)",
       "source_page": 363,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 352,
       "name": "Pirimetamina",
       "source_page": 364,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 353,
       "name": "Pirvínio (Pamoato)",
       "source_page": 365,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 354,
       "name": "Plasma Fresco Congelado",
       "source_page": 366,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 355,
@@ -2986,7 +3340,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 356,
@@ -2995,21 +3350,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 357,
       "name": "Polimixina B + Neomicina + Fluocinolona",
       "source_page": 369,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 358,
       "name": "Poractanto Alfa",
       "source_page": 370,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 359,
@@ -3018,14 +3376,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 360,
       "name": "Praziquantel",
       "source_page": 372,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 361,
@@ -3034,7 +3394,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 362,
@@ -3043,7 +3404,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 363,
@@ -3053,7 +3415,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 364,
@@ -3063,7 +3426,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 365,
@@ -3072,7 +3436,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 366,
@@ -3081,7 +3446,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 367,
@@ -3090,7 +3456,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 368,
@@ -3102,7 +3469,8 @@
         "contem_alerta_nao_extrapolar",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 369,
@@ -3112,35 +3480,40 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 370,
       "name": "Protamina",
       "source_page": 382,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 371,
       "name": "Quetiapina",
       "source_page": 383,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 372,
       "name": "Racecadotril",
       "source_page": 384,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 373,
       "name": "Rasburicase",
       "source_page": 385,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 374,
@@ -3150,14 +3523,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 375,
       "name": "Retinol (Vitamina A)",
       "source_page": 387,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 376,
@@ -3166,21 +3541,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 377,
       "name": "Rifampicina",
       "source_page": 389,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 378,
       "name": "Risperidona",
       "source_page": 390,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 379,
@@ -3190,14 +3568,16 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 380,
       "name": "Sais de Reidratação Oral (SRO)",
       "source_page": 392,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 381,
@@ -3207,7 +3587,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 382,
@@ -3217,7 +3598,8 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 383,
@@ -3226,7 +3608,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 384,
@@ -3236,14 +3619,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 385,
       "name": "Sevoflurano",
       "source_page": 397,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 386,
@@ -3253,14 +3638,16 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 387,
       "name": "Simeticona (Dimeticona)",
       "source_page": 399,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 388,
@@ -3269,7 +3656,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 389,
@@ -3278,7 +3666,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 390,
@@ -3287,21 +3676,24 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 391,
       "name": "Soro Antiaracnídico",
       "source_page": 403,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 392,
       "name": "Soro Antibotrópico (Pentavalente)",
       "source_page": 404,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 393,
@@ -3310,21 +3702,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 394,
       "name": "Soro Anticrotálico",
       "source_page": 406,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 395,
       "name": "Soro Antidiftérico",
       "source_page": 407,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 396,
@@ -3333,21 +3728,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 397,
       "name": "Soro Antiescorpiônico",
       "source_page": 409,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 398,
       "name": "Soro Antitetânico",
       "source_page": 410,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 399,
@@ -3357,7 +3755,8 @@
         "contem_restricao_contexto_especifico",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 400,
@@ -3366,7 +3765,8 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 401,
@@ -3377,14 +3777,16 @@
         "contem_alerta_nao_extrapolar",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 402,
       "name": "Sufentanila",
       "source_page": 414,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 403,
@@ -3393,21 +3795,24 @@
       "document_flags": [
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 404,
       "name": "Sulfadiazina",
       "source_page": 416,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 405,
       "name": "Sulfadiazina de Prata",
       "source_page": 417,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 406,
@@ -3417,7 +3822,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 407,
@@ -3427,7 +3833,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 408,
@@ -3437,7 +3844,8 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 409,
@@ -3446,7 +3854,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 410,
@@ -3455,14 +3864,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 411,
       "name": "Tacrolimo",
       "source_page": 423,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 412,
@@ -3473,7 +3884,8 @@
         "contem_alerta_nao_extrapolar",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 413,
@@ -3482,7 +3894,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 414,
@@ -3492,7 +3905,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 415,
@@ -3501,7 +3915,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 416,
@@ -3510,14 +3925,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 417,
       "name": "Terbutalina",
       "source_page": 429,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 418,
@@ -3526,7 +3943,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 419,
@@ -3535,21 +3953,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 420,
       "name": "Tiabendazol",
       "source_page": 432,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 421,
       "name": "Tiamazol (Metimazol)",
       "source_page": 433,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 422,
@@ -3559,7 +3980,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 423,
@@ -3568,7 +3990,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 424,
@@ -3578,7 +4001,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 425,
@@ -3587,7 +4011,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 426,
@@ -3596,7 +4021,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 427,
@@ -3605,7 +4031,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 428,
@@ -3614,21 +4041,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 429,
       "name": "Tobramicina",
       "source_page": 441,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 430,
       "name": "Tocilizumabe",
       "source_page": 442,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 431,
@@ -3637,21 +4067,24 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 432,
       "name": "Topiramato",
       "source_page": 444,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 433,
       "name": "Tramadol",
       "source_page": 445,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 434,
@@ -3660,28 +4093,32 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 435,
       "name": "Trimebutina",
       "source_page": 447,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 436,
       "name": "Ureia",
       "source_page": 448,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 437,
       "name": "Valaciclovir",
       "source_page": 449,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 438,
@@ -3691,7 +4128,8 @@
         "contem_restricao_contexto_especifico",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 439,
@@ -3700,21 +4138,24 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 440,
       "name": "Varfarina Sódica",
       "source_page": 452,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 441,
       "name": "Vasopressina",
       "source_page": 453,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 442,
@@ -3723,14 +4164,16 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 443,
       "name": "Vigabatrina",
       "source_page": 455,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 444,
@@ -3739,14 +4182,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 445,
       "name": "Voriconazol",
       "source_page": 457,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 446,
@@ -3755,7 +4200,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 447,
@@ -3764,7 +4210,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 448,
@@ -3773,7 +4220,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 449,
@@ -3782,7 +4230,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 450,
@@ -3792,7 +4241,8 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 451,
@@ -3801,7 +4251,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 452,
@@ -3810,7 +4261,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 453,
@@ -3819,7 +4271,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 454,
@@ -3828,28 +4281,32 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 455,
       "name": "Tezepelumabe",
       "source_page": 467,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 456,
       "name": "Dupilumabe",
       "source_page": 468,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 457,
       "name": "Mepolizumabe",
       "source_page": 469,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 458,
@@ -3859,7 +4316,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 459,
@@ -3868,7 +4326,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 460,
@@ -3877,7 +4336,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 461,
@@ -3886,7 +4346,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 462,
@@ -3895,7 +4356,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 463,
@@ -3904,7 +4366,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 464,
@@ -3915,7 +4378,8 @@
         "contem_off_label",
         "contem_alerta_nao_extrapolar"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 465,
@@ -3924,14 +4388,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 466,
       "name": "Secuquinumabe",
       "source_page": 478,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 467,
@@ -3940,14 +4406,16 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 468,
       "name": "Romiplostim",
       "source_page": 480,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 469,
@@ -3957,56 +4425,64 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 470,
       "name": "Emicizumabe",
       "source_page": 482,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 471,
       "name": "Fator XIII da Coagulação Humana",
       "source_page": 483,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 472,
       "name": "Fator VIII + Fator de von Willebrand",
       "source_page": 484,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 473,
       "name": "Fenoximetilpenicilina Potássica",
       "source_page": 485,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 474,
       "name": "Nirsevimabe",
       "source_page": 486,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 475,
       "name": "Atomoxetina",
       "source_page": 487,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 476,
       "name": "Cloreto de Cálcio 10%",
       "source_page": 488,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 477,
@@ -4015,7 +4491,8 @@
       "document_flags": [
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 478,
@@ -4025,7 +4502,8 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 479,
@@ -4034,14 +4512,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 480,
       "name": "Metotrexato (Uso Imunossupressor)",
       "source_page": 492,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 481,
@@ -4050,14 +4530,16 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 482,
       "name": "Ropivacaína",
       "source_page": 494,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 483,
@@ -4067,7 +4549,8 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 484,
@@ -4077,21 +4560,24 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 485,
       "name": "Pralidoxima",
       "source_page": 497,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 486,
       "name": "Ciclesonida",
       "source_page": 498,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 487,
@@ -4100,7 +4586,8 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 488,
@@ -4109,7 +4596,8 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 489,
@@ -4118,28 +4606,32 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 490,
       "name": "Insulina Detemir",
       "source_page": 502,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 491,
       "name": "Fator IX da Coagulação Humana",
       "source_page": 503,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 492,
       "name": "Imunoglobulina Humana",
       "source_page": 504,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 493,
@@ -4149,21 +4641,24 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 494,
       "name": "Baloxavir Marboxil",
       "source_page": 506,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 495,
       "name": "Griseofulvina",
       "source_page": 507,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 496,
@@ -4173,7 +4668,8 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 497,
@@ -4182,14 +4678,39 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     },
     {
       "fiche": 498,
       "name": "Perampanel",
       "source_page": 510,
       "document_flags": [],
-      "resolution": "DOCUMENTARY_ONLY"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true
     }
-  ]
+  ],
+  "resolution_policy": {
+    "gap_state": "AUTO_RESEARCH_PENDING",
+    "legacy_documentary_only_terminal": false,
+    "manual_user_completion_required": false,
+    "auto_research": true,
+    "source_hierarchy": [
+      "ANVISA",
+      "Ministério da Saúde",
+      "SES-MG",
+      "SBP e sociedades médicas brasileiras pertinentes",
+      "bulas/registro sanitário oficial",
+      "diretrizes internacionais reconhecidas",
+      "PubMed/DOI e revisões sistemáticas"
+    ],
+    "operational_release_requires": [
+      "complete_operational_regimen",
+      "regimen_level_source",
+      "population_match",
+      "presentation_compatible",
+      "triple_audit_passed"
+    ],
+    "safety_rule": "Descoberta automática de fontes não autoriza promoção automática para READY sem validação estrutural, matemática/farmacêutica e clínica/regulatória."
+  }
 }
