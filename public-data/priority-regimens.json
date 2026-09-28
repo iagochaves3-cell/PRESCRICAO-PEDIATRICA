@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0",
+  "version": "2026-09-28.priority.1",
+  "reviewed_at": "2026-09-28T17:41:31.775Z",
+  "human_independent_review": false,
+  "ready_meaning": "Regime/presentação/população codificados; não aprovação de toda a monografia, não prescrição sem revisão do caso.",
+  "sources": {
+    "cdc": {
+      "title": "CDC — Group A Streptococcal Pharyngitis (18/11/2025)",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+      "kind": "diretriz oficial"
+    },
+    "ems250": {
+      "title": "EMS — amoxicilina 250 mg/5 mL",
+      "url": "https://www.ems.com.br/medicamentos/amoxicilina-250mg-5ml/",
+      "kind": "fabricante: apresentação"
+    },
+    "ems400": {
+      "title": "EMS — amoxicilina 400 mg/5 mL",
+      "url": "https://www.ems.com.br/medicamentos/amoxicilina-400mg/",
+      "kind": "fabricante: apresentação"
+    },
+    "msasma": {
+      "title": "Ministério da Saúde — planejamento terapêutico da asma",
+      "url": "https://linhasdecuidado.saude.gov.br/portal/asma/unidade-de-atencao-primaria/planejamento-terapeutico/",
+      "kind": "diretriz oficial"
+    },
+    "salb": {
+      "title": "GSK — texto da bula profissional Aerolin spray, reproduzido em Bula.com.br",
+      "url": "https://bula.com.br/original/aerolin-spray-aerossol",
+      "kind": "reprodução da bula; não consulta direta ao Bulário Anvisa"
+    },
+    "geolab": {
+      "title": "Geolab — Bebex N, bula profissional V.04_09/2024, seções 1, 4–8",
+      "url": "https://www.geolab.com.br/wp-content/uploads/2021/05/bebex-N_bula-profissional.pdf",
+      "kind": "bula no fabricante"
+    },
+    "dip50": {
+      "title": "Opella — Novalgina solução oral 50 mg/mL, bula (20/03/2026)",
+      "url": "https://www.novalgina.com.br/produtos/infantil/solucao-oral/bula",
+      "kind": "bula no fabricante"
+    },
+    "dip500": {
+      "title": "Opella — Novalgina gotas 500 mg/mL, bula (20/03/2026)",
+      "url": "https://www.novalgina.com.br/produtos/adulto/gotas/bula",
+      "kind": "bula no fabricante"
+    },
+    "diptable": {
+      "title": "Opella — tabelas de dose e intervalo (01/12/2025)",
+      "url": "https://www.novalgina.com.br/dor-e-febre/febre/novalgina-infantil-dosagem",
+      "kind": "fabricante: aplicação das tabelas"
+    },
+    "cps": {
+      "title": "Canadian Paediatric Society — antifúngicos, reafirmado 21/11/2024",
+      "url": "https://cps.ca/en/documents/position/antifungal-agents-common-infections",
+      "kind": "sociedade médica; não comprova apresentação brasileira isolada"
+    }
+  },
+  "regimens": [
+    {
+      "id": "amox-gas",
+      "fiche": 35,
+      "name": "Amoxicilina",
+      "status": "READY",
+      "scope": "Faringoamigdalite estreptocócica confirmada; esquema VO 12/12 h, 10 dias; idade auditada ≥3 meses e <18 anos.",
+      "minMonths": 3,
+      "maxMonths": 216,
+      "category": "Tratamento etiológico",
+      "sources": [
+        "cdc",
+        "ems250",
+        "ems400"
+      ],
+      "presentations": [
+        {
+          "id": "amox-250",
+          "label": "Suspensão 250 mg/5 mL (50 mg/mL) — frasco reconstituído 150 mL",
+          "mgMl": 50,
+          "bottleMl": 150
+        },
+        {
+          "id": "amox-400",
+          "label": "Suspensão 400 mg/5 mL (80 mg/mL) — frasco reconstituído 100 mL",
+          "mgMl": 80,
+          "bottleMl": 100
+        }
+      ],
+      "variants": [
+        [
+          "standard",
+          "25 mg/kg/dose; máximo 500 mg/dose"
+        ]
+      ],
+      "warnings": "Não usar em alergia relevante a penicilinas; revisar mononucleose, função renal e interações. Não associar automaticamente a outro antibiótico para a mesma faringite.",
+      "labelStatus": "Esquema de diretriz; a apresentação brasileira foi confirmada. Não é aprovação integral da monografia.",
+      "remaining": "Outras indicações, concentrações, cápsulas, comprimidos, esquema 1x/dia e ajustes de insuficiência renal não foram promovidos neste bloco."
+    },
+    {
+      "id": "salbutamol-rescue",
+      "fiche": 381,
+      "name": "Salbutamol",
+      "status": "READY",
+      "scope": "Resgate ambulatorial em asma/broncoespasmo já avaliado, sem gravidade; idade auditada ≥12 meses e <18 anos. Não é protocolo de crise moderada/grave.",
+      "minMonths": 12,
+      "maxMonths": 216,
+      "category": "Tratamento de suporte",
+      "sources": [
+        "msasma",
+        "salb"
+      ],
+      "presentations": [
+        {
+          "id": "salb-100",
+          "label": "Aerossol dosimetrado 100 mcg de salbutamol BASE/jato — 200 doses",
+          "mcgPuff": 100,
+          "puffs": 200
+        }
+      ],
+      "variants": [
+        [
+          "one",
+          "1 jato (100 mcg)"
+        ],
+        [
+          "two",
+          "2 jatos (200 mcg), se necessário"
+        ]
+      ],
+      "warnings": "Não usar em alergia ao produto; revisar betabloqueador não seletivo, arritmias e tireotoxicose. Reavaliar se alívio durar menos de 3 h ou houver piora. Avaliar tratamento controlador com corticoide inalatório.",
+      "labelStatus": "Posologia da bula profissional reproduzida, conciliada com orientação ministerial. Não houve consulta direta da renovação do registro na Anvisa.",
+      "remaining": "Nebulização 5 mg/mL, apresentações sistêmicas, lactentes <12 meses e esquemas de crise grave não estão homologados neste bloco; limite etário aqui é do escopo, não contraindicação absoluta."
+    },
+    {
+      "id": "nystatin-zinc-diaper",
+      "fiche": 319,
+      "name": "Nistatina + óxido de zinco",
+      "status": "READY",
+      "scope": "Dermatite de fraldas candidiásica; uso exclusivamente dermatológico. Dose por área, não por peso.",
+      "minMonths": 0,
+      "maxMonths": 216,
+      "category": "Tratamento etiológico",
+      "sources": [
+        "geolab",
+        "cps"
+      ],
+      "presentations": [
+        {
+          "id": "nyz-60",
+          "label": "Pomada dermatológica: nistatina 100.000 UI/g + óxido de zinco 200 mg/g — 60 g",
+          "unitsG": 100000,
+          "zincMgG": 200,
+          "tubeG": 60
+        }
+      ],
+      "variants": [
+        [
+          "standard",
+          "Camada fina após higiene e a cada troca de fralda"
+        ]
+      ],
+      "warnings": "Não usar em alergia aos componentes nem em grandes áreas de pele ferida. Uso externo; suspender se irritação. Não substituir por creme vaginal ou suspensão oral.",
+      "labelStatus": "Indicação e uso pediátrico constam da bula do fabricante. A bula não fixa duração numérica; término guiado pela resolução e reavaliação clínica.",
+      "remaining": "Nistatina isolada: não foi confirmada nesta auditoria uma formulação dermatológica brasileira isolada apropriada. Não converter formulação vaginal/oral em pomada de fraldas."
+    },
+    {
+      "id": "dipyrone",
+      "fiche": 166,
+      "name": "Dipirona monoidratada",
+      "status": "READY",
+      "scope": "Dor ou febre em criança avaliada, ≥3 meses e <15 anos, 5–53 kg. Selecionar dose dentro da tabela da apresentação; inicialmente a mínima.",
+      "minMonths": 3,
+      "maxMonths": 180,
+      "category": "Antitérmico / analgésico",
+      "sources": [
+        "dip50",
+        "dip500",
+        "diptable"
+      ],
+      "presentations": [
+        {
+          "id": "dip-50",
+          "label": "Solução oral 50 mg/mL — frasco 100 mL",
+          "mgMl": 50,
+          "bottleMl": 100
+        },
+        {
+          "id": "dip-500",
+          "label": "Gotas 500 mg/mL — 20 gotas/mL, 25 mg/gota — frasco 10 ou 20 mL",
+          "mgMl": 500,
+          "dropsMl": 20,
+          "mgDrop": 25
+        }
+      ],
+      "variants": [
+        [
+          "min",
+          "Dose mínima da faixa (inicial)"
+        ],
+        [
+          "max",
+          "Dose máxima da faixa, se necessária"
+        ]
+      ],
+      "warnings": "Contraindicada se <3 meses OU <5 kg, alergia a pirazolonas, agranulocitose/doença medular, deficiência G6PD, porfiria ou reação a analgésicos. Revisar função renal/hepática, metotrexato e demais interações. A solução contém açúcar e excipientes próprios.",
+      "labelStatus": "Dose e limites específicos de bula. Em lacunas entre faixas inteiras, usa-se somente a interseção dos intervalos permitidos nas duas faixas — regra computacional conservadora explícita.",
+      "remaining": "Comprimidos, supositórios, injetáveis, outras marcas com gotejador diferente, idade ≥15 anos e peso >53 kg exigem reconciliação própria, não foram promovidos."
+    }
+  ],
+  "dipyrone_label_bands": [
+    {
+      "lo": 5,
+      "hi": 8,
+      "oral": [
+        1.25,
+        2.5
+      ],
+      "drops": [
+        2,
+        5
+      ]
+    },
+    {
+      "lo": 9,
+      "hi": 15,
+      "oral": [
+        2.5,
+        5
+      ],
+      "drops": [
+        3,
+        10
+      ]
+    },
+    {
+      "lo": 16,
+      "hi": 23,
+      "oral": [
+        3.75,
+        7.5
+      ],
+      "drops": [
+        5,
+        15
+      ]
+    },
+    {
+      "lo": 24,
+      "hi": 30,
+      "oral": [
+        5,
+        10
+      ],
+      "drops": [
+        8,
+        20
+      ]
+    },
+    {
+      "lo": 31,
+      "hi": 45,
+      "oral": [
+        7.5,
+        15
+      ],
+      "drops": [
+        10,
+        30
+      ]
+    },
+    {
+      "lo": 46,
+      "hi": 53,
+      "oral": [
+        8.75,
+        17.5
+      ],
+      "drops": [
+        15,
+        35
+      ]
+    }
+  ],
+  "software_rounding": "Amoxicilina: para baixo em 0,1 mL, desvio relativo <=5%, alvo e dose administrada mostrados; regra do software, não uma regra textual do CDC.",
+  "automated_tests": "A publicação deste registro ocorre somente após testes de cálculo e navegador do workflow PPS priority release."
+}

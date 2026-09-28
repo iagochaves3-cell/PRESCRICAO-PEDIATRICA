@@ -168,7 +168,7 @@
     </header>
     <section class="hero">
       <div><p class="eyebrow">Pediatria · plano de cuidado em casa</p><h1>Um plano claro.<br><em>Um cuidado acompanhado.</em></h1><p>Prescrição e orientações organizadas em um documento para revisar com a família, sem perder a origem das referências clínicas.</p></div>
-      <aside class="hero-note"><strong>Ferramenta de documentação para profissionais habilitados.</strong><br>Não diagnostica nem calcula doses. Registre o esquema definido na avaliação clínica e confira cada informação antes de emitir.</aside>
+      <aside class="hero-note"><strong>Ferramenta de documentação para profissionais habilitados.</strong><br>Calcula somente os esquemas reconciliados dentro do escopo exibido. Confira a indicação e os dados do paciente antes de emitir.</aside>
     </section>
 
     <section class="workspace" id="gerador" aria-label="Gerador de plano de cuidado">
@@ -321,6 +321,18 @@
       }
 
       function populateMedicationFromEvidence(regimen, presentation, evidenceKey) {
+        /* PPS_PRIORITY_ROUTE_V1 */
+        if (regimen.medication === 'Amoxicilina oral') {
+          if (!window.PPSPriority) { status.textContent = 'Módulo de dose não carregado; não gerar esquema.'; return false; }
+          const concentration = Number(presentation?.concentration_mg_ml);
+          const id = concentration === 50 ? 'amox-250' : concentration === 80 ? 'amox-400' : 'UNVERIFIED';
+          return window.PPSPriority.use('amox-gas', id, 'standard', evidenceKey);
+        }
+        if (regimen.medication === 'Benzilpenicilina benzatina intramuscular' && medicationCards().some(card => card.querySelector('[data-selected]').checked && /amoxicilina/i.test(card.querySelector('[data-field="name"]').value))) {
+          status.textContent = 'Escolha apenas um esquema etiológico para a faringite: amoxicilina OU benzilpenicilina benzatina.';
+          return false;
+        }
+
         const weight = Number(value('weight'));
         if (!Number.isFinite(weight) || weight <= 0 || weight > 250) {
           byId('weight').setCustomValidity('Informe um peso aferido válido em kg antes de selecionar o esquema.');
@@ -611,5 +623,6 @@
       loadDiagnosisOptions();
     })();
   </script>
+<script src="./assets/priority-regimens.js"></script>
 </body>
 </html>

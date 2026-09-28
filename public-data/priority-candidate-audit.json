@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-28T17:41:31.775Z",
+  "version": "2026-09-28.priority.1",
+  "candidate_file_sha256": "b76f76d99f8cc67440f4f15bd5e05f28b9106d9c909c5ab4ee99372666f26f57",
+  "method": "Triagem dos candidatos por ficha; metadados de busca não comprovam posologia. Decisões são limitadas aos regimes documentados, com fontes e testes. Não houve auditoria humana independente.",
+  "targets": [
+    {
+      "fiche": 35,
+      "name": "Amoxicilina",
+      "searched_at": "2026-09-28T17:05:22.460Z",
+      "upstream_operational_status": "NOT_PROMOTED",
+      "candidates": 5,
+      "request_errors": 2,
+      "unique_identifiers": 5,
+      "duplicates_by_identifier": 0,
+      "sample_titles": [
+        {
+          "title": "[Safety and efficacy of OM-85-BV plus amoxicillin/clavulanate in the treatment of subacute sinusitis and the prevention of recurrent infections in children].",
+          "url": "https://europepmc.org/article/MED/9585823",
+          "id": "9585823",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "[Effect of probiotic Saccharomyces boulardii on prevention of antibiotic-associated diarrhea in adult outpatients with amoxicillin treatment].",
+          "url": "https://europepmc.org/article/MED/18949181",
+          "id": "18949181",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "[Spanish Society of Pediatric Infectious Diseases, Spanish Society of Paediatric Clinical Immunology and Allergy, Spanish Association of Paediatric Primary Care, and the Spanish Society of Extra-hospital Paediatrics and Primary Health Care consensus document on antibiotic treatment in penicillin or amoxicillin allergy].",
+          "url": "https://europepmc.org/article/MED/27427544",
+          "id": "27427544",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "[Effectiveness of omeprazole, clarithromycin and amoxycillin therapy to eradicate Helicobacter pylori in patients with active peptic ulcer. Preliminary results of GENPY study].",
+          "url": "https://europepmc.org/article/MED/10846695",
+          "id": "10846695",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "[Treatment with omeprazole, clarithromycin and amoxicillin over 6 days in patients with Helicobacter pylori-infected duodenal ulcer].",
+          "url": "https://europepmc.org/article/MED/10089703",
+          "id": "10089703",
+          "source": "Europe PMC"
+        }
+      ],
+      "errors": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29999946,41722156,28781106,27427544,27982372"
+        },
+        {
+          "source": "openFDA drug label",
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Amoxicilina%22%20OR%20openfda.brand_name%3A%22Amoxicilina%22"
+        }
+      ],
+      "verdict": "DISCOVERY_ONLY: contagem de resultados não é validação clínica",
+      "ready_regimen_ids": [
+        "amox-gas"
+      ],
+      "remaining": [
+        "Outras indicações, concentrações, cápsulas, comprimidos, esquema 1x/dia e ajustes de insuficiência renal não foram promovidos neste bloco."
+      ]
+    },
+    {
+      "fiche": 166,
+      "name": "Dipirona Sódica (Metamizol)",
+      "searched_at": "2026-09-28T16:14:35.090Z",
+      "upstream_operational_status": "NOT_PROMOTED",
+      "candidates": 0,
+      "request_errors": 1,
+      "unique_identifiers": 0,
+      "duplicates_by_identifier": 0,
+      "sample_titles": [],
+      "errors": [
+        {
+          "source": "openFDA drug label",
+          "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Dipirona%20S%C3%B3dica%20(Metamizol)%22%20OR%20openfda.brand_name%3A%22Dipirona%20S%C3%B3dica%20(Metamizol)%22"
+        }
+      ],
+      "verdict": "DISCOVERY_ONLY: contagem de resultados não é validação clínica",
+      "ready_regimen_ids": [
+        "dipyrone"
+      ],
+      "remaining": [
+        "Comprimidos, supositórios, injetáveis, outras marcas com gotejador diferente, idade ≥15 anos e peso >53 kg exigem reconciliação própria, não foram promovidos."
+      ]
+    },
+    {
+      "fiche": 318,
+      "name": "Nistatina",
+      "searched_at": "2026-09-28T16:32:06.563Z",
+      "upstream_operational_status": "NOT_PROMOTED",
+      "candidates": 5,
+      "request_errors": 2,
+      "unique_identifiers": 5,
+      "duplicates_by_identifier": 0,
+      "sample_titles": [
+        {
+          "title": "[The use of aerosols of nystatin sodium salt].",
+          "url": "https://europepmc.org/article/MED/5872663",
+          "id": "5872663",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "[Comparative activity of clotrimazole and nifuratel plus nystatin in vaginal infections of various etiologies].",
+          "url": "https://europepmc.org/article/MED/6493579",
+          "id": "6493579",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "[Activity and tolerance of a dermatologic preparation with a triamcinolone acetonide and nystatin base in skin diseases caused by Candida albicans].",
+          "url": "https://europepmc.org/article/MED/2972495",
+          "id": "2972495",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "[Efficacy and tolerance of a preparation containing triamcinolone acetonide, nystatin and neomycin].",
+          "url": "https://europepmc.org/article/MED/2972479",
+          "id": "2972479",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "[Treatment of Trichomonas vulvovaginitis with alpha-tenoyl-amino-2-nitro-5-thiazole and of mycoses with nystatin].",
+          "url": "https://europepmc.org/article/MED/1207965",
+          "id": "1207965",
+          "source": "Europe PMC"
+        }
+      ],
+      "errors": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000300"
+        },
+        {
+          "source": "openFDA drug label",
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Nistatina%22%20OR%20openfda.brand_name%3A%22Nistatina%22"
+        }
+      ],
+      "verdict": "DISCOVERY_ONLY: contagem de resultados não é validação clínica",
+      "ready_regimen_ids": [],
+      "remaining": [
+        "Não foi confirmada formulação dermatológica brasileira isolada para fraldas. Suspensão oral e creme vaginal não foram equiparados à pomada."
+      ]
+    },
+    {
+      "fiche": 319,
+      "name": "Nistatina + Óxido de Zinco",
+      "searched_at": "2026-09-28T16:32:07.092Z",
+      "upstream_operational_status": "NOT_PROMOTED",
+      "candidates": 0,
+      "request_errors": 1,
+      "unique_identifiers": 0,
+      "duplicates_by_identifier": 0,
+      "sample_titles": [],
+      "errors": [
+        {
+          "source": "openFDA drug label",
+          "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Nistatina%20%2B%20%C3%93xido%20de%20Zinco%22%20OR%20openfda.brand_name%3A%22Nistatina%20%2B%20%C3%93xido%20de%20Zinco%22"
+        }
+      ],
+      "verdict": "DISCOVERY_ONLY: contagem de resultados não é validação clínica",
+      "ready_regimen_ids": [
+        "nystatin-zinc-diaper"
+      ],
+      "remaining": [
+        "Nistatina isolada: não foi confirmada nesta auditoria uma formulação dermatológica brasileira isolada apropriada. Não converter formulação vaginal/oral em pomada de fraldas."
+      ]
+    },
+    {
+      "fiche": 381,
+      "name": "Salbutamol",
+      "searched_at": "2026-09-28T16:32:40.219Z",
+      "upstream_operational_status": "NOT_PROMOTED",
+      "candidates": 5,
+      "request_errors": 2,
+      "unique_identifiers": 5,
+      "duplicates_by_identifier": 0,
+      "sample_titles": [
+        {
+          "title": "Respiratory syncytial virus in early life and risk of wheeze and allergy by age 13 years.",
+          "url": "https://europepmc.org/article/MED/10470697",
+          "id": "10470697",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Use of induced sputum cell counts to investigate airway inflammation in asthma.",
+          "url": "https://europepmc.org/article/MED/1539140",
+          "id": "1539140",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Comparative effects of inhaled salbutamol, sodium cromoglycate, and beclomethasone dipropionate on allergen-induced early asthmatic responses, late asthmatic responses, and increased bronchial responsiveness to histamine.",
+          "url": "https://europepmc.org/article/MED/3106449",
+          "id": "3106449",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Contribution of hospital effluents to the load of pharmaceuticals in urban wastewaters: identification of ecologically relevant pharmaceuticals.",
+          "url": "https://europepmc.org/article/MED/23732224",
+          "id": "23732224",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "The beta-agonist lung injury trial (BALTI): a randomized placebo-controlled clinical trial.",
+          "url": "https://europepmc.org/article/MED/16254268",
+          "id": "16254268",
+          "source": "Europe PMC"
+        }
+      ],
+      "errors": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42799589,42794301,42707905,42387671,42303180"
+        },
+        {
+          "source": "openFDA drug label",
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Salbutamol%22%20OR%20openfda.brand_name%3A%22Salbutamol%22"
+        }
+      ],
+      "verdict": "DISCOVERY_ONLY: contagem de resultados não é validação clínica",
+      "ready_regimen_ids": [
+        "salbutamol-rescue"
+      ],
+      "remaining": [
+        "Nebulização 5 mg/mL, apresentações sistêmicas, lactentes <12 meses e esquemas de crise grave não estão homologados neste bloco; limite etário aqui é do escopo, não contraindicação absoluta."
+      ]
+    }
+  ]
+}
