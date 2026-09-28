@@ -354,24 +354,13 @@
       "name": "Amoxicilina",
       "source_page": 47,
       "document_flags": [],
-      "resolution": "READY",
-      "auto_research": false,
-      "ready_reviewed_at": "2026-09-28",
-      "triple_audit": {
-        "structural_regimen": true,
-        "pharmaceutical_mathematical": true,
-        "clinical_regulatory": true
-      },
-      "ready_scope": [
-        "Faringoamigdalite Bacteriana Estreptocócica"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "amox-gas"
       ],
-      "ready_source_ids": [
-        "ms-cab28",
-        "cdc-2025",
-        "ache-amox-250",
-        "ache-amox-400"
-      ],
-      "note": "READY somente nos esquemas/contextos operacionais publicados em clinical-evidence.json."
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 36,
@@ -1603,65 +1592,13 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "READY",
-      "auto_research": false,
-      "ready_reviewed_at": "2026-09-28",
-      "triple_audit": {
-        "structural_regimen": true,
-        "pharmaceutical_mathematical": true,
-        "clinical_regulatory": true
-      },
-      "ready_scope": [
-        "Dor ou febre — uso sintomático"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "dipyrone"
       ],
-      "ready_source_ids": [
-        "ms-dipirona-dengue-2024",
-        "ms-dipirona-dor-2011",
-        "ms-dipirona-esus-2025"
-      ],
-      "verified_presentations": [
-        "Solução oral 50 mg/mL",
-        "Solução oral gotas 500 mg/mL (20 gotas/mL)",
-        "Comprimido 500 mg — adolescentes conforme bula/faixa etária",
-        "Comprimido 1 g — adolescentes ≥15 anos/adultos conforme bula",
-        "Solução injetável 500 mg/mL — uso institucional; não automatizada neste fechamento"
-      ],
-      "ready_regimens": [
-        {
-          "id": "dipirona-vo-50",
-          "presentation_label": "Solução oral 50 mg/mL",
-          "concentration_mg_ml": 50,
-          "dose_mg_kg": 15,
-          "route": "VO",
-          "interval": "6/6 h se necessário",
-          "max_doses_day": 4,
-          "max_mg_dose": 1000,
-          "min_age_months": 3,
-          "min_weight_kg": 5,
-          "source_ids": [
-            "ms-dipirona-dor-2011",
-            "ms-dipirona-esus-2025"
-          ]
-        },
-        {
-          "id": "dipirona-gotas-500",
-          "presentation_label": "Gotas 500 mg/mL (20 gotas/mL)",
-          "concentration_mg_ml": 500,
-          "drops_per_ml": 20,
-          "dose_mg_kg": 15,
-          "route": "VO",
-          "interval": "6/6 h se necessário",
-          "max_doses_day": 4,
-          "max_mg_dose": 1000,
-          "min_age_months": 3,
-          "min_weight_kg": 5,
-          "source_ids": [
-            "ms-dipirona-dor-2011",
-            "ms-dipirona-esus-2025"
-          ]
-        }
-      ],
-      "note": "Dose operacional escolhida: 15 mg/kg/dose, dentro da faixa oficial 10–25 mg/kg/dose; respeitar idade ≥3 meses e peso ≥5 kg."
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 167,
@@ -3075,50 +3012,24 @@
       "name": "Nistatina",
       "source_page": 330,
       "document_flags": [],
-      "resolution": "READY",
-      "auto_research": false,
-      "ready_reviewed_at": "2026-09-28",
-      "triple_audit": {
-        "structural_regimen": true,
-        "pharmaceutical_mathematical": true,
-        "clinical_regulatory": true
-      },
-      "ready_scope": [
-        "Dermatite das Fraldas com Candidíase Secundária",
-        "Candidíase mucocutânea"
-      ],
-      "ready_source_ids": [
-        "farmacopeia-nistatina-100k"
-      ],
-      "verified_presentations": [
-        "Creme 100.000 UI/g — preparação descrita na Farmacopeia Brasileira"
-      ],
-      "note": "READY para uso tópico mucocutâneo; apresentação oficinal/magistral, não inferir disponibilidade comercial industrial."
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true,
+      "ready_regimen_ids": [],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "TARGET_AUDITED_PENDING_PRESENTATION"
     },
     {
       "fiche": 319,
       "name": "Nistatina + Óxido de Zinco",
       "source_page": 331,
       "document_flags": [],
-      "resolution": "READY",
-      "auto_research": false,
-      "ready_reviewed_at": "2026-09-28",
-      "triple_audit": {
-        "structural_regimen": true,
-        "pharmaceutical_mathematical": true,
-        "clinical_regulatory": true
-      },
-      "ready_scope": [
-        "Dermatite das Fraldas com Candidíase Secundária"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "nystatin-zinc-diaper"
       ],
-      "ready_source_ids": [
-        "anvisa-nistatina-zinco-cimed",
-        "neoquimica-nistatina-zinco"
-      ],
-      "verified_presentations": [
-        "Pomada dermatológica 100.000 UI/g + 200 mg/g, bisnaga 60 g"
-      ],
-      "note": "READY para área de fraldas, aplicação após banho e a cada troca de fraldas com pele limpa e seca."
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 320,
@@ -3694,26 +3605,13 @@
         "contem_restricao_contexto_especifico",
         "contem_off_label"
       ],
-      "resolution": "READY",
-      "auto_research": false,
-      "ready_reviewed_at": "2026-09-28",
-      "triple_audit": {
-        "structural_regimen": true,
-        "pharmaceutical_mathematical": true,
-        "clinical_regulatory": true
-      },
-      "ready_scope": [
-        "Crise de Asma / Broncoespasmo Agudo (Leve a Moderada)"
+      "resolution": "AUTO_RESEARCH_PENDING",
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "salbutamol-rescue"
       ],
-      "ready_source_ids": [
-        "ms-asthma-line-2026",
-        "gsk-aerolin-100"
-      ],
-      "verified_presentations": [
-        "Aerossol dosimetrado 100 mcg/jato, frasco 200 doses",
-        "Solução para nebulização 5 mg/mL (apresentação brasileira documentada; não automatizada neste fechamento)"
-      ],
-      "note": "READY para aerossol dosimetrado 100 mcg/jato no contexto operacional de exacerbação asmática leve/moderada."
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 382,

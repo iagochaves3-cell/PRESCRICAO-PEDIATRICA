@@ -1,0 +1,62 @@
+name: PPS priority production smoke
+
+on:
+  workflow_run:
+    workflows: ["Deploy Jekyll with GitHub Pages dependencies preinstalled"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pps-priority-production-smoke
+  cancel-in-progress: false
+
+jobs:
+  production:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install browser dependencies
+        run: |
+          python -m pip install playwright pypdf
+          python -m playwright install --with-deps chromium
+      - name: Verify deployed artifact and functional public flows
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ci-artifacts
+          python - <<'PY'
+          import hashlib, pathlib, time, urllib.request
+          base='https://iagochaves3-cell.github.io/PRESCRICAO-PEDIATRICA/'
+          expected=pathlib.Path('assets/priority-regimens.js').read_bytes()
+          for attempt in range(12):
+              try:
+                  with urllib.request.urlopen(base+'assets/priority-regimens.js?verify='+str(time.time_ns()), timeout=15) as r:
+                      actual=r.read()
+                  if actual==expected:
+                      print('Public JS matches deployed commit:', hashlib.sha256(actual).hexdigest())
+                      break
+              except Exception as exc:
+                  print(type(exc).__name__, str(exc))
+              time.sleep(5)
+          else:
+              raise SystemExit('Public asset does not match the checked-out deployed commit')
+          PY
+          python tests/priority-browser.py --url "https://iagochaves3-cell.github.io/PRESCRICAO-PEDIATRICA/?verification=${GITHUB_RUN_ID}" | tee ci-artifacts/production-browser.log
+      - name: Preserve production verification artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pps-priority-production-verification
+          path: ci-artifacts/
+          retention-days: 30
