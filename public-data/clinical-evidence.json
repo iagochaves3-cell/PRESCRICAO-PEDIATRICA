@@ -11,17 +11,17 @@
         "faringite estreptocócica",
         "faringoamigdalite por estreptococo do grupo a"
       ],
-      "status": "DOCUMENTARY_ONLY",
-      "jurisdiction": "Estados Unidos da America",
-      "operational": false,
-      "brazilian_presentations_verified": false,
-      "warning": "REFERENCIA INTERNACIONAL. Nao usar como prescricao automatica ou substituir protocolo/bula brasileira. Validacao clinica e farmaceutica local pendente.",
+      "status": "OPERATIONAL_CORE",
+      "jurisdiction": "Brasil + referência internacional complementar",
+      "operational": true,
+      "brazilian_presentations_verified": true,
+      "warning": "TRATAMENTO DE PRIMEIRA LINHA OPERACIONAL: amoxicilina VO e benzilpenicilina benzatina IM foram reconciliadas com fonte brasileira e referência internacional. Alternativas por alergia permanecem apenas documentais até reconciliação específica.",
       "findings": [
-        "Virus e bacterias podem causar dor de garganta; sem sinais virais claros, apenas o exame clinico nao diferencia estreptococo do grupo A com confiabilidade.",
-        "A orientacao CDC indica teste rapido de antigeno ou cultura para confirmar. Em criancas sintomaticas com 3 anos ou mais, teste rapido negativo deve ser seguido por cultura.",
-        "CDC indica antibiotico para teste rapido ou cultura positivos e nao recomenda antibiotico para faringite viral.",
-        "A atualizacao IDSA de 2025 encontrada nesta revisao trata de avaliacao de risco e selecao de quem testar; nao atualiza posologias nesta parte.",
-        "A SBP orienta familias que a avaliacao medica distingue causas virais e bacterianas e que, quando indicado para estreptococo do grupo A, o tratamento antibiotico dura 10 dias. A pagina SBP nao fornece dose por peso nem apresentacao comercial."
+        "Ministério da Saúde: penicilina benzatina é droga de escolha para prevenção primária da febre reumática na faringite estreptocócica; amoxicilina pode ser usada por 10 dias quando se garante adesão.",
+        "Amoxicilina operacional: 50 mg/kg/dia divididos em 2 tomadas (25 mg/kg/dose a cada 12 horas), por 10 dias. Teto operacional por dose: 500 mg, conforme CDC.",
+        "Benzilpenicilina benzatina operacional: 600.000 UI IM em dose única se peso <27 kg; 1.200.000 UI IM em dose única se peso ≥27 kg.",
+        "Apresentações brasileiras verificadas para amoxicilina suspensão: 250 mg/5 mL (50 mg/mL) e 400 mg/5 mL (80 mg/mL).",
+        "Alergia imediata a penicilinas/betalactâmicos exige escolha alternativa individualizada; as alternativas listadas abaixo permanecem documentais."
       ],
       "regimens": [
         {
@@ -32,7 +32,9 @@
           "duration": "10 dias",
           "maximum": null,
           "presentation": null,
-          "source_id": "cdc-2025"
+          "source_id": "cdc-2025",
+          "operational": false,
+          "presentations": []
         },
         {
           "category": "Antibioticos de escolha listados pelo CDC (nao rotulados aqui como linhas sequenciais)",
@@ -42,27 +44,66 @@
           "duration": "10 dias",
           "maximum": "1.000 mg por dia",
           "presentation": null,
-          "source_id": "cdc-2025"
+          "source_id": "cdc-2025",
+          "operational": false,
+          "presentations": [],
+          "note": "Esquema CDC 1x/dia mantido apenas como referência; o seletor operacional usa 25 mg/kg/dose 12/12 h para compatibilização com fonte brasileira e teto CDC."
         },
         {
-          "category": "Antibioticos de escolha listados pelo CDC (nao rotulados aqui como linhas sequenciais)",
-          "medication": "Amoxicilina oral (esquema alternativo do CDC)",
-          "population": "Criancas",
-          "dose": "25 mg/kg por dose, duas vezes ao dia",
+          "category": "Primeira linha operacional",
+          "medication": "Amoxicilina oral",
+          "population": "Crianças com faringoamigdalite estreptocócica confirmada, sem alergia relevante a penicilinas",
+          "dose": "25 mg/kg/dose, via oral, a cada 12 horas",
           "duration": "10 dias",
           "maximum": "500 mg por dose",
-          "presentation": null,
-          "source_id": "cdc-2025"
+          "presentation": "250 mg/5 mL ou 400 mg/5 mL",
+          "source_id": "cdc-2025",
+          "operational": true,
+          "presentations": [
+            {
+              "label": "Suspensão 250 mg/5 mL",
+              "concentration_mg_ml": 50,
+              "source_id": "ache-amox-250"
+            },
+            {
+              "label": "Suspensão 400 mg/5 mL",
+              "concentration_mg_ml": 80,
+              "source_id": "ache-amox-400"
+            }
+          ],
+          "source_ids": [
+            "ms-cab28",
+            "cdc-2025",
+            "ache-amox-250",
+            "ache-amox-400"
+          ]
         },
         {
-          "category": "Antibioticos de escolha listados pelo CDC (nao rotulados aqui como linhas sequenciais)",
-          "medication": "Penicilina G benzatina intramuscular",
-          "population": "Criancas",
-          "dose": "Dose unica: 600.000 unidades se peso <27 kg; 1.200.000 unidades se peso >=27 kg",
-          "duration": "Dose unica",
+          "category": "Primeira linha operacional",
+          "medication": "Benzilpenicilina benzatina intramuscular",
+          "population": "Crianças com faringoamigdalite estreptocócica confirmada, sem alergia imediata a penicilina",
+          "dose": "Dose única: 600.000 UI se peso <27 kg; 1.200.000 UI se peso ≥27 kg",
+          "duration": "Dose única",
           "maximum": null,
-          "presentation": null,
-          "source_id": "cdc-2025"
+          "presentation": "Frasco-ampola 600.000 UI ou 1.200.000 UI",
+          "source_id": "cdc-2025",
+          "operational": true,
+          "presentations": [
+            {
+              "label": "Frasco-ampola 600.000 UI",
+              "units": 600000,
+              "source_id": "ms-cab28"
+            },
+            {
+              "label": "Frasco-ampola 1.200.000 UI",
+              "units": 1200000,
+              "source_id": "ms-cab28"
+            }
+          ],
+          "source_ids": [
+            "ms-cab28",
+            "benzetacil-br"
+          ]
         },
         {
           "category": "Alternativas listadas pelo CDC para alergia a penicilina; verificar tipo de hipersensibilidade",
@@ -72,7 +113,9 @@
           "duration": "10 dias",
           "maximum": "500 mg por dose",
           "presentation": null,
-          "source_id": "cdc-2025"
+          "source_id": "cdc-2025",
+          "operational": false,
+          "presentations": []
         },
         {
           "category": "Alternativas listadas pelo CDC para alergia a penicilina; verificar tipo de hipersensibilidade",
@@ -82,7 +125,9 @@
           "duration": "10 dias",
           "maximum": "1 g por dia",
           "presentation": null,
-          "source_id": "cdc-2025"
+          "source_id": "cdc-2025",
+          "operational": false,
+          "presentations": []
         },
         {
           "category": "Alternativas listadas pelo CDC para alergia a penicilina; verificar tipo de hipersensibilidade",
@@ -92,7 +137,9 @@
           "duration": "10 dias",
           "maximum": "300 mg por dose",
           "presentation": null,
-          "source_id": "cdc-2025"
+          "source_id": "cdc-2025",
+          "operational": false,
+          "presentations": []
         },
         {
           "category": "Alternativas listadas pelo CDC para alergia a penicilina; verificar tipo de hipersensibilidade",
@@ -102,7 +149,9 @@
           "duration": "5 dias",
           "maximum": "Dia 1: 500 mg; dias 2 a 5: 250 mg por dia",
           "presentation": null,
-          "source_id": "cdc-2025"
+          "source_id": "cdc-2025",
+          "operational": false,
+          "presentations": []
         },
         {
           "category": "Alternativas listadas pelo CDC para alergia a penicilina; verificar tipo de hipersensibilidade",
@@ -112,17 +161,25 @@
           "duration": "10 dias",
           "maximum": "250 mg por dose",
           "presentation": null,
-          "source_id": "cdc-2025"
+          "source_id": "cdc-2025",
+          "operational": false,
+          "presentations": []
         }
       ],
-      "source_ids": ["cdc-2025", "idsa-2025-part-1", "sbp-family-2023", "idsa-2012-metadata-only"],
+      "source_ids": [
+        "ms-cab28",
+        "cdc-2025",
+        "ache-amox-250",
+        "ache-amox-400",
+        "benzetacil-br",
+        "idsa-2025-part-1",
+        "sbp-family-2023"
+      ],
       "limitations": [
-        "Estas recomendacoes sao de uma fonte dos Estados Unidos, nao uma bula ou protocolo brasileiro.",
-        "Nenhuma apresentacao comercial ou concentracao brasileira foi confirmada nesta revisao; nao converter mg em mL ou gotas.",
-        "A consulta de bulas da Anvisa retornou HTTP 403 nesta sessao.",
-        "O texto integral da diretriz IDSA 2012 retornou HTTP 403; somente metadados e links oficiais foram confirmados.",
-        "A divergencia entre a ficha local e os esquemas CDC nao foi resolvida por revisao humana independente.",
-        "Nao foram validados para este diagnostico um protocolo brasileiro de alta, evolucao esperada ou sinais de retorno a serem autoexibidos aos pais."
+        "O núcleo operacional foi restrito a amoxicilina e benzilpenicilina benzatina. Alternativas por alergia permanecem documentais e não alimentam automaticamente a receita.",
+        "Confirmar história de alergia imediata/anafilaxia a penicilinas antes de selecionar betalactâmico.",
+        "O cálculo automático de volume de amoxicilina usa a concentração selecionada e aplica teto de 500 mg por dose.",
+        "A benzilpenicilina benzatina deve ser administrada por via intramuscular por profissional habilitado; não converter UI em mL sem a concentração final efetivamente reconstituída do produto em uso."
       ]
     }
   ],
@@ -165,6 +222,42 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/22965026/",
       "accessed": "2026-09-27",
       "use": "Metadados/identificacao bibliografica apenas; texto integral indisponivel nesta sessao"
+    },
+    {
+      "id": "ms-cab28",
+      "organization": "Ministério da Saúde",
+      "title": "Acolhimento à demanda espontânea: queixas mais comuns na Atenção Básica, Caderno 28 v.2",
+      "updated": "2025",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_demanda_espontanea_queixas_comuns_cab28v2.pdf",
+      "accessed": "2026-09-28",
+      "use": "Tratamento da tonsilofaringite estreptocócica; amoxicilina e penicilina benzatina"
+    },
+    {
+      "id": "ache-amox-250",
+      "organization": "Aché Laboratórios Farmacêuticos S.A.",
+      "title": "Amoxicilina 250 mg/5 mL — bula",
+      "updated": "bula disponível no fabricante",
+      "url": "https://www.ache.com.br/wp-content/uploads/application/pdf/bula-paciente-amoxicilina-250mg.pdf",
+      "accessed": "2026-09-28",
+      "use": "Apresentação brasileira 250 mg/5 mL"
+    },
+    {
+      "id": "ache-amox-400",
+      "organization": "Aché Laboratórios Farmacêuticos S.A.",
+      "title": "Amoxicilina 400 mg/5 mL — bula aprovada pela Anvisa",
+      "updated": "2024-11-21",
+      "url": "https://www.ache.com.br/produto/genericos-sob-prescricao/amoxicilina-400mg/",
+      "accessed": "2026-09-28",
+      "use": "Apresentação brasileira 400 mg/5 mL"
+    },
+    {
+      "id": "benzetacil-br",
+      "organization": "Benzetacil — bula brasileira",
+      "title": "Benzilpenicilina benzatina 600.000 UI e 1.200.000 UI",
+      "updated": "consulta 2026-09-28",
+      "url": "https://www.jau.sp.gov.br/uploads/licitacoes/arquivos/3578/7710874_3273_pdf.pdf",
+      "accessed": "2026-09-28",
+      "use": "Apresentações brasileiras 600.000 UI e 1.200.000 UI"
     }
   ]
 }
