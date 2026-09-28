@@ -1,0 +1,39 @@
+name: Medication scientific gap research
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: medication-gap-research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Discover evidence candidates for unresolved medication gaps
+        env:
+          RESEARCH_BATCH: "50"
+        run: node scripts/research-medication-gaps.mjs
+      - name: Commit refreshed research queue and candidate evidence
+        run: |
+          git config user.name "pps-evidence-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public-data/medication-gap-research-queue.json public-data/medication-gap-evidence-candidates.json public-data/medication-gap-research-state.json
+          if git diff --cached --quiet; then
+            echo "No research-data changes."
+            exit 0
+          fi
+          git commit -m "data: refresh medication gap evidence candidates"
+          git push
