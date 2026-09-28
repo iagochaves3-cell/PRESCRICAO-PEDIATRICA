@@ -301,9 +301,10 @@
         const state = medication.resolution || 'AUTO_RESEARCH_PENDING';
         const fiche = medication.fiche ? ` · ficha ${medication.fiche}` : '';
         const message = state === 'READY'
-          ? 'Esquema operacional validado disponível no catálogo.'
+          ? 'Esquema operacional validado disponível no catálogo para o contexto auditado.'
           : 'Pesquisa científica automática ativa. O item só será promovido para uso operacional após esquema completo, fonte em nível de regime e auditoria tripla.';
         statusBox.innerHTML = `<strong>${state}${fiche}</strong>${message}`;
+        configureReadyMedicationCard(card, medication);
       }
 
       function addMedication({ focus = true } = {}) {
@@ -320,6 +321,90 @@
         return Number(value.toFixed(decimals)).toLocaleString('pt-BR', { maximumFractionDigits: decimals });
       }
 
+      function parseAgeMonths(text) {
+        const normalized = normalizeDiagnosis(text || '');
+        const years = normalized.match(/(\d+)\s*(?:anos?|a\b)/);
+        const months = normalized.match(/(\d+)\s*(?:meses?|m\b)/);
+        const days = normalized.match(/(\d+)\s*(?:dias?|d\b)/);
+        if (!years && !months && !days) return null;
+        return (years ? Number(years[1]) * 12 : 0) + (months ? Number(months[1]) : 0) + (days ? Number(days[1]) / 30.44 : 0);
+      }
+
+      function populateReadyCatalogMedication(card, medication, regimen) {
+        if (!regimen) return false;
+        const set = (field, text) => { card.querySelector(`[data-field="${field}"]`).value = text || ''; };
+        const weight = Number(value('weight'));
+        const ageMonths = parseAgeMonths(value('age'));
+
+        if (medication.name === 'Dipirona Sódica (Metamizol)') {
+          if (!Number.isFinite(weight) || weight < Number(regimen.min_weight_kg || 5)) {
+            card.querySelector('.posology-status').innerHTML = '<strong>READY · BLOQUEIO POR PESO</strong>Dipirona oral automatizada somente para peso ≥5 kg.';
+            return false;
+          }
+          if (ageMonths === null) {
+            card.querySelector('.posology-status').innerHTML = '<strong>READY · IDADE NECESSÁRIA</strong>Informe a idade em anos/meses para validar o limite mínimo de 3 meses.';
+            return false;
+          }
+          if (ageMonths < Number(regimen.min_age_months || 3)) {
+            card.querySelector('.posology-status').innerHTML = '<strong>CONTRAINDICATED_AGE</strong>Não liberar dipirona para idade inferior a 3 meses.';
+            return false;
+          }
+          const targetMg = Math.min(weight * Number(regimen.dose_mg_kg), Number(regimen.max_mg_dose || 1000));
+          set('category','Antitérmico / analgésico');
+          set('indication','Dor ou febre, quando clinicamente indicado.');
+          set('presentation',regimen.presentation_label);
+          set('route','VO');
+          set('interval','6/6 h se necessário; máximo 4 administrações/dia');
+          set('duration','Uso sintomático; reavaliar se febre/dor persistir ou houver sinais de alarme');
+          set('instructions','Usar dispositivo dosador apropriado. Não associar inadvertidamente a outro produto contendo dipirona.');
+
+          if (regimen.drops_per_ml) {
+            const drops = Math.max(1, Math.round((targetMg / Number(regimen.concentration_mg_ml)) * Number(regimen.drops_per_ml)));
+            const ml = drops / Number(regimen.drops_per_ml);
+            const actualMg = ml * Number(regimen.concentration_mg_ml);
+            const actualMgKg = actualMg / weight;
+            set('dose',`${formatNumber(actualMg)} mg por dose (${formatNumber(actualMgKg,1)} mg/kg/dose)`);
+            set('amount',`${drops} gotas (${formatNumber(ml,2)} mL) por dose`);
+            set('quantity','1 frasco; escolher 10 ou 20 mL conforme duração prevista');
+            set('evidence',`Alvo operacional 15 mg/kg/dose, dentro da faixa oficial 10–25 mg/kg/dose. Checagem reversa: ${drops} gotas × 25 mg/gota = ${formatNumber(actualMg)} mg = ${formatNumber(actualMgKg,1)} mg/kg.`);
+          } else {
+            const ml = targetMg / Number(regimen.concentration_mg_ml);
+            const reverseMg = ml * Number(regimen.concentration_mg_ml);
+            set('dose',`${formatNumber(reverseMg)} mg por dose (${formatNumber(reverseMg/weight,1)} mg/kg/dose)`);
+            set('amount',`${formatNumber(ml,2)} mL por dose`);
+            set('quantity','1 frasco; volume total depende do número efetivo de doses sintomáticas');
+            set('evidence',`15 mg/kg/dose, dentro da faixa oficial 10–25 mg/kg/dose. Checagem reversa: ${formatNumber(ml,2)} mL × ${regimen.concentration_mg_ml} mg/mL = ${formatNumber(reverseMg)} mg.`);
+          }
+          set('contraindications','Não usar em <3 meses ou <5 kg; revisar hipersensibilidade a pirazolonas/pirazolidinas, discrasias sanguíneas relevantes e demais contraindicações da bula.');
+          refreshMedicationValidation();
+          return true;
+        }
+        return false;
+      }
+
+      function configureReadyMedicationCard(card, medication) {
+        const select = card.querySelector('[data-option="presentation"]');
+        select.replaceChildren();
+        if (medication?.resolution === 'READY' && Array.isArray(medication.ready_regimens) && medication.ready_regimens.length) {
+          medication.ready_regimens.forEach((regimen, index) => {
+            const option=document.createElement('option');
+            option.value=String(index);
+            option.textContent=regimen.presentation_label;
+            select.append(option);
+          });
+          select.disabled=false;
+          select.onchange=()=>populateReadyCatalogMedication(card, medication, medication.ready_regimens[Number(select.value)]);
+          populateReadyCatalogMedication(card, medication, medication.ready_regimens[0]);
+        } else {
+          const option=document.createElement('option');
+          option.value='';
+          option.textContent=medication?.resolution === 'READY' ? 'READY no contexto clínico validado deste diagnóstico' : 'Sem apresentações clínicas validadas para seleção';
+          select.append(option);
+          select.disabled=true;
+          select.onchange=null;
+        }
+      }
+
       function populateMedicationFromEvidence(regimen, presentation, evidenceKey) {
         /* PPS_PRIORITY_ROUTE_V1 */
         if (regimen.medication === 'Amoxicilina oral') {
@@ -334,12 +419,7 @@
         }
 
         const weight = Number(value('weight'));
-        if (!Number.isFinite(weight) || weight <= 0 || weight > 250) {
-          byId('weight').setCustomValidity('Informe um peso aferido válido em kg antes de selecionar o esquema.');
-          byId('weight').reportValidity();
-          byId('weight').setCustomValidity('');
-          return false;
-        }
+        const ageMonths = parseAgeMonths(value('age'));
 
         medicationCards().filter((card) => card.dataset.evidenceKey === evidenceKey).forEach((card) => card.remove());
         const card = addMedication({ focus:false });
@@ -351,6 +431,7 @@
         set('indication', 'Faringoamigdalite estreptocócica confirmada; esquema reconciliado com fontes rastreáveis.');
 
         if (regimen.medication === 'Amoxicilina oral') {
+          if (!Number.isFinite(weight) || weight <= 0 || weight > 250) return false;
           const mgPerDose = Math.min(weight * 25, 500);
           const concentration = Number(presentation?.concentration_mg_ml);
           const mlPerDose = mgPerDose / concentration;
@@ -378,6 +459,56 @@
           set('instructions', 'Administração intramuscular por profissional habilitado. Não administrar por via intravenosa.');
           set('contraindications', 'Contraindicada em hipersensibilidade a penicilinas; avaliar risco de reação imediata.');
           set('evidence', '600.000 UI se <27 kg; 1.200.000 UI se ≥27 kg. Não converter UI em mL sem conferir o produto reconstituído.');
+        } else if (regimen.medication === 'Salbutamol aerossol 100 mcg/jato') {
+          if (ageMonths === null) {
+            card.remove();
+            status.textContent = 'Informe a idade em anos/meses para calcular a faixa etária do salbutamol.';
+            return false;
+          }
+          const puffs = ageMonths < 72 ? 2 : 4;
+          const interval = ageMonths < 72 ? 'a cada 20 min na 1ª hora' : 'a cada 10 min na fase inicial';
+          const mcg = puffs * 100;
+          set('category','Tratamento de suporte');
+          set('name','Salbutamol 100 mcg/jato');
+          set('indication','Crise de asma / broncoespasmo agudo leve a moderado; uso com espaçador/aerocâmara.');
+          set('presentation',presentation?.label || regimen.presentation);
+          set('dose',`${puffs} jatos por dose (${mcg} mcg)`);
+          set('route','Inalatória, aerossol dosimetrado com espaçador/aerocâmara');
+          set('interval',interval);
+          set('duration','Fase inicial da exacerbação; reavaliar em 1 hora');
+          set('amount',`${puffs} jatos por dose`);
+          set('quantity','1 frasco de 200 doses');
+          set('instructions','Administrar um jato por vez pelo espaçador; verificar técnica inalatória. Reavaliar clínica e SatO₂.');
+          set('contraindications','Reavaliar taquicardia importante, tremor, hipocalemia/arrítmias e ausência de resposta; crise grave requer escalonamento.');
+          set('evidence',ageMonths < 72 ? 'Ministério da Saúde: menores de 5–6 anos, 2 jatos a cada 20 min na primeira hora em sibilância moderada.' : 'Ministério da Saúde: acima de 6 anos, doses repetidas de salbutamol aerossol com aerocâmara; opção operacional selecionada: 4 jatos a cada 10 min, com reavaliação.');
+        } else if (regimen.medication === 'Nistatina + óxido de zinco') {
+          set('category','Tratamento etiológico');
+          set('name','Nistatina + óxido de zinco');
+          set('indication','Dermatite das fraldas com candidíase secundária / assadura em área de fraldas.');
+          set('presentation',presentation?.label || regimen.presentation);
+          set('dose','Aplicar camada fina sobre a área acometida');
+          set('route','Tópica / dermatológica');
+          set('interval','Após o banho e a cada troca de fraldas');
+          set('duration','Conforme resposta clínica; reavaliar se persistência, extensão ou piora');
+          set('amount','Camada fina sobre a área limpa e seca');
+          set('quantity','1 bisnaga de 60 g');
+          set('instructions','Higienizar suavemente, secar sem fricção e aplicar camada fina.');
+          set('contraindications','Não usar em hipersensibilidade à nistatina, ao óxido de zinco ou aos excipientes.');
+          set('evidence','ANVISA/bula brasileira: 100.000 UI/g + 200 mg/g; uso adulto e pediátrico; aplicar após banho e a cada troca de fraldas.');
+        } else if (regimen.medication === 'Nistatina creme 100.000 UI/g') {
+          set('category','Tratamento etiológico');
+          set('name','Nistatina');
+          set('indication','Candidíase mucocutânea com acometimento cutâneo.');
+          set('presentation',presentation?.label || regimen.presentation);
+          set('dose','Aplicar nos locais afetados');
+          set('route','Tópica / dermatológica');
+          set('interval','3 a 4 vezes ao dia');
+          set('duration','Conforme resposta clínica; reavaliar se persistência ou piora');
+          set('amount','Quantidade suficiente para cobrir a área afetada');
+          set('quantity','Quantidade suficiente para o período prescrito');
+          set('instructions','Aplicar após higiene local.');
+          set('contraindications','Não usar em hipersensibilidade à nistatina ou aos componentes da formulação.');
+          set('evidence','Farmacopeia Brasileira: creme 100.000 UI/g para candidíase mucocutânea; uso externo 3–4 vezes/dia após higiene.');
         } else {
           card.remove();
           return false;
