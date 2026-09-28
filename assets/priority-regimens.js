@@ -29,8 +29,14 @@ const bands=[
  {lo:31,hi:45,oral:[7.5,15],drops:[10,30]},
  {lo:46,hi:53,oral:[8.75,17.5],drops:[15,35]}
 ];
+const diagnosisAliases={
+ groupAStrep:['faringoamigdalite bacteriana estreptococica','faringoamigdalite bacteriana estreptocócica','faringoamigdalite estreptococica','faringoamigdalite estreptocócica','faringite estreptococica','faringite estreptocócica','faringoamigdalite por estreptococo do grupo a','j02.0','j03.0'],
+ ambulatoryBronchospasm:['crise de asma / broncoespasmo agudo (leve a moderada)','asma com broncoespasmo','broncoespasmo'],
+ candidalDiaperDermatitis:['candidiase de fraldas','candidíase de fraldas','dermatite de fraldas candidiasica','dermatite de fraldas candidiásica']
+};
 const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
 const fmt=n=>Number(n.toFixed(4)).toLocaleString('pt-BR',{maximumFractionDigits:4});
+function matchDiagnosis(text,aliases){const dx=norm(text);return Array.isArray(aliases)&&aliases.some(alias=>norm(alias)===dx);}
 function parseAge(text){
  const s=norm(text);let months=0,found=false;
  const rest=s.replace(/(\d+(?:[.,]\d+)?)\s*(anos?|a\b|meses?|mes\b|m\b|dias?|d\b)/g,(_,n,u)=>{found=true;const v=Number(n.replace(',','.'));months+=u.startsWith('a')?v*12:u.startsWith('m')?v:v/30.4375;return '';}).replace(/\be\b/g,'').trim();
@@ -50,14 +56,15 @@ function getBand(weight,key){
 function calculate(id,presentationId,variant,context){
  const rec=records.find(x=>x.id===id);if(!rec)fail('Esquema não homologado.');
  const p=rec.presentations.find(x=>x.id===presentationId);if(!p)fail('Apresentação incompatível: não converter entre formas ou vias.');
- const weight=Number(context.weight), age=parseAge(context.age), dx=norm(context.diagnosis);
+ if(!rec.variants.some(([value])=>value===variant))fail('Posologia incompatível: selecione uma opção válida deste esquema.');
+ const weight=Number(context.weight), age=parseAge(context.age);
  if(!Number.isFinite(weight)||weight<=0||weight>250)fail('Informe peso aferido válido.');
  if(age===null)fail('Informe idade com unidade, por exemplo 4 anos ou 2 meses.');
  if(age<rec.minMonths||age>=rec.maxMonths)fail('Idade fora do escopo auditado deste esquema.');
  if(context.clinicalReview!==true)fail('Confirme indicação, contraindicações, interações, ajustes e gravidade deste paciente.');
- if(id==='amox-gas'&&(!/(estreptococ|streptococc|j02\.0|j03\.0)/.test(dx)||/viral|mononucleose/.test(dx)))fail('Este esquema é específico para faringite estreptocócica confirmada, não faringite viral.');
- if(id==='salbutamol-rescue'&&(!/(asma|broncoespasmo)/.test(dx)||/bronquiolite|grave|insuficiencia respiratoria/.test(dx)))fail('Resgate ambulatorial só para asma/broncoespasmo avaliado; não para tosse isolada, bronquiolite ou crise grave.');
- if(id==='nystatin-zinc-diaper'&&(!/candid/.test(dx)||!/fralda/.test(dx)))fail('Confirme dermatite de fraldas candidiásica para este esquema.');
+ if(id==='amox-gas'&&!matchDiagnosis(context.diagnosis,diagnosisAliases.groupAStrep))fail('Selecione um diagnóstico estreptocócico confirmado compatível com este esquema.');
+ if(id==='salbutamol-rescue'&&!matchDiagnosis(context.diagnosis,diagnosisAliases.ambulatoryBronchospasm))fail('Selecione um diagnóstico compatível com asma/broncoespasmo ambulatorial para este esquema.');
+ if(id==='nystatin-zinc-diaper'&&!matchDiagnosis(context.diagnosis,diagnosisAliases.candidalDiaperDermatitis))fail('Selecione um diagnóstico compatível com dermatite de fraldas candidiásica para este esquema.');
  const r={status:'READY',id,presentationId,weight,ageMonths:age,name:rec.name,presentation:p.label,category:rec.category,mg:null,ml:null,days:null,route:'VO',sources:rec.sources,scope:rec.scope,contraindications:rec.warnings};
  if(id==='amox-gas'){
   r.targetMg=Math.min(weight*25,500);const exactMl=r.targetMg/p.mgMl;

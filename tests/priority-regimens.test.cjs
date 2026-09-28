@@ -35,10 +35,16 @@ test('Bloqueios reais: 2 m/3 kg, alergia/risco não revisado, indicação e apre
  for(const [id,p] of [['amox-gas','amox-250'],['dipyrone','dip-50'],['salbutamol-rescue','salb-100']])assert.throws(()=>core.calculate(id,p,'standard',context(3,'2 meses')));
  assert.throws(()=>core.calculate('dipyrone','dip-500','min',{...context(),clinicalReview:false}));
  assert.throws(()=>core.calculate('amox-gas','amox-250','standard',context(16,'4 anos','Faringite viral')));
+ assert.throws(()=>core.calculate('amox-gas','amox-250','standard',context(16,'4 anos','Faringite não estreptocócica')));
  assert.throws(()=>core.calculate('salbutamol-rescue','salb-100','one',context(10,'1 ano','Bronquiolite')));
+ assert.throws(()=>core.calculate('nystatin-zinc-diaper','nyz-60','standard',context(10,'1 ano','Dermatite de fraldas sem candidíase')));
  assert.throws(()=>core.calculate('nystatin-zinc-diaper','vaginal-25000','standard',context(10,'1 ano','Candidíase de fraldas')));
  assert.throws(()=>core.calculate('dipyrone','dip-50','min',context(4.9,'4 meses','Febre')));
  assert.equal(core.calculate('dipyrone','dip-50','min',context(5,'3 meses','Febre')).mg,62.5);
+});
+test('Variantes inválidas são rejeitadas antes do cálculo por esquema',()=>{
+ assert.throws(()=>core.calculate('amox-gas','amox-250','typo',context()));
+ assert.throws(()=>core.calculate('nystatin-zinc-diaper','nyz-60','typo',context(10,'1 ano','Candidíase de fraldas')));
 });
 test('Idade precisa de unidade; parsing composto preserva meses',()=>{
  assert.equal(core.parseAge('1 ano e 2 meses'),14);assert.equal(core.parseAge('4 a'),48);assert.equal(core.parseAge('2 m'),2);assert.equal(core.parseAge('4'),null);

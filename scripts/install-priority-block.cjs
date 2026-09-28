@@ -50,6 +50,9 @@ for(const med of targets){
 assert.deepEqual(catalog.medications.map(m=>({fiche:m.fiche,name:m.name})),before);
 for(const m of catalog.medications)if(untouched.has(m.fiche))assert.equal(JSON.stringify(m),untouched.get(m.fiche));
 json('public-data/catalog.json',catalog);
-json('public-data/priority-regimens.json',{schema_version:'1.0',version:core.version,reviewed_at:stamp,human_independent_review:false,ready_meaning:'Regime/presentação/população codificados; não aprovação de toda a monografia, não prescrição sem revisão do caso.',sources:core.sources,regimens:core.records.map(r=>({...r,fiche:r.id==='dipyrone'?166:r.fiche})),dipyrone_label_bands:core.bands,software_rounding:'Amoxicilina: para baixo em 0,1 mL, desvio relativo <=5%, alvo e dose administrada mostrados; regra do software, não uma regra textual do CDC.',automated_tests:'A publicação deste registro ocorre somente após testes de cálculo e navegador do workflow PPS priority release.'});
+const registry={schema_version:'1.0',version:core.version,reviewed_at:stamp,human_independent_review:false,ready_meaning:'Regime/presentação/população codificados; não aprovação de toda a monografia, não prescrição sem revisão do caso.',sources:core.sources,regimens:core.records.map(r=>({...r,fiche:r.id==='dipyrone'?166:r.fiche})),dipyrone_label_bands:core.bands,software_rounding:'Amoxicilina: para baixo em 0,1 mL, desvio relativo <=5%, alvo e dose administrada mostrados; regra do software, não uma regra textual do CDC.',automated_tests:'A publicação deste registro ocorre somente após testes de cálculo e navegador do workflow PPS priority release.'};
+json('public-data/priority-regimens.json',registry);
 json('public-data/priority-candidate-audit.json',audit);
-console.log('INSTALL_READY: 4 regimes, 6 apresentações; '+before.length+' fichas preservadas.');
+const regimensInstalled=registry.regimens.length;
+const presentationsInstalled=registry.regimens.reduce((total,regimen)=>total+((regimen.presentations||[]).length),0);
+console.log(`INSTALL_READY: ${regimensInstalled} regimes, ${presentationsInstalled} apresentações; ${before.length} fichas preservadas.`);
