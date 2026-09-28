@@ -51,4 +51,4 @@ jobs:
             echo "main advanced with overlapping research-data changes; skipping push."
             exit 0
           fi
-          git push
+          git push origin HEAD:main
