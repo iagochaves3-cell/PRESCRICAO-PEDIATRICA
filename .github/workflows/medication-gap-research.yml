@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: medication-gap-research
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   research:
@@ -31,7 +31,9 @@ jobs:
           node-version: "20"
       - name: Discover evidence candidates for unresolved medication gaps
         env:
-          RESEARCH_BATCH: "498"
+          RESEARCH_BATCH: "298"
+          RESEARCH_CONCURRENCY: "3"
+          RESEARCH_FETCH_TIMEOUT_MS: "8000"
         run: node scripts/research-medication-gaps.mjs
       - name: Commit refreshed research queue and candidate evidence
         run: |

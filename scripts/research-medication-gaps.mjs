@@ -10,7 +10,13 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const clean = (s='') => String(s).replace(/\s+/g,' ').trim();
 
 async function jsonFetch(url, options={}) {
-  const res = await fetch(url, {headers:{'User-Agent':'PPS-evidence-resolver/1.0 (GitHub Actions)'}, ...options});
+  const {signal, ...rest}=options;
+  const timeoutMs=Math.max(2000, Number(process.env.RESEARCH_FETCH_TIMEOUT_MS || 8000));
+  const res = await fetch(url, {
+    headers:{'User-Agent':'PPS-evidence-resolver/1.0 (GitHub Actions)'},
+    ...rest,
+    signal:signal || AbortSignal.timeout(timeoutMs)
+  });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}: ${url}`);
   return res.json();
 }
@@ -73,21 +79,26 @@ async function main(){
   const start=state.cursor % pending.length;
   const batch=Array.from({length:Math.min(batchSize,pending.length)},(_,i)=>pending[(start+i)%pending.length]);
   const results=[];
-  for(const med of batch){
-    const name=med.name;
-    const [pm,ep,fda]=await Promise.all([
-      safe('PubMed/NCBI',()=>pubmed(name)),
-      safe('Europe PMC',()=>europePmc(name)),
-      safe('openFDA drug label',()=>openFda(name))
-    ]);
-    results.push({
-      fiche:med.fiche,name,
-      resolution:'AUTO_RESEARCH_PENDING',
-      searched_at:new Date().toISOString(),
-      candidate_sources:[...pm,...ep,...fda],
-      operational_status:'NOT_PROMOTED',
-      release_gate:'Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable.'
-    });
+  const concurrency=Math.max(1, Math.min(Number(process.env.RESEARCH_CONCURRENCY || 3), 5));
+  for(let offset=0; offset<batch.length; offset+=concurrency){
+    const chunk=batch.slice(offset, offset+concurrency);
+    const chunkResults=await Promise.all(chunk.map(async (med)=>{
+      const name=med.name;
+      const [pm,ep,fda]=await Promise.all([
+        safe('PubMed/NCBI',()=>pubmed(name)),
+        safe('Europe PMC',()=>europePmc(name)),
+        safe('openFDA drug label',()=>openFda(name))
+      ]);
+      return {
+        fiche:med.fiche,name,
+        resolution:'AUTO_RESEARCH_PENDING',
+        searched_at:new Date().toISOString(),
+        candidate_sources:[...pm,...ep,...fda],
+        operational_status:'NOT_PROMOTED',
+        release_gate:'Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable.'
+      };
+    }));
+    results.push(...chunkResults);
     await sleep(400);
   }
   let existing={schema_version:'1.0',results:[]};
