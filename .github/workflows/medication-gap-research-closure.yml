@@ -5,11 +5,10 @@ on:
   push:
     branches: ["main"]
     paths:
-      - "public-data/catalog.json"
       - ".github/workflows/medication-gap-research-closure.yml"
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: medication-gap-research-closure-v2
@@ -19,27 +18,5 @@ jobs:
   closure:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-      - name: Research remaining medication gaps
-        env:
-          RESEARCH_BATCH: "298"
-          RESEARCH_CONCURRENCY: "3"
-          RESEARCH_FETCH_TIMEOUT_MS: "8000"
-        run: node scripts/research-medication-gaps.mjs
-      - name: Commit closure data
-        run: |
-          git config user.name "pps-evidence-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git pull --rebase origin main
-          git add public-data/medication-gap-research-queue.json public-data/medication-gap-evidence-candidates.json public-data/medication-gap-research-state.json
-          if git diff --cached --quiet; then
-            echo "No closure-data changes."
-            exit 0
-          fi
-          git commit -m "data: complete medication gap research closure"
-          git push
+      - name: Confirm primary research cycle owns final state
+        run: echo "Primary medication research cycle completed; auxiliary closure is intentionally no-op."
