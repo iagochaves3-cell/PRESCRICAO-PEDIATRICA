@@ -14,6 +14,9 @@ Aplicação estática em português para organizar um rascunho de receita domici
 - O inventário de proveniência agrupa anexos com o mesmo SHA-256. Cópias idênticas não contam como fontes independentes ou auditorias independentes.
 - Os dados inseridos no formulário permanecem no navegador e não são enviados a um serviço.
 
+
+- Fechamento clínico READY 28/09/2026: amoxicilina (faringoamigdalite), salbutamol 100 mcg/jato (asma/broncoespasmo leve-moderado), nistatina tópica, nistatina + óxido de zinco e dipirona VO foram promovidos após auditoria tripla documentada.
+
 ## Fontes e escopo
 
 `scripts/build-public-data.js` gera `public-data/catalog.json` a partir do JSON canônico de 498 fichas e `public-data/sources.json`, inventário dos anexos por nome, tamanho, categoria e SHA-256. `scripts/build-diagnosis-index.py` extrai os 142 títulos diagnósticos numerados e os módulos do compêndio DOCX, vinculando cada entrada ao hash da fonte. `public-data/clinical-evidence.json` contém revisão datada e vinculada a fontes; a faringoamigdalite estreptocócica possui núcleo operacional explícito e alternativas documentais separadas. Os anexos integrais não são publicados pelo Pages nem mostrados na interface.
