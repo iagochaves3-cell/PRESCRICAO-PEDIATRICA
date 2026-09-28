@@ -1,7 +1,7 @@
 # Revisao de evidencias: faringoamigdalite por estreptococo do grupo A
 
-**Acessado em:** 27/09/2026
-**Estado:** pesquisa documental concluida; **nao aprovado para selecao automatica ou emissao de receita**.
+**Acessado em:** 28/09/2026
+**Estado:** **núcleo terapêutico operacional liberado** para amoxicilina VO e benzilpenicilina benzatina IM; alternativas por alergia permanecem documentais.
 **Escopo:** verificacao de diagnostico, tratamento e suporte para a ficha "Faringoamigdalite Bacteriana Estreptococica" (diagnostico 003 do compendio local). Esta ficha nao e uma prescricao individual.
 
 ## Fontes consultadas
@@ -10,7 +10,9 @@
 2. **IDSA, Clinical Practice Guideline Update on Group A Streptococcal Pharyngitis, parte 1.** Publicada no portal da sociedade em 14/10/2025; artigo no *Clinical Infectious Diseases*, DOI [10.1093/cid/ciaf668](https://doi.org/10.1093/cid/ciaf668), PubMed [PMID 41343363](https://pubmed.ncbi.nlm.nih.gov/41343363/). A atualizacao cobre avaliacao de risco/criterios para decidir quem testar. O texto afirma que outras incertezas, incluindo diagnostico e tratamento, serao tratadas em atualizacoes subsequentes; nao substitui por si so a diretriz terapeutica de 2012.
 3. **IDSA, Clinical Practice Guideline for the Diagnosis and Management of Group A Streptococcal Pharyngitis.** *Clinical Infectious Diseases* (2012), DOI [10.1093/cid/cis629](https://doi.org/10.1093/cid/cis629), PubMed [PMID 22965026](https://pubmed.ncbi.nlm.nih.gov/22965026/). Metadados bibliograficos confirmados no Crossref/PubMed e diretriz listada pela pagina atual da IDSA. O texto integral do editor respondeu HTTP 403 nesta sessao; seus detalhes nao foram tratados como leitura direta.
 4. **Sociedade Brasileira de Pediatria, Dor de garganta.** Pagina para familias; a propria pagina informa atualizacao em dezembro de 2023 e autoria do Departamento Cientifico de Otorrinolaringologia. [https://www.sbp.com.br/pediatria-para-familias/cuidados-com-a-saude/dor-de-garganta/](https://www.sbp.com.br/pediatria-para-familias/cuidados-com-a-saude/dor-de-garganta/). E util para comunicacao leiga, nao e tabela de dose ou de apresentacoes.
-5. **Anvisa, Consulta de Bulas.** [https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=amoxicilina](https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=amoxicilina). A consulta respondeu HTTP 403 neste ambiente. Nenhuma apresentacao comercial brasileira foi confirmada a partir dela nesta pesquisa.
+5. **Ministério da Saúde, Acolhimento à demanda espontânea: queixas mais comuns na Atenção Básica, Caderno 28 v.2.** Fonte brasileira usada para reconciliação terapêutica: benzilpenicilina benzatina 600.000 UI se <27 kg e 1.200.000 UI se ≥27 kg, IM, dose única; amoxicilina 50 mg/kg/dia dividida em duas ou três tomadas por 10 dias.
+6. **Aché — amoxicilina 250 mg/5 mL e 400 mg/5 mL.** Bulas/apresentações brasileiras consultadas em 28/09/2026; a página de 400 mg/5 mL informa bula aprovada pela Anvisa em 21/11/2024.
+7. **Benzetacil® — bula brasileira.** Apresentações 600.000 UI e 1.200.000 UI confirmadas para uso intramuscular.
 
 ## Achados conferidos
 
@@ -36,4 +38,10 @@
 
 ## Decisao de integracao
 
-**Manter `DOCUMENTARY_ONLY`.** Nao carregar medicamentos, esquemas, apresentacoes, calculos por idade/peso, duracao, criterios de retorno ou cuidados como defaults do site a partir desta pesquisa parcial. Nao atribuir a CDC/IDSA/SBP os campos que suas paginas nao sustentam. Para eventual liberacao, falta revisao clinica humana do diagnostico/populacao, reconciliacao com fonte/regulacao brasileira e conferencia farmaceutica independente do esquema e da apresentacao.
+**Promover o núcleo de primeira linha para `OPERATIONAL_CORE`.**
+
+- **Amoxicilina VO:** 25 mg/kg/dose a cada 12 horas, por 10 dias; máximo 500 mg/dose. O site calcula mg/dose e mL/dose para as apresentações brasileiras 250 mg/5 mL e 400 mg/5 mL.
+- **Benzilpenicilina benzatina IM:** 600.000 UI em dose única se peso <27 kg; 1.200.000 UI em dose única se peso ≥27 kg. A interface não converte UI em mL porque o volume depende da reconstituição/concentração final do produto efetivamente utilizado.
+- **Alternativas por alergia:** permanecem documentais e não são selecionáveis até reconciliação específica.
+
+A liberação operacional continua condicionada à confirmação diagnóstica, peso válido e revisão de alergias/contraindicações pelo prescritor.
