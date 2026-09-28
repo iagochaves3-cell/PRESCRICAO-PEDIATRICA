@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T17:05:45.227Z",
+  "generated_at": "2026-09-28T17:48:04.172Z",
   "source_hierarchy": [
     "ANVISA",
     "Ministério da Saúde",
@@ -342,14 +342,6 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
-    },
-    {
-      "fiche": 35,
-      "name": "Amoxicilina",
-      "source_page": 47,
-      "document_flags": [],
       "resolution": "AUTO_RESEARCH_PENDING",
       "auto_research": true
     },
@@ -1573,16 +1565,6 @@
       "name": "Dimenidrinato + Piridoxina",
       "source_page": 177,
       "document_flags": [],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
-    },
-    {
-      "fiche": 166,
-      "name": "Dipirona Sódica (Metamizol)",
-      "source_page": 178,
-      "document_flags": [
-        "contem_restricao_contexto_especifico"
-      ],
       "resolution": "AUTO_RESEARCH_PENDING",
       "auto_research": true
     },
@@ -2994,22 +2976,6 @@
       "auto_research": true
     },
     {
-      "fiche": 318,
-      "name": "Nistatina",
-      "source_page": 330,
-      "document_flags": [],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
-    },
-    {
-      "fiche": 319,
-      "name": "Nistatina + Óxido de Zinco",
-      "source_page": 331,
-      "document_flags": [],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
-    },
-    {
       "fiche": 320,
       "name": "Nitazoxanida",
       "source_page": 332,
@@ -3572,17 +3538,6 @@
       "name": "Sais de Reidratação Oral (SRO)",
       "source_page": 392,
       "document_flags": [],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
-    },
-    {
-      "fiche": 381,
-      "name": "Salbutamol",
-      "source_page": 393,
-      "document_flags": [
-        "contem_restricao_contexto_especifico",
-        "contem_off_label"
-      ],
       "resolution": "AUTO_RESEARCH_PENDING",
       "auto_research": true
     },
