@@ -1,10 +1,10 @@
-# Governança ativa — Farmacoterapia Pediátrica v62
+# Governança ativa — Farmacoterapia Pediátrica v63
 
 ```yaml
 configuration:
   id: pediatric-pharmacotherapy-governance
-  version: 62.0-master-498-2026-09-26
-  effective_date: 2026-09-26
+  version: 63.0-auto-evidence-resolution-2026-09-28
+  effective_date: 2026-09-28
   locale: pt-BR
   status: ACTIVE_REFERENCE_CONFIGURATION
   applies_to:
@@ -38,7 +38,73 @@ allowed_resolution_states:
   SPECIALIST_ONLY: "USO RESTRITO A PROTOCOLO ESPECIALIZADO PARA ESTA INDICAÇÃO"
   REQUIRES_CRITICAL_INPUT: "DADO CLÍNICO OBRIGATÓRIO AUSENTE: {field}"
   REGULATORY_SUSPENDED: "MEDICAMENTO/APRESENTAÇÃO COM USO OU COMERCIALIZAÇÃO SUSPENSOS — NÃO OFERTAR"
-  DOCUMENTARY_ONLY: "REGISTRO DOCUMENTAL — NÃO LIBERAR COMO PRESCRIÇÃO OPERACIONAL SEM VALIDAÇÃO"
+  AUTO_RESEARCH_PENDING: "PESQUISA CIENTÍFICA AUTOMÁTICA EM RESOLUÇÃO — NÃO EXIGIR PREENCHIMENTO MANUAL DO USUÁRIO"
+  DOCUMENTARY_ONLY: "ESTADO LEGADO — MIGRAR AUTOMATICAMENTE PARA AUTO_RESEARCH_PENDING"
+
+automatic_gap_resolution:
+  enabled: true
+  user_manual_completion_required: false
+  legacy_documentary_only_is_terminal: false
+  on_any_medication_gap:
+    - set_state_AUTO_RESEARCH_PENDING
+    - enqueue_scientific_research
+    - preserve_existing_valid_data
+    - do_not_auto_select_until_operational_regimen_complete
+  gap_fields:
+    - indication
+    - population
+    - age_range
+    - weight_range
+    - route
+    - dose
+    - interval
+    - duration
+    - maximum_per_dose
+    - maximum_per_day
+    - formulation
+    - concentration
+    - brazilian_presentation
+    - practical_volume_ml_or_drops_or_tablets
+    - dilution
+    - administration_instructions
+    - monitoring
+    - contraindications
+    - renal_adjustment
+    - hepatic_adjustment
+    - incompatibilities
+    - off_label_status
+    - regimen_level_source
+  source_hierarchy:
+    - ANVISA
+    - Ministerio_da_Saude
+    - SES_MG
+    - SBP_and_relevant_Brazilian_medical_societies
+    - official_product_label_and_regulatory_registration
+    - recognized_international_guidelines
+    - systematic_reviews_and_primary_literature_PubMed_DOI
+    - published_specialist_practice_only_if_higher_level_evidence_absent
+  automatic_source_discovery:
+    enabled: true
+    machine_sources:
+      - PubMed_NCBI
+      - Europe_PMC
+      - openFDA_drug_labels
+    brazilian_regulatory_and_society_sources:
+      priority: highest
+      requirement: verify_when_available_before_operational_release
+  evidence_rules:
+    - Source discovery alone does not make a regimen READY.
+    - READY requires complete operational regimen plus regimen-level traceable evidence and triple audit.
+    - If trustworthy sources diverge, preserve each applicable regimen with explicit population/indication and citations.
+    - If evidence remains insufficient after search, retain a precise scientific block reason and searched-source log; never invent missing data.
+  automation_outputs:
+    queue: public-data/medication-gap-research-queue.json
+    candidates: public-data/medication-gap-evidence-candidates.json
+    state: public-data/medication-gap-research-state.json
+  ui_policy:
+    - Never ask the clinician to type missing pharmacologic evidence as the default resolution path.
+    - While unresolved, show only that scientific research is being resolved automatically and the exact missing field/reason.
+    - Valid existing regimens remain available and must not be removed by this process.
 
 selector_policy:
   default: deny
