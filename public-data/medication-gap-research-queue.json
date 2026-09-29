@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T16:34:41.103Z",
+  "generated_at": "2026-09-28T23:20:44.117Z",
   "source_hierarchy": [
     "ANVISA",
     "Ministério da Saúde",
@@ -351,7 +351,12 @@
       "source_page": 47,
       "document_flags": [],
       "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "amox-gas"
+      ],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 36,
@@ -1584,7 +1589,12 @@
         "contem_restricao_contexto_especifico"
       ],
       "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "dipyrone"
+      ],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 167,
@@ -2999,7 +3009,10 @@
       "source_page": 330,
       "document_flags": [],
       "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "auto_research": true,
+      "ready_regimen_ids": [],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "TARGET_AUDITED_PENDING_PRESENTATION"
     },
     {
       "fiche": 319,
@@ -3007,7 +3020,12 @@
       "source_page": 331,
       "document_flags": [],
       "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "nystatin-zinc-diaper"
+      ],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 320,
@@ -3584,7 +3602,12 @@
         "contem_off_label"
       ],
       "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "auto_research": true,
+      "ready_regimen_ids": [
+        "salbutamol-rescue"
+      ],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY"
     },
     {
       "fiche": 382,
