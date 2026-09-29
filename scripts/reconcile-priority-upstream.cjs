@@ -5,8 +5,7 @@ const asset='assets/priority-regimens.js';
 let code=fs.readFileSync(asset,'utf8');
 if(code.includes("const version='2026-09-28.priority.1'")){
  code=code.replace("const version='2026-09-28.priority.1'","const version='2026-09-28.priority.2'");
- code=code.replace("salb:{title:'GSK — texto da bula profissional Aerolin spray, reproduzido em Bula.com.br',url:'https://bula.com.br/original/aerolin-spray-aerossol',kind:'reprodução da bula; não consulta direta ao Bulário Anvisa'}","salb:{title:'GSK — Aerolin spray, bula profissional consultada diretamente no fabricante em 28/09/2026',url:'https://br.gsk.com/media/5wtj4ekh/aerolin-spray.pdf',kind:'bula no fabricante'}");
- code=code.replace('Posologia da bula profissional reproduzida, conciliada com orientação ministerial. Não houve consulta direta da renovação do registro na Anvisa.','Posologia da bula profissional consultada diretamente no fabricante e conciliada com orientação ministerial. Não representa consulta individual à situação de renovação do registro na Anvisa.');
+ // A migração de versão preserva a origem documental; não comprova nova consulta à fonte.
  fs.writeFileSync(asset,code);
 }
 let html=fs.readFileSync('index.html','utf8');

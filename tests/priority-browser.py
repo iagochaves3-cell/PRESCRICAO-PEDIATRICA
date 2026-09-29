@@ -105,6 +105,18 @@ with sync_playwright() as pw:
     assert '2 jato(s) (200 mcg' in card.locator('[data-field="dose"]').input_value()
     assert 'mL' not in card.locator('[data-field="dose"]').input_value()
     checks.append('salbutamol_16kg_200mcg_not_mg')
+
+    for diagnosis in ['Crise de Asma / Broncoespasmo Agudo (Leve a Moderada)', 'Crise de asma moderada', 'Crise de asma grave']:
+        case('4 anos', 16, diagnosis)
+        apply('salbutamol-rescue', 'salb-100', 'two')
+        expect(page.locator('#medication-list [data-priority-regimen]')).to_have_count(0)
+        assert 'diagnóstico compatível' in page.locator('[data-priority-id="salbutamol-rescue"] .priority-result').inner_text()
+    checks.append('moderate_severe_and_mixed_asthma_not_mapped_to_home_rescue')
+    case('4 anos', 16, 'Crise de Asma / Broncoespasmo Agudo (Leve)')
+    card = apply('salbutamol-rescue', 'salb-100', 'two')
+    expect(card).to_have_count(1)
+    assert '2 jato(s) (200 mcg' in card.locator('[data-field="dose"]').input_value()
+    checks.append('explicit_mild_only_alias_preserves_rescue')
     case('1 ano', 10, 'Bronquiolite')
     apply('salbutamol-rescue', 'salb-100', 'one')
     expect(page.locator('#medication-list [data-priority-regimen]')).to_have_count(0)
