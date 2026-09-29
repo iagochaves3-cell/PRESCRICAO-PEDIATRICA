@@ -31,7 +31,7 @@ const bands=[
 ];
 const diagnosisAliases={
  groupAStrep:['faringoamigdalite bacteriana estreptococica','faringoamigdalite bacteriana estreptocócica','faringoamigdalite estreptococica','faringoamigdalite estreptocócica','faringite estreptococica','faringite estreptocócica','faringoamigdalite por estreptococo do grupo a','j02.0','j03.0'],
- ambulatoryBronchospasm:['crise de asma / broncoespasmo agudo (leve a moderada)','asma com broncoespasmo','broncoespasmo'],
+ ambulatoryBronchospasm:['crise de asma / broncoespasmo agudo (leve)','asma com broncoespasmo','broncoespasmo'],
  candidalDiaperDermatitis:['candidiase de fraldas','candidíase de fraldas','dermatite de fraldas candidiasica','dermatite de fraldas candidiásica']
 };
 const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
