@@ -45,4 +45,10 @@ jobs:
             exit 0
           fi
           git commit -m "data: refresh medication gap evidence candidates"
-          git push
+          git fetch origin main
+          if ! git rebase origin/main; then
+            git rebase --abort
+            echo "main advanced with overlapping research-data changes; skipping push."
+            exit 0
+          fi
+          git push origin HEAD:main
