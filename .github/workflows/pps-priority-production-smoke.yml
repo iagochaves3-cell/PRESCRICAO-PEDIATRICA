@@ -2,7 +2,7 @@ name: PPS priority production smoke
 
 on:
   workflow_run:
-    workflows: ["Deploy Jekyll with GitHub Pages dependencies preinstalled"]
+    workflows: ["Deploy Jekyll with GitHub Pages dependencies preinstalled", "pages build and deployment"]
     types: [completed]
     branches: [main]
   workflow_dispatch:
