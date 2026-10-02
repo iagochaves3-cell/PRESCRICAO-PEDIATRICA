@@ -171,8 +171,16 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_HOSPITAL_READY",
+      "auto_research": false,
+      "reviewed_at": "2026-10-02",
+      "partial_operational_status": "HOSPITAL_ONLY_SOURCE_LINKED",
+      "source_links": [
+        "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/systems-of-care",
+        "https://outreach.cheo.on.ca/manual/1563",
+        "https://www.blau.com.br/storage/app/media/bulas/novas/Bula_Efrinalin.pdf"
+      ],
+      "next_action": "Integrar no calculador hospitalar/emergência e testar antes de publicação clínica automática."
     },
     {
       "fiche": 18,
