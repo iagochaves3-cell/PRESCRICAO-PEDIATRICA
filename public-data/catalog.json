@@ -175,8 +175,17 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_HOSPITAL_READY",
+      "auto_research": false,
+      "reviewed_at": "2026-10-02",
+      "clinical_use_enabled": false,
+      "partial_operational_status": "HOSPITAL_ONLY_SOURCE_LINKED",
+      "evidence_summary": "AHA/AAP 2025: epinephrine or norepinephrine are reasonable initial vasoactive infusions in fluid-refractory pediatric septic shock. CHEO Parenteral Manual (revised Nov 2024): epinephrine continuous IV 0.01–1 mcg/kg/min; standard 6 and 25 mcg/mL, central-only 50 and 200 mcg/mL. Brazilian Efrinalin: epinephrine 1 mg/mL, 1 mL ampoule, adult and pediatric use.",
+      "source_links": [
+        "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/systems-of-care",
+        "https://outreach.cheo.on.ca/manual/1563",
+        "https://www.blau.com.br/storage/app/media/bulas/novas/Bula_Efrinalin.pdf"
+      ]
     },
     {
       "fiche": 18,
