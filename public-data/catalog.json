@@ -3877,8 +3877,14 @@
       "document_flags": [
         "contem_restricao_contexto_especifico"
       ],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_REGIMEN_READY",
+      "auto_research": false,
+      "ready_regimen_ids": [
+        "zinc-acute-diarrhea"
+      ],
+      "regimen_registry": "public-data/priority-regimens.json",
+      "partial_operational_status": "PARTIALLY_READY",
+      "reviewed_at": "2026-10-02"
     },
     {
       "fiche": 410,
