@@ -1,8 +1,8 @@
 {
-  "cursor": 284,
-  "last_run": "2026-10-02T22:13:27.901Z",
+  "cursor": 84,
+  "last_run": "2026-10-03T05:17:32.186Z",
   "batch_size": 298,
   "pending_total": 498,
-  "completed_cycles": 12,
+  "completed_cycles": 13,
   "initialized_at": "2026-09-28T15:45:00Z"
 }
