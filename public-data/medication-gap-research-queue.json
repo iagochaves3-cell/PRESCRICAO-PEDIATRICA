@@ -4500,8 +4500,17 @@
       "name": "Cloreto de Cálcio 10%",
       "source_page": 488,
       "document_flags": [],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_BR_LABEL_AND_EMERGENCY_READY",
+      "auto_research": false,
+      "reviewed_at": "2026-10-04",
+      "partial_operational_status": "BR_HYPOCALCEMIA_LABEL_READY_EMERGENCY_GUIDELINE_GATED",
+      "source_links": [
+        "https://vmgfarmaceutica.com.br/produtos/cloreto-de-calcio-10/",
+        "https://vmgfarmaceutica.com.br/wp-content/uploads/2023/08/Bula-Profissional-da-saude-CLORETO-DE-CALCIO_v2-2.pdf",
+        "https://www.rch.org.au/clinicalguide/guideline_index/Hyperkalaemia/",
+        "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support"
+      ],
+      "next_action": "Integrar os regimes validados no calculador hospitalar mantendo separação entre bula brasileira para hipocalcemia e uso emergencial por diretriz; não usar cálcio rotineiramente na PCR."
     },
     {
       "fiche": 477,
