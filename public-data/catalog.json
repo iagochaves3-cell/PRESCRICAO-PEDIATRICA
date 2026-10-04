@@ -175,8 +175,19 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_BR_PRESENTATION_AND_CONTINUOUS_INFUSION_READY",
+      "auto_research": false,
+      "reviewed_at": "2026-10-04",
+      "clinical_use_enabled": false,
+      "partial_operational_status": "HOSPITAL_EPINEPHRINE_INFUSION_READY_PENDING_UI",
+      "evidence_summary": "Brasil: Efrinalin 1 mg/mL, ampola 1 mL = 1 mg, uso adulto e pediátrico. CHEO pediátrico: infusão contínua 0,01–1 mcg/kg/min. Concentrações padrão: 6 e 25 mcg/mL; 50 e 200 mcg/mL somente por acesso central. SCCM pediátrica: epinefrina ou norepinefrina podem ser usadas como vasoativo inicial no choque séptico; ambas são preferidas à dopamina.",
+      "source_links": [
+        "https://www.blau.com.br/storage/app/media/bulas/novas/Bula_Efrinalin.pdf",
+        "https://outreach.cheo.on.ca/manual/1563",
+        "https://outreach.cheo.on.ca/manual/1336",
+        "https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines"
+      ],
+      "next_action": "Integrar BIC com concentrações 6/25/50/200 mcg/mL, cálculo independente em mcg/kg/min e mL/h, gate de acesso central para 50/200 mcg/mL e alerta de incompatibilidade com bicarbonato."
     },
     {
       "fiche": 18,
