@@ -3800,8 +3800,19 @@
         "contem_alerta_nao_extrapolar",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_BR_LABEL_READY",
+      "auto_research": false,
+      "reviewed_at": "2026-10-04",
+      "partial_operational_status": "BR_PEDIATRIC_LABEL_SUPPORTED",
+      "clinical_use_enabled": false,
+      "evidence_summary": "Sucrafilm suspensão oral 200 mg/mL, uso adulto e pediátrico. Bula brasileira: esofagite <6 anos 500 mg (2,5 mL) 4x/dia; >6 anos 1 g (5 mL) 4x/dia; exatamente 6 anos permanece bloqueado por ambiguidade textual da bula. Úlcera duodenal pediátrica: 1 g (5 mL) 4x/dia; manutenção 1–10 anos: 1 g (5 mL) à noite. NASPGHAN/ESPGHAN considera a evidência para sucralfato em esofagite de refluxo muito baixa e recomenda PPI como primeira linha. RCT de úlceras orais infecciosas não demonstrou melhora da ingestão oral com 20 mg/kg/dose (máx. 1 g).",
+      "source_links": [
+        "https://www.ems.com.br/medicamentos/sucrafilm-3/",
+        "https://www.araujo.com.br/bula/Sucrafilm-200mg/ml-Suspens%C3%A3o-Oral-com-200ml",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5958910/",
+        "https://pubmed.ncbi.nlm.nih.gov/33867179/"
+      ],
+      "next_action": "Integrar os regimes pediátricos de bula com concentração 200 mg/mL, bloquear idade exatamente 6 anos para esofagite e não promover sucralfato como primeira linha de DRGE/esofagite erosiva por refluxo."
     },
     {
       "fiche": 402,
