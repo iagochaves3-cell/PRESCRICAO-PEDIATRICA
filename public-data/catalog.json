@@ -4504,8 +4504,20 @@
       "name": "Cloreto de Cálcio 10%",
       "source_page": 488,
       "document_flags": [],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_BR_LABEL_AND_EMERGENCY_READY",
+      "auto_research": false,
+      "reviewed_at": "2026-10-04",
+      "clinical_use_enabled": false,
+      "partial_operational_status": "BR_HYPOCALCEMIA_LABEL_READY_EMERGENCY_GUIDELINE_GATED",
+      "evidence_summary": "Brasil: Cloreto de Cálcio 10% = 100 mg/mL, ampolas 5 e 10 mL, IV, uso adulto e pediátrico. Bula VMG: hipocalcemia pediátrica 2,7–5 mg/kg/dose (0,027–0,05 mL/kg/dose) a cada 4–6 h; 1 mL contém 0,68 mmol/1,36 mEq de cálcio. Em emergência, diretriz pediátrica RCH usa 20 mg/kg (0,2 mL/kg) de solução 10%, máx. 10 mL, para estabilização miocárdica na hipercalemia, com monitorização contínua; AHA 2025 restringe cálcio na parada a circunstâncias específicas como hipocalcemia, hipercalemia e toxicidade por bloqueador de canal de cálcio, não uso rotineiro.",
+      "source_links": [
+        "https://vmgfarmaceutica.com.br/produtos/cloreto-de-calcio-10/",
+        "https://vmgfarmaceutica.com.br/wp-content/uploads/2023/08/Bula-Profissional-da-saude-CLORETO-DE-CALCIO_v2-2.pdf",
+        "https://www.rch.org.au/clinicalguide/guideline_index/Hyperkalaemia/",
+        "https://pig.rch.org.au/pages/calcium-chloride",
+        "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support"
+      ],
+      "next_action": "Integrar calculador hospitalar separando claramente: (1) hipocalcemia de bula BR 2,7–5 mg/kg/dose q4–6h IV; (2) emergência/hipercalemia 20 mg/kg = 0,2 mL/kg de 10% conforme diretriz, com máximo e tempo explícitos; bloquear cálcio rotineiro na PCR e marcar IO como uso por diretriz, fora da via IV da bula brasileira."
     },
     {
       "fiche": 477,
