@@ -1265,8 +1265,20 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_BR_LABEL_AND_ACUTE_AGITATION_EVIDENCE_READY",
+      "auto_research": false,
+      "reviewed_at": "2026-10-04",
+      "clinical_use_enabled": false,
+      "partial_operational_status": "BR_LABEL_READY_ACUTE_AGITATION_EVIDENCE_GATED",
+      "evidence_summary": "Longactil Brasil: solução oral 40 mg/mL (40 gotas/mL; 1 mg/gota) e solução injetável 5 mg/mL, ampola 5 mL; uso pediátrico acima de 2 anos. Bula: dose pediátrica inicial 1 mg/kg/dia dividida em 2–3 tomadas/administrações, máximo 40 mg/dia <5 anos e 75 mg/dia em crianças mais velhas. A solução injetável brasileira é IM apenas. Consenso BETA para agitação aguda cita 0,55 mg/kg/dose PO/IM, mas esse regime deve permanecer evidence-only e separado da bula brasileira. CHEO parenteral 0,5–1 mg/kg/dose q6–8h e uso IV são referências institucionais internacionais/off-label para o Brasil.",
+      "source_links": [
+        "https://www.cristalia.com.br/produto/286/bula-profissional",
+        "https://www.cristalia.com.br/produto/264/bula-profissional",
+        "https://outreach.cheo.on.ca/content/2291",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6404720/",
+        "https://pubmed.ncbi.nlm.nih.gov/33850680/"
+      ],
+      "next_action": "Integrar apresentação Longactil atual, consolidar entidades duplicadas e manter três trilhas separadas: bula BR VO, bula BR IM e agitação aguda evidence-only. Bloquear IV como via operacional brasileira."
     },
     {
       "fiche": 134,
