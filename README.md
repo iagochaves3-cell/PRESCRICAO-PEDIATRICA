@@ -33,3 +33,15 @@ python3 scripts/build-diagnosis-index.py
 ```
 
 O GitHub Actions constrói o site com Jekyll e publica a branch `main` no GitHub Pages. O `_config.yml` exclui documentos-fonte e anexos do artefato web.
+
+## Resolução auditável das lacunas medicamentosas
+
+Descoberta e resolução clínica são etapas separadas. `scripts/resolve-medication-gaps.mjs` promove somente escopos por regime com pacote completo, fontes em nível de campo, verificação brasileira, auditoria tripla vinculada por hash e cálculo testado. A fila é derivada do ledger `medication-gap-scopes.json`; resolver um regime não encerra outras indicações da mesma monografia. Pesquisas recentes deixam de ser repetidas a cada ciclo.
+
+Na migração, permanecem 498 remanescentes de monografias ainda sem inventário integral extraído, quatro IDs READY legados e zero novos regimes promovidos. A unidade de `pending_total` está explícita; ciclos de descoberta não reduzem pendências clínicas. Consulte o [contrato e as decisões do fluxo](clinical-review/medication-gap-resolution-flow.md).
+
+```sh
+node --test tests/*.test.cjs tests/*.test.mjs
+node scripts/resolve-medication-gaps.mjs
+node scripts/resolve-medication-gaps.mjs --check
+```

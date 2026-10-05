@@ -1,24 +1,6 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-10-05T12:40:35.172Z",
-  "total_scopes": 498,
-  "pending_total": 498,
-  "pending_monographs_total": 498,
-  "pending_regimens_total": 0,
-  "unextracted_monographs_total": 498,
-  "resolved_regimens_total": 0,
-  "source_hierarchy": [
-    "ANVISA",
-    "Ministério da Saúde",
-    "SES-MG",
-    "SBP/sociedades brasileiras",
-    "bulas/registro oficial",
-    "diretrizes internacionais",
-    "PubMed/DOI"
-  ],
-  "count_unit": "Unresolved explicit regimen scopes plus unextracted monograph remainders; not a count of all clinical indication lines.",
-  "rule": "Discovery never releases a regimen. READY closes only the exact audited scope; remaining indications stay blocked.",
-  "pending": [
+  "scopes": [
     {
       "id": "monograph:1:unextracted",
       "fiche": 1,
@@ -4509,5 +4491,6 @@
       "reason": "Inventory of remaining indication/population/presentation regimes has not been fully extracted and audited.",
       "excluded_existing_ready_regimen_ids": []
     }
-  ]
+  ],
+  "updated_at": "2026-10-05T12:40:35.172Z"
 }

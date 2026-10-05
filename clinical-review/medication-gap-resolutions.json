@@ -1,0 +1,5 @@
+{
+  "schema_version": "2.0",
+  "policy": "Only explicitly scoped, complete, source-linked and triple-audited packets may be promoted. Existing partial READY records are preserved but not treated as a new audit. Unextracted monograph remainders cannot be closed by a regimen packet.",
+  "requests": []
+}
