@@ -163,8 +163,20 @@
       "document_flags": [
         "contem_off_label"
       ],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_PALS_2025_READY",
+      "auto_research": false,
+      "reviewed_at": "2026-10-05",
+      "clinical_use_enabled": true,
+      "partial_operational_status": "PEDIATRIC_SVT_IV_IO_READY",
+      "pediatric_off_label_br": true,
+      "evidence_summary": "PALS 2025: 0,1 mg/kg IV/IO (máx. 6 mg) em push rápido + flush; se necessário 0,2 mg/kg (máx. 12 mg). Brasil: adenosina 3 mg/mL, ampola 2 mL = 6 mg; bula nacional adulta, portanto uso pediátrico off-label regulatório. CHEO: push 1–2 s; para dose <0,6 mg pode diluir a 0,3 mg/mL.",
+      "source_links": [
+        "https://www.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-PALS-Tachyarrhythmia-250117.pdf",
+        "https://outreach.cheo.on.ca/content/2243",
+        "https://halexistar.com.br/produto/lowe-adenosina/",
+        "https://hipolabor.shop/portal/produtos/adenosina"
+      ],
+      "next_action": "Integrar calculador de dose/volume, diluição de microvolume e gate de QRS largo regular/monomórfico na UI."
     },
     {
       "fiche": 17,
