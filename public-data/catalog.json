@@ -1265,8 +1265,22 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_PEDIATRIC_CHLORPROMAZINE_READY",
+      "auto_research": false,
+      "reviewed_at": "2026-10-05",
+      "clinical_use_enabled": true,
+      "evidence_summary": "Brasil: Longactil solução oral 40 mg/mL (40 gotas/mL; 1 mg/gota) e solução injetável 5 mg/mL em ampola de 5 mL, ambas com uso pediátrico acima de 2 anos. Bula brasileira: dose inicial pediátrica 1 mg/kg/dia dividida em 2–3 administrações; máximo 40 mg/dia abaixo de 5 anos e 75 mg/dia em crianças mais velhas; apresentação injetável somente IM e transição para VO assim que possível. Regimes por dose para agitação/náusea de referências internacionais/institucionais permanecem separados e marcados como evidence-only/off-label quando não equivalem à bula brasileira.",
+      "presentation_br": "VO: 40 mg/mL, frasco 20 mL, 40 gotas/mL, 1 mg/gota. IM: 5 mg/mL, ampola 5 mL = 25 mg.",
+      "safety_summary": "Monitorar sedação, PA/hipotensão, sintomas extrapiramidais/distonia, efeitos anticolinérgicos, hipertermia/síndrome neuroléptica maligna e QT/ECG conforme fatores de risco. Contraindicações relevantes incluem glaucoma de ângulo fechado, risco de retenção urinária uretroprostática, levodopa concomitante, coma barbitúrico/etílico, hipersensibilidade a fenotiazinas, doença cardiovascular grave e depressão grave do SNC.",
+      "source_links": [
+        "https://www.cristalia.com.br/produto/solucao-oral",
+        "https://www.cristalia.com.br/produto/solucao-injetavel-5-mgml-174",
+        "https://www.bula.gratis/cristalia_produtos_quimicos_farmaceuticos_ltda/1/longactil/profissional",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c2a8b8a3-187f-4000-bde3-b40bb0e5600f",
+        "https://outreach.cheo.on.ca/content/2291",
+        "https://www.childrensmn.org/References/cds/pharmacologic-management-of-agitation-guideline.pdf"
+      ],
+      "next_action": "Propagar os regimes já auditados da base compartilhada para os SiteGPTs terapêuticos pertinentes; não usar o esquema evidence-only para substituir silenciosamente a posologia da bula brasileira."
     },
     {
       "fiche": 134,
