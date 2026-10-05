@@ -31,13 +31,29 @@ jobs:
           python -m pip install playwright pypdf
           python -m playwright install --with-deps chromium
       - name: Verify deployed artifact and functional public flows
+        env:
+          GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p ci-artifacts
           python - <<'PY'
-          import hashlib, pathlib, time, urllib.request
+          import hashlib, os, pathlib, subprocess, time, urllib.request
           base='https://iagochaves3-cell.github.io/PRESCRICAO-PEDIATRICA/'
+          expected_sha=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          repository=os.environ['GITHUB_REPOSITORY']
+          def superseded():
+              latest=subprocess.check_output(['gh','api','repos/'+repository+'/commits/main','--jq','.sha'],text=True).strip()
+              if latest==expected_sha:
+                  return False
+              relation=subprocess.check_output(['gh','api','repos/'+repository+'/compare/'+expected_sha+'...'+latest,'--jq','.status'],text=True).strip()
+              if relation!='ahead':
+                  raise SystemExit('Unexpected main history change; cannot skip verification')
+              print('Historical artifact comparison superseded by newer main commit:', expected_sha, latest)
+              print('Latest deployment must be verified by its own production smoke; no artifact approval is issued for this historical run.')
+              return True
+          if superseded():
+              raise SystemExit(0)
           for filename in ['assets/priority-regimens.js', 'public-data/medication-gap-research-state.json',
                            'public-data/medication-gap-research-queue.json', 'public-data/audited-gap-regimens.json']:
               expected=pathlib.Path(filename).read_bytes()
@@ -52,6 +68,8 @@ jobs:
                       print(type(exc).__name__, str(exc))
                   time.sleep(5)
               else:
+                  if superseded():
+                      raise SystemExit(0)
                   raise SystemExit('Public artifact does not match the checked-out deployed commit: '+filename)
           PY
           python tests/priority-browser.py --url "https://iagochaves3-cell.github.io/PRESCRICAO-PEDIATRICA/?verification=${GITHUB_RUN_ID}" | tee ci-artifacts/production-browser.log

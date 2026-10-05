@@ -6,6 +6,7 @@ on:
     branches: ["main"]
     paths:
       - ".github/workflows/medication-gap-research-closure.yml"
+      - ".github/workflows/pps-priority-production-smoke.yml"
       - "scripts/resolve-medication-gaps.mjs"
       - "scripts/lib/medication-gap-resolution.mjs"
       - "tests/medication-gap-resolution.test.mjs"
@@ -14,6 +15,7 @@ on:
       - "public-data/audited-gap-regimens.json"
   pull_request:
     paths:
+      - ".github/workflows/**"
       - "scripts/**"
       - "tests/**"
       - "clinical-review/**"
