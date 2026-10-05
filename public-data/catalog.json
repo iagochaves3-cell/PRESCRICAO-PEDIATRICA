@@ -1384,8 +1384,33 @@
         "contem_off_label",
         "revisao_focal_14_09_2026"
       ],
-      "resolution": "AUTO_RESEARCH_PENDING",
-      "auto_research": true
+      "resolution": "SOURCE_LINKED_PEDIATRIC_MH_READY",
+      "auto_research": false,
+      "reviewed_at": "2026-10-05",
+      "clinical_use_enabled": true,
+      "on_label_context": "Hipertermia maligna: uso IV adulto e pediátrico conforme bula brasileira Dantrolen/Cristália.",
+      "evidence_summary": "Crise de hipertermia maligna: EMHG 2–2,5 mg/kg IV; MHAUS usa 2,5 mg/kg como dose inicial usual, baseada no peso real. Repetir aproximadamente a cada 10 min ou tão rapidamente quanto possível até controle. EMHG: máximo 300 mg por dose; 10 mg/kg cumulativos são referência inicial, não teto absoluto. Pós-controle: MHAUS 1 mg/kg IV q4–6 h por pelo menos 24 h.",
+      "presentation_br": "Dantrolen/Cristália 20 mg pó liofilizado + 60 mL de água para injetáveis; após reconstituição 0,333 mg/mL; uso IV adulto e pediátrico.",
+      "operational_calculation": {
+        "concentration_mg_ml": 0.3333333333333333,
+        "acute_min_mg_kg": 2,
+        "acute_usual_mg_kg": 2.5,
+        "volume_factor_2mgkg_ml_kg": 6,
+        "volume_factor_2_5mgkg_ml_kg": 7.5,
+        "maintenance_mg_kg": 1,
+        "maintenance_volume_ml_kg": 3,
+        "vials_formula": "ceil(dose_mg/20)"
+      },
+      "preparation": "Reconstituir cada frasco de 20 mg com 60 mL de água para injetáveis sem conservante, estéril e apirógena. Não usar SF0,9%, SG5% ou soluções ácidas. Usar em até 6 h a 15–30 °C, protegido da luz.",
+      "source_links": [
+        "https://www.cristalia.com.br/produto/po--liofilizado-para-solucao-injetavel-%2B-solucao-diluente-20-mg",
+        "https://www.bula.gratis/cristalia_produtos_quimicos_farmaceuticos_ltda/1/dantrolen/profissional",
+        "https://www.emhg.org/recommendations-1/2024/11/4/recognising-and-managing-a-malignant-hyperthermia-crisis-v2024",
+        "https://www.mhaus.org/healthcare-professionals/managing-a-crisis/",
+        "https://www.mhaus.org/healthcare-professionals/mhaus-recommendations/dantrolene-administration-after-an-mh-event/",
+        "https://www.mhaus.org/faqs/do-i-use-actual-weight-or-ideal-weight-to-calculate-dantrolene-dosing/"
+      ],
+      "next_action": "Integrar calculador de dose/volume/frascos e protocolo de hipertermia maligna nos destinos clínicos."
     },
     {
       "fiche": 146,
