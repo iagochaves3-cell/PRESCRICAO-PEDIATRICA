@@ -7,6 +7,10 @@ on:
     paths:
       - ".github/workflows/medication-gap-research.yml"
       - "scripts/research-medication-gaps.mjs"
+      - "scripts/resolve-medication-gaps.mjs"
+      - "scripts/lib/medication-gap-resolution.mjs"
+      - "clinical-review/medication-gap-resolutions.json"
+      - "assets/priority-regimens.js"
       - "public-data/catalog.json"
       - "ACTIVE_pediatric-pharmacotherapy-governance-v62.md"
   schedule:
@@ -18,7 +22,7 @@ permissions:
 
 concurrency:
   group: medication-gap-research
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   research:
@@ -30,30 +34,41 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Verify resolution gates and existing calculation regressions
+        run: node --test tests/*.test.cjs tests/*.test.mjs
+      - name: Resolve only complete triple-audited regimen scopes
+        run: node scripts/resolve-medication-gaps.mjs
       - name: Discover evidence candidates for unresolved medication gaps
         env:
           RESEARCH_BATCH: "298"
           RESEARCH_CONCURRENCY: "3"
           RESEARCH_FETCH_TIMEOUT_MS: "8000"
+          RESEARCH_REFRESH_HOURS: "168"
+          RESEARCH_RETRY_HOURS: "24"
         run: node scripts/research-medication-gaps.mjs
+      - name: Check scoped queue and release projection before publication
+        run: node scripts/resolve-medication-gaps.mjs --check
       - name: Commit refreshed research queue and candidate evidence
         id: publish
         run: |
           echo "pushed=false" >> "$GITHUB_OUTPUT"
           git config user.name "pps-evidence-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public-data/medication-gap-research-queue.json public-data/medication-gap-evidence-candidates.json public-data/medication-gap-research-state.json
+          git add public-data/catalog.json public-data/medication-gap-scopes.json public-data/audited-gap-regimens.json public-data/medication-gap-resolution-audit.json public-data/medication-gap-research-queue.json public-data/medication-gap-evidence-candidates.json public-data/medication-gap-research-state.json
           if git diff --cached --quiet; then
             echo "No research-data changes."
             exit 0
           fi
-          git commit -m "data: refresh medication gap evidence candidates"
+          git commit -m "data: reconcile audited regimen gaps and discovery candidates"
           git fetch origin main
           if ! git rebase origin/main; then
             git rebase --abort
             echo "main advanced with overlapping research-data changes; skipping push."
             exit 0
           fi
+          # A non-conflicting concurrent change to a packet or engine can still invalidate a release.
+          node --test tests/*.test.cjs tests/*.test.mjs
+          node scripts/resolve-medication-gaps.mjs --check
           git push origin HEAD:main
           echo "pushed=true" >> "$GITHUB_OUTPUT"
       - name: Trigger production smoke for the bot-authored publication

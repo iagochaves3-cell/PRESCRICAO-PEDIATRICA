@@ -38,19 +38,21 @@ jobs:
           python - <<'PY'
           import hashlib, pathlib, time, urllib.request
           base='https://iagochaves3-cell.github.io/PRESCRICAO-PEDIATRICA/'
-          expected=pathlib.Path('assets/priority-regimens.js').read_bytes()
-          for attempt in range(12):
-              try:
-                  with urllib.request.urlopen(base+'assets/priority-regimens.js?verify='+str(time.time_ns()), timeout=15) as r:
-                      actual=r.read()
-                  if actual==expected:
-                      print('Public JS matches deployed commit:', hashlib.sha256(actual).hexdigest())
-                      break
-              except Exception as exc:
-                  print(type(exc).__name__, str(exc))
-              time.sleep(5)
-          else:
-              raise SystemExit('Public asset does not match the checked-out deployed commit')
+          for filename in ['assets/priority-regimens.js', 'public-data/medication-gap-research-state.json',
+                           'public-data/medication-gap-research-queue.json', 'public-data/audited-gap-regimens.json']:
+              expected=pathlib.Path(filename).read_bytes()
+              for attempt in range(12):
+                  try:
+                      with urllib.request.urlopen(base+filename+'?verify='+str(time.time_ns()), timeout=15) as r:
+                          actual=r.read()
+                      if actual==expected:
+                          print('Public artifact matches deployed commit:', filename, hashlib.sha256(actual).hexdigest())
+                          break
+                  except Exception as exc:
+                      print(type(exc).__name__, str(exc))
+                  time.sleep(5)
+              else:
+                  raise SystemExit('Public artifact does not match the checked-out deployed commit: '+filename)
           PY
           python tests/priority-browser.py --url "https://iagochaves3-cell.github.io/PRESCRICAO-PEDIATRICA/?verification=${GITHUB_RUN_ID}" | tee ci-artifacts/production-browser.log
       - name: Preserve production verification artifacts

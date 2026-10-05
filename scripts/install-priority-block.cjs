@@ -56,3 +56,10 @@ json('public-data/priority-candidate-audit.json',audit);
 const regimensInstalled=registry.regimens.length;
 const presentationsInstalled=registry.regimens.reduce((total,regimen)=>total+((regimen.presentations||[]).length),0);
 console.log(`INSTALL_READY: ${regimensInstalled} regimes, ${presentationsInstalled} apresentações; ${before.length} fichas preservadas.`);
+// Partial legacy installation does not close the monograph's other indication scopes.
+// Reconcile the scoped projection when the audited resolver is available.
+const resolver=require('node:path').join(__dirname,'resolve-medication-gaps.mjs');
+if(fs.existsSync(resolver)){
+ const result=require('node:child_process').spawnSync(process.execPath,[resolver],{stdio:'inherit'});
+ if(result.status!==0)throw new Error('Scoped gap reconciliation failed after priority installation.');
+}

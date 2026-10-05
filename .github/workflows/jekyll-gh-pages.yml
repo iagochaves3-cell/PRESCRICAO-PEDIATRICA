@@ -28,6 +28,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Verify medication release gates before building public data
+        run: |
+          node --test tests/*.test.cjs tests/*.test.mjs
+          node scripts/resolve-medication-gaps.mjs --check
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll

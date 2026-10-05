@@ -1,4 +1,4 @@
-name: Medication gap research closure
+name: Medication gap resolution verification
 
 on:
   workflow_dispatch:
@@ -6,6 +6,18 @@ on:
     branches: ["main"]
     paths:
       - ".github/workflows/medication-gap-research-closure.yml"
+      - "scripts/resolve-medication-gaps.mjs"
+      - "scripts/lib/medication-gap-resolution.mjs"
+      - "tests/medication-gap-resolution.test.mjs"
+      - "clinical-review/medication-gap-resolutions.json"
+      - "public-data/medication-gap-scopes.json"
+      - "public-data/audited-gap-regimens.json"
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - "clinical-review/**"
+      - "public-data/**"
 
 permissions:
   contents: read
@@ -18,5 +30,43 @@ jobs:
   closure:
     runs-on: ubuntu-latest
     steps:
-      - name: Confirm primary research cycle owns final state
-        run: echo "Primary medication research cycle completed; auxiliary closure is intentionally no-op."
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Verify safety gates, counters and existing calculation regressions
+        run: node --test tests/*.test.cjs tests/*.test.mjs
+      - name: Verify committed resolution projection without mutating state
+        run: node scripts/resolve-medication-gaps.mjs --check
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install browser test dependencies
+        run: |
+          python -m pip install playwright pypdf
+          python -m playwright install --with-deps chromium
+      - name: Verify existing prescription flows in a real browser
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ci-artifacts
+          python -m http.server 8000 >ci-artifacts/http-server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" || true' EXIT
+          for attempt in $(seq 1 20); do
+            if curl --fail --silent http://127.0.0.1:8000/ >/dev/null; then break; fi
+            sleep 1
+          done
+          python tests/priority-browser.py
+      - name: Verify the static site build
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Preserve browser verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: medication-gap-resolution-verification
+          path: ci-artifacts/
+          retention-days: 30
