@@ -2909,8 +2909,6 @@ Fase A permanece incompleta. Contagem reconciliada: 331 identidades, 19 integrai
 - Artefatos: fontes `libfile_1f80ab2e8ea88191b8a4edc4dec00033`; gate `libfile_b4197420e564819186d35ec1dba869cb`; revisão `libfile_9887bdec12f8819193d1ebaf282b2dcb`; testes `libfile_958dcff31d688191aa3f7cfd66d892c4`; manifesto `libfile_36978949140881918f473a882c812493`.
 - Fase A permanece incompleta. Contagem reconciliada: 331 identidades, 19 integrais, 176 parciais, 136 não iniciadas e 120 blocos integrados. Próxima identidade: tema237, `pedwb:mastoidite-em-pediatria`.
 
-
-
 ## 2026-10-11T17:40:00Z — Tema 237 · Mastoidite em Pediatria
 
 - Identidade estável `pedwb:mastoidite-em-pediatria`; revisão parcial por IA de reconhecimento, sinais de extensão, microbiologia, imagem seletiva, controle do foco, antimicrobiano por componente, produto brasileiro, reconstituição, cálculo e segurança, sem homologação humana e sem acesso autenticado ao Whitebook.
@@ -2925,3 +2923,4 @@ Fase A permanece incompleta. Contagem reconciliada: 331 identidades, 19 integrai
 - Protocolos Clínicos: a base persistente estava visível com 37 temas. A consulta de mastoidite pediátrica foi preparada, mas não submetida porque a gravação persistente de conteúdo clínico exige confirmação no momento e esta execução é não interativa; nenhum protocolo, referência, cálculo do Site ou versão D1 foi simulado.
 - Artefatos: fontes `libfile_c2b3f2c0de688191911fbf4e6a3870d3`; gate `libfile_aaf74fc050a081919c85f5a7742bf4a1`; testes `libfile_49c05b9e8b348191a3504491391eb6ef`; revisão `libfile_0ac0962472dc819192337d3ba9d6803b`; manifesto `libfile_4691a78d64f48191850b8a94ca31fecd`.
 - Fase A permanece incompleta. Contagem reconciliada: 331 identidades, 19 integrais, 177 parciais, 135 não iniciadas e 121 blocos integrados. Próxima identidade: tema238, `pedwb:otite-media-na-crianca`.
+
