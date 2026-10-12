@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-11T12:46:18.098Z",
+  "updated_at": "2026-10-12T00:31:20.298Z",
   "results": [
     {
       "fiche": 1,
@@ -21157,7 +21157,7 @@
       "fiche": 423,
       "name": "Ticagrelor",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-04T23:58:19.431Z",
+      "searched_at": "2026-10-12T00:31:20.298Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -21281,10 +21281,16 @@
             "8.4 Pediatric Use The safety and effectiveness of ticagrelor have not been established in pediatric patients. Effectiveness was not demonstrated in an adequate and well-controlled study conducted in 101 ticagrelor-treated pediatric patients, aged 2 to <18 for reducing the rate of vaso-occlusive crises in sickle cell disease."
           ],
           "url": "https://open.fda.gov/apis/drug/label/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=41543395,42296561,42276776,42120081,42030564"
         }
       ],
       "operational_status": "NOT_PROMOTED",
-      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable."
+      "release_gate": "Discovery only. Complete exact-scope evidence, Brazilian verification and triple audit must pass scripts/resolve-medication-gaps.mjs.",
+      "scope_id": "monograph:423:unextracted",
+      "scope_kind": "UNEXTRACTED_MONOGRAPH"
     },
     {
       "fiche": 424,
@@ -21809,7 +21815,7 @@
       "fiche": 433,
       "name": "Tramadol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-04T23:58:23.544Z",
+      "searched_at": "2026-10-12T00:31:20.298Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -21931,10 +21937,16 @@
             "8.4 Pediatric Use The safety and effectiveness of tramadol hydrochloride extended-release tablets in pediatric patients have not been established. Life-threatening respiratory depression and death have occurred in children who received tramadol [see Warnings and Precautions ( 5.4 )] . In some of the reported cases, these events followed tonsillectomy and/or adenoidectomy, and one of the children had evidence of being an ultra-rapid metabolizer of tramadol (i.e., multiple copies of the gene for cytochrome P450 isoenzyme 2D6). Children with sleep apnea may be particularly sensitive to the respiratory depressant effects of tramadol. Because of the risk of life-threatening respiratory depression and death: • Tramadol hydrochloride extended-release tablets are contraindicated for all children younger than age 12 years of age [ see Contraindications ( 4 ) ]. • Tramadol hydrochloride extended-release tablets are contraindicated for post-operative management in pediatric patients younger than 18 years of age following tonsillectomy and/or adenoidectomy [ see Contraindications ( 4 ) ]. • Avoid the use of tramadol hydrochloride extended-release tablets in adolescents 12 to 18 years of age who have other risk factors that may increase their sensitivity to the respiratory depressant effects of tramadol unless the benefits outweigh the risks. Risk factors include conditions associated with hypoventilation, such as postoperative status, obstructive sleep apnea, obesity, severe pulmonary disease, neuromuscular disease, and concomitant use of other medications that cause respiratory depression. [see Warnings and Precautions ( 5.4 )] ."
           ],
           "url": "https://open.fda.gov/apis/drug/label/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=41684104,42480776,42851096,42636556,41699441"
         }
       ],
       "operational_status": "NOT_PROMOTED",
-      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable."
+      "release_gate": "Discovery only. Complete exact-scope evidence, Brazilian verification and triple audit must pass scripts/resolve-medication-gaps.mjs.",
+      "scope_id": "monograph:433:unextracted",
+      "scope_kind": "UNEXTRACTED_MONOGRAPH"
     },
     {
       "fiche": 434,
@@ -23324,7 +23336,7 @@
       "fiche": 468,
       "name": "Romiplostim",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-04T23:58:39.011Z",
+      "searched_at": "2026-10-12T00:31:20.298Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -23416,10 +23428,16 @@
             "8.4 Pediatric Use Safety and effectiveness of Nplate have been established in pediatric patients age 1 year and older with ITP for at least 6 months evaluated in two randomized, placebo-controlled studies. Long-term safety in the same population using Nplate for a median duration of 3 years was also evaluated in a single arm, open-label study [ see Adverse Reactions ( 6.1 ), Clinical Studies ( 14.2 ) ] . The pharmacokinetics of romiplostim have been evaluated in pediatric patients 1 year and older with ITP [ see Clinical Pharmacology ( 12.3 ) ] . See Dosage and Administration ( 2.1 ) for dosing recommendations for pediatric patients 1 year and older. The safety and efficacy of Nplate in pediatric patients younger than 1 year with ITP have not been established. Serum concentrations of romiplostim in pediatric patients with ITP were within the range observed in adult patients with ITP receiving the same dose range of romiplostim. The use of Nplate to increase survival in pediatric patients (including term neonates) acutely exposed to myelosuppressive doses of radiation is based on efficacy studies conducted in adult animals. Efficacy studies of Nplate could not be conducted in humans with acute radiation syndrome for ethical and feasibility reasons. A similar response to Nplate is expected in the pediatric and adult patients based on the mechanism of action of the drug and pharmacokinetics of Nplate in pediatric patients 1 year and older with ITP [see Dosage and Administration (2.2) and Clinical Pharmacology (12.3) ] ."
           ],
           "url": "https://open.fda.gov/apis/drug/label/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42489870,42708622,42829584,42487505,42620825"
         }
       ],
       "operational_status": "NOT_PROMOTED",
-      "release_gate": "Requires complete regimen-level extraction plus structural, pharmaceutical/mathematical, and clinical/regulatory triple audit. Brazilian regulatory/society verification remains mandatory when applicable."
+      "release_gate": "Discovery only. Complete exact-scope evidence, Brazilian verification and triple audit must pass scripts/resolve-medication-gaps.mjs.",
+      "scope_id": "monograph:468:unextracted",
+      "scope_kind": "UNEXTRACTED_MONOGRAPH"
     },
     {
       "fiche": 469,
