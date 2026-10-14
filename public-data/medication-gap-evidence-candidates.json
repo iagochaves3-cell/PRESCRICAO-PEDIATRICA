@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-14T00:16:56.821Z",
+  "updated_at": "2026-10-14T04:58:48.074Z",
   "results": [
     {
       "fiche": 1,
@@ -21732,7 +21732,7 @@
       "fiche": 423,
       "name": "Ticagrelor",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-13T02:35:15.667Z",
+      "searched_at": "2026-10-14T04:58:48.074Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -21856,10 +21856,6 @@
             "8.4 Pediatric Use The safety and effectiveness of ticagrelor have not been established in pediatric patients. Effectiveness was not demonstrated in an adequate and well-controlled study conducted in 101 ticagrelor-treated pediatric patients, aged 2 to <18 for reducing the rate of vaso-occlusive crises in sickle cell disease."
           ],
           "url": "https://open.fda.gov/apis/drug/label/"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=41543395,42296561,42276776,42120081,42030564"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -22433,7 +22429,7 @@
       "fiche": 433,
       "name": "Tramadol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-13T02:35:15.667Z",
+      "searched_at": "2026-10-14T04:58:48.074Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
