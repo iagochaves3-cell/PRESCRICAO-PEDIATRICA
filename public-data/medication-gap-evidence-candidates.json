@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-14T04:58:48.074Z",
+  "updated_at": "2026-10-14T17:08:16.889Z",
   "results": [
     {
       "fiche": 1,
@@ -923,7 +923,7 @@
       "fiche": 22,
       "name": "Alglucosidase Alfa",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-07T13:19:40.443Z",
+      "searched_at": "2026-10-14T17:08:16.889Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1015,6 +1015,10 @@
           "title": "Early enzyme replacement therapy in late-onset Pompe disease diagnosed by newborn screening.",
           "published": "2026 Jun",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41935418/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000880,42726162,42402531,41549377,41935418"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -17487,7 +17491,7 @@
       "fiche": 333,
       "name": "Oseltamivir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-07T13:19:40.443Z",
+      "searched_at": "2026-10-14T17:08:16.889Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17611,6 +17615,10 @@
           "title": "Baloxavir marboxil versus oseltamivir for influenza A in children aged 5 years and older: a community-based prospective cohort study.",
           "published": "2026 Sep 1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42778895/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42832991,42573991,42817132,42705529,42778895"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -21261,7 +21269,7 @@
       "fiche": 414,
       "name": "Tenecteplase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-07T13:19:40.443Z",
+      "searched_at": "2026-10-14T17:08:16.889Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21365,6 +21373,10 @@
           "title": "Treatment of a Pediatric Arterial Ischemic Stroke With Tenecteplase.",
           "published": "2025 Sep",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41111848/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42809101,42227629,40518695,41052480,41111848"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -25089,7 +25101,7 @@
       "fiche": 498,
       "name": "Perampanel",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-07T13:19:40.443Z",
+      "searched_at": "2026-10-14T17:08:16.889Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
