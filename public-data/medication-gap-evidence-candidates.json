@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-16T11:20:07.150Z",
+  "updated_at": "2026-10-16T23:34:05.504Z",
   "results": [
     {
       "fiche": 1,
@@ -946,7 +946,7 @@
       "fiche": 22,
       "name": "Alglucosidase Alfa",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-15T21:20:46.070Z",
+      "searched_at": "2026-10-16T23:34:05.504Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1038,10 +1038,6 @@
           "title": "Early enzyme replacement therapy in late-onset Pompe disease diagnosed by newborn screening.",
           "published": "2026 Jun",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41935418/"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000880,42726162,42402531,41549377,41935418"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -17712,7 +17708,7 @@
       "fiche": 333,
       "name": "Oseltamivir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-15T21:20:46.070Z",
+      "searched_at": "2026-10-16T23:34:05.504Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17839,7 +17835,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42832991,42573991,42817132,42705529,42778895"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42882405,42881097,42879808,42832991,42573991"
         }
       ],
       "operational_status": "NOT_PROMOTED",
