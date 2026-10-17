@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-16T23:34:05.504Z",
+  "updated_at": "2026-10-17T04:22:30.770Z",
   "results": [
     {
       "fiche": 1,
@@ -15051,7 +15051,7 @@
       "fiche": 288,
       "name": "Meloxicam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-10T00:48:32.341Z",
+      "searched_at": "2026-10-17T04:22:30.770Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15173,6 +15173,10 @@
           "title": "Analgesic efficacy of meloxicam vs ibuprofen on pain after third molar surgery in adult patients. A randomized controlled clinical trial.",
           "published": "2026 Jan 1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41086273/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42880392,42848719,42837101,41722149,41689549"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -16028,7 +16032,7 @@
       "fiche": 301,
       "name": "Midazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-10T00:48:32.341Z",
+      "searched_at": "2026-10-17T04:22:30.770Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16153,6 +16157,10 @@
           "title": "Deviations From Recommended Drug Dosing in the Prehospital Treatment of Pediatric Patients.",
           "published": "2026 Oct 6",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42809474/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42498184,42462388,42190906,42874046,42863173"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -16274,7 +16282,7 @@
       "fiche": 305,
       "name": "Misoprostol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-10T00:48:32.341Z",
+      "searched_at": "2026-10-17T04:22:30.770Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16398,6 +16406,10 @@
           "title": "Opportunities to harmonize postpartum hemorrhage recommendations.",
           "published": "2026 Sep 18",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42757918/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42876039,42838302,42502040,42268046,42781340"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -18942,7 +18954,7 @@
       "fiche": 360,
       "name": "Praziquantel",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-10T00:48:32.341Z",
+      "searched_at": "2026-10-17T04:22:30.770Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19050,6 +19062,34 @@
           "title": "Unexpected uterine microhabitat of Schistosoma infection: a migrant case of female genital schistosomiasis in Europe.",
           "published": "2026 Sep 9",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42717358/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42866384",
+          "title": "Burden and Risk Factors of Urinary Schistosomiasis and Bacteriuria Coinfections Among Schoolchildren in an Endemic District in the Ashanti Region, Ghana.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42866384/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42864684",
+          "title": "Pragmatic weight estimation for dosing of a new paediatric treatment for schistosomiasis prevention and control in preschool-aged children: a feasibility study in Uganda and Côte d'Ivoire.",
+          "published": "2026 Oct 12",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42864684/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42853867",
+          "title": "Impact of praziquantel treatment and early reinfection patterns in a mixed Schistosoma mansoni and Schistosoma haematobium infection focus in the Democratic Republic of Congo.",
+          "published": "2026 Oct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42853867/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42837400",
+          "title": "\"We don't know schistosomiasis can affect the female reproductive system and increase the risk of HIV\": A mixed-methods analysis reveals gaps in risk factor determinants and health consequences of female genital schistosomiasis in Southern Chad.",
+          "published": "2026 Oct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42837400/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
