@@ -1,13 +1,17 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-18T04:28:52.485Z",
+  "updated_at": "2026-10-18T11:01:12.813Z",
   "results": [
     {
       "fiche": 1,
       "name": "Acebrofilina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Acebrofilina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Acebrofilina%22%20OR%20openfda.brand_name%3A%22Acebrofilina%22"
@@ -22,7 +26,7 @@
       "fiche": 2,
       "name": "Acetazolamida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -57,7 +61,7 @@
       "fiche": 3,
       "name": "Acetilcisteína",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -138,7 +142,7 @@
       "fiche": 4,
       "name": "Aciclovir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -217,7 +221,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Aciclovir%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42813499,41730661,42717891,42666579,42555156"
         },
         {
           "source": "openFDA drug label",
@@ -233,7 +237,7 @@
       "fiche": 5,
       "name": "Ácido Acetilsalicílico (AAS)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -249,7 +253,7 @@
       "fiche": 6,
       "name": "Ácido Aminocaproico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -273,7 +277,7 @@
       "fiche": 7,
       "name": "Ácido Ascórbico (Vitamina C)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -293,12 +297,8 @@
       "fiche": 8,
       "name": "Ácido Fólico (Vitamina B9)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22%C3%81cido%20F%C3%B3lico%20(Vitamina%20B9)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22%C3%81cido%20F%C3%B3lico%20(Vitamina%20B9)%22%20OR%20openfda.brand_name%3A%22%C3%81cido%20F%C3%B3lico%20(Vitamina%20B9)%22"
@@ -313,8 +313,12 @@
       "fiche": 9,
       "name": "Ácido Folínico (Folinato de Cálcio)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22%C3%81cido%20Fol%C3%ADnico%20(Folinato%20de%20C%C3%A1lcio)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22%C3%81cido%20Fol%C3%ADnico%20(Folinato%20de%20C%C3%A1lcio)%22%20OR%20openfda.brand_name%3A%22%C3%81cido%20Fol%C3%ADnico%20(Folinato%20de%20C%C3%A1lcio)%22"
@@ -329,7 +333,7 @@
       "fiche": 10,
       "name": "Ácido Fusídico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -354,6 +358,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/27590877/"
         },
         {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29999952,27590877"
+        },
+        {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22%C3%81cido%20Fus%C3%ADdico%22%20OR%20openfda.brand_name%3A%22%C3%81cido%20Fus%C3%ADdico%22"
         }
@@ -367,7 +375,7 @@
       "fiche": 11,
       "name": "Ácido Mefenâmico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -394,7 +402,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22%C3%81cido%20Mefen%C3%A2mico%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000071"
         },
         {
           "source": "openFDA drug label",
@@ -410,7 +418,7 @@
       "fiche": 12,
       "name": "Ácido Nalidíxico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -461,7 +469,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22%C3%81cido%20Nalid%C3%ADxico%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000102"
         },
         {
           "source": "openFDA drug label",
@@ -477,7 +485,7 @@
       "fiche": 13,
       "name": "Ácido Tranexâmico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -548,10 +556,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/25542068/"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000793,39079247,30683523,25542068"
-        },
-        {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22%C3%81cido%20Tranex%C3%A2mico%22%20OR%20openfda.brand_name%3A%22%C3%81cido%20Tranex%C3%A2mico%22"
         }
@@ -565,7 +569,7 @@
       "fiche": 14,
       "name": "Ácido Ursodesoxicólico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -597,7 +601,7 @@
       "fiche": 15,
       "name": "Ácido Valproico / Valproato de Sódio /",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -613,7 +617,7 @@
       "fiche": 16,
       "name": "Adenosina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -664,7 +668,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Adenosina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=24768197"
         },
         {
           "source": "openFDA drug label",
@@ -680,12 +684,8 @@
       "fiche": 17,
       "name": "Adrenalina (Epinefrina)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Adrenalina%20(Epinefrina)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Adrenalina%20(Epinefrina)%22%20OR%20openfda.brand_name%3A%22Adrenalina%20(Epinefrina)%22"
@@ -803,7 +803,7 @@
       "fiche": 19,
       "name": "Albendazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -898,7 +898,7 @@
       "fiche": 20,
       "name": "Alendronato de Sódio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -907,10 +907,6 @@
           "published": "2014-12-31",
           "doi": "10.1016/j.rboe.2014.12.007",
           "url": "https://europepmc.org/article/MED/26229885"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Alendronato%20de%20S%C3%B3dio%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
@@ -926,12 +922,8 @@
       "fiche": 21,
       "name": "Alfa-Dornase (Dornase Alfa)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Alfa-Dornase%20(Dornase%20Alfa)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Alfa-Dornase%20(Dornase%20Alfa)%22%20OR%20openfda.brand_name%3A%22Alfa-Dornase%20(Dornase%20Alfa)%22"
@@ -1049,7 +1041,7 @@
       "fiche": 23,
       "name": "Alopurinol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -1121,7 +1113,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Alopurinol%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000257,21717723,6933881,14297704"
         },
         {
           "source": "openFDA drug label",
@@ -1272,12 +1264,8 @@
       "fiche": 25,
       "name": "Alprostadil (Prostaglandina E1)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Alprostadil%20(Prostaglandina%20E1)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Alprostadil%20(Prostaglandina%20E1)%22%20OR%20openfda.brand_name%3A%22Alprostadil%20(Prostaglandina%20E1)%22"
@@ -1409,7 +1397,7 @@
       "fiche": 27,
       "name": "Amantadina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1483,7 +1471,7 @@
       "fiche": 28,
       "name": "Ambroxol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1527,7 +1515,38 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42801449,42575095,42609515,42483308,42433940"
+          "id": "42801449",
+          "title": "Ambroxol in Gaucher disease and GBA1-related Parkinson disease: an updated systematic review.",
+          "published": "2026 Sep 27",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42801449/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42575095",
+          "title": "Chemical tools for inhibition and activity-based profiling of glucocerebrosidase in vitro and in vivo.",
+          "published": "2026 Aug 10",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42575095/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42609515",
+          "title": "Analysis of the interventional effects of ambroxol hydrochloride and ontelukast sodium combined with azithromycin on immune function and C-reactive protein serum expression in children with severe Mycoplasma pneumoniae pneumonia.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42609515/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42483308",
+          "title": "Association of Ambroxol Hydrochloride and Clenbuterol Hydrochloride Oral Solution with Respiratory Symptom Improvement and Safety in Chinese Children with Pneumonia: A Real-World Propensity Score-Matched Study.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42483308/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42433940",
+          "title": "Efficacy and safety of inhaled ambroxol hydrochloride solution in Chinese pediatric patients with acute lower respiratory tract infections: a real-world, multicenter, open-label, single-arm study.",
+          "published": "2026 Jun 30",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42433940/"
         },
         {
           "source": "openFDA drug label",
@@ -1543,7 +1562,7 @@
       "fiche": 29,
       "name": "Amicacina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1570,10 +1589,6 @@
           "url": "https://europepmc.org/article/MED/6968958"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Amicacina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Amicacina%22%20OR%20openfda.brand_name%3A%22Amicacina%22"
         }
@@ -1587,7 +1602,7 @@
       "fiche": 30,
       "name": "Amilorida + Hidroclorotiazida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -1603,7 +1618,7 @@
       "fiche": 31,
       "name": "Aminofilina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1670,7 +1685,7 @@
       "fiche": 32,
       "name": "Amiodarona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1758,7 +1773,7 @@
       "fiche": 33,
       "name": "Amitriptilina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -1825,7 +1840,7 @@
       "fiche": 34,
       "name": "Amlodipino",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1837,7 +1852,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Amlodipino%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29999724,18355238"
         },
         {
           "source": "openFDA drug label",
@@ -1853,7 +1868,7 @@
       "fiche": 35,
       "name": "Amoxicilina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1948,12 +1963,8 @@
       "fiche": 36,
       "name": "Amoxicilina + Clavulanato de Potássio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Amoxicilina%20%2B%20Clavulanato%20de%20Pot%C3%A1ssio%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Amoxicilina%20%2B%20Clavulanato%20de%20Pot%C3%A1ssio%22%20OR%20openfda.brand_name%3A%22Amoxicilina%20%2B%20Clavulanato%20de%20Pot%C3%A1ssio%22"
@@ -1968,7 +1979,7 @@
       "fiche": 37,
       "name": "Amoxicilina + Sulbactam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -1984,7 +1995,7 @@
       "fiche": 38,
       "name": "Ampicilina + Sulbactam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2019,7 +2030,7 @@
       "fiche": 39,
       "name": "Ampicilina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -2084,7 +2095,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Ampicilina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000053,33216738,32963402"
         },
         {
           "source": "openFDA drug label",
@@ -2100,7 +2111,7 @@
       "fiche": 40,
       "name": "Anfotericina B",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2165,7 +2176,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Anfotericina%20B%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=37088689,34148786,23583263"
         },
         {
           "source": "openFDA drug label",
@@ -2181,7 +2192,7 @@
       "fiche": 41,
       "name": "Anidulafungina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2223,7 +2234,7 @@
       "fiche": 42,
       "name": "Aripiprazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -2297,7 +2308,7 @@
       "fiche": 43,
       "name": "Atenolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2387,7 +2398,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Atenolol%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42859798,42780340,42640473,42429723,42492908"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -2399,7 +2410,7 @@
       "fiche": 44,
       "name": "Atracúrio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2466,7 +2477,7 @@
       "fiche": 45,
       "name": "Atropina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -2554,7 +2565,7 @@
       "fiche": 46,
       "name": "Azatioprina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2618,6 +2629,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30376955/"
         },
         {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000109,33272733,30376955"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Azatioprina%22%20OR%20openfda.brand_name%3A%22Azatioprina%22"
         }
@@ -2631,7 +2646,7 @@
       "fiche": 47,
       "name": "Azelastina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2657,6 +2672,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30000120/"
         },
         {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000120"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Azelastina%22%20OR%20openfda.brand_name%3A%22Azelastina%22"
         }
@@ -2670,7 +2689,7 @@
       "fiche": 48,
       "name": "Azitromicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2749,7 +2768,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Azitromicina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=41453195,35193834,33064677,26601998,24698008"
         },
         {
           "source": "openFDA drug label",
@@ -2915,7 +2934,7 @@
       "fiche": 50,
       "name": "Baclofeno",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3003,12 +3022,8 @@
       "fiche": 51,
       "name": "Bamifilina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Bamifilina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Bamifilina%22%20OR%20openfda.brand_name%3A%22Bamifilina%22"
@@ -3023,7 +3038,7 @@
       "fiche": 52,
       "name": "Beclometasona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -3082,7 +3097,7 @@
       "fiche": 53,
       "name": "Benzidamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3125,10 +3140,6 @@
           "url": "https://europepmc.org/article/MED/6883974"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Benzidamina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Benzidamina%22%20OR%20openfda.brand_name%3A%22Benzidamina%22"
         }
@@ -3142,7 +3153,7 @@
       "fiche": 54,
       "name": "Benzilpenicilina Benzatina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -3158,7 +3169,7 @@
       "fiche": 55,
       "name": "Benzilpenicilina Potássica (Cristalina)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -3174,7 +3185,7 @@
       "fiche": 56,
       "name": "Benzilpenicilina Procaína +",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3198,7 +3209,7 @@
       "fiche": 57,
       "name": "Benznidazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3277,7 +3288,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Benznidazol%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29999711,30807605,25784402,25149352,24491481"
         },
         {
           "source": "openFDA drug label",
@@ -3293,7 +3304,7 @@
       "fiche": 58,
       "name": "Benzoato de Benzila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -3313,7 +3324,7 @@
       "fiche": 59,
       "name": "Beractanto",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -3333,7 +3344,7 @@
       "fiche": 60,
       "name": "Betametasona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3428,7 +3439,7 @@
       "fiche": 61,
       "name": "Bicarbonato de Sódio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3484,7 +3495,7 @@
       "fiche": 62,
       "name": "Bilastina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -3495,7 +3506,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Bilastina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=40986672"
         },
         {
           "source": "openFDA drug label",
@@ -3511,12 +3522,8 @@
       "fiche": 63,
       "name": "Bimatoprosta",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Bimatoprosta%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Bimatoprosta%22%20OR%20openfda.brand_name%3A%22Bimatoprosta%22"
@@ -3531,7 +3538,7 @@
       "fiche": 64,
       "name": "Biperideno",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3558,7 +3565,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Biperideno%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=40986682"
         },
         {
           "source": "openFDA drug label",
@@ -3574,7 +3581,7 @@
       "fiche": 65,
       "name": "Bisacodil",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -3590,7 +3597,7 @@
       "fiche": 66,
       "name": "Bosentana",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -3606,7 +3613,7 @@
       "fiche": 67,
       "name": "Brimonidina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3646,12 +3653,8 @@
       "fiche": 68,
       "name": "Brometo de Ipratrópio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Brometo%20de%20Ipratr%C3%B3pio%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Brometo%20de%20Ipratr%C3%B3pio%22%20OR%20openfda.brand_name%3A%22Brometo%20de%20Ipratr%C3%B3pio%22"
@@ -3666,7 +3669,7 @@
       "fiche": 69,
       "name": "Brometo de Pancurônio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3726,8 +3729,12 @@
       "fiche": 70,
       "name": "Brometo de Rocurônio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Brometo%20de%20Rocur%C3%B4nio%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Brometo%20de%20Rocur%C3%B4nio%22%20OR%20openfda.brand_name%3A%22Brometo%20de%20Rocur%C3%B4nio%22"
@@ -3742,7 +3749,7 @@
       "fiche": 71,
       "name": "Brometo de Tiotrópio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3766,7 +3773,7 @@
       "fiche": 72,
       "name": "Brometo de Vecurônio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -3782,7 +3789,7 @@
       "fiche": 73,
       "name": "Bromexina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3801,7 +3808,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Bromexina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=40460223"
         },
         {
           "source": "openFDA drug label",
@@ -3817,12 +3824,8 @@
       "fiche": 74,
       "name": "Bromoprida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Bromoprida%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Bromoprida%22%20OR%20openfda.brand_name%3A%22Bromoprida%22"
@@ -3837,7 +3840,7 @@
       "fiche": 75,
       "name": "Budesonida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -3888,7 +3891,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Budesonida%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=25630928"
         },
         {
           "source": "openFDA drug label",
@@ -3904,7 +3907,7 @@
       "fiche": 76,
       "name": "Bupivacaína",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -3999,7 +4002,7 @@
       "fiche": 77,
       "name": "Buprenorfina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4073,7 +4076,7 @@
       "fiche": 78,
       "name": "Bupropiona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -4108,12 +4111,8 @@
       "fiche": 79,
       "name": "Cafeína (Citrato de Cafeína)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Cafe%C3%ADna%20(Citrato%20de%20Cafe%C3%ADna)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cafe%C3%ADna%20(Citrato%20de%20Cafe%C3%ADna)%22%20OR%20openfda.brand_name%3A%22Cafe%C3%ADna%20(Citrato%20de%20Cafe%C3%ADna)%22"
@@ -4128,7 +4127,7 @@
       "fiche": 80,
       "name": "Calcipotriol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4214,7 +4213,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Calcipotriol%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42845204,42759613,42641032,42344903,42186071"
         },
         {
           "source": "openFDA drug label",
@@ -4250,7 +4249,7 @@
       "fiche": 82,
       "name": "Calcitriol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4411,7 +4410,7 @@
       "fiche": 84,
       "name": "Captopril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -4538,7 +4537,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42854600,42746888,41587915,30000306,42389258"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Captopril%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -6120,7 +6119,7 @@
       "fiche": 123,
       "name": "Clobazam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -6259,7 +6258,7 @@
       "fiche": 124,
       "name": "Clobetasol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8415,7 +8414,7 @@
       "fiche": 163,
       "name": "Diltiazem",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8540,7 +8539,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Diltiazem%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=28722879,42637926,42212851,41421750,42038310"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -9308,7 +9307,7 @@
       "fiche": 182,
       "name": "Escitalopram",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9459,7 +9458,7 @@
       "fiche": 184,
       "name": "Esmolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10666,7 +10665,7 @@
       "fiche": 206,
       "name": "Flumazenil",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10791,7 +10790,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Flumazenil%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42801141,42683877,42363094,42403811,42200063"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -10929,7 +10928,7 @@
       "fiche": 210,
       "name": "Formoterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11235,7 +11234,7 @@
       "fiche": 214,
       "name": "Galsulfase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11327,10 +11326,6 @@
           "title": "Clinical and event-based outcomes of patients with mucopolysaccharidosis VI receiving enzyme replacement therapy in Turkey: a case series.",
           "published": "2021 Oct 19",
           "url": "https://pubmed.ncbi.nlm.nih.gov/34666789/"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=40079783,40381595,39190731,35078524,34666789"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -11342,7 +11337,7 @@
       "fiche": 215,
       "name": "Ganciclovir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11638,7 +11633,7 @@
       "fiche": 219,
       "name": "Glucagon",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11823,7 +11818,7 @@
       "fiche": 223,
       "name": "Haloperidol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12635,7 +12630,7 @@
       "fiche": 238,
       "name": "Idursulfase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12730,7 +12725,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Idursulfase%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42835816,42818719,42679455,42529032,42421116"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -14642,7 +14637,7 @@
       "fiche": 277,
       "name": "Linezolida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14685,7 +14680,7 @@
       "fiche": 278,
       "name": "Lisdexanfetamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14735,7 +14730,7 @@
       "fiche": 279,
       "name": "Lítio (Carbonato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -14751,7 +14746,7 @@
       "fiche": 280,
       "name": "Loperamida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14810,7 +14805,7 @@
       "fiche": 281,
       "name": "Loratadina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14861,7 +14856,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Loratadina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000068"
         },
         {
           "source": "openFDA drug label",
@@ -15006,12 +15001,8 @@
       "fiche": 283,
       "name": "Losartana Potássica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Losartana%20Pot%C3%A1ssica%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Losartana%20Pot%C3%A1ssica%22%20OR%20openfda.brand_name%3A%22Losartana%20Pot%C3%A1ssica%22"
@@ -15026,12 +15017,8 @@
       "fiche": 284,
       "name": "Macrogol 3350 / 4000 (PEG)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Macrogol%203350%20%2F%204000%20(PEG)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Macrogol%203350%20%2F%204000%20(PEG)%22%20OR%20openfda.brand_name%3A%22Macrogol%203350%20%2F%204000%20(PEG)%22"
@@ -15046,7 +15033,7 @@
       "fiche": 285,
       "name": "Manitol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15125,7 +15112,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=38678188,36189575,28837693,28587631,26924636"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Manitol%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
@@ -15141,7 +15128,7 @@
       "fiche": 286,
       "name": "Mebendazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15236,7 +15223,7 @@
       "fiche": 287,
       "name": "Mebeverina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -15524,7 +15511,7 @@
       "fiche": 290,
       "name": "Mesalazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15559,7 +15546,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Mesalazina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000377"
         },
         {
           "source": "openFDA drug label",
@@ -15575,7 +15562,7 @@
       "fiche": 291,
       "name": "Metadona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15640,7 +15627,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Metadona%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000292,30981333,23337454"
         },
         {
           "source": "openFDA drug label",
@@ -15656,7 +15643,7 @@
       "fiche": 292,
       "name": "Metformina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15751,7 +15738,7 @@
       "fiche": 293,
       "name": "Metilergometrina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15794,7 +15781,7 @@
       "fiche": 294,
       "name": "Metilfenidato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15889,7 +15876,7 @@
       "fiche": 295,
       "name": "Metilprednisolona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15954,7 +15941,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Metilprednisolona%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000087,32527501,24529890"
         },
         {
           "source": "openFDA drug label",
@@ -15970,7 +15957,7 @@
       "fiche": 296,
       "name": "Metoclopramida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16021,7 +16008,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Metoclopramida%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000411"
         },
         {
           "source": "openFDA drug label",
@@ -16037,12 +16024,8 @@
       "fiche": 297,
       "name": "Metoprolol (Tartarato / Succinato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Metoprolol%20(Tartarato%20%2F%20Succinato)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Metoprolol%20(Tartarato%20%2F%20Succinato)%22%20OR%20openfda.brand_name%3A%22Metoprolol%20(Tartarato%20%2F%20Succinato)%22"
@@ -16057,7 +16040,7 @@
       "fiche": 298,
       "name": "Metronidazol / Benzoilmetronidazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -16073,7 +16056,7 @@
       "fiche": 299,
       "name": "Micafungina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16140,7 +16123,7 @@
       "fiche": 300,
       "name": "Miconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-11T05:43:41.026Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16381,7 +16364,7 @@
       "fiche": 302,
       "name": "Mikania Glomerata (Guaco)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -16397,7 +16380,7 @@
       "fiche": 303,
       "name": "Milrinona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -16413,7 +16396,7 @@
       "fiche": 304,
       "name": "Minociclina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16471,7 +16454,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Minociclina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000090,28262112"
         },
         {
           "source": "openFDA drug label",
@@ -16629,7 +16612,7 @@
       "fiche": 306,
       "name": "Mometasona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -16701,7 +16684,7 @@
       "fiche": 307,
       "name": "Montelucaste de Sódio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -16721,7 +16704,7 @@
       "fiche": 308,
       "name": "Morfina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16800,7 +16783,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000296,42536901,35849756,30658845,28403366"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Morfina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
@@ -16816,7 +16799,7 @@
       "fiche": 309,
       "name": "Moxifloxacino",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -16843,7 +16826,7 @@
       "fiche": 310,
       "name": "Mupirocina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16884,7 +16867,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Mupirocina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000489,27590877,3129636"
         },
         {
           "source": "openFDA drug label",
@@ -16900,7 +16883,7 @@
       "fiche": 311,
       "name": "Naloxona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16951,7 +16934,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Naloxona%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000741"
         },
         {
           "source": "openFDA drug label",
@@ -16967,7 +16950,7 @@
       "fiche": 312,
       "name": "Naproxeno (Sódico)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16986,10 +16969,6 @@
           "url": "https://europepmc.org/article/MED/10425885"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Naproxeno%20(S%C3%B3dico)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
-        {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Naproxeno%20(S%C3%B3dico)%22%20OR%20openfda.brand_name%3A%22Naproxeno%20(S%C3%B3dico)%22"
         }
@@ -17003,7 +16982,7 @@
       "fiche": 313,
       "name": "Neomicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -17070,7 +17049,7 @@
       "fiche": 314,
       "name": "Neomicina + Bacitracina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -17086,7 +17065,7 @@
       "fiche": 315,
       "name": "Neostigmina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -17174,7 +17153,7 @@
       "fiche": 316,
       "name": "Nifedipino",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17215,7 +17194,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Nifedipino%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000106,27762457,18355238"
         },
         {
           "source": "openFDA drug label",
@@ -17231,12 +17210,8 @@
       "fiche": 317,
       "name": "Nimesulida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Nimesulida%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Nimesulida%22%20OR%20openfda.brand_name%3A%22Nimesulida%22"
@@ -17251,7 +17226,7 @@
       "fiche": 318,
       "name": "Nistatina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -17302,7 +17277,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Nistatina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000300"
         },
         {
           "source": "openFDA drug label",
@@ -17318,7 +17293,7 @@
       "fiche": 319,
       "name": "Nistatina + Óxido de Zinco",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -17334,7 +17309,7 @@
       "fiche": 320,
       "name": "Nitazoxanida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17408,7 +17383,7 @@
       "fiche": 321,
       "name": "Nitrofurantoína",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -17459,7 +17434,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Nitrofuranto%C3%ADna%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000112"
         },
         {
           "source": "openFDA drug label",
@@ -17475,7 +17450,7 @@
       "fiche": 322,
       "name": "Nitroglicerina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17526,7 +17501,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Nitroglicerina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000576"
         },
         {
           "source": "openFDA drug label",
@@ -17542,7 +17517,7 @@
       "fiche": 323,
       "name": "Nitroprussiato de Sódio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17561,10 +17536,6 @@
           "url": "https://europepmc.org/article/MED/1082608"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Nitroprussiato%20de%20S%C3%B3dio%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
-        {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Nitroprussiato%20de%20S%C3%B3dio%22%20OR%20openfda.brand_name%3A%22Nitroprussiato%20de%20S%C3%B3dio%22"
         }
@@ -17578,7 +17549,7 @@
       "fiche": 324,
       "name": "Noradrenalina (Norepinefrina)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -17594,7 +17565,7 @@
       "fiche": 325,
       "name": "Nortriptilina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -17637,7 +17608,7 @@
       "fiche": 326,
       "name": "Octreotida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17689,7 +17660,7 @@
       "fiche": 327,
       "name": "Olanzapina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -17740,7 +17711,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Olanzapina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=38653660"
         },
         {
           "source": "openFDA drug label",
@@ -17756,12 +17727,8 @@
       "fiche": 328,
       "name": "Óleo Mineral (Petrolato Líquido)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22%C3%93leo%20Mineral%20(Petrolato%20L%C3%ADquido)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22%C3%93leo%20Mineral%20(Petrolato%20L%C3%ADquido)%22%20OR%20openfda.brand_name%3A%22%C3%93leo%20Mineral%20(Petrolato%20L%C3%ADquido)%22"
@@ -17776,7 +17743,7 @@
       "fiche": 329,
       "name": "Olopatadina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17804,7 +17771,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Olopatadina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=20361659,20361653"
         },
         {
           "source": "openFDA drug label",
@@ -17820,7 +17787,7 @@
       "fiche": 330,
       "name": "Omalizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -17836,7 +17803,7 @@
       "fiche": 331,
       "name": "Omeprazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17896,7 +17863,7 @@
       "fiche": 332,
       "name": "Ondansetrona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17929,10 +17896,6 @@
           "published": "2003-05-01",
           "doi": null,
           "url": "https://europepmc.org/article/MED/12918207"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Ondansetrona%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
@@ -18104,12 +18067,8 @@
       "fiche": 334,
       "name": "Oxacilina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Oxacilina%20S%C3%B3dica%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Oxacilina%20S%C3%B3dica%22%20OR%20openfda.brand_name%3A%22Oxacilina%20S%C3%B3dica%22"
@@ -18124,7 +18083,7 @@
       "fiche": 335,
       "name": "Oxcarbazepina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18175,7 +18134,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Oxcarbazepina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000302"
         },
         {
           "source": "openFDA drug label",
@@ -18191,7 +18150,7 @@
       "fiche": 336,
       "name": "Oxiconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -18218,7 +18177,7 @@
       "fiche": 337,
       "name": "Oxigênio Medicinal",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -18234,7 +18193,7 @@
       "fiche": 338,
       "name": "Oxitocina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18315,7 +18274,7 @@
       "fiche": 339,
       "name": "Palivizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18380,7 +18339,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Palivizumabe%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=40844025,28236418,28444095"
         },
         {
           "source": "openFDA drug label",
@@ -18396,7 +18355,7 @@
       "fiche": 340,
       "name": "Pantoprazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18468,7 +18427,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Pantoprazol%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000339,40656923,18416104,9005122"
         },
         {
           "source": "openFDA drug label",
@@ -18484,7 +18443,7 @@
       "fiche": 341,
       "name": "Paracetamol (Acetaminofeno)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18508,7 +18467,7 @@
       "fiche": 342,
       "name": "Penicilamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -18575,7 +18534,7 @@
       "fiche": 343,
       "name": "Permetrina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18632,7 +18591,7 @@
       "fiche": 344,
       "name": "Petidina (Meperidina)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -18648,7 +18607,7 @@
       "fiche": 345,
       "name": "Picossulfato de Sódio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -18664,7 +18623,7 @@
       "fiche": 346,
       "name": "Pilocarpina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -18699,11 +18658,11 @@
       "fiche": 347,
       "name": "Pimecrolimo",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Pimecrolimo%22%20OR%20openfda.brand_name%3A%22Pimecrolimo%22"
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Pimecrolimo%22%20OR%20openfda.brand_name%3A%22Pimecrolimo%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -18715,7 +18674,7 @@
       "fiche": 348,
       "name": "Piperacilina + Tazobactam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18758,6 +18717,10 @@
           "url": "https://europepmc.org/article/MED/31617992"
         },
         {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Piperacilina%20%2B%20Tazobactam%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Piperacilina%20%2B%20Tazobactam%22%20OR%20openfda.brand_name%3A%22Piperacilina%20%2B%20Tazobactam%22"
         }
@@ -18771,7 +18734,7 @@
       "fiche": 349,
       "name": "Pirazinamida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18828,11 +18791,11 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000406,28538778,15273801"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Pirazinamida%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Pirazinamida%22%20OR%20openfda.brand_name%3A%22Pirazinamida%22"
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Pirazinamida%22%20OR%20openfda.brand_name%3A%22Pirazinamida%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -18844,7 +18807,7 @@
       "fiche": 350,
       "name": "Piridostigmina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18879,7 +18842,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Piridostigmina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000445"
         },
         {
           "source": "openFDA drug label",
@@ -18895,12 +18858,8 @@
       "fiche": 351,
       "name": "Piridoxina (Vitamina B6)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Piridoxina%20(Vitamina%20B6)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Piridoxina%20(Vitamina%20B6)%22%20OR%20openfda.brand_name%3A%22Piridoxina%20(Vitamina%20B6)%22"
@@ -18915,7 +18874,7 @@
       "fiche": 352,
       "name": "Pirimetamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18996,8 +18955,12 @@
       "fiche": 353,
       "name": "Pirvínio (Pamoato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Pirv%C3%ADnio%20(Pamoato)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Pirv%C3%ADnio%20(Pamoato)%22%20OR%20openfda.brand_name%3A%22Pirv%C3%ADnio%20(Pamoato)%22"
@@ -19012,7 +18975,7 @@
       "fiche": 354,
       "name": "Plasma Fresco Congelado",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19038,10 +19001,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/27680042/"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=27680042"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Plasma%20Fresco%20Congelado%22%20OR%20openfda.brand_name%3A%22Plasma%20Fresco%20Congelado%22"
         }
@@ -19055,7 +19014,7 @@
       "fiche": 355,
       "name": "Poliestirenossulfonato de Cálcio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -19071,7 +19030,7 @@
       "fiche": 356,
       "name": "Polimixina B",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19089,10 +19048,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30000492/"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000492"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Polimixina%20B%22%20OR%20openfda.brand_name%3A%22Polimixina%20B%22"
         }
@@ -19106,8 +19061,12 @@
       "fiche": 357,
       "name": "Polimixina B + Neomicina + Fluocinolona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Polimixina%20B%20%2B%20Neomicina%20%2B%20Fluocinolona%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Polimixina%20B%20%2B%20Neomicina%20%2B%20Fluocinolona%22%20OR%20openfda.brand_name%3A%22Polimixina%20B%20%2B%20Neomicina%20%2B%20Fluocinolona%22"
@@ -19122,12 +19081,8 @@
       "fiche": 358,
       "name": "Poractanto Alfa",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Poractanto%20Alfa%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Poractanto%20Alfa%22%20OR%20openfda.brand_name%3A%22Poractanto%20Alfa%22"
@@ -19142,7 +19097,7 @@
       "fiche": 359,
       "name": "Posaconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19354,7 +19309,7 @@
       "fiche": 361,
       "name": "Prednisolona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19398,7 +19353,24 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000135,30240629,27670203"
+          "id": "30000135",
+          "title": "Prednisolone.",
+          "published": "2006",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30000135/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "30240629",
+          "title": "Effect of prednisolone on linear growth in children with nephrotic syndrome.",
+          "published": "2020 Jan-Feb",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30240629/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "27670203",
+          "title": "Association between desloratadine and prednisolone in the treatment of children with acute symptoms of allergic rhinitis: a double-blind, randomized and controlled clinical trial.",
+          "published": "2017 Nov-Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27670203/"
         },
         {
           "source": "openFDA drug label",
@@ -19414,7 +19386,7 @@
       "fiche": 362,
       "name": "Prednisona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19493,7 +19465,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42103389,30000136,39378410,28444097,10944990"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Prednisona%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
@@ -19509,7 +19481,7 @@
       "fiche": 363,
       "name": "Pregabalina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19565,10 +19537,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/34637958/"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42536901,39419657,34637958"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Pregabalina%22%20OR%20openfda.brand_name%3A%22Pregabalina%22"
         }
@@ -19582,7 +19550,7 @@
       "fiche": 364,
       "name": "Primidona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19594,7 +19562,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Primidona%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000308"
         },
         {
           "source": "openFDA drug label",
@@ -19610,7 +19578,7 @@
       "fiche": 365,
       "name": "Saccharomyces Boulardii",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19689,7 +19657,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Saccharomyces%20Boulardii%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42770647,42764401,42728171,42808098,42608299"
         },
         {
           "source": "openFDA drug label",
@@ -19705,7 +19673,7 @@
       "fiche": 366,
       "name": "Prometazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19748,7 +19716,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Prometazina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000140"
         },
         {
           "source": "openFDA drug label",
@@ -19764,7 +19732,7 @@
       "fiche": 367,
       "name": "Propiltiouracila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -19913,7 +19881,7 @@
       "fiche": 369,
       "name": "Propranolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20025,7 +19993,7 @@
       "fiche": 370,
       "name": "Protamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20044,10 +20012,6 @@
           "url": "https://europepmc.org/article/MED/1196266"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Protamina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Protamina%22%20OR%20openfda.brand_name%3A%22Protamina%22"
         }
@@ -20061,12 +20025,8 @@
       "fiche": 371,
       "name": "Quetiapina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Quetiapina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Quetiapina%22%20OR%20openfda.brand_name%3A%22Quetiapina%22"
@@ -20081,7 +20041,7 @@
       "fiche": 372,
       "name": "Racecadotril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20160,7 +20120,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Racecadotril%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42769670,42044257,41504802,40437180,40837632"
         },
         {
           "source": "openFDA drug label",
@@ -20277,7 +20237,7 @@
       "fiche": 374,
       "name": "Remifentanila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -20293,7 +20253,7 @@
       "fiche": 375,
       "name": "Retinol (Vitamina A)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -20309,7 +20269,7 @@
       "fiche": 376,
       "name": "Ribavirina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20397,7 +20357,7 @@
       "fiche": 377,
       "name": "Rifampicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20476,7 +20436,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Rifampicina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000407,28739268,28538778,20653488,15273801"
         },
         {
           "source": "openFDA drug label",
@@ -20492,7 +20452,7 @@
       "fiche": 378,
       "name": "Risperidona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20543,7 +20503,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Risperidona%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000154"
         },
         {
           "source": "openFDA drug label",
@@ -20559,12 +20519,8 @@
       "fiche": 379,
       "name": "Rufinamida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Rufinamida%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Rufinamida%22%20OR%20openfda.brand_name%3A%22Rufinamida%22"
@@ -20579,7 +20535,7 @@
       "fiche": 380,
       "name": "Sais de Reidratação Oral (SRO)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -20595,7 +20551,7 @@
       "fiche": 381,
       "name": "Salbutamol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20690,7 +20646,7 @@
       "fiche": 382,
       "name": "Salmeterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-11T05:43:41.026Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20814,6 +20770,10 @@
           "title": "Relative Bioavailability of Inhaled Fluticasone Propionate and Salmeterol - is Population Pharmacokinetic Modelling a Relevant Alternative to a Non-Compartmental Approach?",
           "published": "2025",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41180600/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42227654,42827467,42613771,42110010,41180600"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -20825,7 +20785,7 @@
       "fiche": 383,
       "name": "Secnidazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -20843,7 +20803,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Secnidazol%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29999997,12196811"
         },
         {
           "source": "openFDA drug label",
@@ -20859,7 +20819,7 @@
       "fiche": 384,
       "name": "Sertralina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20903,7 +20863,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Sertralina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000250,17345878"
         },
         {
           "source": "openFDA drug label",
@@ -20919,7 +20879,7 @@
       "fiche": 385,
       "name": "Sevoflurano",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20998,7 +20958,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Sevoflurano%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42685860,39542096,37933936,30000564,33186346"
         },
         {
           "source": "openFDA drug label",
@@ -21014,7 +20974,7 @@
       "fiche": 386,
       "name": "Sildenafila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21049,7 +21009,7 @@
       "fiche": 387,
       "name": "Simeticona (Dimeticona)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21065,8 +21025,12 @@
       "fiche": 388,
       "name": "Sinvastatina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Sinvastatina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Sinvastatina%22%20OR%20openfda.brand_name%3A%22Sinvastatina%22"
@@ -21081,12 +21045,8 @@
       "fiche": 389,
       "name": "Solução de Ringer com Lactato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Solu%C3%A7%C3%A3o%20de%20Ringer%20com%20Lactato%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Solu%C3%A7%C3%A3o%20de%20Ringer%20com%20Lactato%22%20OR%20openfda.brand_name%3A%22Solu%C3%A7%C3%A3o%20de%20Ringer%20com%20Lactato%22"
@@ -21101,12 +21061,8 @@
       "fiche": 390,
       "name": "Somatropina (Hormônio do Crescimento)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Somatropina%20(Horm%C3%B4nio%20do%20Crescimento)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Somatropina%20(Horm%C3%B4nio%20do%20Crescimento)%22%20OR%20openfda.brand_name%3A%22Somatropina%20(Horm%C3%B4nio%20do%20Crescimento)%22"
@@ -21121,7 +21077,7 @@
       "fiche": 391,
       "name": "Soro Antiaracnídico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21145,7 +21101,7 @@
       "fiche": 392,
       "name": "Soro Antibotrópico (Pentavalente)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21161,7 +21117,7 @@
       "fiche": 393,
       "name": "Soro Antibotulínico AB Bivalente",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21177,12 +21133,8 @@
       "fiche": 394,
       "name": "Soro Anticrotálico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Soro%20Anticrot%C3%A1lico%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Soro%20Anticrot%C3%A1lico%22%20OR%20openfda.brand_name%3A%22Soro%20Anticrot%C3%A1lico%22"
@@ -21197,7 +21149,7 @@
       "fiche": 395,
       "name": "Soro Antidiftérico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -21217,7 +21169,7 @@
       "fiche": 396,
       "name": "Soro Antielapídico (Bivalente)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -21237,8 +21189,12 @@
       "fiche": 397,
       "name": "Soro Antiescorpiônico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Soro%20Antiescorpi%C3%B4nico%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Soro%20Antiescorpi%C3%B4nico%22%20OR%20openfda.brand_name%3A%22Soro%20Antiescorpi%C3%B4nico%22"
@@ -21253,7 +21209,7 @@
       "fiche": 398,
       "name": "Soro Antitetânico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21269,7 +21225,7 @@
       "fiche": 399,
       "name": "Soluções Cristaloides Balanceadas",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21285,7 +21241,7 @@
       "fiche": 400,
       "name": "Succinilcolina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21328,10 +21284,6 @@
           "url": "https://europepmc.org/article/MED/14290507"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Succinilcolina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Succinilcolina%22%20OR%20openfda.brand_name%3A%22Succinilcolina%22"
         }
@@ -21345,7 +21297,7 @@
       "fiche": 401,
       "name": "Sucralfato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21396,7 +21348,7 @@
       "fiche": 402,
       "name": "Sufentanila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -21407,7 +21359,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=9542554"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Sufentanila%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
@@ -21423,7 +21375,7 @@
       "fiche": 403,
       "name": "Sugamadex",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21450,7 +21402,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=27692737"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Sugamadex%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
@@ -21466,7 +21418,7 @@
       "fiche": 404,
       "name": "Sulfadiazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21533,7 +21485,7 @@
       "fiche": 405,
       "name": "Sulfadiazina de Prata",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21542,10 +21494,6 @@
           "published": "2016-08-01",
           "doi": "10.1590/1518-8345.0756.2722",
           "url": "https://europepmc.org/article/MED/27508901"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Sulfadiazina%20de%20Prata%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
@@ -21561,12 +21509,8 @@
       "fiche": 406,
       "name": "Sulfametoxazol + Trimetoprima (Co-Trimoxazol)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Sulfametoxazol%20%2B%20Trimetoprima%20(Co-Trimoxazol)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Sulfametoxazol%20%2B%20Trimetoprima%20(Co-Trimoxazol)%22%20OR%20openfda.brand_name%3A%22Sulfametoxazol%20%2B%20Trimetoprima%20(Co-Trimoxazol)%22"
@@ -21581,7 +21525,7 @@
       "fiche": 407,
       "name": "Sulfassalazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21597,7 +21541,7 @@
       "fiche": 408,
       "name": "Sulfato de Magnésio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21675,6 +21619,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/33783460/"
         },
         {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000398,38428678,36202742,35131219,33783460"
+        },
+        {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Sulfato%20de%20Magn%C3%A9sio%22%20OR%20openfda.brand_name%3A%22Sulfato%20de%20Magn%C3%A9sio%22"
         }
@@ -21688,7 +21636,7 @@
       "fiche": 409,
       "name": "Zinco (Sulfato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21704,7 +21652,7 @@
       "fiche": 410,
       "name": "Sulfato Ferroso",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21760,7 +21708,7 @@
       "fiche": 411,
       "name": "Tacrolimo",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21776,12 +21724,8 @@
       "fiche": 412,
       "name": "Tadalafila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Tadalafila%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Tadalafila%22%20OR%20openfda.brand_name%3A%22Tadalafila%22"
@@ -21796,7 +21740,7 @@
       "fiche": 413,
       "name": "Teicoplanina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -21854,7 +21798,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Teicoplanina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=34959628,29999953"
         },
         {
           "source": "openFDA drug label",
@@ -21985,7 +21929,7 @@
       "fiche": 415,
       "name": "Teofilina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22036,7 +21980,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Teofilina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000168"
         },
         {
           "source": "openFDA drug label",
@@ -22052,7 +21996,7 @@
       "fiche": 416,
       "name": "Terbinafina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22080,7 +22024,7 @@
       "fiche": 417,
       "name": "Terbutalina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -22147,7 +22091,7 @@
       "fiche": 418,
       "name": "Terlipressina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22171,7 +22115,7 @@
       "fiche": 419,
       "name": "Tetraciclina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22222,7 +22166,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Tetraciclina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000167"
         },
         {
           "source": "openFDA drug label",
@@ -22238,7 +22182,7 @@
       "fiche": 420,
       "name": "Tiabendazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -22288,6 +22232,10 @@
           "url": "https://europepmc.org/article/MED/5296793"
         },
         {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=5296793"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Tiabendazol%22%20OR%20openfda.brand_name%3A%22Tiabendazol%22"
         }
@@ -22301,12 +22249,8 @@
       "fiche": 421,
       "name": "Tiamazol (Metimazol)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Tiamazol%20(Metimazol)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Tiamazol%20(Metimazol)%22%20OR%20openfda.brand_name%3A%22Tiamazol%20(Metimazol)%22"
@@ -22321,12 +22265,8 @@
       "fiche": 422,
       "name": "Tiamina (Vitamina B1)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Tiamina%20(Vitamina%20B1)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Tiamina%20(Vitamina%20B1)%22%20OR%20openfda.brand_name%3A%22Tiamina%20(Vitamina%20B1)%22"
@@ -22476,7 +22416,7 @@
       "fiche": 424,
       "name": "Tigeciclina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22503,7 +22443,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Tigeciclina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=32081452"
         },
         {
           "source": "openFDA drug label",
@@ -22652,7 +22592,7 @@
       "fiche": 426,
       "name": "Tinidazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22747,7 +22687,7 @@
       "fiche": 427,
       "name": "Tioconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -22798,7 +22738,7 @@
       "fiche": 428,
       "name": "Tiopental",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22855,10 +22795,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/18082693/"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=24020707,18082693"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Tiopental%22%20OR%20openfda.brand_name%3A%22Tiopental%22"
         }
@@ -22872,7 +22808,7 @@
       "fiche": 429,
       "name": "Tobramicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -22946,12 +22882,8 @@
       "fiche": 430,
       "name": "Tocilizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Tocilizumabe%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Tocilizumabe%22%20OR%20openfda.brand_name%3A%22Tocilizumabe%22"
@@ -22966,7 +22898,7 @@
       "fiche": 431,
       "name": "Tocoferol (Vitamina E)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -22982,7 +22914,7 @@
       "fiche": 432,
       "name": "Topiramato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23203,7 +23135,7 @@
       "fiche": 434,
       "name": "Triancinolona Acetonida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -23219,12 +23151,8 @@
       "fiche": 435,
       "name": "Trimebutina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Trimebutina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Trimebutina%22%20OR%20openfda.brand_name%3A%22Trimebutina%22"
@@ -23239,7 +23167,7 @@
       "fiche": 436,
       "name": "Ureia",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23274,10 +23202,6 @@
           "url": "https://europepmc.org/article/MED/4651072"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Ureia%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Ureia%22%20OR%20openfda.brand_name%3A%22Ureia%22"
         }
@@ -23291,7 +23215,7 @@
       "fiche": 437,
       "name": "Valaciclovir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23377,7 +23301,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Valaciclovir%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42402436,42874798,42813499,42717891,42375683"
         },
         {
           "source": "openFDA drug label",
@@ -23393,7 +23317,7 @@
       "fiche": 438,
       "name": "Valganciclovir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23497,7 +23421,7 @@
       "fiche": 439,
       "name": "Vancomicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23592,12 +23516,8 @@
       "fiche": 440,
       "name": "Varfarina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Varfarina%20S%C3%B3dica%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Varfarina%20S%C3%B3dica%22%20OR%20openfda.brand_name%3A%22Varfarina%20S%C3%B3dica%22"
@@ -23612,7 +23532,7 @@
       "fiche": 441,
       "name": "Vasopressina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23663,7 +23583,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Vasopressina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29999710"
         },
         {
           "source": "openFDA drug label",
@@ -23810,7 +23730,7 @@
       "fiche": 443,
       "name": "Vigabatrina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23875,7 +23795,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Vigabatrina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29999625,29223473,7998031"
         },
         {
           "source": "openFDA drug label",
@@ -23891,7 +23811,7 @@
       "fiche": 444,
       "name": "Vitamina A + D (Associação)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -23907,7 +23827,7 @@
       "fiche": 445,
       "name": "Voriconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24002,7 +23922,7 @@
       "fiche": 446,
       "name": "Duloxetina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24026,7 +23946,7 @@
       "fiche": 447,
       "name": "Desvenlafaxina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24035,10 +23955,6 @@
           "published": "2020-09-18",
           "doi": "10.1016/j.medcli.2020.04.059",
           "url": "https://europepmc.org/article/MED/32951880"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Desvenlafaxina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
@@ -24054,12 +23970,8 @@
       "fiche": 448,
       "name": "Vortioxetina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Vortioxetina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Vortioxetina%22%20OR%20openfda.brand_name%3A%22Vortioxetina%22"
@@ -24074,7 +23986,7 @@
       "fiche": 449,
       "name": "Trazodona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -24085,7 +23997,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Trazodona%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000237"
         },
         {
           "source": "openFDA drug label",
@@ -24101,7 +24013,7 @@
       "fiche": 450,
       "name": "Venlafaxina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24168,7 +24080,7 @@
       "fiche": 451,
       "name": "Mirtazapina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24184,7 +24096,7 @@
       "fiche": 452,
       "name": "Memantina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24224,7 +24136,7 @@
       "fiche": 453,
       "name": "Rivastigmina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -24244,7 +24156,7 @@
       "fiche": 454,
       "name": "Donepezila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -24271,12 +24183,8 @@
       "fiche": 455,
       "name": "Tezepelumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Tezepelumabe%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Tezepelumabe%22%20OR%20openfda.brand_name%3A%22Tezepelumabe%22"
@@ -24291,7 +24199,7 @@
       "fiche": 456,
       "name": "Dupilumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24315,7 +24223,7 @@
       "fiche": 457,
       "name": "Mepolizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24331,12 +24239,8 @@
       "fiche": 458,
       "name": "Benralizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Benralizumabe%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Benralizumabe%22%20OR%20openfda.brand_name%3A%22Benralizumabe%22"
@@ -24351,7 +24255,7 @@
       "fiche": 459,
       "name": "Roflumilaste",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24367,7 +24271,7 @@
       "fiche": 460,
       "name": "Indacaterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -24446,7 +24350,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Indacaterol%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42182736,41342385,39905183,30000976,38796907"
         },
         {
           "source": "openFDA drug label",
@@ -24462,12 +24366,8 @@
       "fiche": 461,
       "name": "Glicopirrônio (Brometo)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Glicopirr%C3%B4nio%20(Brometo)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Glicopirr%C3%B4nio%20(Brometo)%22%20OR%20openfda.brand_name%3A%22Glicopirr%C3%B4nio%20(Brometo)%22"
@@ -24482,7 +24382,7 @@
       "fiche": 462,
       "name": "Umeclidínio (Brometo)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24498,7 +24398,7 @@
       "fiche": 463,
       "name": "Abatacepte",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24514,7 +24414,7 @@
       "fiche": 464,
       "name": "Adalimumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24538,7 +24438,7 @@
       "fiche": 465,
       "name": "Etanercepte",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -24557,7 +24457,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Etanercepte%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29037310"
         },
         {
           "source": "openFDA drug label",
@@ -24573,12 +24473,8 @@
       "fiche": 466,
       "name": "Secuquinumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Secuquinumabe%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Secuquinumabe%22%20OR%20openfda.brand_name%3A%22Secuquinumabe%22"
@@ -24593,7 +24489,7 @@
       "fiche": 467,
       "name": "Albumina Humana",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24752,12 +24648,8 @@
       "fiche": 469,
       "name": "Eltrombopague",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Eltrombopague%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Eltrombopague%22%20OR%20openfda.brand_name%3A%22Eltrombopague%22"
@@ -24772,12 +24664,8 @@
       "fiche": 470,
       "name": "Emicizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Emicizumabe%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Emicizumabe%22%20OR%20openfda.brand_name%3A%22Emicizumabe%22"
@@ -24792,7 +24680,7 @@
       "fiche": 471,
       "name": "Fator XIII da Coagulação Humana",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24808,12 +24696,8 @@
       "fiche": 472,
       "name": "Fator VIII + Fator de von Willebrand",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Fator%20VIII%20%2B%20Fator%20de%20von%20Willebrand%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fator%20VIII%20%2B%20Fator%20de%20von%20Willebrand%22%20OR%20openfda.brand_name%3A%22Fator%20VIII%20%2B%20Fator%20de%20von%20Willebrand%22"
@@ -24828,12 +24712,8 @@
       "fiche": 473,
       "name": "Fenoximetilpenicilina Potássica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Fenoximetilpenicilina%20Pot%C3%A1ssica%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fenoximetilpenicilina%20Pot%C3%A1ssica%22%20OR%20openfda.brand_name%3A%22Fenoximetilpenicilina%20Pot%C3%A1ssica%22"
@@ -24848,12 +24728,8 @@
       "fiche": 474,
       "name": "Nirsevimabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Nirsevimabe%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Nirsevimabe%22%20OR%20openfda.brand_name%3A%22Nirsevimabe%22"
@@ -24868,7 +24744,7 @@
       "fiche": 475,
       "name": "Atomoxetina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24911,7 +24787,7 @@
       "fiche": 476,
       "name": "Cloreto de Cálcio 10%",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24927,7 +24803,7 @@
       "fiche": 477,
       "name": "Fosfato de Potássio Injetável",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24943,7 +24819,7 @@
       "fiche": 478,
       "name": "Infliximabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24962,10 +24838,6 @@
           "url": "https://europepmc.org/article/MED/42207071"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Infliximabe%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Infliximabe%22%20OR%20openfda.brand_name%3A%22Infliximabe%22"
         }
@@ -24979,12 +24851,8 @@
       "fiche": 479,
       "name": "Micofenolato de Mofetila / Sódio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Micofenolato%20de%20Mofetila%20%2F%20S%C3%B3dio%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Micofenolato%20de%20Mofetila%20%2F%20S%C3%B3dio%22%20OR%20openfda.brand_name%3A%22Micofenolato%20de%20Mofetila%20%2F%20S%C3%B3dio%22"
@@ -24999,7 +24867,7 @@
       "fiche": 480,
       "name": "Metotrexato (Uso Imunossupressor)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25015,7 +24883,7 @@
       "fiche": 481,
       "name": "Toxina Botulínica Tipo A",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -25075,7 +24943,7 @@
       "fiche": 482,
       "name": "Ropivacaína",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -25170,12 +25038,8 @@
       "fiche": 483,
       "name": "Carboximaltose Férrica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Carboximaltose%20F%C3%A9rrica%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Carboximaltose%20F%C3%A9rrica%22%20OR%20openfda.brand_name%3A%22Carboximaltose%20F%C3%A9rrica%22"
@@ -25190,7 +25054,7 @@
       "fiche": 484,
       "name": "Azul de Metileno (Cloreto de",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -25210,7 +25074,7 @@
       "fiche": 485,
       "name": "Pralidoxima",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -25238,7 +25102,7 @@
       "fiche": 486,
       "name": "Ciclesonida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25254,7 +25118,7 @@
       "fiche": 487,
       "name": "Rupatadina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -25281,7 +25145,7 @@
       "fiche": 488,
       "name": "Propafenona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -25490,7 +25354,7 @@
       "fiche": 490,
       "name": "Insulina Detemir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -25499,10 +25363,6 @@
           "published": "2010-03-26",
           "doi": "10.1016/j.endonu.2010.02.001",
           "url": "https://europepmc.org/article/MED/20347404"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Insulina%20Detemir%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
         },
         {
           "source": "openFDA drug label",
@@ -25518,7 +25378,7 @@
       "fiche": 491,
       "name": "Fator IX da Coagulação Humana",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25534,7 +25394,7 @@
       "fiche": 492,
       "name": "Imunoglobulina Humana",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25550,12 +25410,8 @@
       "fiche": 493,
       "name": "Epoetina Alfa (Eritropoietina)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Epoetina%20Alfa%20(Eritropoietina)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Epoetina%20Alfa%20(Eritropoietina)%22%20OR%20openfda.brand_name%3A%22Epoetina%20Alfa%20(Eritropoietina)%22"
@@ -25689,7 +25545,7 @@
       "fiche": 495,
       "name": "Griseofulvina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -25761,7 +25617,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Griseofulvina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=35533125,33618899,30691951,24794211"
         },
         {
           "source": "openFDA drug label",
@@ -25777,7 +25633,7 @@
       "fiche": 496,
       "name": "Acetato de Cálcio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25793,7 +25649,7 @@
       "fiche": 497,
       "name": "Cloranfenicol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T10:40:45.783Z",
+      "searched_at": "2026-10-18T11:01:12.813Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
