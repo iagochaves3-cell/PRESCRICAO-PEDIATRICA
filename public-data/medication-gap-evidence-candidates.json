@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-18T15:50:40.467Z",
+  "updated_at": "2026-10-19T04:37:24.420Z",
   "results": [
     {
       "fiche": 1,
@@ -15356,7 +15356,7 @@
       "fiche": 288,
       "name": "Meloxicam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-18T04:28:52.485Z",
+      "searched_at": "2026-10-19T04:37:24.420Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15481,7 +15481,10 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42880392,42848719,42837101,41722149,41689549"
+          "id": "42880392",
+          "title": "Development and Characterization of a Rat Model of Post-traumatic Ankle Osteoarthritis.",
+          "published": "2026 Oct 15",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42880392/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -16341,7 +16344,7 @@
       "fiche": 301,
       "name": "Midazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-18T04:28:52.485Z",
+      "searched_at": "2026-10-19T04:37:24.420Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16469,7 +16472,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Midazolam%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42498184,42462388,42190906,42874046,42863173"
         }
       ],
       "operational_status": "NOT_PROMOTED",
