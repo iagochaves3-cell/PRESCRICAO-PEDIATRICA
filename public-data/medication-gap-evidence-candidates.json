@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-19T20:34:43.430Z",
+  "updated_at": "2026-10-20T08:29:23.375Z",
   "results": [
     {
       "fiche": 1,
@@ -16386,7 +16386,7 @@
       "fiche": 301,
       "name": "Midazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-19T04:37:24.420Z",
+      "searched_at": "2026-10-20T08:29:23.375Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24791,7 +24791,7 @@
       "fiche": 468,
       "name": "Romiplostim",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-13T02:35:15.667Z",
+      "searched_at": "2026-10-20T08:29:23.375Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -24883,6 +24883,13 @@
             "8.4 Pediatric Use Safety and effectiveness of Nplate have been established in pediatric patients age 1 year and older with ITP for at least 6 months evaluated in two randomized, placebo-controlled studies. Long-term safety in the same population using Nplate for a median duration of 3 years was also evaluated in a single arm, open-label study [ see Adverse Reactions ( 6.1 ), Clinical Studies ( 14.2 ) ] . The pharmacokinetics of romiplostim have been evaluated in pediatric patients 1 year and older with ITP [ see Clinical Pharmacology ( 12.3 ) ] . See Dosage and Administration ( 2.1 ) for dosing recommendations for pediatric patients 1 year and older. The safety and efficacy of Nplate in pediatric patients younger than 1 year with ITP have not been established. Serum concentrations of romiplostim in pediatric patients with ITP were within the range observed in adult patients with ITP receiving the same dose range of romiplostim. The use of Nplate to increase survival in pediatric patients (including term neonates) acutely exposed to myelosuppressive doses of radiation is based on efficacy studies conducted in adult animals. Efficacy studies of Nplate could not be conducted in humans with acute radiation syndrome for ethical and feasibility reasons. A similar response to Nplate is expected in the pediatric and adult patients based on the mechanism of action of the drug and pharmacokinetics of Nplate in pediatric patients 1 year and older with ITP [see Dosage and Administration (2.2) and Clinical Pharmacology (12.3) ] ."
           ],
           "url": "https://open.fda.gov/apis/drug/label/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42502080",
+          "title": "Romiplostim for chemotherapy induced thrombocytopenia in pediatric cancers.",
+          "published": "2026 Nov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42502080/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
