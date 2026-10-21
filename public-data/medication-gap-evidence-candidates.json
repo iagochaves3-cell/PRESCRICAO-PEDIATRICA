@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-20T23:51:41.870Z",
+  "updated_at": "2026-10-21T04:42:51.499Z",
   "results": [
     {
       "fiche": 1,
@@ -4956,7 +4956,7 @@
       "fiche": 92,
       "name": "Cefaclor",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-14T00:16:56.821Z",
+      "searched_at": "2026-10-21T04:42:51.499Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
