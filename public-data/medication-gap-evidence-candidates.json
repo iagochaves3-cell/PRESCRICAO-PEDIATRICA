@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-21T04:42:51.499Z",
+  "updated_at": "2026-10-21T11:45:32.031Z",
   "results": [
     {
       "fiche": 1,
@@ -16275,7 +16275,7 @@
       "fiche": 301,
       "name": "Midazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-20T08:29:23.375Z",
+      "searched_at": "2026-10-21T11:45:32.031Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22440,7 +22440,7 @@
       "fiche": 423,
       "name": "Ticagrelor",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-14T04:58:48.074Z",
+      "searched_at": "2026-10-21T11:45:32.031Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
