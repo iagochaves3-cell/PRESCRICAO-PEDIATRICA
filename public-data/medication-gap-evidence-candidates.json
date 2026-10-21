@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-21T17:09:43.256Z",
+  "updated_at": "2026-10-21T21:40:57.360Z",
   "results": [
     {
       "fiche": 1,
@@ -1133,7 +1133,7 @@
       "fiche": 24,
       "name": "Alprazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-14T21:39:19.650Z",
+      "searched_at": "2026-10-21T21:40:57.360Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1234,7 +1234,7 @@
           "source": "PubMed/NCBI",
           "id": "42470359",
           "title": "Progress report on new epilepsy treatments: A summary of the Eighteenth Eilat Conference on New Antiepileptic Drugs and Devices (EILAT XVIII). II. Treatments in more advanced clinical development.",
-          "published": "2026 Jul 18",
+          "published": "2026 Oct",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42470359/"
         },
         {
@@ -6745,7 +6745,7 @@
       "fiche": 129,
       "name": "Clopidogrel",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-14T21:39:19.650Z",
+      "searched_at": "2026-10-21T21:40:57.360Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -6874,6 +6874,10 @@
           "title": "Pharmacogenetics in pediatric cardiology.",
           "published": "2026",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42835306/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42835306,42807667,42712845,42683982,42499276"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -12010,7 +12014,7 @@
       "fiche": 224,
       "name": "Hedera Helix",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-14T21:39:19.650Z",
+      "searched_at": "2026-10-21T21:40:57.360Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12128,6 +12132,10 @@
           "title": "Efficacy and tolerability of SEDIFLÙ in treating dry or productive cough in the pediatric population (SEPEDIA): A pilot, randomized, double-blind, placebo-controlled, multicenter clinical trial.",
           "published": "2024 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38323572/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42739377,41807028,40273670,40376625,38323572"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -23800,7 +23808,7 @@
       "fiche": 442,
       "name": "Verapamil",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-14T21:39:19.650Z",
+      "searched_at": "2026-10-21T21:40:57.360Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
