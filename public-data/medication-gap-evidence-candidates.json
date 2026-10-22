@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-22T04:40:43.989Z",
+  "updated_at": "2026-10-22T11:48:35.166Z",
   "results": [
     {
       "fiche": 1,
@@ -16305,7 +16305,7 @@
       "fiche": 301,
       "name": "Midazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-21T11:45:32.031Z",
+      "searched_at": "2026-10-22T11:48:35.166Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23145,7 +23145,7 @@
       "fiche": 433,
       "name": "Tramadol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-15T11:25:27.596Z",
+      "searched_at": "2026-10-22T11:48:35.166Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -23281,6 +23281,13 @@
           "title": "Multicenter Evaluation of Opioid Prescribing After Minimally Invasive Repair of Pectus Excavatum Before The 2024 American Academy of Pediatrics Guideline: Room to Improve.",
           "published": "2026 Oct",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42636556/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42878248",
+          "title": "CYP2D6-Guided Opioid Therapy for Chronic Pain: A Multi-Center Pragmatic Randomized Controlled Trial.",
+          "published": "2026 Oct 15",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42878248/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
