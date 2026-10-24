@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-24T05:03:38.899Z",
+  "updated_at": "2026-10-24T15:55:24.689Z",
   "results": [
     {
       "fiche": 1,
@@ -6502,7 +6502,7 @@
       "fiche": 126,
       "name": "Clonazepam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T15:31:38.346Z",
+      "searched_at": "2026-10-24T15:55:24.689Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9105,7 +9105,7 @@
       "fiche": 176,
       "name": "Enalapril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-17T15:31:38.346Z",
+      "searched_at": "2026-10-24T15:55:24.689Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9229,6 +9229,10 @@
           "title": "Enalapril.",
           "published": "2006",
           "url": "https://pubmed.ncbi.nlm.nih.gov/29999642/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42889934,42813551,42429730,42609695,42525167"
         }
       ],
       "operational_status": "NOT_PROMOTED",
