@@ -11,6 +11,25 @@ const batchSize = boundedNumber(process.env.RESEARCH_BATCH, 298, 1, 500);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const clean = (s='') => String(s).replace(/\s+/g,' ').trim();
 
+export function createRequestGate({minIntervalMs=400, now=Date.now, wait=sleep}={}) {
+  let nextRequestAt=0;
+  let queue=Promise.resolve();
+  return request => {
+    const run=queue.then(async () => {
+      const delay=Math.max(0,nextRequestAt-now());
+      if (delay) await wait(delay);
+      nextRequestAt=Math.max(nextRequestAt,now())+minIntervalMs;
+      return request();
+    });
+    queue=run.catch(()=>{});
+    return run;
+  };
+}
+
+const pubmedRequest=createRequestGate({
+  minIntervalMs:boundedNumber(process.env.RESEARCH_PUBMED_MIN_INTERVAL_MS,400,0,5000)
+});
+
 async function jsonFetch(url, options={}) {
   const {signal, ...rest}=options;
   const timeoutMs=boundedNumber(process.env.RESEARCH_FETCH_TIMEOUT_MS,8000,2000,60000);
@@ -25,11 +44,10 @@ async function jsonFetch(url, options={}) {
 
 async function pubmed(term) {
   const q = encodeURIComponent(`"${term}"[Title/Abstract] AND (child OR pediatric OR paediatric OR infant OR adolescent)`);
-  const search = await jsonFetch(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=${q}`);
+  const search = await pubmedRequest(()=>jsonFetch(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=${q}`));
   const ids = search?.esearchresult?.idlist || [];
   if (!ids.length) return [];
-  await sleep(350);
-  const sum = await jsonFetch(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=${ids.join(',')}`);
+  const sum = await pubmedRequest(()=>jsonFetch(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=${ids.join(',')}`));
   return ids.map(id => {
     const x=sum.result?.[id]||{};
     return {source:'PubMed/NCBI', id, title:clean(x.title), published:x.pubdate||null, url:`https://pubmed.ncbi.nlm.nih.gov/${id}/`};
