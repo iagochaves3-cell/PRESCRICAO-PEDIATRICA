@@ -75,8 +75,13 @@ export function selectDiscoveryBatch(scopes, results, now, {limit=298, refreshHo
   return scopes.filter(s => s.status !== 'READY').map(scope => ({scope,previous:previous.get(scope.id)}))
     .filter(({previous:r}) => {
       if (!r || !Number.isFinite(Date.parse(r.searched_at))) return true;
-      const failed = !r.candidate_sources?.some(c => !c.error) || r.candidate_sources.some(c => c.error);
-      return Date.parse(now)-Date.parse(r.searched_at) >= (failed ? retryHours : refreshHours)*3600000;
+      const candidates = Array.isArray(r.candidate_sources) ? r.candidate_sources : [];
+      const hasUsableCandidate = candidates.some(c => !c.error);
+      const hasRetryableError = candidates.some(c =>
+        c.error && /(?:\b408\b|\b425\b|\b429\b|\b5\d{2}\b|abort|timeout|network|fetch failed)/i.test(String(c.error))
+      );
+      const retrySoon = !hasUsableCandidate && hasRetryableError;
+      return Date.parse(now)-Date.parse(r.searched_at) >= (retrySoon ? retryHours : refreshHours)*3600000;
     }).sort((a,b) => (Date.parse(a.previous?.searched_at) || 0)-(Date.parse(b.previous?.searched_at) || 0) || a.scope.id.localeCompare(b.scope.id))
     .slice(0,limit).map(x => x.scope);
 }
