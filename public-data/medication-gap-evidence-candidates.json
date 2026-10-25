@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-25T04:37:41.850Z",
+  "updated_at": "2026-10-25T11:23:02.469Z",
   "results": [
     {
       "fiche": 1,
@@ -7713,12 +7713,8 @@
       "fiche": 149,
       "name": "Deflazacorte",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Deflazacorte%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Deflazacorte%22%20OR%20openfda.brand_name%3A%22Deflazacorte%22"
@@ -8327,12 +8323,8 @@
       "fiche": 160,
       "name": "Diclofenaco (Potássico / Sódico /",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Diclofenaco%20(Pot%C3%A1ssico%20%2F%20S%C3%B3dico%20%2F%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Diclofenaco%20(Pot%C3%A1ssico%20%2F%20S%C3%B3dico%20%2F%22%20OR%20openfda.brand_name%3A%22Diclofenaco%20(Pot%C3%A1ssico%20%2F%20S%C3%B3dico%20%2F%22"
@@ -9041,12 +9033,8 @@
       "fiche": 174,
       "name": "Eculizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Eculizumabe%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Eculizumabe%22%20OR%20openfda.brand_name%3A%22Eculizumabe%22"
@@ -10599,12 +10587,8 @@
       "fiche": 203,
       "name": "Flucitosina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Flucitosina%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Flucitosina%22%20OR%20openfda.brand_name%3A%22Flucitosina%22"
@@ -10714,12 +10698,8 @@
       "fiche": 205,
       "name": "Fludrocortisona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Fludrocortisona%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fludrocortisona%22%20OR%20openfda.brand_name%3A%22Fludrocortisona%22"
@@ -11139,12 +11119,8 @@
       "fiche": 211,
       "name": "Fosfomicina Trometamol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Fosfomicina%20Trometamol%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fosfomicina%20Trometamol%22%20OR%20openfda.brand_name%3A%22Fosfomicina%20Trometamol%22"
@@ -11314,7 +11290,7 @@
       "fiche": 214,
       "name": "Galsulfase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-18T11:01:12.813Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12493,12 +12469,8 @@
       "fiche": 230,
       "name": "Hidróxido de Alumínio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Hidr%C3%B3xido%20de%20Alum%C3%ADnio%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Hidr%C3%B3xido%20de%20Alum%C3%ADnio%22%20OR%20openfda.brand_name%3A%22Hidr%C3%B3xido%20de%20Alum%C3%ADnio%22"
@@ -12604,12 +12576,8 @@
       "fiche": 235,
       "name": "Hidroxocobalamina (Vitamina B12)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Hidroxocobalamina%20(Vitamina%20B12)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Hidroxocobalamina%20(Vitamina%20B12)%22%20OR%20openfda.brand_name%3A%22Hidroxocobalamina%20(Vitamina%20B12)%22"
@@ -13096,12 +13064,8 @@
       "fiche": 243,
       "name": "Imunoglobulina Humana Anti-Hepatite B",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Imunoglobulina%20Humana%20Anti-Hepatite%20B%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Imunoglobulina%20Humana%20Anti-Hepatite%20B%22%20OR%20openfda.brand_name%3A%22Imunoglobulina%20Humana%20Anti-Hepatite%20B%22"
@@ -13366,12 +13330,8 @@
       "fiche": 253,
       "name": "Insulina NPH (Humana)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Insulina%20NPH%20(Humana)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Insulina%20NPH%20(Humana)%22%20OR%20openfda.brand_name%3A%22Insulina%20NPH%20(Humana)%22"
@@ -13618,12 +13578,8 @@
       "fiche": 259,
       "name": "Isossorbida (Dinitrato / Mononitrato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Isossorbida%20(Dinitrato%20%2F%20Mononitrato)%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Isossorbida%20(Dinitrato%20%2F%20Mononitrato)%22%20OR%20openfda.brand_name%3A%22Isossorbida%20(Dinitrato%20%2F%20Mononitrato)%22"
@@ -14461,12 +14417,8 @@
       "fiche": 270,
       "name": "Levodopa + Benserazida / Carbidopa",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T05:03:38.899Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Levodopa%20%2B%20Benserazida%20%2F%20Carbidopa%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Levodopa%20%2B%20Benserazida%20%2F%20Carbidopa%22%20OR%20openfda.brand_name%3A%22Levodopa%20%2B%20Benserazida%20%2F%20Carbidopa%22"
@@ -16275,7 +16227,7 @@
       "fiche": 300,
       "name": "Miconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-18T11:01:12.813Z",
+      "searched_at": "2026-10-25T11:23:02.469Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
