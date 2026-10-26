@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-26T04:43:24.489Z",
+  "updated_at": "2026-10-26T20:28:20.371Z",
   "results": [
     {
       "fiche": 1,
@@ -1284,7 +1284,7 @@
       "fiche": 26,
       "name": "Alteplase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-19T13:09:25.616Z",
+      "searched_at": "2026-10-26T20:28:20.371Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20838,7 +20838,7 @@
       "fiche": 382,
       "name": "Salmeterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-19T13:09:25.616Z",
+      "searched_at": "2026-10-26T20:28:20.371Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20962,6 +20962,10 @@
           "title": "Relative Bioavailability of Inhaled Fluticasone Propionate and Salmeterol - is Population Pharmacokinetic Modelling a Relevant Alternative to a Non-Compartmental Approach?",
           "published": "2025",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41180600/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42227654,42827467,42613771,42110010,41180600"
         }
       ],
       "operational_status": "NOT_PROMOTED",
