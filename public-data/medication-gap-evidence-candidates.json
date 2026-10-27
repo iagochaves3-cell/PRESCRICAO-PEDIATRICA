@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-26T20:28:20.371Z",
+  "updated_at": "2026-10-27T08:56:37.376Z",
   "results": [
     {
       "fiche": 1,
@@ -24785,7 +24785,7 @@
       "fiche": 468,
       "name": "Romiplostim",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-20T08:29:23.375Z",
+      "searched_at": "2026-10-27T08:56:37.376Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -24884,6 +24884,17 @@
           "title": "Romiplostim for chemotherapy induced thrombocytopenia in pediatric cancers.",
           "published": "2026 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42502080/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42927567",
+          "title": "Thrombotic events associated with thrombopoietin receptor agonists in children with immune thrombocytopenia: A safety analysis of clinical studies and FDA pharmacovigilance database.",
+          "published": "2026 Oct 25",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42927567/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "503 : https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&pageSize=5&sort=CITED desc&query=TITLE_ABS%3A%22Romiplostim%22%20AND%20(pediatric%20OR%20paediatric%20OR%20child%20OR%20infant%20OR%20adolescent)"
         }
       ],
       "operational_status": "NOT_PROMOTED",
