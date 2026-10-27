@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-27T08:56:37.376Z",
+  "updated_at": "2026-10-27T15:20:10.497Z",
   "results": [
     {
       "fiche": 1,
@@ -4447,7 +4447,7 @@
       "fiche": 84,
       "name": "Captopril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-20T14:17:41.957Z",
+      "searched_at": "2026-10-27T15:20:10.497Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -4578,6 +4578,10 @@
           "title": "Structural and mechanistic insights into zinc-binding inhibitors of metallo-β-lactamases: From boronic acids to peptide mimics for combating carbapenem resistance.",
           "published": "2026 Sep 30",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42854600/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42854600,42746888,41587915,30000306,42389258"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -15470,7 +15474,7 @@
       "fiche": 289,
       "name": "Meropenem",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-20T14:17:41.957Z",
+      "searched_at": "2026-10-27T15:20:10.497Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15608,6 +15612,13 @@
           "title": "Carbapenem resistance and mortality in pediatric Acinetobacter bloodstream infections: determinants from a 12-year tertiary-care cohort study.",
           "published": "2026 Oct 20",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42897394/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42927768",
+          "title": "Adherence to Preoperative Ceftriaxone and Metronidazole Improves Outcomes in Acute Appendicitis.",
+          "published": "2026 Oct 26",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42927768/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
