@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-28T05:38:34.734Z",
+  "updated_at": "2026-10-28T12:50:02.278Z",
   "results": [
     {
       "fiche": 1,
@@ -22476,7 +22476,7 @@
       "fiche": 423,
       "name": "Ticagrelor",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-21T11:45:32.031Z",
+      "searched_at": "2026-10-28T12:50:02.278Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
