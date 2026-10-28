@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-28T12:50:02.278Z",
+  "updated_at": "2026-10-28T20:14:58.249Z",
   "results": [
     {
       "fiche": 1,
@@ -2334,7 +2334,7 @@
       "fiche": 43,
       "name": "Atenolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-21T17:09:43.256Z",
+      "searched_at": "2026-10-28T20:14:58.249Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2456,6 +2456,17 @@
           "title": "A Comprehensive Review of the Current Systemic Medical Treatment Landscape for Vascular Malformations.",
           "published": "2026 Jul 23",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42492908/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42359567",
+          "title": "Shuddering attacks in an infant treated with atenolol for infantile haemangioma: a previously unreported adverse effect.",
+          "published": "2026 Oct 27",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42359567/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "503 : https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&pageSize=5&sort=CITED desc&query=TITLE_ABS%3A%22Atenolol%22%20AND%20(pediatric%20OR%20paediatric%20OR%20child%20OR%20infant%20OR%20adolescent)"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -23526,7 +23537,7 @@
       "fiche": 438,
       "name": "Valganciclovir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-21T17:09:43.256Z",
+      "searched_at": "2026-10-28T20:14:58.249Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23650,6 +23661,10 @@
           "title": "Disseminated Ganciclovir-Resistant Cytomegalovirus in a Nontransplant Pediatric ALL Patient: A Case Report.",
           "published": "2026 Oct 1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42594176/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "503 : https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&pageSize=5&sort=CITED desc&query=TITLE_ABS%3A%22Valganciclovir%22%20AND%20(pediatric%20OR%20paediatric%20OR%20child%20OR%20infant%20OR%20adolescent)"
         }
       ],
       "operational_status": "NOT_PROMOTED",
