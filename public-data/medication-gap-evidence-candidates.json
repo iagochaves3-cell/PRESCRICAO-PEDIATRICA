@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-28T20:14:58.249Z",
+  "updated_at": "2026-10-29T00:53:48.890Z",
   "results": [
     {
       "fiche": 1,
@@ -1133,7 +1133,7 @@
       "fiche": 24,
       "name": "Alprazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-21T21:40:57.360Z",
+      "searched_at": "2026-10-29T00:53:48.890Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1257,6 +1257,20 @@
           "title": "Pharmacotherapeutic interventions to improve postoperative sleep quality in older adult patients: a systematic review and meta-analysis.",
           "published": "2026 Jun",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41991369/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42910454",
+          "title": "Predicting high-risk novel benzodiazepines: A surveillance study of novel benzodiazepine detections and a case series of bromazolam exposures in New South Wales, Australia.",
+          "published": "2026 Oct 22",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42910454/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "30000258",
+          "title": "Alprazolam.",
+          "published": "2006",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30000258/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -23854,7 +23868,7 @@
       "fiche": 442,
       "name": "Verapamil",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-21T21:40:57.360Z",
+      "searched_at": "2026-10-29T00:53:48.890Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23974,6 +23988,10 @@
           "title": "Energy-based devices for enhanced transdermal drug delivery in pathological scars: A review.",
           "published": "2026 Sep 2",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42684515/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42731662,42861500,28722879,42780630,42684515"
         }
       ],
       "operational_status": "NOT_PROMOTED",
