@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-29T18:27:19.446Z",
+  "updated_at": "2026-10-30T00:57:35.137Z",
   "results": [
     {
       "fiche": 1,
@@ -2866,7 +2866,7 @@
       "fiche": 49,
       "name": "Aztreonam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-22T21:33:19.819Z",
+      "searched_at": "2026-10-30T00:57:35.137Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -3005,6 +3005,13 @@
           "published": "2009-05-01",
           "doi": "10.1378/chest.08-1421",
           "url": "https://europepmc.org/article/MED/19420195"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42905289",
+          "title": "In Vitro Synergistic Activity of Cefepime/Zidebactam Plus Aztreonam Against Metallo-β-Lactamase-Producing Enterobacterales.",
+          "published": "2026 Oct 21",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42905289/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -9390,7 +9397,7 @@
       "fiche": 182,
       "name": "Escitalopram",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-22T21:33:19.819Z",
+      "searched_at": "2026-10-30T00:57:35.137Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9517,6 +9524,10 @@
           "title": "Aberrant amygdala subregion volumes in youth at high risk for bipolar disorder predict antidepressant-induced adverse events.",
           "published": "2026 Oct 16",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42887787/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42716345,42910914,42887787,42168587,41558805"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -11006,7 +11017,7 @@
       "fiche": 210,
       "name": "Formoterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-22T21:33:19.819Z",
+      "searched_at": "2026-10-30T00:57:35.137Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19934,7 +19945,7 @@
       "fiche": 368,
       "name": "Propofol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-22T21:33:19.819Z",
+      "searched_at": "2026-10-30T00:57:35.137Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20056,6 +20067,20 @@
           "title": "Pre-Extubation Low-Dose Propofol in Pediatric Ear, Nose, and Throat Procedures: A Meta-Analysis With Trial Sequential Analysis.",
           "published": "2026 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42584948/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "41351635",
+          "title": "Perioperative Continuous Propofol Infusion in the Pediatric Cardiac Intensive Care Unit: A 25-Year Retrospective Study.",
+          "published": "2026 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41351635/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42922247",
+          "title": "Comparison of Sevoflurane and Propofol-Fentanyl for Laryngeal Mask Airway Insertion in Pediatric cases.",
+          "published": "2026 Nov-Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42922247/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -22675,7 +22700,7 @@
       "fiche": 425,
       "name": "Timolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-22T21:33:19.819Z",
+      "searched_at": "2026-10-30T00:57:35.137Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
