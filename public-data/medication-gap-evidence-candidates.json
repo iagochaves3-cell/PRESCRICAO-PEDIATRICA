@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-10-31T05:36:38.240Z",
+  "updated_at": "2026-10-31T19:16:36.849Z",
   "results": [
     {
       "fiche": 1,
@@ -6358,7 +6358,7 @@
       "fiche": 126,
       "name": "Clonazepam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T15:55:24.689Z",
+      "searched_at": "2026-10-31T19:16:36.849Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8882,7 +8882,7 @@
       "fiche": 176,
       "name": "Enalapril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-24T15:55:24.689Z",
+      "searched_at": "2026-10-31T19:16:36.849Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9009,7 +9009,24 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42889934,42813551,42429730,42609695,42525167"
+          "id": "42932105",
+          "title": "Long-term consequences in RAS blocker-induced fetopathy with multiorgan impairments.",
+          "published": "2026 Oct 26",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42932105/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42889934",
+          "title": "Pediatric restrictive cardiomyopathy with rapid complete atrioventricular block progression.",
+          "published": "2026 Oct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42889934/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42942743",
+          "title": "PBPK Modeling of CES1-Activated Prodrugs Across Different Age Groups: Simultaneous Prodrug-Metabolite Prediction for Oseltamivir, Enalapril, and Cilazapril.",
+          "published": "2026 Sep 23",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42942743/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
