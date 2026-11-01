@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-01T05:58:39.556Z",
+  "updated_at": "2026-11-01T13:18:28.032Z",
   "results": [
     {
       "fiche": 1,
@@ -7565,7 +7565,7 @@
       "fiche": 149,
       "name": "Deflazacorte",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -8172,7 +8172,7 @@
       "fiche": 160,
       "name": "Diclofenaco (Potássico / Sódico /",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -8850,7 +8850,7 @@
       "fiche": 174,
       "name": "Eculizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -10365,7 +10365,7 @@
       "fiche": 203,
       "name": "Flucitosina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -10472,7 +10472,7 @@
       "fiche": 205,
       "name": "Fludrocortisona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -10881,7 +10881,7 @@
       "fiche": 211,
       "name": "Fosfomicina Trometamol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -11044,7 +11044,7 @@
       "fiche": 214,
       "name": "Galsulfase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11136,6 +11136,13 @@
           "title": "Clinical and event-based outcomes of patients with mucopolysaccharidosis VI receiving enzyme replacement therapy in Turkey: a case series.",
           "published": "2021 Oct 19",
           "url": "https://pubmed.ncbi.nlm.nih.gov/34666789/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42959617",
+          "title": "Mucopolysaccharidosis (MPS) type VI: A case series to assess the efficacy of enzyme replacement therapy and to guide precision-based medicine in the IRISH paediatric cohort.",
+          "published": "2026 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42959617/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -12232,7 +12239,7 @@
       "fiche": 230,
       "name": "Hidróxido de Alumínio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12335,7 +12342,7 @@
       "fiche": 235,
       "name": "Hidroxocobalamina (Vitamina B12)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12814,7 +12821,7 @@
       "fiche": 243,
       "name": "Imunoglobulina Humana Anti-Hepatite B",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13076,7 +13083,7 @@
       "fiche": 253,
       "name": "Insulina NPH (Humana)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13316,7 +13323,7 @@
       "fiche": 259,
       "name": "Isossorbida (Dinitrato / Mononitrato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -14140,7 +14147,7 @@
       "fiche": 270,
       "name": "Levodopa + Benserazida / Carbidopa",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -15904,7 +15911,7 @@
       "fiche": 300,
       "name": "Miconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-25T11:23:02.469Z",
+      "searched_at": "2026-11-01T13:18:28.032Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
