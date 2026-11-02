@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-01T13:18:28.032Z",
+  "updated_at": "2026-11-02T10:59:13.721Z",
   "results": [
     {
       "fiche": 1,
@@ -15035,7 +15035,7 @@
       "fiche": 288,
       "name": "Meloxicam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-26T04:43:24.489Z",
+      "searched_at": "2026-11-02T10:59:13.721Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15161,9 +15161,16 @@
         {
           "source": "PubMed/NCBI",
           "id": "42880392",
-          "title": "Development and Characterization of a Rat Model of Post-traumatic Ankle Osteoarthritis.",
+          "title": "Development and characterization of a rat model of post-traumatic ankle osteoarthritis.",
           "published": "2026 Oct 15",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42880392/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42502959",
+          "title": "A randomized, double-blind, placebo-controlled, parallel group, dose-response study of MR-107A-02 in the treatment of post-surgical dental pain.",
+          "published": "2026 Nov 1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42502959/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
