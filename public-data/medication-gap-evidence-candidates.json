@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-02T21:41:34.273Z",
+  "updated_at": "2026-11-03T17:00:22.049Z",
   "results": [
     {
       "fiche": 1,
@@ -4331,7 +4331,7 @@
       "fiche": 84,
       "name": "Captopril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-27T15:20:10.497Z",
+      "searched_at": "2026-11-03T17:00:22.049Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -4460,12 +4460,8 @@
           "source": "PubMed/NCBI",
           "id": "42854600",
           "title": "Structural and mechanistic insights into zinc-binding inhibitors of metallo-β-lactamases: From boronic acids to peptide mimics for combating carbapenem resistance.",
-          "published": "2026 Sep 30",
+          "published": "2026 Nov 5",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42854600/"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42854600,42746888,41587915,30000306,42389258"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -15189,7 +15185,7 @@
       "fiche": 289,
       "name": "Meropenem",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-27T15:20:10.497Z",
+      "searched_at": "2026-11-03T17:00:22.049Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15334,6 +15330,13 @@
           "title": "Adherence to Preoperative Ceftriaxone and Metronidazole Improves Outcomes in Acute Appendicitis.",
           "published": "2026 Oct 26",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42927768/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42962764",
+          "title": "Longitudinal evaluation of a multidisciplinary infection prevention and control bundle in a high AMR prevalence ICU.",
+          "published": "2026 Oct 30",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42962764/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -24392,7 +24395,7 @@
       "fiche": 468,
       "name": "Romiplostim",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-27T08:56:37.376Z",
+      "searched_at": "2026-11-03T17:00:22.049Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -24500,8 +24503,11 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42927567/"
         },
         {
-          "source": "Europe PMC",
-          "error": "503 : https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&pageSize=5&sort=CITED desc&query=TITLE_ABS%3A%22Romiplostim%22%20AND%20(pediatric%20OR%20paediatric%20OR%20child%20OR%20infant%20OR%20adolescent)"
+          "source": "PubMed/NCBI",
+          "id": "42945908",
+          "title": "Update of the Brazilian Clinical Practice Guideline for primary immune thrombocytopenia: methodological process and main changes for diagnosis and treatment in the Brazilian Unified Health System (SUS).",
+          "published": "2026 Oct 27",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42945908/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
