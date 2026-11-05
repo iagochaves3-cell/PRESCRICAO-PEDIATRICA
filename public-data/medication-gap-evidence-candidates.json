@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-05T06:42:01.086Z",
+  "updated_at": "2026-11-05T23:37:15.203Z",
   "results": [
     {
       "fiche": 1,
@@ -22826,7 +22826,7 @@
       "fiche": 433,
       "name": "Tramadol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-29T18:27:19.446Z",
+      "searched_at": "2026-11-05T23:37:15.203Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -22969,6 +22969,20 @@
           "title": "CYP2D6-Guided Opioid Therapy for Chronic Pain: A Multi-Center Pragmatic Randomized Controlled Trial.",
           "published": "2026 Oct 15",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42878248/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42971066",
+          "title": "Time From Operation to Discharge Correlates With Opioid Prescription Patterns After Appendectomy.",
+          "published": "2026 Nov 2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42971066/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42969991",
+          "title": "Drug prescribing patterns among burn patients in a tertiary care teaching hospital in Assam, India: A prospective observational study.",
+          "published": "2026 Nov 1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42969991/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
