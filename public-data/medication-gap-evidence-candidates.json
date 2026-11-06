@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-06T06:38:52.707Z",
+  "updated_at": "2026-11-06T16:44:23.711Z",
   "results": [
     {
       "fiche": 1,
@@ -660,7 +660,7 @@
       "fiche": 18,
       "name": "Agalsidase Beta",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4169,7 +4169,7 @@
       "fiche": 81,
       "name": "Calcitonina Sintética de Salmão",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -4325,7 +4325,7 @@
       "fiche": 83,
       "name": "Canabidiol (CBD)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4491,7 +4491,7 @@
       "fiche": 85,
       "name": "Carbamazepina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4568,7 +4568,7 @@
       "fiche": 86,
       "name": "Carbocisteína",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4599,7 +4599,7 @@
       "fiche": 87,
       "name": "Carbonato de Cálcio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4623,8 +4623,12 @@
       "fiche": 88,
       "name": "Carmelose Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Carmelose%20S%C3%B3dica%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
+        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Carmelose%20S%C3%B3dica%22%20OR%20openfda.brand_name%3A%22Carmelose%20S%C3%B3dica%22"
@@ -4639,7 +4643,7 @@
       "fiche": 89,
       "name": "Carvão Vegetal Ativado",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -4655,7 +4659,7 @@
       "fiche": 90,
       "name": "Carvedilol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -4682,7 +4686,7 @@
           "source": "PubMed/NCBI",
           "id": "42636891",
           "title": "Absorption from 3D-printed pediatric carvedilol tablets: insights from in vitro, in vivo, and in silico approaches.",
-          "published": "2026 Aug 25",
+          "published": "2026 Nov 10",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42636891/"
         },
         {
@@ -4793,6 +4797,13 @@
           "title": "Pediatric restrictive cardiomyopathy with rapid complete atrioventricular block progression.",
           "published": "2026 Oct",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42889934/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42986413",
+          "title": "Reply to: Chronic Carvedilol in Pediatric Dilated Cardiomyopathy: How Should We Interpret Long-Term Tolerability?",
+          "published": "2026 Nov 5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42986413/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -4804,7 +4815,7 @@
       "fiche": 91,
       "name": "Caspofungina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4978,7 +4989,7 @@
       "fiche": 93,
       "name": "Cefadroxila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -5009,7 +5020,7 @@
       "fiche": 94,
       "name": "Cefalexina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5072,7 +5083,7 @@
       "fiche": 95,
       "name": "Cefalotina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -5088,7 +5099,7 @@
       "fiche": 96,
       "name": "Cefazolina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -5104,7 +5115,7 @@
       "fiche": 97,
       "name": "Cefepima",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -5151,7 +5162,7 @@
       "fiche": 99,
       "name": "Cefoxitina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5199,7 +5210,7 @@
       "fiche": 101,
       "name": "Ceftazidima",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -5241,6 +5252,10 @@
           "url": "https://europepmc.org/article/MED/42636225"
         },
         {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=33877120"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Ceftazidima%22%20OR%20openfda.brand_name%3A%22Ceftazidima%22"
         }
@@ -5254,7 +5269,7 @@
       "fiche": 102,
       "name": "Ceftazidima + Avibactam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -5285,7 +5300,7 @@
       "fiche": 103,
       "name": "Ceftolozana + Tazobactam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -5301,7 +5316,7 @@
       "fiche": 104,
       "name": "Ceftriaxona Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -5317,7 +5332,7 @@
       "fiche": 105,
       "name": "Cefuroxima (Axetila / Sódica)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -5333,7 +5348,7 @@
       "fiche": 106,
       "name": "Celecoxibe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5380,7 +5395,7 @@
       "fiche": 108,
       "name": "Cetirizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5435,7 +5450,7 @@
       "fiche": 109,
       "name": "Cetoconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5483,7 +5498,7 @@
       "fiche": 110,
       "name": "Cetoprofeno (Base / Lisinato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -5499,7 +5514,7 @@
       "fiche": 111,
       "name": "Cetotifeno",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5523,7 +5538,7 @@
       "fiche": 112,
       "name": "Ciclopirox Olamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5570,7 +5585,7 @@
       "fiche": 113,
       "name": "Ciclosporina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5661,7 +5676,7 @@
       "fiche": 114,
       "name": "Cimetidina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5724,7 +5739,7 @@
       "fiche": 115,
       "name": "Cinchocaína + Policresuleno",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -5740,7 +5755,7 @@
       "fiche": 116,
       "name": "Ciproeptadina + Cobamamida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -5756,7 +5771,7 @@
       "fiche": 117,
       "name": "Ciprofloxacino",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -5819,7 +5834,7 @@
       "fiche": 118,
       "name": "Cisatracúrio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5875,7 +5890,7 @@
       "fiche": 120,
       "name": "Claritromicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5966,7 +5981,7 @@
       "fiche": 121,
       "name": "Clindamicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -6029,7 +6044,7 @@
       "fiche": 122,
       "name": "Clioquinol + Hidrocortisona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -6348,7 +6363,7 @@
       "fiche": 125,
       "name": "Clomipramina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -6514,7 +6529,7 @@
       "fiche": 127,
       "name": "Clonidina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -6585,10 +6600,6 @@
           "url": "https://europepmc.org/article/MED/1944967"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000689,30482552,27616331,27343780"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Clonidina%22%20OR%20openfda.brand_name%3A%22Clonidina%22"
         }
@@ -6602,7 +6613,7 @@
       "fiche": 128,
       "name": "Cloperastina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -6633,7 +6644,7 @@
       "fiche": 129,
       "name": "Clopidogrel",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -6762,6 +6773,13 @@
           "title": "Pharmacogenetics in pediatric cardiology.",
           "published": "2026",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42835306/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42985513",
+          "title": "Pharmacogenetic testing to improve care in the emergency department.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42985513/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -6789,7 +6807,7 @@
       "fiche": 131,
       "name": "Cloreto de Sódio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -6813,7 +6831,7 @@
       "fiche": 132,
       "name": "Cloroquina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -6890,7 +6908,7 @@
       "fiche": 133,
       "name": "Clorpromazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -6960,7 +6978,7 @@
       "fiche": 134,
       "name": "Clotrimazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7051,7 +7069,7 @@
       "fiche": 135,
       "name": "Codeína",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7075,7 +7093,7 @@
       "fiche": 136,
       "name": "Colagenase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -7091,7 +7109,7 @@
       "fiche": 137,
       "name": "Colchicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7170,7 +7188,7 @@
       "fiche": 139,
       "name": "Colestiramina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7233,7 +7251,7 @@
       "fiche": 140,
       "name": "Colistimetato de Sódio (Colistina)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -7249,7 +7267,7 @@
       "fiche": 141,
       "name": "Complexo Protrombínico Concentrado",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -7265,7 +7283,7 @@
       "fiche": 142,
       "name": "Concentrado de Fibrinogênio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -7297,7 +7315,7 @@
       "fiche": 144,
       "name": "Cromoglicato Dissódico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -7313,7 +7331,7 @@
       "fiche": 145,
       "name": "Dantroleno Sódico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7344,7 +7362,7 @@
       "fiche": 146,
       "name": "Daptomicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7407,7 +7425,7 @@
       "fiche": 147,
       "name": "Deferasirox",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7555,7 +7573,7 @@
       "fiche": 148,
       "name": "Deferoxamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7602,7 +7620,7 @@
       "fiche": 150,
       "name": "Deltametrina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7634,7 +7652,7 @@
       "fiche": 151,
       "name": "Desloratadina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7665,7 +7683,7 @@
       "fiche": 152,
       "name": "Desmopressina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7715,6 +7733,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/29428322/"
         },
         {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29428322"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Desmopressina%22%20OR%20openfda.brand_name%3A%22Desmopressina%22"
         }
@@ -7728,7 +7750,7 @@
       "fiche": 153,
       "name": "Desonida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7751,7 +7773,7 @@
       "fiche": 154,
       "name": "Dexametasona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7835,7 +7857,7 @@
       "fiche": 155,
       "name": "Dexclorfeniramina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7873,7 +7895,7 @@
       "fiche": 156,
       "name": "Dexmedetomidina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7964,7 +7986,7 @@
       "fiche": 157,
       "name": "Dexpantenol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -7980,7 +8002,7 @@
       "fiche": 158,
       "name": "Diazepam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8128,6 +8150,13 @@
           "title": "Retrospective evaluation of caregiver-administered buccal midazolam for pediatric status epilepticus in a regional core hospital in Japan.",
           "published": "2026 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42526306/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42988061",
+          "title": "The anxiety-like behaviors in offspring female rats induced by maternal separation are associated with a bias towards kynurenine-kynurenic acid branch of hippocampus.",
+          "published": "2026 Nov 5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42988061/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -8139,7 +8168,7 @@
       "fiche": 159,
       "name": "Diazóxido",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8209,7 +8238,7 @@
       "fiche": 161,
       "name": "Difenidramina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8256,7 +8285,7 @@
       "fiche": 162,
       "name": "Digoxina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8467,7 +8496,7 @@
       "fiche": 164,
       "name": "Dimenidrinato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8490,7 +8519,7 @@
       "fiche": 165,
       "name": "Dimenidrinato + Piridoxina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -8506,7 +8535,7 @@
       "fiche": 166,
       "name": "Dipirona Sódica (Metamizol)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -8522,7 +8551,7 @@
       "fiche": 167,
       "name": "Dobutamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8585,7 +8614,7 @@
       "fiche": 168,
       "name": "Domperidona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8611,6 +8640,10 @@
           "url": "https://europepmc.org/article/MED/6622811"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Domperidona%22%20OR%20openfda.brand_name%3A%22Domperidona%22"
         }
@@ -8624,7 +8657,7 @@
       "fiche": 169,
       "name": "Dopamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8715,7 +8748,7 @@
       "fiche": 170,
       "name": "Doxazosina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8738,7 +8771,7 @@
       "fiche": 171,
       "name": "Doxiciclina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8808,8 +8841,12 @@
       "fiche": 172,
       "name": "Dropropizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Dropropizina%22%20OR%20openfda.brand_name%3A%22Dropropizina%22"
@@ -8824,7 +8861,7 @@
       "fiche": 173,
       "name": "Ebastina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9059,8 +9096,12 @@
       "fiche": 177,
       "name": "Enoxaparina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Enoxaparina%20S%C3%B3dica%22%20OR%20openfda.brand_name%3A%22Enoxaparina%20S%C3%B3dica%22"
@@ -9075,7 +9116,7 @@
       "fiche": 178,
       "name": "Enzimas Pancreáticas (Pancrelipase)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -9091,7 +9132,7 @@
       "fiche": 179,
       "name": "Epinastina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9122,7 +9163,7 @@
       "fiche": 180,
       "name": "Eritromicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -9192,7 +9233,7 @@
       "fiche": 181,
       "name": "Ertapenem Sódico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -9367,8 +9408,12 @@
       "fiche": 183,
       "name": "Escopolamina (Butilbrometo de",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Escopolamina%20(Butilbrometo%20de%22%20OR%20openfda.brand_name%3A%22Escopolamina%20(Butilbrometo%20de%22"
@@ -9518,7 +9563,7 @@
       "fiche": 185,
       "name": "Esomeprazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9550,7 +9595,7 @@
       "fiche": 186,
       "name": "Espiramicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -9589,7 +9634,7 @@
       "fiche": 187,
       "name": "Espironolactona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9644,7 +9689,7 @@
       "fiche": 188,
       "name": "Etambutol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9735,7 +9780,7 @@
       "fiche": 189,
       "name": "Etomidato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9784,6 +9829,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/27343784/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Etomidato%22%20OR%20openfda.brand_name%3A%22Etomidato%22"
         }
@@ -9797,7 +9846,7 @@
       "fiche": 190,
       "name": "Etossuximida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -9813,7 +9862,7 @@
       "fiche": 191,
       "name": "Famotidina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -9892,7 +9941,7 @@
       "fiche": 193,
       "name": "Fenilefrina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -9942,6 +9991,10 @@
           "url": "https://europepmc.org/article/MED/3827647"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fenilefrina%22%20OR%20openfda.brand_name%3A%22Fenilefrina%22"
         }
@@ -9955,7 +10008,7 @@
       "fiche": 194,
       "name": "Fenitoína Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9979,7 +10032,7 @@
       "fiche": 195,
       "name": "Fenobarbital",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -10057,6 +10110,10 @@
           "url": "https://europepmc.org/article/MED/995842"
         },
         {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42536901,30000331,27462891,16613098,1188268"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fenobarbital%22%20OR%20openfda.brand_name%3A%22Fenobarbital%22"
         }
@@ -10070,7 +10127,7 @@
       "fiche": 196,
       "name": "Fenoterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10148,6 +10205,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/36348141/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fenoterol%22%20OR%20openfda.brand_name%3A%22Fenoterol%22"
         }
@@ -10161,7 +10222,7 @@
       "fiche": 197,
       "name": "Fentanila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10240,7 +10301,7 @@
       "fiche": 199,
       "name": "Ferro Polimaltosado",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10272,7 +10333,7 @@
       "fiche": 200,
       "name": "Fexofenadina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10296,7 +10357,7 @@
       "fiche": 201,
       "name": "Filgrastim (G-CSF)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -10374,6 +10435,10 @@
           "url": "https://europepmc.org/article/MED/10597204"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Filgrastim%20(G-CSF)%22%20OR%20openfda.brand_name%3A%22Filgrastim%20(G-CSF)%22"
         }
@@ -10387,7 +10452,7 @@
       "fiche": 202,
       "name": "Fitomenadiona (Vitamina K1)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -10419,7 +10484,7 @@
       "fiche": 204,
       "name": "Fluconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -10495,6 +10560,10 @@
           "published": "1999-01-01",
           "doi": "10.1111/j.1574-695x.1999.tb01719.x",
           "url": "https://europepmc.org/article/MED/10030550"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -10659,7 +10728,7 @@
       "fiche": 207,
       "name": "Fluoxetina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -10722,8 +10791,12 @@
       "fiche": 208,
       "name": "Fluticasona (Furoato / Propionato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fluticasona%20(Furoato%20%2F%20Propionato)%22%20OR%20openfda.brand_name%3A%22Fluticasona%20(Furoato%20%2F%20Propionato)%22"
@@ -10738,7 +10811,7 @@
       "fiche": 209,
       "name": "Fomepizol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10956,7 +11029,7 @@
       "fiche": 212,
       "name": "Furosemida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11006,6 +11079,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/29999869/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Furosemida%22%20OR%20openfda.brand_name%3A%22Furosemida%22"
         }
@@ -11019,7 +11096,7 @@
       "fiche": 213,
       "name": "Gabapentina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11376,7 +11453,7 @@
       "fiche": 216,
       "name": "Gentamicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11453,7 +11530,7 @@
       "fiche": 217,
       "name": "Glicerina (Glicerol)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -11469,7 +11546,7 @@
       "fiche": 218,
       "name": "Glicose",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11875,7 +11952,7 @@
       "fiche": 224,
       "name": "Hedera Helix",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12004,7 +12081,7 @@
       "fiche": 225,
       "name": "Heparina Não Fracionada",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12020,7 +12097,7 @@
       "fiche": 226,
       "name": "Hidralazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12067,7 +12144,7 @@
       "fiche": 227,
       "name": "Hidroclorotiazida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12130,7 +12207,7 @@
       "fiche": 228,
       "name": "Hidrocortisona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12194,6 +12271,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/24139558/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Hidrocortisona%22%20OR%20openfda.brand_name%3A%22Hidrocortisona%22"
         }
@@ -12207,7 +12288,7 @@
       "fiche": 229,
       "name": "Hidroxicloroquina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12314,7 +12395,7 @@
       "fiche": 231,
       "name": "Hidróxido de Alumínio + Hidróxido de",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12330,7 +12411,7 @@
       "fiche": 232,
       "name": "Hidróxido Férrico em Sacarose (Sacarato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12346,7 +12427,7 @@
       "fiche": 233,
       "name": "Hidroxiquinolina + Trolamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12362,7 +12443,7 @@
       "fiche": 234,
       "name": "Hidroxizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -12417,7 +12498,7 @@
       "fiche": 236,
       "name": "Ibuprofeno",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12508,7 +12589,7 @@
       "fiche": 237,
       "name": "Idarucizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12634,7 +12715,7 @@
       "fiche": 239,
       "name": "Iloprosta",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12650,7 +12731,7 @@
       "fiche": 240,
       "name": "Imiglucerase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -12761,7 +12842,7 @@
       "fiche": 241,
       "name": "Imipenem + Cilastatina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12817,7 +12898,7 @@
       "fiche": 242,
       "name": "Imipramina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12928,7 +13009,7 @@
       "fiche": 246,
       "name": "Imunoglobulina Humana Intravenosa",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12944,7 +13025,7 @@
       "fiche": 247,
       "name": "Indometacina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13014,7 +13095,7 @@
       "fiche": 248,
       "name": "Insulina Asparte",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13030,7 +13111,7 @@
       "fiche": 249,
       "name": "Insulina Degludeca",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13046,7 +13127,7 @@
       "fiche": 250,
       "name": "Insulina Glargina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13118,7 +13199,7 @@
       "fiche": 252,
       "name": "Insulina Lispro",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13158,7 +13239,7 @@
       "fiche": 254,
       "name": "Insulina Regular (Humana)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13174,7 +13255,7 @@
       "fiche": 255,
       "name": "Iodeto de Potássio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13198,7 +13279,7 @@
       "fiche": 256,
       "name": "Isavuconazol (Sulfato de Isavuconazônio)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13214,7 +13295,7 @@
       "fiche": 257,
       "name": "Isoflurano",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13291,7 +13372,7 @@
       "fiche": 258,
       "name": "Isoniazida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13398,7 +13479,7 @@
       "fiche": 260,
       "name": "Itraconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13489,7 +13570,7 @@
       "fiche": 261,
       "name": "Ivermectina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13573,7 +13654,7 @@
       "fiche": 262,
       "name": "L-Ornitina L-Aspartato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13589,7 +13670,7 @@
       "fiche": 263,
       "name": "Lacosamida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13621,7 +13702,7 @@
       "fiche": 264,
       "name": "Lactulose",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13758,7 +13839,7 @@
       "fiche": 265,
       "name": "Lamotrigina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13821,7 +13902,7 @@
       "fiche": 266,
       "name": "Lansoprazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13912,7 +13993,7 @@
       "fiche": 267,
       "name": "Laronidase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14018,7 +14099,7 @@
       "fiche": 268,
       "name": "Levetiracetam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14164,6 +14245,20 @@
           "title": "Risk factors for adverse maternal‑neonatal outcomes in pregnant women with epilepsy and the impact of different anti-seizure medications exposures on neonatal birth weight.",
           "published": "2026 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42659781/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42984270",
+          "title": "Human induced pluripotent stem cell-derived cortical neurons from monozygotic twins with the Gα(o1) (K278del) mutation reveal disease mechanisms relevant to GNAO1-related encephalopathy.",
+          "published": "2026 Nov 5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42984270/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42969890",
+          "title": "Levetiracetam for pediatric convulsive status epilepticus in emergency settings: A systematic review and meta-analysis comparing levetiracetam, phenytoin, and valproate.",
+          "published": "2026 Nov 2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42969890/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -14175,7 +14270,7 @@
       "fiche": 269,
       "name": "Levocetirizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14222,7 +14317,7 @@
       "fiche": 271,
       "name": "Levodropropizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14246,7 +14341,7 @@
       "fiche": 272,
       "name": "Levofloxacino",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14316,7 +14411,7 @@
       "fiche": 273,
       "name": "Levomepromazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14372,7 +14467,7 @@
       "fiche": 274,
       "name": "Levosimendana",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -14388,7 +14483,7 @@
       "fiche": 275,
       "name": "Levotiroxina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -14404,7 +14499,7 @@
       "fiche": 276,
       "name": "Lidocaína",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14714,7 +14809,7 @@
       "fiche": 282,
       "name": "Lorazepam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14853,6 +14948,20 @@
           "title": "Efficacy and safety of intranasal and buccal midazolam versus intravenous, intramuscular, and rectal benzodiazepines for the termination of acute seizures in children: a systematic review and meta-analysis.",
           "published": "2026 Oct 24",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42945751/"
+        },
+        {
+          "source": "openFDA drug label",
+          "id": "8328a536-b498-4fcb-8a49-19d79fa25f29",
+          "title": "Lorazepam / LORAZEPAM",
+          "published": "20181105",
+          "route": [
+            "ORAL"
+          ],
+          "dosage_and_administration": [
+            "DOSAGE AND ADMINISTRATION Lorazepam is administered orally. For optimal results, dose, frequency of administration, and duration of therapy should be individualized according to patient response. To facilitate this, 0.5 mg, 1 mg, and 2 mg tablets are available. The usual range is 2 to 6 mg/day given in divided doses, the largest dose being taken before bedtime, but the daily dosage may vary from 1 to 10 mg/day. For anxiety, most patients require an initial dose of 2 to 3 mg/day given two times a day or three times a day. For insomnia due to anxiety or transient situational stress, a single daily dose of 2 to 4 mg may be given, usually at bedtime. For elderly or debilitated patients, an initial dosage of 1 to 2 mg/day in divided doses is recommended, to be adjusted as needed and tolerated. The dosage of lorazepam should be increased gradually when needed to help avoid adverse effects. When higher dosage is indicated, the evening dose should be increased before the daytime doses."
+          ],
+          "pediatric_use": [],
+          "url": "https://open.fda.gov/apis/drug/label/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -25388,7 +25497,7 @@
       "fiche": 494,
       "name": "Baloxavir Marboxil",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T09:57:49.653Z",
+      "searched_at": "2026-11-06T16:44:23.711Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
