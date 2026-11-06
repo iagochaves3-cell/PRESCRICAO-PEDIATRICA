@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-06T16:44:23.711Z",
+  "updated_at": "2026-11-06T23:05:52.820Z",
   "results": [
     {
       "fiche": 1,
@@ -16194,7 +16194,7 @@
       "fiche": 301,
       "name": "Midazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T17:59:28.509Z",
+      "searched_at": "2026-11-06T23:05:52.820Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16310,7 +16310,7 @@
           "source": "PubMed/NCBI",
           "id": "42849709",
           "title": "Randomized controlled trial of acute ketamine versus midazolam for recurrence of suicidality in adolescents (TASK): Rationale, design, and baseline characteristics.",
-          "published": "2026 Oct 8",
+          "published": "2026 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42849709/"
         },
         {
@@ -16331,7 +16331,7 @@
           "source": "PubMed/NCBI",
           "id": "42863173",
           "title": "Co-assembly SERS strategy for trace detection and intelligent recognition of controlled-drug mixtures.",
-          "published": "2026 Oct 8",
+          "published": "2027 Mar 1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42863173/"
         },
         {
@@ -16361,6 +16361,20 @@
           "title": "Correspondence Regarding the Randomized Clinical Trial Sedative and Behavioral Effects of Atomized Intranasal Midazolam in Comparison With Nebulized Midazolam for Children Undergoing Dental Treatment.",
           "published": "2026 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42483788/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42969944",
+          "title": "Treatment of status epilepticus: Too low, too slow.",
+          "published": "2026 Nov 2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42969944/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42687465",
+          "title": "Advanced Practice Provider Procedural Sedation Practice and Outcomes: A Report From the Pediatric Sedation Research Consortium.",
+          "published": "2026 Nov-Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42687465/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
