@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-05T23:37:15.203Z",
+  "updated_at": "2026-11-06T06:38:52.707Z",
   "results": [
     {
       "fiche": 1,
@@ -2767,7 +2767,7 @@
       "fiche": 49,
       "name": "Aztreonam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T00:57:35.137Z",
+      "searched_at": "2026-11-06T06:38:52.707Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -2913,6 +2913,20 @@
           "title": "In Vitro Synergistic Activity of Cefepime/Zidebactam Plus Aztreonam Against Metallo-β-Lactamase-Producing Enterobacterales.",
           "published": "2026 Oct 21",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42905289/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42988224",
+          "title": "The evolution of carbapenem-resistant Klebsiella pneumoniae in Greek intensive care units is driven by local carbapenemase acquisition, nationwide nosocomial spread and emerging resistance to novel antimicrobials.",
+          "published": "2026 Nov 5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42988224/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42974142",
+          "title": "From sepsis to necrotizing enterocolitis with appendiceal perforation: a case report of successful salvage therapy with aztreonam-avibactam in an extremely preterm infant with NDM-producing Klebsiella pneumoniae.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42974142/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -9194,7 +9208,7 @@
       "fiche": 182,
       "name": "Escitalopram",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T00:57:35.137Z",
+      "searched_at": "2026-11-06T06:38:52.707Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9324,7 +9338,24 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42716345,42910914,42887787,42168587,41558805"
+          "id": "42206983",
+          "title": "Concerning the harm-benefit ratio of escitalopram for pediatric generalized anxiety disorder. A critical viewpoint on the evidence and approval process.",
+          "published": "2026 Nov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42206983/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42960703",
+          "title": "Prescribing prevalence and trends of medications with pharmacogenetic implications: a study based on primary care data in Manitoba, Canada.",
+          "published": "2026 Oct 30",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42960703/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42910914",
+          "title": "Chronic Mild Stress Protocol Applied to Male Rats, From Peripuberty to Adulthood, Negatively Affects Reproductive Outcomes and Offspring Development.",
+          "published": "2026 Oct 22",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42910914/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -10746,7 +10777,7 @@
       "fiche": 210,
       "name": "Formoterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T00:57:35.137Z",
+      "searched_at": "2026-11-06T06:38:52.707Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10877,6 +10908,27 @@
           "title": "Cost-effectiveness of anti-inflammatory reliever (AIR) or maintenance and reliever therapy (MART) for mild to moderate asthma: a systematic review.",
           "published": "2026 Oct 8",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42850063/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42988388",
+          "title": "2026 Global Initiative for Asthma (GINA) strategy report: executive summary and key changes.",
+          "published": "2026 Nov 5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42988388/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42974958",
+          "title": "As-needed inhaled corticosteroids in asthma: an Official American Thoracic Society clinical practice guideline.",
+          "published": "2026 Nov 3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42974958/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42959359",
+          "title": "Implementation of the National Asthma Guidelines in New Zealand: a retrospective patient-level study of the change to anti-inflammatory reliever therapy in 324,972 patients.",
+          "published": "2026 Oct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42959359/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -19552,7 +19604,7 @@
       "fiche": 368,
       "name": "Propofol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T00:57:35.137Z",
+      "searched_at": "2026-11-06T06:38:52.707Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -19688,6 +19740,20 @@
           "title": "Comparison of Sevoflurane and Propofol-Fentanyl for Laryngeal Mask Airway Insertion in Pediatric cases.",
           "published": "2026 Nov-Dec",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42922247/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42971911",
+          "title": "Propofol in Exhaled Air and Plasma During Paedfusor Target-Controlled Infusion in Children.",
+          "published": "2027 Jan",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42971911/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42987224",
+          "title": "Propofol Infusion in a Mixed PICU: Prevalence of Propofol-Related Infusion Syndrome in a Retrospective Cohort, 2019-2022.",
+          "published": "2026 Nov 5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42987224/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -22306,7 +22372,7 @@
       "fiche": 425,
       "name": "Timolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-30T00:57:35.137Z",
+      "searched_at": "2026-11-06T06:38:52.707Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22435,6 +22501,20 @@
           "title": "Nonselective beta-blockers and hepatic encephalopathy in liver cirrhosis:A meta-analysis of randomized controlled trials.",
           "published": "2026 Oct 14",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42870342/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42986507",
+          "title": "Vision-Threatening Giant Hemifacial Infantile Hemangioma Successfully Treated with Oral Propranolol and Topical Timolol.",
+          "published": "2026 Nov 5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42986507/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42978517",
+          "title": "Clinical Outcomes of Nasal Tip Infantile Hemangiomas: A Retrospective Cohort Study.",
+          "published": "2026 Nov 4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42978517/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
