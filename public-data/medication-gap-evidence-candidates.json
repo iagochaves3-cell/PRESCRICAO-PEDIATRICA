@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-07T05:55:23.987Z",
+  "updated_at": "2026-11-07T19:24:38.366Z",
   "results": [
     {
       "fiche": 1,
@@ -4657,12 +4657,8 @@
       "fiche": 88,
       "name": "Carmelose Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-06T16:44:23.711Z",
+      "searched_at": "2026-11-07T19:24:38.366Z",
       "candidate_sources": [
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Carmelose%20S%C3%B3dica%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Carmelose%20S%C3%B3dica%22%20OR%20openfda.brand_name%3A%22Carmelose%20S%C3%B3dica%22"
@@ -6442,7 +6438,7 @@
       "fiche": 126,
       "name": "Clonazepam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-31T19:16:36.849Z",
+      "searched_at": "2026-11-07T19:24:38.366Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -6566,6 +6562,10 @@
           "title": "Influence factors of metronidazole-related CNS disorders: an analysis of the Japan adverse drug event report and FDA adverse event reporting system.",
           "published": "2026 Sep",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40159088/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42454604,42772083,20301416,42223612,40159088"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -8889,12 +8889,8 @@
       "fiche": 172,
       "name": "Dropropizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-06T16:44:23.711Z",
+      "searched_at": "2026-11-07T19:24:38.366Z",
       "candidate_sources": [
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Dropropizina%22%20OR%20openfda.brand_name%3A%22Dropropizina%22"
@@ -8988,7 +8984,7 @@
       "fiche": 176,
       "name": "Enalapril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-10-31T19:16:36.849Z",
+      "searched_at": "2026-11-07T19:24:38.366Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9144,12 +9140,8 @@
       "fiche": 177,
       "name": "Enoxaparina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-06T16:44:23.711Z",
+      "searched_at": "2026-11-07T19:24:38.366Z",
       "candidate_sources": [
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Enoxaparina%20S%C3%B3dica%22%20OR%20openfda.brand_name%3A%22Enoxaparina%20S%C3%B3dica%22"
@@ -9456,12 +9448,8 @@
       "fiche": 183,
       "name": "Escopolamina (Butilbrometo de",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-06T16:44:23.711Z",
+      "searched_at": "2026-11-07T19:24:38.366Z",
       "candidate_sources": [
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Escopolamina%20(Butilbrometo%20de%22%20OR%20openfda.brand_name%3A%22Escopolamina%20(Butilbrometo%20de%22"
@@ -10862,12 +10850,8 @@
       "fiche": 208,
       "name": "Fluticasona (Furoato / Propionato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-06T16:44:23.711Z",
+      "searched_at": "2026-11-07T19:24:38.366Z",
       "candidate_sources": [
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fluticasona%20(Furoato%20%2F%20Propionato)%22%20OR%20openfda.brand_name%3A%22Fluticasona%20(Furoato%20%2F%20Propionato)%22"
