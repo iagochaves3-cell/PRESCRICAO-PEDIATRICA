@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-08T17:54:39.686Z",
+  "updated_at": "2026-11-09T19:46:22.330Z",
   "results": [
     {
       "fiche": 1,
@@ -15300,7 +15300,7 @@
       "fiche": 288,
       "name": "Meloxicam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-02T10:59:13.721Z",
+      "searched_at": "2026-11-09T19:46:22.330Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15413,7 +15413,7 @@
           "source": "PubMed/NCBI",
           "id": "41689549",
           "title": "Evaluating Pharmacogenomic Prescription Data in the Military Health System.",
-          "published": "2026 Feb 14",
+          "published": "2026 Nov 1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41689549/"
         },
         {
