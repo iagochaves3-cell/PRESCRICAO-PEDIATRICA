@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-10T03:33:05.782Z",
+  "updated_at": "2026-11-10T21:17:19.366Z",
   "results": [
     {
       "fiche": 1,
@@ -4383,7 +4383,7 @@
       "fiche": 84,
       "name": "Captopril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-03T17:00:22.049Z",
+      "searched_at": "2026-11-10T21:17:19.366Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -15447,7 +15447,7 @@
       "fiche": 289,
       "name": "Meropenem",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-03T17:00:22.049Z",
+      "searched_at": "2026-11-10T21:17:19.366Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15599,6 +15599,10 @@
           "title": "Longitudinal evaluation of a multidisciplinary infection prevention and control bundle in a high AMR prevalence ICU.",
           "published": "2026 Oct 30",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42962764/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42828091,42551115,42509614,43007010,43006080"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -24810,7 +24814,7 @@
       "fiche": 468,
       "name": "Romiplostim",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-03T17:00:22.049Z",
+      "searched_at": "2026-11-10T21:17:19.366Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -24823,7 +24827,7 @@
           "source": "PubMed/NCBI",
           "id": "42708622",
           "title": "Real-world romiplostim dosing, response and home administration in paediatric immune thrombocytopenia.",
-          "published": "2026 Sep 8",
+          "published": "2026 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42708622/"
         },
         {
