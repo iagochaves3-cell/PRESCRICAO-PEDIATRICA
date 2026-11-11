@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-11T14:17:30.929Z",
+  "updated_at": "2026-11-11T21:55:45.093Z",
   "results": [
     {
       "fiche": 1,
@@ -2300,7 +2300,7 @@
       "fiche": 43,
       "name": "Atenolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-04T21:18:56.593Z",
+      "searched_at": "2026-11-11T21:55:45.093Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22511,7 +22511,7 @@
       "fiche": 423,
       "name": "Ticagrelor",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-04T14:34:29.315Z",
+      "searched_at": "2026-11-11T21:55:45.093Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -22635,6 +22635,10 @@
             "8.4 Pediatric Use The safety and effectiveness of ticagrelor have not been established in pediatric patients. Effectiveness was not demonstrated in an adequate and well-controlled study conducted in 101 ticagrelor-treated pediatric patients, aged 2 to <18 for reducing the rate of vaso-occlusive crises in sickle cell disease."
           ],
           "url": "https://open.fda.gov/apis/drug/label/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=41543395,43012287,42296561,42276776,42120081"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -23573,7 +23577,7 @@
       "fiche": 438,
       "name": "Valganciclovir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-04T21:18:56.593Z",
+      "searched_at": "2026-11-11T21:55:45.093Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23697,6 +23701,13 @@
           "title": "Disseminated Ganciclovir-Resistant Cytomegalovirus in a Nontransplant Pediatric ALL Patient: A Case Report.",
           "published": "2026 Oct 1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42594176/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42502053",
+          "title": "Antiviral Use Among Infants Diagnosed With Congenital Cytomegalovirus (cCMV) in the United States: A Retrospective Analysis of Administrative Claims Data, 2007 to 2024.",
+          "published": "2026 Nov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42502053/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
