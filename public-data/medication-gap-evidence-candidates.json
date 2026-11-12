@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-11T21:55:45.093Z",
+  "updated_at": "2026-11-12T07:06:47.740Z",
   "results": [
     {
       "fiche": 1,
@@ -1111,7 +1111,7 @@
       "fiche": 24,
       "name": "Alprazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-05T06:42:01.086Z",
+      "searched_at": "2026-11-12T07:06:47.740Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -1252,11 +1252,10 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "500 Internal Server Error: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&sort=pub+date&term=%22Alprazolam%22%5BTitle%2FAbstract%5D%20AND%20(child%20OR%20pediatric%20OR%20paediatric%20OR%20infant%20OR%20adolescent)"
-        },
-        {
-          "source": "Europe PMC",
-          "error": "503 : https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&pageSize=5&sort=CITED desc&query=TITLE_ABS%3A%22Alprazolam%22%20AND%20(pediatric%20OR%20paediatric%20OR%20child%20OR%20infant%20OR%20adolescent)"
+          "id": "42979587",
+          "title": "Case Report: Mislabeling of an online \"alprazolam triazolobenzophenone\" pill leads to severe intoxication with the novel synthetic opioid cychlorphine.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42979587/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -23889,7 +23888,7 @@
       "fiche": 442,
       "name": "Verapamil",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-05T06:42:01.086Z",
+      "searched_at": "2026-11-12T07:06:47.740Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24012,11 +24011,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
-          "source": "Europe PMC",
-          "error": "503 : https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&pageSize=5&sort=CITED desc&query=TITLE_ABS%3A%22Verapamil%22%20AND%20(pediatric%20OR%20paediatric%20OR%20child%20OR%20infant%20OR%20adolescent)"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42731662,42958915,42861500,28722879,42780630"
         }
       ],
       "operational_status": "NOT_PROMOTED",
