@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-13T17:11:08.314Z",
+  "updated_at": "2026-11-13T23:31:02.978Z",
   "results": [
     {
       "fiche": 1,
@@ -16387,7 +16387,7 @@
       "fiche": 301,
       "name": "Midazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-06T23:05:52.820Z",
+      "searched_at": "2026-11-13T23:31:02.978Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16568,6 +16568,27 @@
           "title": "Advanced Practice Provider Procedural Sedation Practice and Outcomes: A Report From the Pediatric Sedation Research Consortium.",
           "published": "2026 Nov-Dec",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42687465/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42702936",
+          "title": "Evaluation of Play Distraction and Streamed Video Clips in Alleviating Anxiety Before Oral Premedication Among Pediatric Patients: A Randomized Controlled Trial.",
+          "published": "2026 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42702936/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43016143",
+          "title": "Caregiver Perception of Procedural Pain and Health Care Provider Empathy During Pediatric Laceration Repair in the Emergency Department.",
+          "published": "2026 Nov 12",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43016143/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42993790",
+          "title": "Intravenous midazolam alters short-interval paired-pulse TMS responses differently in younger and older adults.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42993790/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
