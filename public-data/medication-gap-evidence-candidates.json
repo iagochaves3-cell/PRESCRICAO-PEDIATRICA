@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-14T06:17:59.949Z",
+  "updated_at": "2026-11-14T22:20:47.643Z",
   "results": [
     {
       "fiche": 1,
@@ -4654,7 +4654,7 @@
       "fiche": 88,
       "name": "Carmelose Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-07T19:24:38.366Z",
+      "searched_at": "2026-11-14T22:20:47.643Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -6454,7 +6454,7 @@
       "fiche": 126,
       "name": "Clonazepam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-07T19:24:38.366Z",
+      "searched_at": "2026-11-14T22:20:47.643Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -6581,7 +6581,7 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42454604,42772083,20301416,42223612,40159088"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42624743,42454604,42772083,20301416,42223612"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -8953,7 +8953,7 @@
       "fiche": 172,
       "name": "Dropropizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-07T19:24:38.366Z",
+      "searched_at": "2026-11-14T22:20:47.643Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -9048,7 +9048,7 @@
       "fiche": 176,
       "name": "Enalapril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-07T19:24:38.366Z",
+      "searched_at": "2026-11-14T22:20:47.643Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9204,7 +9204,7 @@
       "fiche": 177,
       "name": "Enoxaparina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-07T19:24:38.366Z",
+      "searched_at": "2026-11-14T22:20:47.643Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -9526,7 +9526,7 @@
       "fiche": 183,
       "name": "Escopolamina (Butilbrometo de",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-07T19:24:38.366Z",
+      "searched_at": "2026-11-14T22:20:47.643Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -10922,7 +10922,7 @@
       "fiche": 208,
       "name": "Fluticasona (Furoato / Propionato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-07T19:24:38.366Z",
+      "searched_at": "2026-11-14T22:20:47.643Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
