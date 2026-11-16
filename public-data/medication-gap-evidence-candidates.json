@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-15T22:46:36.186Z",
+  "updated_at": "2026-11-16T19:33:52.061Z",
   "results": [
     {
       "fiche": 1,
@@ -15197,11 +15197,11 @@
       "fiche": 284,
       "name": "Macrogol 3350 / 4000 (PEG)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-16T19:33:52.061Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Macrogol%203350%20%2F%204000%20(PEG)%22%20OR%20openfda.brand_name%3A%22Macrogol%203350%20%2F%204000%20(PEG)%22"
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Macrogol%203350%20%2F%204000%20(PEG)%22%20OR%20openfda.brand_name%3A%22Macrogol%203350%20%2F%204000%20(PEG)%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -16226,11 +16226,11 @@
       "fiche": 298,
       "name": "Metronidazol / Benzoilmetronidazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-16T19:33:52.061Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Metronidazol%20%2F%20Benzoilmetronidazol%22%20OR%20openfda.brand_name%3A%22Metronidazol%20%2F%20Benzoilmetronidazol%22"
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Metronidazol%20%2F%20Benzoilmetronidazol%22%20OR%20openfda.brand_name%3A%22Metronidazol%20%2F%20Benzoilmetronidazol%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
