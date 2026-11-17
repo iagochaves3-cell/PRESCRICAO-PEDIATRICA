@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-16T19:33:52.061Z",
+  "updated_at": "2026-11-17T03:49:39.581Z",
   "results": [
     {
       "fiche": 1,
@@ -1278,7 +1278,7 @@
       "fiche": 26,
       "name": "Alteplase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-10T03:33:05.782Z",
+      "searched_at": "2026-11-17T03:49:39.581Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15411,7 +15411,7 @@
       "fiche": 288,
       "name": "Meloxicam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-09T19:46:22.330Z",
+      "searched_at": "2026-11-17T03:49:39.581Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15547,6 +15547,10 @@
           "title": "A randomized, double-blind, placebo-controlled, parallel group, dose-response study of MR-107A-02 in the treatment of post-surgical dental pain.",
           "published": "2026 Nov 1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42502959/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42837101,42502959,41689549,42880392,42848719"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -21086,7 +21090,7 @@
       "fiche": 382,
       "name": "Salmeterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-10T03:33:05.782Z",
+      "searched_at": "2026-11-17T03:49:39.581Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -21194,7 +21198,7 @@
           "source": "PubMed/NCBI",
           "id": "42613771",
           "title": "Real-world comparison of inhaled corticosteroid monotherapy versus fixed-dose inhaled corticosteroid/long-acting beta-2 agonist combinations in children aged 6-11 years with persistent asthma.",
-          "published": "2026 Aug 30",
+          "published": "2026 Dec",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42613771/"
         },
         {
@@ -21210,6 +21214,10 @@
           "title": "Relative Bioavailability of Inhaled Fluticasone Propionate and Salmeterol - is Population Pharmacokinetic Modelling a Relevant Alternative to a Non-Compartmental Approach?",
           "published": "2025",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41180600/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
