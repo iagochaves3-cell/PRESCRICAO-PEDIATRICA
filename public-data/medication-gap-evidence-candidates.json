@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-17T03:49:39.581Z",
+  "updated_at": "2026-11-18T00:56:38.486Z",
   "results": [
     {
       "fiche": 1,
@@ -4380,7 +4380,7 @@
       "fiche": 84,
       "name": "Captopril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-10T21:17:19.366Z",
+      "searched_at": "2026-11-18T00:56:38.486Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -15562,7 +15562,7 @@
       "fiche": 289,
       "name": "Meropenem",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-10T21:17:19.366Z",
+      "searched_at": "2026-11-18T00:56:38.486Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15717,7 +15717,24 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42828091,42551115,42509614,43007010,43006080"
+          "id": "42509614",
+          "title": "The Surveillance of Bloodstream Infections in a German Pediatric Cancer Unit During a 5-Year Period: Microbial Spectrum, Antimicrobial Susceptibility and Effectiveness of Preventive Taurolidine Lock.",
+          "published": "2026 Dec 1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42509614/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42461095",
+          "title": "Definitive Cefmetazole Therapy for Pediatric ESBL-producing Enterobacterales Bacteremia.",
+          "published": "2026 Dec 1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42461095/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43026455",
+          "title": "The Interrelation between Phenotypic Properties and Sequence Type in Clinical Isolates of the Klebsiella Pneumoniae Species Complex.",
+          "published": "2026 Nov 14",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43026455/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -25032,7 +25049,7 @@
       "fiche": 468,
       "name": "Romiplostim",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-10T21:17:19.366Z",
+      "searched_at": "2026-11-18T00:56:38.486Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -25145,6 +25162,20 @@
           "title": "Update of the Brazilian Clinical Practice Guideline for primary immune thrombocytopenia: methodological process and main changes for diagnosis and treatment in the Brazilian Unified Health System (SUS).",
           "published": "2026 Oct 27",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42945908/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43022914",
+          "title": "Low platelets, high stakes: pregnancy after a diagnosis of immune thrombocytopenia.",
+          "published": "2026 Nov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43022914/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43022164",
+          "title": "Treatment of Relapsed/Refractory Aplastic Anemia.",
+          "published": "2026 Nov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43022164/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
