@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-18T00:56:38.486Z",
+  "updated_at": "2026-11-18T20:28:49.636Z",
   "results": [
     {
       "fiche": 1,
@@ -4889,7 +4889,7 @@
       "fiche": 92,
       "name": "Cefaclor",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-11T14:17:30.929Z",
+      "searched_at": "2026-11-18T20:28:49.636Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5013,6 +5013,13 @@
           "title": "Results from the Survey of Antibiotic Resistance (SOAR) 2018-21 in Kuwait and the United Arab Emirates: data based on CLSI, EUCAST (dose-specific) and pharmacokinetic/pharmacodynamic (PK/PD) breakpoints.",
           "published": "2025 Nov 24",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41277344/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42565893",
+          "title": "Comparison of oral third- versus first-/ second-generation cephalosporins for acute uncomplicated cystitis: a nationwide retrospective cohort study.",
+          "published": "2026 Nov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42565893/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
