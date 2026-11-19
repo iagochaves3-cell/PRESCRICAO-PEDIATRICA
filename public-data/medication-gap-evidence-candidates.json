@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-18T20:28:49.636Z",
+  "updated_at": "2026-11-19T02:32:26.322Z",
   "results": [
     {
       "fiche": 1,
@@ -2290,7 +2290,7 @@
       "fiche": 43,
       "name": "Atenolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-11T21:55:45.093Z",
+      "searched_at": "2026-11-19T02:32:26.322Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2419,6 +2419,13 @@
           "title": "Shuddering attacks in an infant treated with atenolol for infantile haemangioma: a previously unreported adverse effect.",
           "published": "2026 Oct 27",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42359567/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43014076",
+          "title": "Management of complex head and neck infantile hemangioma with atenolol - A single-institution 5-year case series.",
+          "published": "2026 Nov 10",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43014076/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -22743,7 +22750,7 @@
       "fiche": 423,
       "name": "Ticagrelor",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-11T21:55:45.093Z",
+      "searched_at": "2026-11-19T02:32:26.322Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -22870,7 +22877,11 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=41543395,43012287,42296561,42276776,42120081"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=41543395,43023523,43012287,43016639,42296561"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -23812,7 +23823,7 @@
       "fiche": 438,
       "name": "Valganciclovir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-11T21:55:45.093Z",
+      "searched_at": "2026-11-19T02:32:26.322Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23943,6 +23954,24 @@
           "title": "Antiviral Use Among Infants Diagnosed With Congenital Cytomegalovirus (cCMV) in the United States: A Retrospective Analysis of Administrative Claims Data, 2007 to 2024.",
           "published": "2026 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42502053/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43020097",
+          "title": "Empirical tuberculosis treatment in infants living with HIV hospitalised with severe pneumonia in Africa (EMPIRICAL): a multicentre, randomised, open-label, 2 × 2 factorial, controlled superiority trial.",
+          "published": "2026 Nov 14",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43020097/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42468541",
+          "title": "Empirical treatment with valganciclovir in infants living with HIV and hospitalised with severe pneumonia in Africa: a multicentre, open-label, factorial, randomised, controlled, superiority trial.",
+          "published": "2026 Nov 14",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42468541/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
