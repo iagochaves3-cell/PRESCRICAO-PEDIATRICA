@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-19T11:35:00.474Z",
+  "updated_at": "2026-11-20T11:33:08.065Z",
   "results": [
     {
       "fiche": 1,
@@ -2795,7 +2795,7 @@
       "fiche": 49,
       "name": "Aztreonam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-13T06:40:49.050Z",
+      "searched_at": "2026-11-20T11:33:08.065Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -2962,6 +2962,17 @@
           "title": "Triple carbapenemase-producing Klebsiella pneumoniae ST6668 resistant to novel β-lactam/β-lactamase inhibitor combinations and cefiderocol, Northern Italy, 2025.",
           "published": "2026 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42628851/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43032100",
+          "title": "Dual opposing regulatory axes of EnvZ/OmpR control biofilm-mediated tolerance and OmpF-dependent resistance to β-lactams in Phytobacter diazotrophicus.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43032100/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -9371,7 +9382,7 @@
       "fiche": 182,
       "name": "Escitalopram",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-13T06:40:49.050Z",
+      "searched_at": "2026-11-20T11:33:08.065Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9533,6 +9544,10 @@
           "title": "Comparative efficacy and acceptability of antidepressants in the long-term treatment of major depressive disorder: a systematic review and network meta-analysis.",
           "published": "2026 Nov 10",
           "url": "https://pubmed.ncbi.nlm.nih.gov/43008763/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42887787,42716345,43014332,43008763,43054784"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -10995,7 +11010,7 @@
       "fiche": 210,
       "name": "Formoterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-13T06:40:49.050Z",
+      "searched_at": "2026-11-20T11:33:08.065Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11117,7 +11132,7 @@
           "source": "PubMed/NCBI",
           "id": "42613771",
           "title": "Real-world comparison of inhaled corticosteroid monotherapy versus fixed-dose inhaled corticosteroid/long-acting beta-2 agonist combinations in children aged 6-11 years with persistent asthma.",
-          "published": "2026 Aug 30",
+          "published": "2026 Dec",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42613771/"
         },
         {
@@ -11147,6 +11162,10 @@
           "title": "Implementation of the National Asthma Guidelines in New Zealand: a retrospective patient-level study of the change to anti-inflammatory reliever therapy in 324,972 patients.",
           "published": "2026 Oct",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42959359/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -20044,7 +20063,7 @@
       "fiche": 368,
       "name": "Propofol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-13T06:40:49.050Z",
+      "searched_at": "2026-11-20T11:33:08.065Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -22936,7 +22955,7 @@
       "fiche": 425,
       "name": "Timolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-13T06:40:49.050Z",
+      "searched_at": "2026-11-20T11:33:08.065Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23086,6 +23105,14 @@
           "title": "Topical timolol in the treatment of pediatric pyogenic granuloma: A 23-case series.",
           "published": "2026 Oct 19",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42992436/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42572560,42986507,42978517,42992436,42870342"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -23477,7 +23504,7 @@
       "fiche": 433,
       "name": "Tramadol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-13T06:40:49.050Z",
+      "searched_at": "2026-11-20T11:33:08.065Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -23637,7 +23664,28 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=41684104,42971066,42969991,42480776,42878248"
+          "id": "42461824",
+          "title": "Death Secondary to Acute Tramadol Intoxication in a Child: An Autopsy Case Report.",
+          "published": "2026 Dec 1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42461824/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42331679",
+          "title": "SCD Medications Use and Pain Events Among SCD Patients in a Nigerian Hospital.",
+          "published": "2026 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42331679/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43043631",
+          "title": "Tramadol in traumatically injured patients: a registry-based cohort study.",
+          "published": "2026 Jan 1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43043631/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
