@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-20T20:12:06.489Z",
+  "updated_at": "2026-11-21T02:11:30.479Z",
   "results": [
     {
       "fiche": 1,
@@ -16735,7 +16735,7 @@
       "fiche": 301,
       "name": "Midazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-13T23:31:02.978Z",
+      "searched_at": "2026-11-21T02:11:30.479Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16937,6 +16937,20 @@
           "title": "Intravenous midazolam alters short-interval paired-pulse TMS responses differently in younger and older adults.",
           "published": "2026",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42993790/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43049443",
+          "title": "The Role of Droperidol in the Management of Acute Agitation: A Comprehensive Review.",
+          "published": "2026 Nov 19",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43049443/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43051034",
+          "title": "Age and sex related differences on genotype stratified CYP450 mediated metabolism rate in healthy populations; a systematic review.",
+          "published": "2026 Nov 18",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43051034/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
