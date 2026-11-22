@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-22T11:17:18.279Z",
+  "updated_at": "2026-11-22T19:34:43.203Z",
   "results": [
     {
       "fiche": 1,
@@ -275,7 +275,7 @@
       "fiche": 7,
       "name": "Ácido Ascórbico (Vitamina C)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -907,7 +907,7 @@
       "fiche": 21,
       "name": "Alfa-Dornase (Dornase Alfa)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -3220,7 +3220,7 @@
       "fiche": 54,
       "name": "Benzilpenicilina Benzatina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -3236,7 +3236,7 @@
       "fiche": 55,
       "name": "Benzilpenicilina Potássica (Cristalina)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -3383,7 +3383,7 @@
       "fiche": 59,
       "name": "Beractanto",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -3768,7 +3768,7 @@
       "fiche": 70,
       "name": "Brometo de Rocurônio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -4126,7 +4126,7 @@
       "fiche": 79,
       "name": "Cafeína (Citrato de Cafeína)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -15226,7 +15226,7 @@
       "fiche": 279,
       "name": "Lítio (Carbonato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -15549,7 +15549,7 @@
       "fiche": 283,
       "name": "Losartana Potássica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -16599,7 +16599,7 @@
       "fiche": 297,
       "name": "Metoprolol (Tartarato / Succinato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -17124,7 +17124,7 @@
       "fiche": 305,
       "name": "Misoprostol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17290,6 +17290,13 @@
           "title": "The use of letrozole or mifepristone for pre-treatment of medical termination of pregnancy: A randomized, non-inferiority trial.",
           "published": "2026 Dec",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42300723/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43037155",
+          "title": "Low-dose oral misoprostol for induction of labour.",
+          "published": "2026 Nov 16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43037155/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -17863,7 +17870,7 @@
       "fiche": 317,
       "name": "Nimesulida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -17942,7 +17949,7 @@
       "fiche": 319,
       "name": "Nistatina + Óxido de Zinco",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -18186,7 +18193,7 @@
       "fiche": 324,
       "name": "Noradrenalina (Norepinefrina)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -18366,7 +18373,7 @@
       "fiche": 328,
       "name": "Óleo Mineral (Petrolato Líquido)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -18591,7 +18598,7 @@
       "fiche": 333,
       "name": "Oseltamivir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -18764,6 +18771,10 @@
           "title": "Virological and clinical outcomes in outpatients treated with baloxavir or neuraminidase inhibitors for A(H1N1)pdm09 influenza: A multicenter study of the 2024-2025 season.",
           "published": "2026 Oct 26",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42933789/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42947434,43049832,43053545,42947440,42832991"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -18775,7 +18786,7 @@
       "fiche": 334,
       "name": "Oxacilina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -19526,7 +19537,7 @@
       "fiche": 351,
       "name": "Piridoxina (Vitamina B6)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21087,7 +21098,7 @@
       "fiche": 374,
       "name": "Remifentanila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21103,7 +21114,7 @@
       "fiche": 375,
       "name": "Retinol (Vitamina A)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21373,7 +21384,7 @@
       "fiche": 380,
       "name": "Sais de Reidratação Oral (SRO)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21938,7 +21949,7 @@
       "fiche": 390,
       "name": "Somatropina (Hormônio do Crescimento)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -21978,7 +21989,7 @@
       "fiche": 392,
       "name": "Soro Antibotrópico (Pentavalente)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -22010,7 +22021,7 @@
       "fiche": 394,
       "name": "Soro Anticrotálico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -22042,7 +22053,7 @@
       "fiche": 396,
       "name": "Soro Antielapídico (Bivalente)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -22074,7 +22085,7 @@
       "fiche": 398,
       "name": "Soro Antitetânico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -22090,7 +22101,7 @@
       "fiche": 399,
       "name": "Soluções Cristaloides Balanceadas",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -22374,7 +22385,7 @@
       "fiche": 407,
       "name": "Sulfassalazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -22481,7 +22492,7 @@
       "fiche": 409,
       "name": "Zinco (Sulfato)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -22553,7 +22564,7 @@
       "fiche": 411,
       "name": "Tacrolimo",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -22569,7 +22580,7 @@
       "fiche": 412,
       "name": "Tadalafila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -23780,7 +23791,7 @@
       "fiche": 430,
       "name": "Tocilizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24091,7 +24102,7 @@
       "fiche": 435,
       "name": "Trimebutina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24806,7 +24817,7 @@
       "fiche": 444,
       "name": "Vitamina A + D (Associação)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -24968,7 +24979,7 @@
       "fiche": 448,
       "name": "Vortioxetina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25172,7 +25183,7 @@
       "fiche": 455,
       "name": "Tezepelumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25244,7 +25255,7 @@
       "fiche": 459,
       "name": "Roflumilaste",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25454,7 +25465,7 @@
       "fiche": 466,
       "name": "Secuquinumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25680,7 +25691,7 @@
       "fiche": 470,
       "name": "Emicizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25696,7 +25707,7 @@
       "fiche": 471,
       "name": "Fator XIII da Coagulação Humana",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -25712,7 +25723,7 @@
       "fiche": 472,
       "name": "Fator VIII + Fator de von Willebrand",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -26056,7 +26067,7 @@
       "fiche": 483,
       "name": "Carboximaltose Férrica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -26419,7 +26430,7 @@
       "fiche": 493,
       "name": "Epoetina Alfa (Eritropoietina)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -26638,7 +26649,7 @@
       "fiche": 496,
       "name": "Acetato de Cálcio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-15T16:19:45.127Z",
+      "searched_at": "2026-11-22T19:34:43.203Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
