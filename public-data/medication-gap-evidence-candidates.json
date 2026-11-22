@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-22T01:16:11.138Z",
+  "updated_at": "2026-11-22T11:17:18.279Z",
   "results": [
     {
       "fiche": 1,
@@ -19678,12 +19678,8 @@
       "fiche": 355,
       "name": "Poliestirenossulfonato de Cálcio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-21T10:57:36.424Z",
+      "searched_at": "2026-11-22T11:17:18.279Z",
       "candidate_sources": [
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Poliestirenossulfonato%20de%20C%C3%A1lcio%22%20OR%20openfda.brand_name%3A%22Poliestirenossulfonato%20de%20C%C3%A1lcio%22"
@@ -19745,15 +19741,11 @@
       "fiche": 358,
       "name": "Poractanto Alfa",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-21T10:57:36.424Z",
+      "searched_at": "2026-11-22T11:17:18.279Z",
       "candidate_sources": [
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
-          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Poractanto%20Alfa%22%20OR%20openfda.brand_name%3A%22Poractanto%20Alfa%22"
+          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Poractanto%20Alfa%22%20OR%20openfda.brand_name%3A%22Poractanto%20Alfa%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
