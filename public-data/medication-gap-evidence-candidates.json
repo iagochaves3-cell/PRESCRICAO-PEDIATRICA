@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-23T12:30:48.256Z",
+  "updated_at": "2026-11-24T02:10:45.544Z",
   "results": [
     {
       "fiche": 1,
@@ -15525,7 +15525,7 @@
       "fiche": 284,
       "name": "Macrogol 3350 / 4000 (PEG)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-16T19:33:52.061Z",
+      "searched_at": "2026-11-24T02:10:45.544Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -16575,7 +16575,7 @@
       "fiche": 298,
       "name": "Metronidazol / Benzoilmetronidazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-16T19:33:52.061Z",
+      "searched_at": "2026-11-24T02:10:45.544Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
