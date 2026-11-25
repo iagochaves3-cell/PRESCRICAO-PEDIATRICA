@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-24T13:39:07.440Z",
+  "updated_at": "2026-11-25T08:28:26.060Z",
   "results": [
     {
       "fiche": 1,
@@ -4435,7 +4435,7 @@
       "fiche": 84,
       "name": "Captopril",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-18T00:56:38.486Z",
+      "searched_at": "2026-11-25T08:28:26.060Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -4566,6 +4566,10 @@
           "title": "Structural and mechanistic insights into zinc-binding inhibitors of metallo-β-lactamases: From boronic acids to peptide mimics for combating carbapenem resistance.",
           "published": "2026 Nov 5",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42854600/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -15894,7 +15898,7 @@
       "fiche": 289,
       "name": "Meropenem",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-18T00:56:38.486Z",
+      "searched_at": "2026-11-25T08:28:26.060Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -16067,6 +16071,10 @@
           "title": "The Interrelation between Phenotypic Properties and Sequence Type in Clinical Isolates of the Klebsiella Pneumoniae Species Complex.",
           "published": "2026 Nov 14",
           "url": "https://pubmed.ncbi.nlm.nih.gov/43026455/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=43065408,42828091,42551115,42509614,42461095"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -25501,7 +25509,7 @@
       "fiche": 468,
       "name": "Romiplostim",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-18T00:56:38.486Z",
+      "searched_at": "2026-11-25T08:28:26.060Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
