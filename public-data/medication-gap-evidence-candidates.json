@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-25T08:28:26.060Z",
+  "updated_at": "2026-11-26T03:32:21.345Z",
   "results": [
     {
       "fiche": 1,
@@ -2323,7 +2323,7 @@
       "fiche": 43,
       "name": "Atenolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-19T02:32:26.322Z",
+      "searched_at": "2026-11-26T03:32:21.345Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -2457,8 +2457,12 @@
           "source": "PubMed/NCBI",
           "id": "43014076",
           "title": "Management of complex head and neck infantile hemangioma with atenolol - A single-institution 5-year case series.",
-          "published": "2026 Nov 10",
+          "published": "2026 Dec",
           "url": "https://pubmed.ncbi.nlm.nih.gov/43014076/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -4968,7 +4972,7 @@
       "fiche": 92,
       "name": "Cefaclor",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-18T20:28:49.636Z",
+      "searched_at": "2026-11-26T03:32:21.345Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5099,6 +5103,17 @@
           "title": "Comparison of oral third- versus first-/ second-generation cephalosporins for acute uncomplicated cystitis: a nationwide retrospective cohort study.",
           "published": "2026 Nov",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42565893/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43069625",
+          "title": "Clinical features of moderate-to-severe antibiotic allergy in Korea: analysis from the drug allergy safety information sharing system database.",
+          "published": "2026 Nov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43069625/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -23134,7 +23149,7 @@
       "fiche": 423,
       "name": "Ticagrelor",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-19T02:32:26.322Z",
+      "searched_at": "2026-11-26T03:32:21.345Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -23261,7 +23276,24 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=41543395,43023523,43012287,43016639,42296561"
+          "id": "43023523",
+          "title": "Ticagrelor in the Emergency Treatment of Acute Coronary Syndromes: A Comprehensive Clinical Review.",
+          "published": "2026 Nov 10",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43023523/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43012287",
+          "title": "Clopidogrel in the Contemporary Management of Coronary and Cerebrovascular Events: Efficacy, Safety, and Decision-making Pathways.",
+          "published": "2026 Nov 3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43012287/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43016639",
+          "title": "Antiplatelet monotherapy maintenance strategies after percutaneous coronary intervention in patients with coronary artery disease at high bleeding risk: a network meta-analysis.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43016639/"
         },
         {
           "source": "Europe PMC",
@@ -24243,7 +24275,7 @@
       "fiche": 438,
       "name": "Valganciclovir",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-19T02:32:26.322Z",
+      "searched_at": "2026-11-26T03:32:21.345Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24388,6 +24420,13 @@
           "title": "Empirical treatment with valganciclovir in infants living with HIV and hospitalised with severe pneumonia in Africa: a multicentre, open-label, factorial, randomised, controlled, superiority trial.",
           "published": "2026 Nov 14",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42468541/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43062505",
+          "title": "Congenital cytomegalovirus after maternal non-primary infection: a brief case series highlighting a persistent diagnostic gap.",
+          "published": "2026 Nov 20",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43062505/"
         },
         {
           "source": "Europe PMC",
