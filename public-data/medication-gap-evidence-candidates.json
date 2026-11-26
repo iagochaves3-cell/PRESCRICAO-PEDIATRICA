@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-26T03:32:21.345Z",
+  "updated_at": "2026-11-26T16:50:47.993Z",
   "results": [
     {
       "fiche": 1,
@@ -1124,7 +1124,7 @@
       "fiche": 24,
       "name": "Alprazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-19T11:35:00.474Z",
+      "searched_at": "2026-11-26T16:50:47.993Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -24612,7 +24612,7 @@
       "fiche": 442,
       "name": "Verapamil",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-19T11:35:00.474Z",
+      "searched_at": "2026-11-26T16:50:47.993Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
