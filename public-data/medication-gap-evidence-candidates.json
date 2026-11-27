@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-27T12:12:15.758Z",
+  "updated_at": "2026-11-27T21:14:26.511Z",
   "results": [
     {
       "fiche": 1,
@@ -682,7 +682,7 @@
       "fiche": 18,
       "name": "Agalsidase Beta",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4262,7 +4262,7 @@
       "fiche": 81,
       "name": "Calcitonina Sintética de Salmão",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -4425,7 +4425,7 @@
       "fiche": 83,
       "name": "Canabidiol (CBD)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4436,12 +4436,8 @@
           "url": null
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Canabidiol%20(CBD)%22%20OR%20openfda.brand_name%3A%22Canabidiol%20(CBD)%22"
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Canabidiol%20(CBD)%22%20OR%20openfda.brand_name%3A%22Canabidiol%20(CBD)%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -4599,7 +4595,7 @@
       "fiche": 85,
       "name": "Carbamazepina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4663,16 +4659,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/8552266/"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000330,29425991,8552266"
-        },
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Carbamazepina%22%20OR%20openfda.brand_name%3A%22Carbamazepina%22"
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Carbamazepina%22%20OR%20openfda.brand_name%3A%22Carbamazepina%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -4684,7 +4672,7 @@
       "fiche": 86,
       "name": "Carbocisteína",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4702,14 +4690,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42044253/"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42044253"
-        },
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Carbociste%C3%ADna%22%20OR%20openfda.brand_name%3A%22Carbociste%C3%ADna%22"
         }
@@ -4723,7 +4703,7 @@
       "fiche": 87,
       "name": "Carbonato de Cálcio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4732,6 +4712,10 @@
           "published": "2014-04-01",
           "doi": "10.5935/1678-9741.20140030",
           "url": "https://europepmc.org/article/MED/25140479"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -4763,8 +4747,12 @@
       "fiche": 89,
       "name": "Carvão Vegetal Ativado",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Carv%C3%A3o%20Vegetal%20Ativado%22%20OR%20openfda.brand_name%3A%22Carv%C3%A3o%20Vegetal%20Ativado%22"
@@ -4779,7 +4767,7 @@
       "fiche": 90,
       "name": "Carvedilol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -4907,8 +4895,8 @@
         {
           "source": "PubMed/NCBI",
           "id": "42870342",
-          "title": "Nonselective beta-blockers and hepatic encephalopathy in liver cirrhosis:A meta-analysis of randomized controlled trials.",
-          "published": "2026 Oct 14",
+          "title": "Nonselective beta blockers and hepatic encephalopathy in liver cirrhosis: A meta-analysis of randomized controlled trials.",
+          "published": "2026 Nov 1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42870342/"
         },
         {
@@ -4932,10 +4920,6 @@
           "published": "2022-09-29",
           "doi": "10.1055/a-1939-4887",
           "url": "https://europepmc.org/article/MED/36174643"
-        },
-        {
-          "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Carvedilol%22%20OR%20openfda.brand_name%3A%22Carvedilol%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -4947,7 +4931,7 @@
       "fiche": 91,
       "name": "Caspofungina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -4974,7 +4958,7 @@
         },
         {
           "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Caspofungina%22%20OR%20openfda.brand_name%3A%22Caspofungina%22"
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Caspofungina%22%20OR%20openfda.brand_name%3A%22Caspofungina%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -5139,7 +5123,7 @@
       "fiche": 93,
       "name": "Cefadroxila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -5157,8 +5141,12 @@
           "url": "https://europepmc.org/article/MED/11304723"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cefadroxila%22%20OR%20openfda.brand_name%3A%22Cefadroxila%22"
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cefadroxila%22%20OR%20openfda.brand_name%3A%22Cefadroxila%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -5170,7 +5158,7 @@
       "fiche": 94,
       "name": "Cefalexina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5221,7 +5209,7 @@
         },
         {
           "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cefalexina%22%20OR%20openfda.brand_name%3A%22Cefalexina%22"
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cefalexina%22%20OR%20openfda.brand_name%3A%22Cefalexina%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -5265,7 +5253,7 @@
       "fiche": 97,
       "name": "Cefepima",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -5283,12 +5271,8 @@
           "url": "https://europepmc.org/article/MED/9795287"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
-          "error": "500 Internal Server Error: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cefepima%22%20OR%20openfda.brand_name%3A%22Cefepima%22"
+          "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cefepima%22%20OR%20openfda.brand_name%3A%22Cefepima%22"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -5316,7 +5300,7 @@
       "fiche": 99,
       "name": "Cefoxitina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5333,10 +5317,6 @@
           "published": "1981-01-01",
           "doi": null,
           "url": "https://europepmc.org/article/MED/6960830"
-        },
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -5368,7 +5348,7 @@
       "fiche": 101,
       "name": "Ceftazidima",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -5414,10 +5394,6 @@
           "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=33877120"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Ceftazidima%22%20OR%20openfda.brand_name%3A%22Ceftazidima%22"
         }
@@ -5431,7 +5407,7 @@
       "fiche": 102,
       "name": "Ceftazidima + Avibactam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -5478,8 +5454,12 @@
       "fiche": 104,
       "name": "Ceftriaxona Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Ceftriaxona%20S%C3%B3dica%22%20OR%20openfda.brand_name%3A%22Ceftriaxona%20S%C3%B3dica%22"
@@ -5494,7 +5474,7 @@
       "fiche": 105,
       "name": "Cefuroxima (Axetila / Sódica)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -5510,7 +5490,7 @@
       "fiche": 106,
       "name": "Celecoxibe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5526,10 +5506,6 @@
           "title": "Cyclooxygenase 2 plays a role in Emdogain-induced proliferation.",
           "published": "2011 Feb",
           "url": "https://pubmed.ncbi.nlm.nih.gov/20860590/"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=20860590"
         },
         {
           "source": "openFDA drug label",
@@ -5561,7 +5537,7 @@
       "fiche": 108,
       "name": "Cetirizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5603,10 +5579,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30000569/"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cetirizina%22%20OR%20openfda.brand_name%3A%22Cetirizina%22"
         }
@@ -5620,7 +5592,7 @@
       "fiche": 109,
       "name": "Cetoconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5655,10 +5627,6 @@
           "url": "https://europepmc.org/article/MED/3347114"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cetoconazol%22%20OR%20openfda.brand_name%3A%22Cetoconazol%22"
         }
@@ -5688,7 +5656,7 @@
       "fiche": 111,
       "name": "Cetotifeno",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5716,7 +5684,7 @@
       "fiche": 112,
       "name": "Ciclopirox Olamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5750,6 +5718,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/25728876/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Ciclopirox%20Olamina%22%20OR%20openfda.brand_name%3A%22Ciclopirox%20Olamina%22"
         }
@@ -5763,7 +5735,7 @@
       "fiche": 113,
       "name": "Ciclosporina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5854,7 +5826,7 @@
       "fiche": 114,
       "name": "Cimetidina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -5904,10 +5876,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30000265/"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cimetidina%22%20OR%20openfda.brand_name%3A%22Cimetidina%22"
         }
@@ -5937,7 +5905,7 @@
       "fiche": 116,
       "name": "Ciproeptadina + Cobamamida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -5953,7 +5921,7 @@
       "fiche": 117,
       "name": "Ciprofloxacino",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -6003,6 +5971,10 @@
           "url": "https://europepmc.org/article/MED/21305761"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Ciprofloxacino%22%20OR%20openfda.brand_name%3A%22Ciprofloxacino%22"
         }
@@ -6016,7 +5988,7 @@
       "fiche": 118,
       "name": "Cisatracúrio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -6041,10 +6013,6 @@
           "published": "2007-05-01",
           "doi": "10.1590/s0104-42302007000300028",
           "url": "https://europepmc.org/article/MED/17665078"
-        },
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -6076,7 +6044,7 @@
       "fiche": 120,
       "name": "Claritromicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -6167,7 +6135,7 @@
       "fiche": 121,
       "name": "Clindamicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -6217,6 +6185,10 @@
           "url": "https://europepmc.org/article/MED/25567401"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Clindamicina%22%20OR%20openfda.brand_name%3A%22Clindamicina%22"
         }
@@ -6230,7 +6202,7 @@
       "fiche": 122,
       "name": "Clioquinol + Hidrocortisona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -6584,7 +6556,7 @@
       "fiche": 125,
       "name": "Clomipramina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -6758,7 +6730,7 @@
       "fiche": 127,
       "name": "Clonidina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -6829,6 +6801,14 @@
           "url": "https://europepmc.org/article/MED/1944967"
         },
         {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000689,30482552,27616331,27343780"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Clonidina%22%20OR%20openfda.brand_name%3A%22Clonidina%22"
         }
@@ -6842,7 +6822,7 @@
       "fiche": 128,
       "name": "Cloperastina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -6877,7 +6857,7 @@
       "fiche": 129,
       "name": "Clopidogrel",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7048,6 +7028,13 @@
           ],
           "pediatric_use": [],
           "url": "https://open.fda.gov/apis/drug/label/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43090898",
+          "title": "Age-Related Differences in Claims-Coded Coronary Artery Abnormalities and Antithrombotic Management in Kawasaki Disease: A Nationwide Claims-Based Study in Korea.",
+          "published": "2026 Nov 12",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43090898/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -7075,7 +7062,7 @@
       "fiche": 131,
       "name": "Cloreto de Sódio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7084,6 +7071,10 @@
           "published": "1978-02-01",
           "doi": null,
           "url": "https://europepmc.org/article/MED/663509"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -7099,7 +7090,7 @@
       "fiche": 132,
       "name": "Cloroquina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7163,8 +7154,8 @@
           "url": "https://europepmc.org/article/MED/20464110"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000205,32418373,16536934"
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -7180,7 +7171,7 @@
       "fiche": 133,
       "name": "Clorpromazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7254,7 +7245,7 @@
       "fiche": 134,
       "name": "Clotrimazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7332,6 +7323,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/595700/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Clotrimazol%22%20OR%20openfda.brand_name%3A%22Clotrimazol%22"
         }
@@ -7345,7 +7340,7 @@
       "fiche": 135,
       "name": "Codeína",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7385,7 +7380,7 @@
       "fiche": 137,
       "name": "Colchicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7435,10 +7430,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30000272/"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000272"
-        },
-        {
           "source": "Europe PMC",
           "error": "The operation was aborted due to timeout"
         },
@@ -7472,7 +7463,7 @@
       "fiche": 139,
       "name": "Colestiramina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7522,6 +7513,10 @@
           "url": "https://europepmc.org/article/MED/7435128"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Colestiramina%22%20OR%20openfda.brand_name%3A%22Colestiramina%22"
         }
@@ -7535,7 +7530,7 @@
       "fiche": 140,
       "name": "Colistimetato de Sódio (Colistina)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -7567,7 +7562,7 @@
       "fiche": 142,
       "name": "Concentrado de Fibrinogênio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -7599,8 +7594,12 @@
       "fiche": 144,
       "name": "Cromoglicato Dissódico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Cromoglicato%20Diss%C3%B3dico%22%20OR%20openfda.brand_name%3A%22Cromoglicato%20Diss%C3%B3dico%22"
@@ -7615,7 +7614,7 @@
       "fiche": 145,
       "name": "Dantroleno Sódico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7633,14 +7632,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/27633384/"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=27633384"
-        },
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Dantroleno%20S%C3%B3dico%22%20OR%20openfda.brand_name%3A%22Dantroleno%20S%C3%B3dico%22"
         }
@@ -7654,7 +7645,7 @@
       "fiche": 146,
       "name": "Daptomicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7721,7 +7712,7 @@
       "fiche": 147,
       "name": "Deferasirox",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7865,6 +7856,20 @@
           "title": "Evaluation of the Efficacy and Safety of Alternating Chelation Therapy in Transfusion-Dependent Thalassemia.",
           "published": "2026 Nov 9",
           "url": "https://pubmed.ncbi.nlm.nih.gov/43001333/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43101594",
+          "title": "Evaluating the Efficacy of Dried Apricot-Date Spread in Ameliorating Iron Deficiency Anemia in Rats.",
+          "published": "2026 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43101594/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43089746",
+          "title": "Clinical Characteristics and Treatment Patterns in Children with Sickle Cell Anemia in Southeastern Türkiye: A Retrospective Single-Center Study.",
+          "published": "2026 Nov 20",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43089746/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -7876,7 +7881,7 @@
       "fiche": 148,
       "name": "Deferoxamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7923,7 +7928,7 @@
       "fiche": 150,
       "name": "Deltametrina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -7942,6 +7947,10 @@
           "url": "https://europepmc.org/article/MED/8272612"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Deltametrina%22%20OR%20openfda.brand_name%3A%22Deltametrina%22"
         }
@@ -7955,7 +7964,7 @@
       "fiche": 151,
       "name": "Desloratadina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -7990,7 +7999,7 @@
       "fiche": 152,
       "name": "Desmopressina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8053,7 +8062,7 @@
       "fiche": 153,
       "name": "Desonida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8076,7 +8085,7 @@
       "fiche": 154,
       "name": "Dexametasona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8160,7 +8169,7 @@
       "fiche": 155,
       "name": "Dexclorfeniramina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8185,6 +8194,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/27670203/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Dexclorfeniramina%22%20OR%20openfda.brand_name%3A%22Dexclorfeniramina%22"
         }
@@ -8198,7 +8211,7 @@
       "fiche": 156,
       "name": "Dexmedetomidina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8289,8 +8302,12 @@
       "fiche": 157,
       "name": "Dexpantenol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Dexpantenol%22%20OR%20openfda.brand_name%3A%22Dexpantenol%22"
@@ -8305,7 +8322,7 @@
       "fiche": 158,
       "name": "Diazepam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8476,8 +8493,11 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42615213/"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
+          "source": "PubMed/NCBI",
+          "id": "30000273",
+          "title": "Diazepam.",
+          "published": "2006",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30000273/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -8489,7 +8509,7 @@
       "fiche": 159,
       "name": "Diazóxido",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8530,10 +8550,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/32226004/"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Diaz%C3%B3xido%22%20OR%20openfda.brand_name%3A%22Diaz%C3%B3xido%22"
         }
@@ -8563,7 +8579,7 @@
       "fiche": 161,
       "name": "Difenidramina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8614,7 +8630,7 @@
       "fiche": 162,
       "name": "Digoxina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8669,6 +8685,10 @@
           "title": "[Cardiac changes in children with AIDS].",
           "published": "1997 Apr",
           "url": "https://pubmed.ncbi.nlm.nih.gov/9497509/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -8825,7 +8845,7 @@
       "fiche": 164,
       "name": "Dimenidrinato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8833,6 +8853,10 @@
           "title": "Dimenhydrinate.",
           "published": "2006",
           "url": "https://pubmed.ncbi.nlm.nih.gov/30000927/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -8880,7 +8904,7 @@
       "fiche": 167,
       "name": "Dobutamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -8930,10 +8954,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30000708/"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Dobutamina%22%20OR%20openfda.brand_name%3A%22Dobutamina%22"
         }
@@ -8947,7 +8967,7 @@
       "fiche": 168,
       "name": "Domperidona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -8986,7 +9006,7 @@
       "fiche": 169,
       "name": "Dopamina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9071,6 +9091,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43013601/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Dopamina%22%20OR%20openfda.brand_name%3A%22Dopamina%22"
         }
@@ -9084,7 +9108,7 @@
       "fiche": 170,
       "name": "Doxazosina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -9111,7 +9135,7 @@
       "fiche": 171,
       "name": "Doxiciclina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -9197,7 +9221,7 @@
       "fiche": 173,
       "name": "Ebastina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9229,6 +9253,10 @@
           "title": "Ebastine.",
           "published": "2006",
           "url": "https://pubmed.ncbi.nlm.nih.gov/32352696/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -9452,7 +9480,7 @@
       "fiche": 178,
       "name": "Enzimas Pancreáticas (Pancrelipase)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -9468,7 +9496,7 @@
       "fiche": 179,
       "name": "Epinastina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9499,7 +9527,7 @@
       "fiche": 180,
       "name": "Eritromicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -9569,7 +9597,7 @@
       "fiche": 181,
       "name": "Ertapenem Sódico",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -9917,7 +9945,7 @@
       "fiche": 185,
       "name": "Esomeprazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9936,6 +9964,10 @@
           "url": "https://europepmc.org/article/MED/16602668"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Esomeprazol%22%20OR%20openfda.brand_name%3A%22Esomeprazol%22"
         }
@@ -9949,7 +9981,7 @@
       "fiche": 186,
       "name": "Espiramicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -9988,7 +10020,7 @@
       "fiche": 187,
       "name": "Espironolactona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10030,6 +10062,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30000160/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Espironolactona%22%20OR%20openfda.brand_name%3A%22Espironolactona%22"
         }
@@ -10043,7 +10079,7 @@
       "fiche": 188,
       "name": "Etambutol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10134,7 +10170,7 @@
       "fiche": 189,
       "name": "Etomidato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10183,6 +10219,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/27343784/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Etomidato%22%20OR%20openfda.brand_name%3A%22Etomidato%22"
         }
@@ -10196,7 +10236,7 @@
       "fiche": 190,
       "name": "Etossuximida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -10212,7 +10252,7 @@
       "fiche": 191,
       "name": "Famotidina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -10262,6 +10302,10 @@
           "url": "https://europepmc.org/article/MED/12503271"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Famotidina%22%20OR%20openfda.brand_name%3A%22Famotidina%22"
         }
@@ -10291,7 +10335,7 @@
       "fiche": 193,
       "name": "Fenilefrina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -10354,7 +10398,7 @@
       "fiche": 194,
       "name": "Fenitoína Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10378,7 +10422,7 @@
       "fiche": 195,
       "name": "Fenobarbital",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -10456,14 +10500,6 @@
           "url": "https://europepmc.org/article/MED/995842"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42536901,30000331,27462891,16613098,1188268"
-        },
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fenobarbital%22%20OR%20openfda.brand_name%3A%22Fenobarbital%22"
         }
@@ -10477,7 +10513,7 @@
       "fiche": 196,
       "name": "Fenoterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10568,7 +10604,7 @@
       "fiche": 197,
       "name": "Fentanila",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10618,6 +10654,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30000281/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fentanila%22%20OR%20openfda.brand_name%3A%22Fentanila%22"
         }
@@ -10647,7 +10687,7 @@
       "fiche": 199,
       "name": "Ferro Polimaltosado",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10666,10 +10706,6 @@
           "url": "https://europepmc.org/article/MED/5315580"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Ferro%20Polimaltosado%22%20OR%20openfda.brand_name%3A%22Ferro%20Polimaltosado%22"
         }
@@ -10683,7 +10719,7 @@
       "fiche": 200,
       "name": "Fexofenadina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -10711,7 +10747,7 @@
       "fiche": 201,
       "name": "Filgrastim (G-CSF)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -10838,7 +10874,7 @@
       "fiche": 204,
       "name": "Fluconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -11115,7 +11151,7 @@
       "fiche": 207,
       "name": "Fluoxetina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -11165,10 +11201,6 @@
           "url": "https://europepmc.org/article/MED/8213289"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Fluoxetina%22%20OR%20openfda.brand_name%3A%22Fluoxetina%22"
         }
@@ -11198,7 +11230,7 @@
       "fiche": 209,
       "name": "Fomepizol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11424,7 +11456,7 @@
       "fiche": 212,
       "name": "Furosemida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11474,6 +11506,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/29999869/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Furosemida%22%20OR%20openfda.brand_name%3A%22Furosemida%22"
         }
@@ -11487,7 +11523,7 @@
       "fiche": 213,
       "name": "Gabapentina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11556,6 +11592,10 @@
           "title": "[Gabapentin--a new antiepileptic agent].",
           "published": "1998 Feb 28",
           "url": "https://pubmed.ncbi.nlm.nih.gov/9543799/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -11872,7 +11912,7 @@
       "fiche": 216,
       "name": "Gentamicina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11949,8 +11989,12 @@
       "fiche": 217,
       "name": "Glicerina (Glicerol)",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Glicerina%20(Glicerol)%22%20OR%20openfda.brand_name%3A%22Glicerina%20(Glicerol)%22"
@@ -11965,7 +12009,7 @@
       "fiche": 218,
       "name": "Glicose",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12420,7 +12464,7 @@
       "fiche": 224,
       "name": "Hedera Helix",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12549,8 +12593,12 @@
       "fiche": 225,
       "name": "Heparina Não Fracionada",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "400 Bad Request: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Heparina%20N%C3%A3o%20Fracionada%22%20OR%20openfda.brand_name%3A%22Heparina%20N%C3%A3o%20Fracionada%22"
@@ -12565,7 +12613,7 @@
       "fiche": 226,
       "name": "Hidralazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12616,7 +12664,7 @@
       "fiche": 227,
       "name": "Hidroclorotiazida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12679,7 +12727,7 @@
       "fiche": 228,
       "name": "Hidrocortisona",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12756,7 +12804,7 @@
       "fiche": 229,
       "name": "Hidroxicloroquina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -12863,7 +12911,7 @@
       "fiche": 231,
       "name": "Hidróxido de Alumínio + Hidróxido de",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12879,7 +12927,7 @@
       "fiche": 232,
       "name": "Hidróxido Férrico em Sacarose (Sacarato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -12911,7 +12959,7 @@
       "fiche": 234,
       "name": "Hidroxizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -12935,6 +12983,10 @@
           "published": "1966-12-01",
           "doi": null,
           "url": "https://europepmc.org/article/MED/4226573"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000044"
         },
         {
           "source": "Europe PMC",
@@ -12970,7 +13022,7 @@
       "fiche": 236,
       "name": "Ibuprofeno",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13065,7 +13117,7 @@
       "fiche": 237,
       "name": "Idarucizumabe",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13215,7 +13267,7 @@
       "fiche": 240,
       "name": "Imiglucerase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -13315,10 +13367,6 @@
           "published": "2012-09-14",
           "doi": "10.1007/s10545-012-9528-4",
           "url": "https://europepmc.org/article/MED/22976765"
-        },
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -13330,7 +13378,7 @@
       "fiche": 241,
       "name": "Imipenem + Cilastatina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13373,6 +13421,10 @@
           "url": "https://europepmc.org/article/MED/1827390"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Imipenem%20%2B%20Cilastatina%22%20OR%20openfda.brand_name%3A%22Imipenem%20%2B%20Cilastatina%22"
         }
@@ -13386,7 +13438,7 @@
       "fiche": 242,
       "name": "Imipramina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13497,7 +13549,7 @@
       "fiche": 246,
       "name": "Imunoglobulina Humana Intravenosa",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13513,7 +13565,7 @@
       "fiche": 247,
       "name": "Indometacina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13570,6 +13622,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/33783460/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Indometacina%22%20OR%20openfda.brand_name%3A%22Indometacina%22"
         }
@@ -13583,7 +13639,7 @@
       "fiche": 248,
       "name": "Insulina Asparte",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13599,7 +13655,7 @@
       "fiche": 249,
       "name": "Insulina Degludeca",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -13615,7 +13671,7 @@
       "fiche": 250,
       "name": "Insulina Glargina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13658,10 +13714,6 @@
           "url": "https://europepmc.org/article/MED/19128743"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Insulina%20Glargina%22%20OR%20openfda.brand_name%3A%22Insulina%20Glargina%22"
         }
@@ -13691,7 +13743,7 @@
       "fiche": 252,
       "name": "Insulina Lispro",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13700,6 +13752,10 @@
           "published": "2000-04-01",
           "doi": null,
           "url": "https://europepmc.org/article/MED/11003924"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -13747,7 +13803,7 @@
       "fiche": 255,
       "name": "Iodeto de Potássio",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13787,7 +13843,7 @@
       "fiche": 257,
       "name": "Isoflurano",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13851,10 +13907,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/27637994/"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Isoflurano%22%20OR%20openfda.brand_name%3A%22Isoflurano%22"
         }
@@ -13868,7 +13920,7 @@
       "fiche": 258,
       "name": "Isoniazida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -13979,7 +14031,7 @@
       "fiche": 260,
       "name": "Itraconazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14057,10 +14109,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/22714763/"
         },
         {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=29999633,35533125,30534924,24794211,22714763"
-        },
-        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Itraconazol%22%20OR%20openfda.brand_name%3A%22Itraconazol%22"
         }
@@ -14074,7 +14122,7 @@
       "fiche": 261,
       "name": "Ivermectina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14145,6 +14193,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/18820741/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Ivermectina%22%20OR%20openfda.brand_name%3A%22Ivermectina%22"
         }
@@ -14158,7 +14210,7 @@
       "fiche": 262,
       "name": "L-Ornitina L-Aspartato",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -14174,7 +14226,7 @@
       "fiche": 263,
       "name": "Lacosamida",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14206,7 +14258,7 @@
       "fiche": 264,
       "name": "Lactulose",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14332,6 +14384,24 @@
           "title": "Refractory Hyperammonemic Encephalopathy as a Paraneoplastic Presentation of Fibrolamellar Hepatocellular Carcinoma: A Case Report.",
           "published": "2026 Aug 24",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42634231/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43065665",
+          "title": "Effects of Adjunctive Physiotherapy on Clinical Outcomes in Children with Functional Constipation: A Randomized Controlled Study.",
+          "published": "2026 Nov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43065665/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43095645",
+          "title": "Lactulose hydrogen breath test findings in children and adolescents with duodenogastric reflux and suspected small intestinal bacterial overgrowth: a pilot study.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43095645/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -14343,7 +14413,7 @@
       "fiche": 265,
       "name": "Lamotrigina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14406,7 +14476,7 @@
       "fiche": 266,
       "name": "Lansoprazol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14497,7 +14567,7 @@
       "fiche": 267,
       "name": "Laronidase",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14615,7 +14685,7 @@
       "fiche": 268,
       "name": "Levetiracetam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14803,6 +14873,24 @@
           "title": "Association between antiseizure medications and thrombocytopenia: A retrospective pharmacovigilance study using the US FAERS, Japanese JADER, and Canadian CVARD databases.",
           "published": "2026 Nov 13",
           "url": "https://pubmed.ncbi.nlm.nih.gov/43024290/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43064399",
+          "title": "Prevalence and determinants of antiseizure medication dispensing among pregnant persons in the United States: A retrospective claims-based cohort study, 2004-2021.",
+          "published": "2026 Nov 20",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43064399/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43088375",
+          "title": "Juvenile Myoclonic Epilepsy with a Suspected Catamenial Component: A Neuroendocrine Trajectory.",
+          "published": "2026 Nov 18",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43088375/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -14814,7 +14902,7 @@
       "fiche": 269,
       "name": "Levocetirizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14830,6 +14918,10 @@
           "title": "[Rhinosinusitis in childhood].",
           "published": "2005 Jan-Apr",
           "url": "https://pubmed.ncbi.nlm.nih.gov/16922043/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -14861,7 +14953,7 @@
       "fiche": 271,
       "name": "Levodropropizina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14870,6 +14962,10 @@
           "published": "1989-09-01",
           "doi": null,
           "url": "https://europepmc.org/article/MED/2631057"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -14885,7 +14981,7 @@
       "fiche": 272,
       "name": "Levofloxacino",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14942,6 +15038,10 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/26343154/"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Levofloxacino%22%20OR%20openfda.brand_name%3A%22Levofloxacino%22"
         }
@@ -14955,7 +15055,7 @@
       "fiche": 273,
       "name": "Levomepromazina",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -14998,6 +15098,10 @@
           "url": "https://europepmc.org/article/MED/5606998"
         },
         {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Levomepromazina%22%20OR%20openfda.brand_name%3A%22Levomepromazina%22"
         }
@@ -15011,8 +15115,12 @@
       "fiche": 274,
       "name": "Levosimendana",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
+        },
         {
           "source": "openFDA drug label",
           "error": "404 Not Found: https://api.fda.gov/drug/label.json?limit=3&search=openfda.generic_name%3A%22Levosimendana%22%20OR%20openfda.brand_name%3A%22Levosimendana%22"
@@ -15027,7 +15135,7 @@
       "fiche": 275,
       "name": "Levotiroxina Sódica",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "openFDA drug label",
@@ -15043,7 +15151,7 @@
       "fiche": 276,
       "name": "Lidocaína",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15119,14 +15227,6 @@
           "title": "Comparison of the effects of remifentanil and remifentanil plus lidocaine on intubation conditions in intellectually disabled patients.",
           "published": "2014 Jul-Aug",
           "url": "https://pubmed.ncbi.nlm.nih.gov/24998111/"
-        },
-        {
-          "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=30000289,36940309,28017170,26952222,24998111"
-        },
-        {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
         },
         {
           "source": "openFDA drug label",
@@ -15361,7 +15461,7 @@
       "fiche": 282,
       "name": "Lorazepam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -15537,8 +15637,25 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43049443/"
         },
         {
-          "source": "Europe PMC",
-          "error": "The operation was aborted due to timeout"
+          "source": "PubMed/NCBI",
+          "id": "29999707",
+          "title": "Lormetazepam.",
+          "published": "2006",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29999707/"
+        },
+        {
+          "source": "openFDA drug label",
+          "id": "2ca82853-44eb-43e2-ba4b-44fec0a1793d",
+          "title": "Lorazepam / LORAZEPAM",
+          "published": "20261123",
+          "route": [
+            "ORAL"
+          ],
+          "dosage_and_administration": [
+            "DOSAGE AND ADMINISTRATION Lorazepam tablets are administered orally. For optimal results, dose, frequency of administration, and duration of therapy should be individualized according to patient response. To facilitate this, 0.5 mg, 1 mg, and 2 mg tablets are available. The usual range is 2 to 6 mg/day given in divided doses, the largest dose being taken before bedtime, but the daily dosage may vary from 1 to 10 mg/day. For anxiety, most patients require an initial dose of 2 to 3 mg/day given two times a day or three times a day. For insomnia due to anxiety or transient situational stress, a single daily dose of 2 to 4 mg may be given, usually at bedtime. For elderly or debilitated patients, an initial dosage of 1 to 2 mg/day in divided doses is recommended, to be adjusted as needed and tolerated. The dosage of lorazepam tablets should be increased gradually when needed to help avoid adverse effects. When higher dosage is indicated, the evening dose should be increased before the daytime doses. Discontinuation or Dosage Reduction of Lorazepam Tablets To reduce the risk of withdrawal reactions, use a gradual taper to discontinue lorazepam tablets or reduce the dosage. If a patient develops withdrawal reactions, consider pausing the taper or increasing the dosage to the previous tapered dosage level. Subsequently decrease the dosage more slowly (see and DRUG ABUSE AND DEPENDENCE: Dependence )."
+          ],
+          "pediatric_use": [],
+          "url": "https://open.fda.gov/apis/drug/label/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -26510,7 +26627,7 @@
       "fiche": 494,
       "name": "Baloxavir Marboxil",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T20:12:06.489Z",
+      "searched_at": "2026-11-27T21:14:26.511Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
