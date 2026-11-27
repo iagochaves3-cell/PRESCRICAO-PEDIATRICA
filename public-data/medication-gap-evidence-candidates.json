@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-26T16:50:47.993Z",
+  "updated_at": "2026-11-27T12:12:15.758Z",
   "results": [
     {
       "fiche": 1,
@@ -2828,7 +2828,7 @@
       "fiche": 49,
       "name": "Aztreonam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T11:33:08.065Z",
+      "searched_at": "2026-11-27T12:12:15.758Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -3002,6 +3002,20 @@
           "title": "Dual opposing regulatory axes of EnvZ/OmpR control biofilm-mediated tolerance and OmpF-dependent resistance to β-lactams in Phytobacter diazotrophicus.",
           "published": "2026",
           "url": "https://pubmed.ncbi.nlm.nih.gov/43032100/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43090153",
+          "title": "Aztreonam-Avibactam Susceptibility and Genomics of NDM-Producing Escherichia coli in Pediatric Patients from Gaza and Qatar.",
+          "published": "2026 Nov 9",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43090153/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42161713",
+          "title": "Effect of discontinuation and reduction of respiratory cotherapies on the effectiveness of CFTR modulators.",
+          "published": "2026 Nov",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42161713/"
         },
         {
           "source": "Europe PMC",
@@ -9571,7 +9585,7 @@
       "fiche": 182,
       "name": "Escitalopram",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T11:33:08.065Z",
+      "searched_at": "2026-11-27T12:12:15.758Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -9736,7 +9750,11 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42887787,42716345,43014332,43008763,43054784"
+          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42887787,42716345,43014332,43008763,41856244"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -11223,7 +11241,7 @@
       "fiche": 210,
       "name": "Formoterol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T11:33:08.065Z",
+      "searched_at": "2026-11-27T12:12:15.758Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -11323,8 +11341,8 @@
         {
           "source": "PubMed/NCBI",
           "id": "42847657",
-          "title": "2026 Global Initiative for Asthma (GINA) Strategy Report: Executive Summary and Key Changes.",
-          "published": "2026 Oct 8",
+          "title": "2026 Global Initiative for Asthma (GINA) strategy report: executive summary and key changes. From population evidence to personalized asthma care.",
+          "published": "2026 Dec 1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42847657/"
         },
         {
@@ -20425,7 +20443,7 @@
       "fiche": 368,
       "name": "Propofol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T11:33:08.065Z",
+      "searched_at": "2026-11-27T12:12:15.758Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -20621,6 +20639,24 @@
             "8.4 Pediatric Use The safety and effectiveness of propofol injectable emulsion have been established for induction of anesthesia in pediatric patients aged 3 years and older and for the maintenance of anesthesia aged 2 months and older. In pediatric patients, administration of fentanyl concomitantly with propofol injectable emulsion may result in serious bradycardia [see Warnings and Precautions (5.4) ] . Propofol injectable emulsion is not indicated for use in pediatric patients for ICU sedation or for MAC sedation for surgical, nonsurgical or diagnostic procedures as safety and effectiveness have not been established. There have been anecdotal reports of serious adverse events and death in pediatric patients with upper respiratory tract infections receiving propofol injectable emulsion for ICU sedation. In one multicenter clinical trial of ICU sedation in critically ill pediatric patients that excluded patients with upper respiratory tract infections, the incidence of mortality observed in patients who received propofol injectable emulsion (n=222) was 9%, while that for patients who received standard sedative agents (n=105) was 4%. While causality was not established in this study, propofol injectable emulsion is not indicated for ICU sedation in pediatric patients until further studies have been performed to document its safety in that population [see Clinical Pharmacology (12.3) and Dosage and Administration (2.1 and 2.2) ] . However, propofol infusions are routinely used to provide safe sedation to critically ill pediatric patients in ICUs. In pediatric patients, abrupt discontinuation of propofol injectable emulsion following prolonged infusion may result in flushing of the hands and feet, agitation, tremulousness and hyperirritability. Increased incidences of bradycardia (5%), agitation (4%), and jitteriness (9%) have also been observed. Published juvenile animal studies demonstrate that the administration of anesthetic and sedation drugs, such as propofol injectable emulsion, that either block NMDA receptors or potentiate the activity of GABA during the period of rapid brain growth or synaptogenesis, results in widespread neuronal and oligodendrocyte cell loss in the developing brain and alterations in synaptic morphology and neurogenesis. Based on comparisons across species, the window of vulnerability to these changes is believed to correlate with exposures in the third trimester of gestation through the first several months of life, but may extend out to approximately 3 years of age in humans. In primates, exposure to 3 hours of ketamine that produced a light surgical plane of anesthesia did not increase neuronal cell loss, however, treatment regimens of 5 hours or longer of isoflurane increased neuronal cell loss. Data from isoflurane-treated rodents and ketamine-treated primates suggest that the neuronal and oligodendrocyte cell losses are associated with prolonged cognitive deficits in learning and memory. The clinical significance of these nonclinical findings is not known, and healthcare providers should balance the benefits of appropriate anesthesia in pregnant women, neonates, and young children who require procedures with the potential risks suggested by the nonclinical data [see Warnings and Precaution (5.3) , Pregnancy (8.1) , and Animal Toxicology and/or Pharmacology (13.2) ] ."
           ],
           "url": "https://open.fda.gov/apis/drug/label/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43062059",
+          "title": "Paediatric Sedation With Intranasal Dexmedetomidine for Magnetic Resonance Imaging.",
+          "published": "2027 Jan",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43062059/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43066110",
+          "title": "Effects of propofol- or sevoflurane-containing anaesthesia on auditory brainstem responses in children: a systematic review.",
+          "published": "2026 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43066110/"
+        },
+        {
+          "source": "Europe PMC",
+          "error": "The operation was aborted due to timeout"
         }
       ],
       "operational_status": "NOT_PROMOTED",
@@ -23348,7 +23384,7 @@
       "fiche": 425,
       "name": "Timolol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T11:33:08.065Z",
+      "searched_at": "2026-11-27T12:12:15.758Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -23501,7 +23537,17 @@
         },
         {
           "source": "PubMed/NCBI",
-          "error": "429 Too Many Requests: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=42572560,42986507,42978517,42992436,42870342"
+          "id": "43087130",
+          "title": "Fractional carbon dioxide laser assisted topical timolol for superficial infantile hemangioma outside the head and neck region.",
+          "published": "2026 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43087130/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43068916",
+          "title": "Social Determinants of Health in Infantile Hemangioma Care: A 10-Year Retrospective Study.",
+          "published": "2026 Nov 22",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43068916/"
         },
         {
           "source": "Europe PMC",
@@ -23897,7 +23943,7 @@
       "fiche": 433,
       "name": "Tramadol",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-20T11:33:08.065Z",
+      "searched_at": "2026-11-27T12:12:15.758Z",
       "candidate_sources": [
         {
           "source": "PubMed/NCBI",
@@ -24075,6 +24121,13 @@
           "title": "Tramadol in traumatically injured patients: a registry-based cohort study.",
           "published": "2026 Jan 1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/43043631/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "41017369",
+          "title": "Dark tetrad may mediate the link between adverse childhood experiences and tramadol abuse among youths.",
+          "published": "2026 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41017369/"
         },
         {
           "source": "Europe PMC",
