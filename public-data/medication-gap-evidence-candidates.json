@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-27T21:14:26.511Z",
+  "updated_at": "2026-11-28T03:18:58.745Z",
   "results": [
     {
       "fiche": 1,
@@ -16917,7 +16917,7 @@
       "fiche": 301,
       "name": "Midazolam",
       "resolution": "AUTO_RESEARCH_PENDING",
-      "searched_at": "2026-11-21T02:11:30.479Z",
+      "searched_at": "2026-11-28T03:18:58.745Z",
       "candidate_sources": [
         {
           "source": "Europe PMC",
@@ -17133,6 +17133,27 @@
           "title": "Age and sex related differences on genotype stratified CYP450 mediated metabolism rate in healthy populations; a systematic review.",
           "published": "2026 Nov 18",
           "url": "https://pubmed.ncbi.nlm.nih.gov/43051034/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "42426987",
+          "title": "Compliance of uncooperative pediatric patients during ocular prosthesis fabrication with and without Midazolam conscious sedation: a pilot randomized control trial.",
+          "published": "2026 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42426987/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43102617",
+          "title": "Urologist-administered sedation (UrAS): a prospective feasibility study of non-anaesthesiological analgosedation with propofol and esketamine in endourological interventions.",
+          "published": "2026 Nov 27",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43102617/"
+        },
+        {
+          "source": "PubMed/NCBI",
+          "id": "43098226",
+          "title": "A longitudinal data-driven approach to cluster tnreatment-resistant depressed patients treated with ketamine using immunomethylomics with 12 estimated immunological cell types.",
+          "published": "2026 Nov 26",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43098226/"
         }
       ],
       "operational_status": "NOT_PROMOTED",
